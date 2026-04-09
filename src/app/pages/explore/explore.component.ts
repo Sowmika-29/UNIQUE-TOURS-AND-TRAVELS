@@ -22,13 +22,14 @@ import { Subscription } from 'rxjs';
       <!-- Header Section -->
       <div class="relative bg-slate-900 overflow-hidden mb-12 pt-24 pb-24 rounded-b-[3rem] shadow-2xl">
         <div class="absolute inset-0 z-0">
-           <img src="https://images.unsplash.com/photo-1436491865332-7a61a109cc05?auto=format&fit=crop&w=1920&q=80" 
+           <img src="https://images.unsplash.com/photo-1436491865332-7a61a109cc05?fm=webp&fit=crop&w=1920&q=50" 
                 class="w-full h-full object-cover opacity-20 scale-110 blur-[2px]" alt="World Map">
            <div class="absolute inset-0 bg-gradient-to-b from-transparent to-slate-900/90"></div>
         </div>
         
         <div class="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h1 class="text-4xl md:text-6xl font-black text-white mb-4 uppercase tracking-tighter">{{title}}</h1>
+          <h1 class="sr-only">Explore Domestic & International Destinations</h1>
+          <h2 class="text-4xl md:text-6xl font-black text-white mb-4 uppercase tracking-tighter">{{title}}</h2>
           <p class="text-lg text-slate-400 max-w-2xl mx-auto font-medium leading-relaxed">
             Discover breathtaking landscapes and hidden gems curated for your next journey.
           </p>
@@ -68,7 +69,7 @@ import { Subscription } from 'rxjs';
       </div>
 
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-        <!-- Results Grid - xl:grid-cols-4 -->
+        <!-- Results Grid -->
         <div *ngIf="!isLoading && filteredDestinations.length > 0" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
           <a *ngFor="let dest of filteredDestinations; let i = index" 
              [routerLink]="['/destination', dest.id]"
@@ -77,7 +78,9 @@ import { Subscription } from 'rxjs';
             
             <!-- Compact Image View -->
             <div class="absolute inset-0 w-full h-full overflow-hidden">
-              <img [src]="dest.image" [alt]="dest.name" class="w-full h-full object-cover transition-transform duration-[1.5s] group-hover:scale-110">
+              <img [src]="dest.image" [alt]="dest.name + ' - Unique Tours & Travels'" 
+                   loading="lazy"
+                   class="w-full h-full object-cover transition-transform duration-[1.5s] group-hover:scale-110">
               <div class="absolute inset-0 bg-gradient-to-t from-slate-900/80 via-transparent to-transparent opacity-60 group-hover:opacity-80 transition-opacity"></div>
             </div>
               

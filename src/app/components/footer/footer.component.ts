@@ -20,7 +20,9 @@ import { APP_CONFIG } from '../../app.config';
       <!-- Brand -->
       <div>
         <div class="flex items-center mb-6">
-          <div class="w-12 h-12 rounded-full bg-sky-500 flex items-center justify-center text-white font-bold text-xl shadow-lg mr-3">U</div>
+          <div class="w-12 h-12 rounded-xl bg-white/10 backdrop-blur-sm shadow-inner flex items-center justify-center p-1.5 mr-3 overflow-hidden border border-white/10">
+            <img src="assets/images/logo.webp" alt="Unique Tours & Travels - Premium Travel Agency" class="w-full h-full object-contain">
+          </div>
           <h2 class="text-2xl font-bold tracking-tight">Unique Tours & Travels</h2>
         </div>
         <p class="text-slate-400 leading-relaxed mb-6">

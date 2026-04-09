@@ -8,7 +8,7 @@ import { APP_CONFIG } from '../../app.config';
   template: `
     <!-- Hero Banner -->
     <div class="relative h-[50vh] min-h-[400px] w-full bg-slate-900 overflow-hidden">
-      <img src="https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?auto=format&fit=crop&w=1920&q=80"
+      <img src="https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?fm=webp&fit=crop&w=1920&q=50"
            alt="About Us" class="absolute inset-0 w-full h-full object-cover opacity-40">
       <div class="absolute inset-0 bg-gradient-to-t from-slate-900 via-slate-900/50 to-transparent"></div>
 
@@ -62,7 +62,7 @@ import { APP_CONFIG } from '../../app.config';
             </p>
           </div>
           <div class="relative animate-heading" style="animation-delay: 0.2s">
-            <img src="https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?auto=format&fit=crop&w=800&q=80"
+            <img src="https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?fm=webp&fit=crop&w=1200&q=50"
                  alt="Travel" class="rounded-2xl shadow-2xl w-full h-80 object-cover">
             <div class="absolute -bottom-6 -left-6 w-32 h-32 bg-sky-500 rounded-2xl -z-10"></div>
           </div>

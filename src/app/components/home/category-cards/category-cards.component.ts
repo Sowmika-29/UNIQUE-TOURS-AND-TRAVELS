@@ -36,8 +36,9 @@ gsap.registerPlugin(ScrollTrigger);
           <!-- Domestic Tours Card -->
           <a routerLink="/explore/domestic"
              class="group cat-card relative h-[600px] rounded-[40px] overflow-hidden shadow-2xl hover:shadow-sky-500/20 transition-all duration-700 cursor-pointer flex items-end opacity-0 -translate-x-20">
-            <img src="https://images.unsplash.com/photo-1524492412937-b28074a5d7da?auto=format&fit=crop&w=1200&q=80" 
-                 alt="Domestic Tours" 
+            <img src="https://images.unsplash.com/photo-1524492412937-b28074a5d7da?fm=webp&fit=crop&w=1200&q=50" 
+                 alt="Domestic Tours - Explore Incredible India's heritage and landscapes" 
+                 loading="lazy"
                  class="absolute inset-0 w-full h-full object-cover transition-transform duration-[1.5s] ease-out group-hover:scale-110">
             
             <div class="absolute inset-0 bg-gradient-to-t from-slate-900 via-slate-900/40 to-transparent"></div>
@@ -62,8 +63,9 @@ gsap.registerPlugin(ScrollTrigger);
           <!-- International Tours Card -->
           <a routerLink="/explore/international"
              class="group cat-card relative h-[600px] rounded-[40px] overflow-hidden shadow-2xl hover:shadow-indigo-500/20 transition-all duration-700 cursor-pointer flex items-end opacity-0 translate-x-20">
-            <img src="https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&fit=crop&w=1200&q=80" 
-                 alt="International Tours" 
+            <img src="https://images.unsplash.com/photo-1512453979798-5ea266f8880c?fm=webp&fit=crop&w=1200&q=50" 
+                 alt="International Tours - Luxury global escapes across continents" 
+                 loading="lazy"
                  class="absolute inset-0 w-full h-full object-cover transition-transform duration-[1.5s] ease-out group-hover:scale-110">
             
             <div class="absolute inset-0 bg-gradient-to-t from-slate-900 via-slate-900/40 to-transparent"></div>

@@ -1,4 +1,4 @@
-import { Component, HostListener, PLATFORM_ID, Inject } from '@angular/core';
+import { Component, HostListener, PLATFORM_ID, inject } from '@angular/core';
 import { CommonModule, isPlatformBrowser } from '@angular/common';
 import { RouterLink } from '@angular/router';
 import { APP_CONFIG } from '../../app.config';
@@ -16,7 +16,7 @@ import { APP_CONFIG } from '../../app.config';
           <!-- Logo & Title -->
           <div class="flex items-center cursor-pointer group" routerLink="/">
             <div class="relative w-14 h-14 mr-3 overflow-hidden rounded-xl bg-white/10 backdrop-blur-sm shadow-inner flex items-center justify-center p-1.5 group-hover:bg-white/20 transition-all duration-300">
-              <img src="assets/images/logo.png" alt="Unique Tours & Travels Logo" class="w-full h-full object-contain transform group-hover:scale-110 transition-transform duration-500">
+              <img src="assets/images/logo.webp" alt="Unique Tours & Travels Logo" class="w-full h-full object-contain transform group-hover:scale-110 transition-transform duration-500">
             </div>
             <div class="flex flex-col">
               <span class="text-white font-extrabold text-xl tracking-tighter leading-none">
@@ -132,11 +132,8 @@ export class NavbarComponent {
   scrolled = false;
   mobileOpen = false;
   APP_CONFIG = APP_CONFIG;
-  private isBrowser: boolean;
-
-  constructor(@Inject(PLATFORM_ID) platformId: Object) {
-    this.isBrowser = isPlatformBrowser(platformId);
-  }
+  private platformId = inject(PLATFORM_ID);
+  private isBrowser = isPlatformBrowser(this.platformId);
 
   @HostListener('window:scroll')
   onScroll() {

@@ -47,7 +47,9 @@ gsap.registerPlugin(ScrollTrigger);
              [routerLink]="['/destination', dest.id]"
              class="group destination-card relative h-[450px] rounded-[32px] overflow-hidden shadow-xl hover:shadow-2xl transition-all duration-700 cursor-pointer overflow-hidden opacity-0 translate-y-20">
 
-            <img [src]="dest.image" [alt]="dest.name" class="absolute inset-0 w-full h-full object-cover transition-transform duration-[1.5s] ease-out group-hover:scale-110">
+            <img [src]="dest.image" [alt]="dest.name + ' travel destination - Unique Tours & Travels'" 
+                 loading="lazy"
+                 class="absolute inset-0 w-full h-full object-cover transition-transform duration-[1.5s] ease-out group-hover:scale-110">
             <div class="absolute inset-0 bg-gradient-to-t from-slate-950 via-transparent to-transparent opacity-80 group-hover:opacity-90 transition-opacity"></div>
             
             <!-- Tilt & Glow Card Effect -->
@@ -140,12 +142,12 @@ export class TopDestinationsComponent implements AfterViewInit {
   }
 
   topDestinations = [
-    { id: 'kerala', name: 'Kerala', image: 'https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?auto=format&fit=crop&w=800&q=80' },
-    { id: 'goa', name: 'Goa', image: 'https://images.unsplash.com/photo-1614082242765-7c98ca0f3df3?auto=format&fit=crop&w=800&q=80' },
-    { id: 'manali', name: 'Manali', image: 'https://images.unsplash.com/photo-1626621341517-bbf3d9990a23?auto=format&fit=crop&w=800&q=80' },
-    { id: 'jammu-kashmir', name: 'Kashmir', image: 'https://images.unsplash.com/photo-1587474260584-136574528ed5?auto=format&fit=crop&w=800&q=80' },
-    { id: 'dubai', name: 'Dubai', image: 'https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&fit=crop&w=800&q=80' },
-    { id: 'bali', name: 'Bali', image: 'https://images.unsplash.com/photo-1537996194471-e657df975ab4?auto=format&fit=crop&w=800&q=80' }
+    { id: 'kerala', name: 'Kerala', image: 'https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?fm=webp&fit=crop&w=1200&q=50' },
+    { id: 'goa', name: 'Goa', image: 'https://images.unsplash.com/photo-1614082242765-7c98ca0f3df3?fm=webp&fit=crop&w=1200&q=50' },
+    { id: 'manali', name: 'Manali', image: 'https://images.unsplash.com/photo-1626621341517-bbf3d9990a23?fm=webp&fit=crop&w=1200&q=50' },
+    { id: 'jammu-kashmir', name: 'Kashmir', image: 'https://images.unsplash.com/photo-1587474260584-136574528ed5?fm=webp&fit=crop&w=1200&q=50' },
+    { id: 'dubai', name: 'Dubai', image: 'https://images.unsplash.com/photo-1512453979798-5ea266f8880c?fm=webp&fit=crop&w=1200&q=50' },
+    { id: 'bali', name: 'Bali', image: 'https://images.unsplash.com/photo-1537996194471-e657df975ab4?fm=webp&fit=crop&w=1200&q=50' }
   ];
 
   ngAfterViewInit() {

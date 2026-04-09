@@ -33,12 +33,15 @@ gsap.registerPlugin(ScrollTrigger);
         <!-- Content -->
         <div class="absolute inset-0 flex items-center justify-center z-20">
           <div class="text-center px-4 max-w-4xl mx-auto hero-content" *ngIf="i === currentIndex">
+            <!-- Primary SEO Heading -->
+            <h1 class="sr-only">Explore the World with Unique Tours & Travels</h1>
+            
             <span class="hero-subtitle text-sky-100 font-bold tracking-[0.2em] uppercase text-sm md:text-base mb-4 block drop-shadow-lg opacity-0">
                {{slide.subtitle}}
             </span>
-            <h1 class="hero-title text-5xl md:text-7xl lg:text-8xl font-bold text-white mb-6 drop-shadow-xl tracking-tighter opacity-0">
+            <h2 class="hero-title text-5xl md:text-7xl lg:text-8xl font-bold text-white mb-6 drop-shadow-xl tracking-tighter opacity-0">
               {{slide.title}}
-            </h1>
+            </h2>
             <p class="hero-desc text-lg md:text-xl text-slate-200 mb-10 max-w-2xl mx-auto drop-shadow-md opacity-0">
               {{slide.description}}
             </p>
@@ -105,31 +108,31 @@ gsap.registerPlugin(ScrollTrigger);
 export class HeroSliderComponent implements OnInit, OnDestroy, AfterViewInit {
   slides = [
     {
-      image: "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?auto=format&fit=crop&w=1920&q=80",
+      image: "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?fm=webp&fit=crop&w=1920&q=50",
       title: "Explore the World with Us",
       subtitle: "PREMIUM JOURNEYS",
       description: "Discover destinations that inspire you."
     },
     {
-      image: "https://images.unsplash.com/photo-1506929562872-bb421503ef21?auto=format&fit=crop&w=1920&q=80",
+      image: "https://images.unsplash.com/photo-1506929562872-bb421503ef21?fm=webp&fit=crop&w=1920&q=50",
       title: "Paradise Awaits",
       subtitle: "TROPICAL ESCAPES",
       description: "Unwind on the world's most pristine beaches."
     },
     {
-      image: "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?auto=format&fit=crop&w=1920&q=80",
+      image: "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?fm=webp&fit=crop&w=1920&q=50",
       title: "Epic Adventures",
       subtitle: "THRILL SEEKERS",
       description: "Conquer mountains and chart unknown territories."
     },
     {
-      image: "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?auto=format&fit=crop&w=1920&q=80",
+      image: "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?fm=webp&fit=crop&w=1920&q=50",
       title: "Cultural Wonders",
       subtitle: "HERITAGE TOURS",
       description: "Step back in time through majestic histories."
     },
     {
-      image: "https://images.unsplash.com/photo-1542314831-c53cd4b85ca4?auto=format&fit=crop&w=1920&q=80",
+      image: "https://images.unsplash.com/photo-1542314831-c53cd4b85ca4?fm=webp&fit=crop&w=1920&q=50",
       title: "City Escapes",
       subtitle: "URBAN EXPLORATION",
       description: "Feel the vibrant pulse of iconic metropoles."

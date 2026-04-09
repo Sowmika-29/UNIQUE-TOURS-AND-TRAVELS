@@ -5,15 +5,43 @@
       "region": "South India",
       "name": "Kerala",
       "type": "Domestic",
-      "image": "https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?auto=format&fit=crop&w=800&q=80",
+      "image": "assets/images/kerala-backwaters-coconut-trees.webp",
       "places": [
-        { "name": "Munnar", "image": "https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?auto=format&fit=crop&w=600&q=80", "description": "A scenic hill station blanketed in tea plantations, misty valleys, and cascading waterfalls." },
-        { "name": "Alleppey", "image": "https://images.unsplash.com/photo-1593693397690-362cb9666fc2?auto=format&fit=crop&w=600&q=80", "description": "Known as the Venice of the East, famous for its tranquil backwater houseboat cruises." },
-        { "name": "Kochi", "image": "https://images.unsplash.com/photo-1569263979104-865ab7cd8d13?auto=format&fit=crop&w=600&q=80", "description": "A vibrant port city blending colonial heritage, Chinese fishing nets, and spice markets." },
-        { "name": "Varkala", "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=600&q=80", "description": "Dramatic red cliffs overlooking pristine golden beaches and mineral water springs." },
-        { "name": "Thekkady", "image": "https://images.unsplash.com/photo-1561731216-c3a4d99437d5?auto=format&fit=crop&w=600&q=80", "description": "Home to Periyar Wildlife Sanctuary, offering jungle treks and scenic boat rides." },
-        { "name": "Vagamon", "image": "https://images.unsplash.com/photo-1634980969450-dd03af212b16?auto=format&fit=crop&w=600&q=80", "description": "A quiet hill station with meadows and pine forests." },
-        { "name": "Trivandrum", "image": "https://images.unsplash.com/photo-1706238080572-e508e83cead1?auto=format&fit=crop&w=600&q=80", "description": "The capital city known for Padmanabhaswamy Temple and beaches." }
+        {
+          "name": "Munnar",
+          "image": "assets/images/munnar-tea-plantation-hills.webp",
+          "description": "A scenic hill station blanketed in tea plantations, misty valleys, and cascading waterfalls."
+        },
+        {
+          "name": "Alleppey",
+          "image": "assets/images/alleppey-houseboat-in-backwaters.webp",
+          "description": "Known as the Venice of the East, famous for its tranquil backwater houseboat cruises."
+        },
+        {
+          "name": "Kochi",
+          "image": "assets/images/kochi-chinese-fishing-nets.webp",
+          "description": "A vibrant port city blending colonial heritage, Chinese fishing nets, and spice markets."
+        },
+        {
+          "name": "Varkala",
+          "image": "assets/images/varkala-cliff-beach-aerial.webp",
+          "description": "Dramatic red cliffs overlooking pristine golden beaches and mineral water springs."
+        },
+        {
+          "name": "Thekkady",
+          "image": "assets/images/thekkady-periyar-lake-forest.webp",
+          "description": "Home to Periyar Wildlife Sanctuary, offering jungle treks and scenic boat rides."
+        },
+        {
+          "name": "Vagamon",
+          "image": "assets/images/vagamon-green-meadows-pine.webp",
+          "description": "A quiet hill station with meadows and pine forests."
+        },
+        {
+          "name": "Trivandrum",
+          "image": "assets/images/trivandrum-padmanabhaswamy-temple.webp",
+          "description": "The capital city known for Padmanabhaswamy Temple and beaches."
+        }
       ]
     },
     {
@@ -21,14 +49,38 @@
       "region": "South India",
       "name": "Karnataka",
       "type": "Domestic",
-      "image": "https://images.unsplash.com/photo-1512343879784-a960bf40e7f2?auto=format&fit=crop&w=800&q=80",
+      "image": "assets/images/karnataka-western-ghats-greenery.webp",
       "places": [
-        { "name": "Coorg", "image": "https://images.unsplash.com/photo-1571536802807-30451e3955d8?auto=format&fit=crop&w=600&q=80", "description": "The Scotland of India — rolling coffee estates, misty peaks, and the stunning Abbey Falls." },
-        { "name": "Mysore", "image": "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?auto=format&fit=crop&w=600&q=80", "description": "City of palaces, known for the magnificent Mysore Palace illuminated with 97,000 bulbs." },
-        { "name": "Hampi", "image": "https://images.unsplash.com/photo-1528181304800-259b08848526?auto=format&fit=crop&w=600&q=80", "description": "UNESCO World Heritage site with ancient Vijayanagara ruins, stone temples, and boulder landscapes." },
-        { "name": "Gokarna", "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=600&q=80", "description": "A serene beach town with pristine shores, perfect for peaceful getaways and cliff treks." },
-        { "name": "Chikmagalur", "image": "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?auto=format&fit=crop&w=600&q=80", "description": "The birthplace of Indian coffee, surrounded by verdant hills and cascading Hebbe Falls." },
-        { "name": "Udupi", "image": "https://images.unsplash.com/photo-1506929562872-bb421503ef21?auto=format&fit=crop&w=600&q=80", "description": "A temple town famous for its Krishna temple, coastal cuisine, and serene Malpe Beach." }
+        {
+          "name": "Coorg",
+          "image": "assets/images/coorg-coffee-plantation-hills.webp",
+          "description": "The Scotland of India — rolling coffee estates, misty peaks, and the stunning Abbey Falls."
+        },
+        {
+          "name": "Mysore",
+          "image": "assets/images/mysore-palace-night-lights.webp",
+          "description": "City of palaces, known for the magnificent Mysore Palace illuminated with 97,000 bulbs."
+        },
+        {
+          "name": "Hampi",
+          "image": "assets/images/hampi-stone-ruins-chariot.webp",
+          "description": "UNESCO World Heritage site with ancient Vijayanagara ruins, stone temples, and boulder landscapes."
+        },
+        {
+          "name": "Gokarna",
+          "image": "assets/images/gokarna-om-beach-aerial.webp",
+          "description": "A serene beach town with pristine shores, perfect for peaceful getaways and cliff treks."
+        },
+        {
+          "name": "Chikmagalur",
+          "image": "assets/images/chikmagalur-mountain-coffee-estate.webp",
+          "description": "The birthplace of Indian coffee, surrounded by verdant hills and cascading Hebbe Falls."
+        },
+        {
+          "name": "Udupi",
+          "image": "assets/images/udupi-krishna-temple-beach.webp",
+          "description": "A temple town famous for its Krishna temple, coastal cuisine, and serene Malpe Beach."
+        }
       ]
     },
     {
@@ -36,14 +88,38 @@
       "region": "West India",
       "name": "Goa",
       "type": "Domestic",
-      "image": "https://images.unsplash.com/photo-1614082242765-7c98ca0f3df3?auto=format&fit=crop&w=800&q=80",
+      "image": "assets/images/goa-beach-sunset-palm.webp",
       "places": [
-        { "name": "Calangute", "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=600&q=80", "description": "The Queen of Beaches — buzzing nightlife, water sports, and golden sunsets." },
-        { "name": "Baga", "image": "https://images.unsplash.com/photo-1519046904884-53103b34b206?auto=format&fit=crop&w=600&q=80", "description": "Famous for vibrant beach shacks, Saturday night markets, and thrilling parasailing." },
-        { "name": "Anjuna", "image": "https://images.unsplash.com/photo-1506929562872-bb421503ef21?auto=format&fit=crop&w=600&q=80", "description": "A bohemian paradise known for its flea markets, trance parties, and rocky shoreline." },
-        { "name": "Panaji", "image": "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&fit=crop&w=600&q=80", "description": "Goa's charming capital with Portuguese-style houses, riverside walks, and vibrant Fontainhas quarter." },
-        { "name": "Dudhsagar", "image": "https://images.unsplash.com/photo-1482938289607-e9573fc25ebb?auto=format&fit=crop&w=600&q=80", "description": "A majestic four-tiered waterfall cascading 310 meters amidst the dense Western Ghats." },
-        { "name": "Palolem", "image": "https://images.unsplash.com/photo-1510414842594-a61c69b5ae57?auto=format&fit=crop&w=600&q=80", "description": "A crescent-shaped beach with calm waters, ideal for kayaking, dolphins, and sunset views." }
+        {
+          "name": "Calangute",
+          "image": "assets/images/calangute-crowded-beach.webp",
+          "description": "The Queen of Beaches — buzzing nightlife, water sports, and golden sunsets."
+        },
+        {
+          "name": "Baga",
+          "image": "assets/images/baga-goa-nightlife-beach.webp",
+          "description": "Famous for vibrant beach shacks, Saturday night markets, and thrilling parasailing."
+        },
+        {
+          "name": "Anjuna",
+          "image": "assets/images/anjuna-rocky-beach-goa.webp",
+          "description": "A bohemian paradise known for its flea markets, trance parties, and rocky shoreline."
+        },
+        {
+          "name": "Panaji",
+          "image": "assets/images/panaji-colorful-portuguese-streets.webp",
+          "description": "Goa's charming capital with Portuguese-style houses, riverside walks, and vibrant Fontainhas quarter."
+        },
+        {
+          "name": "Dudhsagar",
+          "image": "assets/images/dudhsagar-waterfall-in-forest.webp",
+          "description": "A majestic four-tiered waterfall cascading 310 meters amidst the dense Western Ghats."
+        },
+        {
+          "name": "Palolem",
+          "image": "assets/images/palolem-curved-beach-aerial.webp",
+          "description": "A crescent-shaped beach with calm waters, ideal for kayaking, dolphins, and sunset views."
+        }
       ]
     },
     {
@@ -51,14 +127,38 @@
       "region": "North India",
       "name": "Manali",
       "type": "Domestic",
-      "image": "https://images.unsplash.com/photo-1626621341517-bbf3d9990a23?auto=format&fit=crop&w=800&q=80",
+      "image": "assets/images/manali-snow-mountains-valley.webp",
       "places": [
-        { "name": "Rohtang Pass", "image": "https://images.unsplash.com/photo-1626621341517-bbf3d9990a23?auto=format&fit=crop&w=600&q=80", "description": "A high mountain pass on the eastern Pir Panjal Range, famous for year-round snow and adventure sports." },
-        { "name": "Solang Valley", "image": "https://images.unsplash.com/photo-1571536802807-30451e3955d8?auto=format&fit=crop&w=600&q=80", "description": "A side valley at the top of the Kullu Valley, known for paragliding, zorbing, and beautiful snowy slopes." },
-        { "name": "Hadimba Devi Temple", "image": "https://images.unsplash.com/photo-1593181629936-11c609b8db9b?auto=format&fit=crop&w=600&q=80", "description": "An ancient cave temple dedicated to Hidimbi Devi, featuring unique wooden architecture in a cedar forest." },
-        { "name": "Old Manali", "image": "https://images.unsplash.com/photo-1510414842594-a61c69b5ae57?auto=format&fit=crop&w=600&q=80", "description": "A charming area known for its traditional houses, vibrant cafés, and laid-back backpacker atmosphere." },
-        { "name": "Beas River", "image": "https://images.unsplash.com/photo-1482938289607-e9573fc25ebb?auto=format&fit=crop&w=600&q=80", "description": "A fast-flowing river offering white-water rafting opportunities and scenic riverside picnic spots." },
-        { "name": "Jogini Waterfalls", "image": "https://images.unsplash.com/photo-1506929562872-bb421503ef21?auto=format&fit=crop&w=600&q=80", "description": "A beautiful waterfall reached via a scenic trek through apple orchards and pine trees." }
+        {
+          "name": "Rohtang Pass",
+          "image": "assets/images/rohtang-pass-snow-road.webp",
+          "description": "A high mountain pass on the eastern Pir Panjal Range, famous for year-round snow and adventure sports."
+        },
+        {
+          "name": "Solang Valley",
+          "image": "assets/images/solang-valley-paragliding.webp",
+          "description": "A side valley at the top of the Kullu Valley, known for paragliding, zorbing, and beautiful snowy slopes."
+        },
+        {
+          "name": "Hadimba Devi Temple",
+          "image": "assets/images/hadimba-temple-wooden-forest.webp",
+          "description": "An ancient cave temple dedicated to Hidimbi Devi, featuring unique wooden architecture in a cedar forest."
+        },
+        {
+          "name": "Old Manali",
+          "image": "assets/images/old-manali-cafes-mountain.webp",
+          "description": "A charming area known for its traditional houses, vibrant cafés, and laid-back backpacker atmosphere."
+        },
+        {
+          "name": "Beas River",
+          "image": "assets/images/beas-river-flowing-valley.webp",
+          "description": "A fast-flowing river offering white-water rafting opportunities and scenic riverside picnic spots."
+        },
+        {
+          "name": "Jogini Waterfalls",
+          "image": "assets/images/jogini-falls-waterfall-trek.webp",
+          "description": "A beautiful waterfall reached via a scenic trek through apple orchards and pine trees."
+        }
       ]
     },
     {
@@ -66,14 +166,38 @@
       "region": "North India",
       "name": "Jaipur",
       "type": "Domestic",
-      "image": "https://images.unsplash.com/photo-1599661046289-e31897846e41?auto=format&fit=crop&w=800&q=80",
+      "image": "assets/images/jaipur-hawa-mahal-front.webp",
       "places": [
-        { "name": "Hawa Mahal", "image": "https://images.unsplash.com/photo-1599661046289-e31897846e41?auto=format&fit=crop&w=600&q=80", "description": "The iconic 'Palace of Winds' with 953 small windows designed for royal ladies to observe street festivals." },
-        { "name": "Amer Fort", "image": "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?auto=format&fit=crop&w=600&q=80", "description": "A majestic hilltop fortress known for its artistic Hindu style elements and breathtaking views of Maota Lake." },
-        { "name": "City Palace", "image": "https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=600&q=80", "description": "A complex of courtyards, gardens, and buildings that serves as a residence for the royal family of Jaipur." },
-        { "name": "Nahargarh Fort", "image": "https://images.unsplash.com/photo-1477587458883-47145ed94245?auto=format&fit=crop&w=600&q=80", "description": "Standing on the edge of the Aravalli Hills, it offers the most spectacular sunset views of the entire Pink City." },
-        { "name": "Jantar Mantar", "image": "https://images.unsplash.com/photo-1591122600238-1a52233f25bd?auto=format&fit=crop&w=600&q=80", "description": "A UNESCO World Heritage site featuring the world's largest stone sundial and unique astronomical instruments." },
-        { "name": "Chokhi Dhani", "image": "https://images.unsplash.com/photo-1574005825227-0c7cdfa68297?auto=format&fit=crop&w=600&q=80", "description": "An ethnic Rajasthani village resort offering a rich cultural experience with folk dance, music, and food." }
+        {
+          "name": "Hawa Mahal",
+          "image": "assets/images/hawa-mahal-palace-windows.webp",
+          "description": "The iconic 'Palace of Winds' with 953 small windows designed for royal ladies to observe street festivals."
+        },
+        {
+          "name": "Amer Fort",
+          "image": "assets/images/amer-fort-hilltop-aerial.webp",
+          "description": "A majestic hilltop fortress known for its artistic Hindu style elements and breathtaking views of Maota Lake."
+        },
+        {
+          "name": "City Palace",
+          "image": "assets/images/jaipur-city-palace-royal.webp",
+          "description": "A complex of courtyards, gardens, and buildings that serves as a residence for the royal family of Jaipur."
+        },
+        {
+          "name": "Nahargarh Fort",
+          "image": "assets/images/nahargarh-fort.webp",
+          "description": "Standing on the edge of the Aravalli Hills, it offers the most spectacular sunset views of the entire Pink City."
+        },
+        {
+          "name": "Jantar Mantar",
+          "image": "assets/images/jaipur-jantar-mantar.webp",
+          "description": "A UNESCO World Heritage site featuring the world's largest stone sundial and unique astronomical instruments."
+        },
+        {
+          "name": "Chokhi Dhani",
+          "image": "assets/images/chokhi-dhani-rajasthani-village.webp",
+          "description": "An ethnic Rajasthani village resort offering a rich cultural experience with folk dance, music, and food."
+        }
       ]
     },
     {
@@ -81,14 +205,38 @@
       "region": "West India",
       "name": "Maharashtra",
       "type": "Domestic",
-      "image": "https://images.unsplash.com/photo-1529253355930-ddbe423a2ac7?auto=format&fit=crop&w=800&q=80",
+      "image": "assets/images/mumbai-skyline-sea-link.webp",
       "places": [
-        { "name": "Mumbai", "image": "https://images.unsplash.com/photo-1529253355930-ddbe423a2ac7?auto=format&fit=crop&w=600&q=80", "description": "The City of Dreams — Gateway of India, Marine Drive, Bollywood, and street food paradise." },
-        { "name": "Pune", "image": "https://images.unsplash.com/photo-1525625293386-3f8f99389edd?auto=format&fit=crop&w=600&q=80", "description": "A vibrant blend of old-world charm with Shaniwar Wada fort and modern IT culture." },
-        { "name": "Mahabaleshwar", "image": "https://images.unsplash.com/photo-1482938289607-e9573fc25ebb?auto=format&fit=crop&w=600&q=80", "description": "A hill station known for strawberry farms, panoramic valley viewpoints, and misty sunrises." },
-        { "name": "Lonavala", "image": "https://images.unsplash.com/photo-1571536802807-30451e3955d8?auto=format&fit=crop&w=600&q=80", "description": "A monsoon paradise with lush green valleys, Karla Caves, and the famous chikki sweets." },
-        { "name": "Nashik", "image": "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?auto=format&fit=crop&w=600&q=80", "description": "India's wine capital, home to Sula Vineyards and the sacred Trimbakeshwar temple." },
-        { "name": "Aurangabad", "image": "https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=600&q=80", "description": "Gateway to the UNESCO-listed Ajanta and Ellora Caves, showcasing ancient rock-cut art." }
+        {
+          "name": "Mumbai",
+          "image": "assets/images/mumbai-gateway-of-india.webp",
+          "description": "The City of Dreams — Gateway of India, Marine Drive, Bollywood, and street food paradise."
+        },
+        {
+          "name": "Pune",
+          "image": "assets/images/pune-shaniwar-wada.webp",
+          "description": "A vibrant blend of old-world charm with Shaniwar Wada fort and modern IT culture."
+        },
+        {
+          "name": "Mahabaleshwar",
+          "image": "assets/images/mahabaleshwar-valley-viewpoint.webp",
+          "description": "A hill station known for strawberry farms, panoramic valley viewpoints, and misty sunrises."
+        },
+        {
+          "name": "Lonavala",
+          "image": "assets/images/lonavala-green-hills-fog.webp",
+          "description": "A monsoon paradise with lush green valleys, Karla Caves, and the famous chikki sweets."
+        },
+        {
+          "name": "Nashik",
+          "image": "assets/images/nashik-vineyards.webp",
+          "description": "India's wine capital, home to Sula Vineyards and the sacred Trimbakeshwar temple."
+        },
+        {
+          "name": "Aurangabad",
+          "image": "assets/images/aurangabad-ajanta-caves.webp",
+          "description": "Gateway to the UNESCO-listed Ajanta and Ellora Caves, showcasing ancient rock-cut art."
+        }
       ]
     },
     {
@@ -96,14 +244,38 @@
       "region": "North India",
       "name": "Delhi",
       "type": "Domestic",
-      "image": "https://images.unsplash.com/photo-1587474260584-136574528ed5?auto=format&fit=crop&w=800&q=80",
+      "image": "assets/images/delhi-india-gate-evening.webp",
       "places": [
-        { "name": "Red Fort", "image": "https://images.unsplash.com/photo-1587474260584-136574528ed5?auto=format&fit=crop&w=600&q=80", "description": "An iconic Mughal fortress of red sandstone, a UNESCO World Heritage site and national symbol." },
-        { "name": "India Gate", "image": "https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=600&q=80", "description": "A war memorial arch standing 42 meters tall, surrounded by lush lawns perfect for evening walks." },
-        { "name": "Qutub Minar", "image": "https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=600&q=80", "description": "The world's tallest brick minaret at 73 meters, a masterpiece of Indo-Islamic architecture." },
-        { "name": "Humayun Tomb", "image": "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?auto=format&fit=crop&w=600&q=80", "description": "A stunning Mughal garden tomb that inspired the design of the Taj Mahal." },
-        { "name": "Lotus Temple", "image": "https://images.unsplash.com/photo-1525625293386-3f8f99389edd?auto=format&fit=crop&w=600&q=80", "description": "A breathtaking lotus-shaped Bahá'í temple open to all faiths, surrounded by serene gardens." },
-        { "name": "Akshardham", "image": "https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=600&q=80", "description": "A grand Hindu temple complex with intricate carvings, musical fountains, and boat rides." }
+        {
+          "name": "Red Fort",
+          "image": "assets/images/delhi-red-fort-red.webp",
+          "description": "An iconic Mughal fortress of red sandstone, a UNESCO World Heritage site and national symbol."
+        },
+        {
+          "name": "India Gate",
+          "image": "assets/images/india-gate-war-memorial.webp",
+          "description": "A war memorial arch standing 42 meters tall, surrounded by lush lawns perfect for evening walks."
+        },
+        {
+          "name": "Qutub Minar",
+          "image": "assets/images/delhi-qutub-minar.webp",
+          "description": "The world's tallest brick minaret at 73 meters, a masterpiece of Indo-Islamic architecture."
+        },
+        {
+          "name": "Humayun Tomb",
+          "image": "assets/images/humayun-tomb.webp",
+          "description": "A stunning Mughal garden tomb that inspired the design of the Taj Mahal."
+        },
+        {
+          "name": "Lotus Temple",
+          "image": "assets/images/delhi-lotus-temple.webp",
+          "description": "A breathtaking lotus-shaped Bahá'í temple open to all faiths, surrounded by serene gardens."
+        },
+        {
+          "name": "Akshardham",
+          "image": "assets/images/akshardham-temple-complex.webp",
+          "description": "A grand Hindu temple complex with intricate carvings, musical fountains, and boat rides."
+        }
       ]
     },
     {
@@ -111,14 +283,38 @@
       "region": "North India",
       "name": "Ladakh",
       "type": "Domestic",
-      "image": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=800&q=80",
+      "image": "assets/images/ladakh-mountains-road-blue.webp",
       "places": [
-        { "name": "Pangong Lake", "image": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=600&q=80", "description": "A stunning endorheic lake situated at a height of about 4,350m, famous for changing colors." },
-        { "name": "Nubra Valley", "image": "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?auto=format&fit=crop&w=600&q=80", "description": "A cold desert known for its double-humped Bactrian camels and high-altitude sand dunes." },
-        { "name": "Leh Palace", "image": "https://images.unsplash.com/photo-1588693951525-4a598282381e?auto=format&fit=crop&w=600&q=80", "description": "A former royal palace overlooking the Ladakhi town of Leh, modeled on the Potala Palace." },
-        { "name": "Shanti Stupa", "image": "https://images.unsplash.com/photo-1534008897995-27a23e859048?auto=format&fit=crop&w=600&q=80", "description": "A white-domed Buddhist stupa on a hilltop, built to promote world peace and prosperity." },
-        { "name": "Khardung La", "image": "https://images.unsplash.com/photo-1482938289607-e9573fc25ebb?auto=format&fit=crop&w=600&q=80", "description": "One of the world's highest motorable passes, offering breathtaking views of the Karakoram range." },
-        { "name": "Magnetic Hill", "image": "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?auto=format&fit=crop&w=600&q=80", "description": "A gravity-defying road segment where vehicles appear to roll uphill against gravity." }
+        {
+          "name": "Pangong Lake",
+          "image": "assets/images/pangong-lake-blue-lake.webp",
+          "description": "A stunning endorheic lake situated at a height of about 4,350m, famous for changing colors."
+        },
+        {
+          "name": "Nubra Valley",
+          "image": "assets/images/nubra-valley-sand-dunes.webp",
+          "description": "A cold desert known for its double-humped Bactrian camels and high-altitude sand dunes."
+        },
+        {
+          "name": "Leh Palace",
+          "image": "assets/images/leh-palace-hill.webp",
+          "description": "A former royal palace overlooking the Ladakhi town of Leh, modeled on the Potala Palace."
+        },
+        {
+          "name": "Shanti Stupa",
+          "image": "assets/images/shanti-stupa-white-dome.webp",
+          "description": "A white-domed Buddhist stupa on a hilltop, built to promote world peace and prosperity."
+        },
+        {
+          "name": "Khardung La",
+          "image": "assets/images/khardung-la-road-snow.webp",
+          "description": "One of the world's highest motorable passes, offering breathtaking views of the Karakoram range."
+        },
+        {
+          "name": "Magnetic Hill",
+          "image": "assets/images/ladakh-magnetic-hill-empty.webp",
+          "description": "A gravity-defying road segment where vehicles appear to roll uphill against gravity."
+        }
       ]
     },
     {
@@ -126,14 +322,38 @@
       "region": "North India",
       "name": "Jammu & Kashmir",
       "type": "Domestic",
-      "image": "https://images.unsplash.com/photo-1626621341517-bbf3d9990a23?auto=format&fit=crop&w=800&q=80",
+      "image": "assets/images/dal-lake-houseboats-srinagar.webp",
       "places": [
-        { "name": "Srinagar", "image": "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?auto=format&fit=crop&w=600&q=80", "description": "The summer capital with iconic Dal Lake houseboats, Mughal gardens, and floating markets." },
-        { "name": "Gulmarg", "image": "https://images.unsplash.com/photo-1626621341517-bbf3d9990a23?auto=format&fit=crop&w=600&q=80", "description": "Asia's premier skiing destination with the world's second-highest gondola ride." },
-        { "name": "Pahalgam", "image": "https://images.unsplash.com/photo-1571536802807-30451e3955d8?auto=format&fit=crop&w=600&q=80", "description": "The Valley of Shepherds, a gateway to Amarnath Yatra with stunning Lidder River views." },
-        { "name": "Sonamarg", "image": "https://images.unsplash.com/photo-1482938289607-e9573fc25ebb?auto=format&fit=crop&w=600&q=80", "description": "The Meadow of Gold — glaciers, alpine lakes, and the starting point for Thajiwas Glacier trek." },
-        { "name": "Patnitop", "image": "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?auto=format&fit=crop&w=600&q=80", "description": "A hilltop plateau with panoramic Himalayan views, pine forests, and paragliding experiences." },
-        { "name": "Kupwara", "image": "https://images.unsplash.com/photo-1537996194471-e657df975ab4?auto=format&fit=crop&w=600&q=80", "description": "An off-the-beaten-path gem with untouched natural beauty, walnut groves, and serene valleys." }
+        {
+          "name": "Srinagar",
+          "image": "assets/images/srinagar-dal-lake-boats.webp",
+          "description": "The summer capital with iconic Dal Lake houseboats, Mughal gardens, and floating markets."
+        },
+        {
+          "name": "Gulmarg",
+          "image": "assets/images/gulmarg-snow-gondola.webp",
+          "description": "Asia's premier skiing destination with the world's second-highest gondola ride."
+        },
+        {
+          "name": "Pahalgam",
+          "image": "assets/images/pahalgam-valley-river.webp",
+          "description": "The Valley of Shepherds, a gateway to Amarnath Yatra with stunning Lidder River views."
+        },
+        {
+          "name": "Sonamarg",
+          "image": "assets/images/sonamarg-glacier-valley.webp",
+          "description": "The Meadow of Gold — glaciers, alpine lakes, and the starting point for Thajiwas Glacier trek."
+        },
+        {
+          "name": "Patnitop",
+          "image": "assets/images/patnitop-hilltop-forest.webp",
+          "description": "A hilltop plateau with panoramic Himalayan views, pine forests, and paragliding experiences."
+        },
+        {
+          "name": "Kupwara",
+          "image": "assets/images/kupwara-untouched-valley.webp",
+          "description": "An off-the-beaten-path gem with untouched natural beauty, walnut groves, and serene valleys."
+        }
       ]
     },
     {
@@ -141,14 +361,38 @@
       "region": "Bay of Bengal",
       "name": "Andaman",
       "type": "International",
-      "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=800&q=80",
+      "image": "assets/images/andaman.webp",
       "places": [
-        { "name": "Port Blair", "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=600&q=80", "description": "The capital city with the historic Cellular Jail, Corbyn's Cove Beach, and Ross Island views." },
-        { "name": "Havelock", "image": "https://images.unsplash.com/photo-1519046904884-53103b34b206?auto=format&fit=crop&w=600&q=80", "description": "Home to Asia's best beach — Radhanagar, with crystal-clear waters for snorkeling and diving." },
-        { "name": "Neil Island", "image": "https://images.unsplash.com/photo-1506929562872-bb421503ef21?auto=format&fit=crop&w=600&q=80", "description": "A tiny, tranquil island with natural rock formations, coral reefs, and laid-back vibes." },
-        { "name": "Ross Island", "image": "https://images.unsplash.com/photo-1510414842594-a61c69b5ae57?auto=format&fit=crop&w=600&q=80", "description": "Former British administrative headquarters, now a hauntingly beautiful ruin amidst deer and peacocks." },
-        { "name": "Baratang", "image": "https://images.unsplash.com/photo-1512343879784-a960bf40e7f2?auto=format&fit=crop&w=600&q=80", "description": "Famous for limestone caves, mud volcanoes, and mangrove creek boat rides through dense forests." },
-        { "name": "Radhanagar", "image": "https://images.unsplash.com/photo-1519046904884-53103b34b206?auto=format&fit=crop&w=600&q=80", "description": "Ranked among Asia's best beaches, with powdery white sand, turquoise water, and magical sunsets." }
+        {
+          "name": "Port Blair",
+          "image": "assets/images/port-blair.webp",
+          "description": "The capital city with the historic Cellular Jail, Corbyn's Cove Beach, and Ross Island views."
+        },
+        {
+          "name": "Havelock",
+          "image": "assets/images/havelock.webp",
+          "description": "Home to Asia's best beach — Radhanagar, with crystal-clear waters for snorkeling and diving."
+        },
+        {
+          "name": "Neil Island",
+          "image": "assets/images/neil-island.webp",
+          "description": "A tiny, tranquil island with natural rock formations, coral reefs, and laid-back vibes."
+        },
+        {
+          "name": "Ross Island",
+          "image": "assets/images/ross-island.webp",
+          "description": "Former British administrative headquarters, now a hauntingly beautiful ruin amidst deer and peacocks."
+        },
+        {
+          "name": "Baratang",
+          "image": "assets/images/baratang.webp",
+          "description": "Famous for limestone caves, mud volcanoes, and mangrove creek boat rides through dense forests."
+        },
+        {
+          "name": "Radhanagar",
+          "image": "assets/images/radhanagar.webp",
+          "description": "Ranked among Asia's best beaches, with powdery white sand, turquoise water, and magical sunsets."
+        }
       ]
     }
   ],
@@ -158,14 +402,38 @@
       "region": "Middle East",
       "name": "Dubai",
       "type": "International",
-      "image": "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&fit=crop&w=800&q=80",
+      "image": "assets/images/dubai-burj-khalifa-skyline.webp",
       "places": [
-        { "name": "Burj Khalifa", "image": "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&fit=crop&w=600&q=80", "description": "The world's tallest building at 828 meters, with observation decks offering 360° city views." },
-        { "name": "Desert Safari", "image": "https://images.unsplash.com/photo-1451337516015-6b6e9a44a8a3?auto=format&fit=crop&w=600&q=80", "description": "Thrilling dune bashing, camel rides, belly dancing, and BBQ dinners under starlit Arabian skies." },
-        { "name": "Palm Jumeirah", "image": "https://images.unsplash.com/photo-1580674684081-7617fbf3d745?auto=format&fit=crop&w=600&q=80", "description": "An iconic man-made island shaped like a palm tree, hosting luxury resorts and Atlantis waterpark." },
-        { "name": "Dubai Mall", "image": "https://images.unsplash.com/photo-1534008897995-27a23e859048?auto=format&fit=crop&w=600&q=80", "description": "The world's largest shopping mall with 1,200+ stores, an aquarium, ice rink, and dancing fountains." },
-        { "name": "Marina", "image": "https://images.unsplash.com/photo-1534008897995-27a23e859048?auto=format&fit=crop&w=600&q=80", "description": "A stunning waterfront promenade with yacht tours, skyscraper views, and vibrant dining scenes." },
-        { "name": "Museum of Future", "image": "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&fit=crop&w=600&q=80", "description": "A futuristic torus-shaped building exploring tomorrow's technologies through immersive exhibits." }
+        {
+          "name": "Burj Khalifa",
+          "image": "assets/images/burj-khalifa-tower-close.webp",
+          "description": "The world's tallest building at 828 meters, with observation decks offering 360° city views."
+        },
+        {
+          "name": "Desert Safari",
+          "image": "assets/images/dubai-desert-safari-dunes.webp",
+          "description": "Thrilling dune bashing, camel rides, belly dancing, and BBQ dinners under starlit Arabian skies."
+        },
+        {
+          "name": "Palm Jumeirah",
+          "image": "assets/images/dubai-palm-jumeirah-aerial.webp",
+          "description": "An iconic man-made island shaped like a palm tree, hosting luxury resorts and Atlantis waterpark."
+        },
+        {
+          "name": "Dubai Mall",
+          "image": "assets/images/dubai-mall-interior-aquarium.webp",
+          "description": "The world's largest shopping mall with 1,200+ stores, an aquarium, ice rink, and dancing fountains."
+        },
+        {
+          "name": "Marina",
+          "image": "assets/images/dubai-marina-night-skyline.webp",
+          "description": "A stunning waterfront promenade with yacht tours, skyscraper views, and vibrant dining scenes."
+        },
+        {
+          "name": "Museum of Future",
+          "image": "assets/images/museum-of-future-ring.webp",
+          "description": "A futuristic torus-shaped building exploring tomorrow's technologies through immersive exhibits."
+        }
       ]
     },
     {
@@ -173,14 +441,38 @@
       "region": "Indian Ocean",
       "name": "Maldives",
       "type": "International",
-      "image": "https://images.unsplash.com/photo-1514282401047-d79a71a590e8?auto=format&fit=crop&w=800&q=80",
+      "image": "assets/images/maldives-overwater-villas-turquoise.webp",
       "places": [
-        { "name": "Male", "image": "https://images.unsplash.com/photo-1573843981267-be1999ff37cd?auto=format&fit=crop&w=600&q=80", "description": "The colorful capital island with the Grand Friday Mosque, fish markets, and vibrant waterfront." },
-        { "name": "Maafushi", "image": "https://images.unsplash.com/photo-1514282401047-d79a71a590e8?auto=format&fit=crop&w=600&q=80", "description": "A popular local island with affordable guesthouses, water sports, and nurse shark snorkeling." },
-        { "name": "Biyadhoo", "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=600&q=80", "description": "A diver's paradise surrounded by a pristine house reef teeming with sea turtles and rays." },
-        { "name": "Vaadhoo", "image": "https://images.unsplash.com/photo-1519046904884-53103b34b206?auto=format&fit=crop&w=600&q=80", "description": "Famous for the Sea of Stars — bioluminescent plankton that light up the ocean at night." },
-        { "name": "Fulhadhoo", "image": "https://images.unsplash.com/photo-1506929562872-bb421503ef21?auto=format&fit=crop&w=600&q=80", "description": "One of the most unspoiled islands with long white sandbanks and crystal-clear turquoise lagoons." },
-        { "name": "Kuramathi", "image": "https://images.unsplash.com/photo-1510414842594-a61c69b5ae57?auto=format&fit=crop&w=600&q=80", "description": "A luxury resort island with overwater villas, spa retreats, and stunning underwater restaurants." }
+        {
+          "name": "Male",
+          "image": "assets/images/male-city-island-maldives.webp",
+          "description": "The colorful capital island with the Grand Friday Mosque, fish markets, and vibrant waterfront."
+        },
+        {
+          "name": "Maafushi",
+          "image": "assets/images/maafushi-beach-huts.webp",
+          "description": "A popular local island with affordable guesthouses, water sports, and nurse shark snorkeling."
+        },
+        {
+          "name": "Biyadhoo",
+          "image": "assets/images/biyadhoo-coral-reef.webp",
+          "description": "A diver's paradise surrounded by a pristine house reef teeming with sea turtles and rays."
+        },
+        {
+          "name": "Vaadhoo",
+          "image": "assets/images/vaadhoo-glowing-beach-night.webp",
+          "description": "Famous for the Sea of Stars — bioluminescent plankton that light up the ocean at night."
+        },
+        {
+          "name": "Fulhadhoo",
+          "image": "assets/images/fulhadhoo-empty-beach.webp",
+          "description": "One of the most unspoiled islands with long white sandbanks and crystal-clear turquoise lagoons."
+        },
+        {
+          "name": "Kuramathi",
+          "image": "assets/images/kuramathi-resort-island.webp",
+          "description": "A luxury resort island with overwater villas, spa retreats, and stunning underwater restaurants."
+        }
       ]
     },
     {
@@ -188,14 +480,38 @@
       "region": "Southeast Asia",
       "name": "Bali",
       "type": "International",
-      "image": "https://images.unsplash.com/photo-1537996194471-e657df975ab4?auto=format&fit=crop&w=800&q=80",
+      "image": "assets/images/bali-rice-terraces-temple.webp",
       "places": [
-        { "name": "Ubud", "image": "https://images.unsplash.com/photo-1537996194471-e657df975ab4?auto=format&fit=crop&w=600&q=80", "description": "Bali's cultural heart with emerald rice terraces, monkey forests, and traditional art galleries." },
-        { "name": "Kuta", "image": "https://images.unsplash.com/photo-1519046904884-53103b34b206?auto=format&fit=crop&w=600&q=80", "description": "A lively beach town with surfing lessons, vibrant nightlife, and spectacular Indian Ocean sunsets." },
-        { "name": "Seminyak", "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=600&q=80", "description": "An upscale beach area with chic boutiques, world-class restaurants, and trendy beach clubs." },
-        { "name": "Nusa Penida", "image": "https://images.unsplash.com/photo-1555400038-63f5ba517a47?auto=format&fit=crop&w=600&q=80", "description": "A raw, dramatic island with Kelingking Beach cliff, crystal bay snorkeling, and manta ray diving." },
-        { "name": "Uluwatu", "image": "https://images.unsplash.com/photo-1555400038-63f5ba517a47?auto=format&fit=crop&w=600&q=80", "description": "A clifftop temple with mesmerizing Kecak fire dance performances against ocean sunset backdrops." },
-        { "name": "Canggu", "image": "https://images.unsplash.com/photo-1506929562872-bb421503ef21?auto=format&fit=crop&w=600&q=80", "description": "A trendy surfer village with co-working spaces, health cafés, and the iconic Tanah Lot temple nearby." }
+        {
+          "name": "Ubud",
+          "image": "assets/images/ubud-bali-rice-fields.webp",
+          "description": "Bali's cultural heart with emerald rice terraces, monkey forests, and traditional art galleries."
+        },
+        {
+          "name": "Kuta",
+          "image": "assets/images/kuta-beach-sunset-bali.webp",
+          "description": "A lively beach town with surfing lessons, vibrant nightlife, and spectacular Indian Ocean sunsets."
+        },
+        {
+          "name": "Seminyak",
+          "image": "assets/images/seminyak-luxury-beachfront.webp",
+          "description": "An upscale beach area with chic boutiques, world-class restaurants, and trendy beach clubs."
+        },
+        {
+          "name": "Nusa Penida",
+          "image": "assets/images/nusa-penida-cliff-beach.webp",
+          "description": "A raw, dramatic island with Kelingking Beach cliff, crystal bay snorkeling, and manta ray diving."
+        },
+        {
+          "name": "Uluwatu",
+          "image": "assets/images/uluwatu-temple-cliff.webp",
+          "description": "A clifftop temple with mesmerizing Kecak fire dance performances against ocean sunset backdrops."
+        },
+        {
+          "name": "Canggu",
+          "image": "assets/images/canggu-surfer-beach-bali.webp",
+          "description": "A trendy surfer village with co-working spaces, health cafés, and the iconic Tanah Lot temple nearby."
+        }
       ]
     },
     {
@@ -203,14 +519,38 @@
       "region": "Southeast Asia",
       "name": "Singapore",
       "type": "International",
-      "image": "https://images.unsplash.com/photo-1525625293386-3f8f99389edd?auto=format&fit=crop&w=800&q=80",
+      "image": "assets/images/singapore-marina-bay-sands.webp",
       "places": [
-        { "name": "Marina Bay", "image": "https://images.unsplash.com/photo-1525625293386-3f8f99389edd?auto=format&fit=crop&w=600&q=80", "description": "Home to the iconic Marina Bay Sands with its rooftop infinity pool and nightly light shows." },
-        { "name": "Sentosa", "image": "https://images.unsplash.com/photo-1565967511849-76a60a516170?auto=format&fit=crop&w=600&q=80", "description": "A resort island with Universal Studios, S.E.A. Aquarium, sandy beaches, and cable car rides." },
-        { "name": "Gardens by the Bay", "image": "https://images.unsplash.com/photo-1508964942454-1a56651d54ac?auto=format&fit=crop&w=600&q=80", "description": "Futuristic Supertree Grove with sky bridges, Cloud Forest dome, and magical evening light shows." },
-        { "name": "Universal Studios", "image": "https://images.unsplash.com/photo-1555400038-63f5ba517a47?auto=format&fit=crop&w=600&q=80", "description": "Southeast Asia's only Universal theme park with 24 movie-themed rides across 7 zones." },
-        { "name": "Orchard Road", "image": "https://images.unsplash.com/photo-1534008897995-27a23e859048?auto=format&fit=crop&w=600&q=80", "description": "Singapore's premier shopping boulevard with luxury malls, flagship stores, and street performers." },
-        { "name": "Chinatown", "image": "https://images.unsplash.com/photo-1528181304800-259b08848526?auto=format&fit=crop&w=600&q=80", "description": "A vibrant cultural district with Buddhist temples, traditional shophouses, and hawker food courts." }
+        {
+          "name": "Marina Bay",
+          "image": "assets/images/marina-bay-skyline-hotel.webp",
+          "description": "Home to the iconic Marina Bay Sands with its rooftop infinity pool and nightly light shows."
+        },
+        {
+          "name": "Sentosa",
+          "image": "assets/images/sentosa-beach-resort.webp",
+          "description": "A resort island with Universal Studios, S.E.A. Aquarium, sandy beaches, and cable car rides."
+        },
+        {
+          "name": "Gardens by the Bay",
+          "image": "assets/images/gardens-by-bay-supertrees.webp",
+          "description": "Futuristic Supertree Grove with sky bridges, Cloud Forest dome, and magical evening light shows."
+        },
+        {
+          "name": "Universal Studios",
+          "image": "assets/images/universal-studios-singapore-globe.webp",
+          "description": "Southeast Asia's only Universal theme park with 24 movie-themed rides across 7 zones."
+        },
+        {
+          "name": "Orchard Road",
+          "image": "assets/images/orchard-road-shopping-street.webp",
+          "description": "Singapore's premier shopping boulevard with luxury malls, flagship stores, and street performers."
+        },
+        {
+          "name": "Chinatown",
+          "image": "assets/images/singapore-chinatown-lantern-street.webp",
+          "description": "A vibrant cultural district with Buddhist temples, traditional shophouses, and hawker food courts."
+        }
       ]
     },
     {
@@ -218,14 +558,38 @@
       "region": "Southeast Asia",
       "name": "Thailand",
       "type": "International",
-      "image": "https://images.unsplash.com/photo-1528181304800-259b08848526?auto=format&fit=crop&w=800&q=80",
+      "image": "assets/images/thailand-beach-longtail-boat.webp",
       "places": [
-        { "name": "Bangkok", "image": "https://images.unsplash.com/photo-1528181304800-259b08848526?auto=format&fit=crop&w=600&q=80", "description": "The vibrant capital with the Grand Palace, floating markets, rooftop bars, and legendary street food." },
-        { "name": "Phuket", "image": "https://images.unsplash.com/photo-1519451241324-20b4ea2c4220?auto=format&fit=crop&w=600&q=80", "description": "Thailand's largest island famous for Patong Beach nightlife, island hopping, and Big Buddha." },
-        { "name": "Pattaya", "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=600&q=80", "description": "A coastal city known for vibrant Walking Street, Nong Nooch gardens, and Sanctuary of Truth." },
-        { "name": "Chiang Mai", "image": "https://images.unsplash.com/photo-1528181304800-259b08848526?auto=format&fit=crop&w=600&q=80", "description": "The Rose of the North with 300+ temples, elephant sanctuaries, and the famous Sunday Night Market." },
-        { "name": "Krabi", "image": "https://images.unsplash.com/photo-1519046904884-53103b34b206?auto=format&fit=crop&w=600&q=80", "description": "Dramatic limestone karsts rising from emerald seas, gateway to the stunning Phi Phi Islands." },
-        { "name": "Ayutthaya", "image": "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?auto=format&fit=crop&w=600&q=80", "description": "Ancient Siamese capital with UNESCO-listed ruins, Buddha head entwined in tree roots at Wat Mahathat." }
+        {
+          "name": "Bangkok",
+          "image": "assets/images/bangkok-grand-palace.webp",
+          "description": "The vibrant capital with the Grand Palace, floating markets, rooftop bars, and legendary street food."
+        },
+        {
+          "name": "Phuket",
+          "image": "assets/images/phuket-beach-aerial.webp",
+          "description": "Thailand's largest island famous for Patong Beach nightlife, island hopping, and Big Buddha."
+        },
+        {
+          "name": "Pattaya",
+          "image": "assets/images/pattaya-beach-city.webp",
+          "description": "A coastal city known for vibrant Walking Street, Nong Nooch gardens, and Sanctuary of Truth."
+        },
+        {
+          "name": "Chiang Mai",
+          "image": "assets/images/chiang-mai-temple-mountain.webp",
+          "description": "The Rose of the North with 300+ temples, elephant sanctuaries, and the famous Sunday Night Market."
+        },
+        {
+          "name": "Krabi",
+          "image": "assets/images/krabi-limestone-cliffs-beach.webp",
+          "description": "Dramatic limestone karsts rising from emerald seas, gateway to the stunning Phi Phi Islands."
+        },
+        {
+          "name": "Ayutthaya",
+          "image": "assets/images/ayutthaya-ruins-buddha.webp",
+          "description": "Ancient Siamese capital with UNESCO-listed ruins, Buddha head entwined in tree roots at Wat Mahathat."
+        }
       ]
     },
     {
@@ -233,14 +597,38 @@
       "region": "Southeast Asia",
       "name": "Malaysia",
       "type": "International",
-      "image": "https://images.unsplash.com/photo-1596422846543-75c6fc197f07?auto=format&fit=crop&w=800&q=80",
+      "image": "assets/images/malaysia-petronas-towers.webp",
       "places": [
-        { "name": "Kuala Lumpur", "image": "https://images.unsplash.com/photo-1596422846543-75c6fc197f07?auto=format&fit=crop&w=600&q=80", "description": "Malaysia's capital featuring the iconic Petronas Twin Towers, Batu Caves, and bustling Jalan Alor." },
-        { "name": "Penang", "image": "https://images.unsplash.com/photo-1528181304800-259b08848526?auto=format&fit=crop&w=600&q=80", "description": "A UNESCO heritage city famous for incredible street food, street art murals, and colonial architecture." },
-        { "name": "Langkawi", "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=600&q=80", "description": "A duty-free island paradise with the Sky Bridge, eagle square, and mangrove eco-tours." },
-        { "name": "Melaka", "image": "https://images.unsplash.com/photo-1534008897995-27a23e859048?auto=format&fit=crop&w=600&q=80", "description": "A historical port city with Dutch-era buildings, Jonker Street night market, and river cruises." },
-        { "name": "Cameron Highlands", "image": "https://images.unsplash.com/photo-1571536802807-30451e3955d8?auto=format&fit=crop&w=600&q=80", "description": "Cool highland retreat with rolling tea plantations, strawberry farms, and mossy forest trails." },
-        { "name": "Borneo", "image": "https://images.unsplash.com/photo-1561731216-c3a4d99437d5?auto=format&fit=crop&w=600&q=80", "description": "A wild frontier with orangutan sanctuaries, Mount Kinabalu, and world-class diving at Sipadan." }
+        {
+          "name": "Kuala Lumpur",
+          "image": "assets/images/kuala-lumpur-twin-towers.webp",
+          "description": "Malaysia's capital featuring the iconic Petronas Twin Towers, Batu Caves, and bustling Jalan Alor."
+        },
+        {
+          "name": "Penang",
+          "image": "assets/images/penang-street-art.webp",
+          "description": "A UNESCO heritage city famous for incredible street food, street art murals, and colonial architecture."
+        },
+        {
+          "name": "Langkawi",
+          "image": "assets/images/langkawi-sky-bridge.webp",
+          "description": "A duty-free island paradise with the Sky Bridge, eagle square, and mangrove eco-tours."
+        },
+        {
+          "name": "Melaka",
+          "image": "assets/images/melaka-river-street.webp",
+          "description": "A historical port city with Dutch-era buildings, Jonker Street night market, and river cruises."
+        },
+        {
+          "name": "Cameron Highlands",
+          "image": "assets/images/cameron-highlands-tea-plantation.webp",
+          "description": "Cool highland retreat with rolling tea plantations, strawberry farms, and mossy forest trails."
+        },
+        {
+          "name": "Borneo",
+          "image": "assets/images/borneo-rainforest-malaysia.webp",
+          "description": "A wild frontier with orangutan sanctuaries, Mount Kinabalu, and world-class diving at Sipadan."
+        }
       ]
     },
     {
@@ -248,14 +636,38 @@
       "region": "South Asia",
       "name": "Sri Lanka",
       "type": "International",
-      "image": "https://images.unsplash.com/photo-1528181304800-259b08848526?auto=format&fit=crop&w=800&q=80",
+      "image": "assets/images/sri-lanka-train-tea.webp",
       "places": [
-        { "name": "Colombo", "image": "https://images.unsplash.com/photo-1525625293386-3f8f99389edd?auto=format&fit=crop&w=600&q=80", "description": "Sri Lanka's bustling commercial capital with colonial architecture, Galle Face Green, and temples." },
-        { "name": "Kandy", "image": "https://images.unsplash.com/photo-1537996194471-e657df975ab4?auto=format&fit=crop&w=600&q=80", "description": "Cultural capital housing the sacred Temple of the Tooth, a scenic lake, and botanical gardens." },
-        { "name": "Galle", "image": "https://images.unsplash.com/photo-1528181304800-259b08848526?auto=format&fit=crop&w=600&q=80", "description": "A UNESCO-fortified coastal city with Dutch colonial charm, lighthouse, and artisanal boutiques." },
-        { "name": "Sigiriya", "image": "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?auto=format&fit=crop&w=600&q=80", "description": "The Lion Rock — an ancient fortress atop a 200-meter rock pillar with stunning frescoes and gardens." },
-        { "name": "Nuwara Eliya", "image": "https://images.unsplash.com/photo-1482938289607-e9573fc25ebb?auto=format&fit=crop&w=600&q=80", "description": "Little England — a cool hill country town with tea plantations, waterfalls, and misty landscapes." },
-        { "name": "Ella", "image": "https://images.unsplash.com/photo-1571536802807-30451e3955d8?auto=format&fit=crop&w=600&q=80", "description": "A mountain village famous for the Nine Arches Bridge, Ella Rock hikes, and train rides through tea country." }
+        {
+          "name": "Colombo",
+          "image": "assets/images/colombo-city-skyline-sri.webp",
+          "description": "Sri Lanka's bustling commercial capital with colonial architecture, Galle Face Green, and temples."
+        },
+        {
+          "name": "Kandy",
+          "image": "assets/images/kandy-temple-lake.webp",
+          "description": "Cultural capital housing the sacred Temple of the Tooth, a scenic lake, and botanical gardens."
+        },
+        {
+          "name": "Galle",
+          "image": "assets/images/galle-fort-coast.webp",
+          "description": "A UNESCO-fortified coastal city with Dutch colonial charm, lighthouse, and artisanal boutiques."
+        },
+        {
+          "name": "Sigiriya",
+          "image": "assets/images/sigiriya-rock-fortress-aerial.webp",
+          "description": "The Lion Rock — an ancient fortress atop a 200-meter rock pillar with stunning frescoes and gardens."
+        },
+        {
+          "name": "Nuwara Eliya",
+          "image": "assets/images/nuwara-eliya-tea-hills.webp",
+          "description": "Little England — a cool hill country town with tea plantations, waterfalls, and misty landscapes."
+        },
+        {
+          "name": "Ella",
+          "image": "assets/images/ella-nine-arch-bridge.webp",
+          "description": "A mountain village famous for the Nine Arches Bridge, Ella Rock hikes, and train rides through tea country."
+        }
       ]
     },
     {
@@ -263,14 +675,38 @@
       "region": "Arabian Sea",
       "name": "Lakshadweep",
       "type": "International",
-      "image": "https://images.unsplash.com/photo-1510414842594-a61c69b5ae57?auto=format&fit=crop&w=800&q=80",
+      "image": "assets/images/lakshadweep-coral-island-lagoon.webp",
       "places": [
-        { "name": "Agatti", "image": "https://images.unsplash.com/photo-1514282401047-d79a71a590e8?auto=format&fit=crop&w=600&q=80", "description": "A coral island with an airstrip, spectacular lagoon views, and world-class snorkeling reefs." },
-        { "name": "Bangaram", "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=600&q=80", "description": "An uninhabited teardrop-shaped atoll with pristine beaches and exotic marine life for diving." },
-        { "name": "Kavaratti", "image": "https://images.unsplash.com/photo-1519046904884-53103b34b206?auto=format&fit=crop&w=600&q=80", "description": "The capital of Lakshadweep, featuring a marine aquarium, mosques, and glass-bottom boat rides." },
-        { "name": "Kadmat", "image": "https://images.unsplash.com/photo-1506929562872-bb421503ef21?auto=format&fit=crop&w=600&q=80", "description": "A narrow island surrounded by a huge lagoon ideal for kayaking, windsurfing, and scuba diving." },
-        { "name": "Minicoy", "image": "https://images.unsplash.com/photo-1512343879784-a960bf40e7f2?auto=format&fit=crop&w=600&q=80", "description": "The southernmost island with a historic lighthouse, tuna canning, and unique Mahl-speaking culture." },
-        { "name": "Kalpeni", "image": "https://images.unsplash.com/photo-1573843981267-be1999ff37cd?auto=format&fit=crop&w=600&q=80", "description": "A group of three islands with shallow lagoons, coral debris banks, and calm swimming waters." }
+        {
+          "name": "Agatti",
+          "image": "assets/images/agatti-island-lagoon-aerial.webp",
+          "description": "A coral island with an airstrip, spectacular lagoon views, and world-class snorkeling reefs."
+        },
+        {
+          "name": "Bangaram",
+          "image": "assets/images/bangaram-island-beach.webp",
+          "description": "An uninhabited teardrop-shaped atoll with pristine beaches and exotic marine life for diving."
+        },
+        {
+          "name": "Kavaratti",
+          "image": "assets/images/kavaratti-mosque-sea.webp",
+          "description": "The capital of Lakshadweep, featuring a marine aquarium, mosques, and glass-bottom boat rides."
+        },
+        {
+          "name": "Kadmat",
+          "image": "assets/images/kadmat-long-island-strip.webp",
+          "description": "A narrow island surrounded by a huge lagoon ideal for kayaking, windsurfing, and scuba diving."
+        },
+        {
+          "name": "Minicoy",
+          "image": "assets/images/minicoy-lighthouse-coast.webp",
+          "description": "The southernmost island with a historic lighthouse, tuna canning, and unique Mahl-speaking culture."
+        },
+        {
+          "name": "Kalpeni",
+          "image": "assets/images/kalpeni-shallow-lagoon.webp",
+          "description": "A group of three islands with shallow lagoons, coral debris banks, and calm swimming waters."
+        }
       ]
     },
     {
@@ -278,14 +714,38 @@
       "region": "Southeast Asia",
       "name": "Indonesia",
       "type": "International",
-      "image": "https://images.unsplash.com/photo-1518548419970-58e3b4079ab2?auto=format&fit=crop&w=800&q=80",
+      "image": "assets/images/indonesia-tropical-islands-aerial.webp",
       "places": [
-        { "name": "Borobudur", "image": "https://images.unsplash.com/photo-1518548419970-58e3b4079ab2?auto=format&fit=crop&w=600&q=80", "description": "The world's largest Buddhist temple, a UNESCO site located on the island of Java." },
-        { "name": "Komodo Island", "image": "https://images.unsplash.com/photo-1510414842594-a61c69b5ae57?auto=format&fit=crop&w=600&q=80", "description": "Home to the famous Komodo Dragons and stunning Pink Beach in East Nusa Tenggara." },
-        { "name": "Raja Ampat", "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=600&q=80", "description": "An archipelago of 1,500 islands, considered one of the richest marine biodiversity spots on Earth." },
-        { "name": "Mount Bromo", "image": "https://images.unsplash.com/photo-1490750967868-88aa4486c946?auto=format&fit=crop&w=600&q=80", "description": "An active volcano in East Java, famous for its surreal landscapes and spectacular sunrises." },
-        { "name": "Gili Islands", "image": "https://images.unsplash.com/photo-1534008897995-27a23e859048?auto=format&fit=crop&w=600&q=80", "description": "Three small islands near Lombok, known for their white sand beaches and incredible turtle diving." },
-        { "name": "Jakarta", "image": "https://images.unsplash.com/photo-1555400038-63f5ba517a47?auto=format&fit=crop&w=600&q=80", "description": "Indonesia's massive capital, a melting pot of cultures with historic sites and modern skyscrapers." }
+        {
+          "name": "Borobudur",
+          "image": "assets/images/borobudur-temple-structure-java.webp",
+          "description": "The world's largest Buddhist temple, a UNESCO site located on the island of Java."
+        },
+        {
+          "name": "Komodo Island",
+          "image": "assets/images/komodo-island.webp",
+          "description": "Home to the famous Komodo Dragons and stunning Pink Beach in East Nusa Tenggara."
+        },
+        {
+          "name": "Raja Ampat",
+          "image": "assets/images/raja-ampat-island-clusters.webp",
+          "description": "An archipelago of 1,500 islands, considered one of the richest marine biodiversity spots on Earth."
+        },
+        {
+          "name": "Mount Bromo",
+          "image": "assets/images/mount-bromo-volcano-sunrise.webp",
+          "description": "An active volcano in East Java, famous for its surreal landscapes and spectacular sunrises."
+        },
+        {
+          "name": "Gili Islands",
+          "image": "assets/images/gili-islands-beach-boats.webp",
+          "description": "Three small islands near Lombok, known for their white sand beaches and incredible turtle diving."
+        },
+        {
+          "name": "Jakarta",
+          "image": "assets/images/jakarta-skyline-indonesia.webp",
+          "description": "Indonesia's massive capital, a melting pot of cultures with historic sites and modern skyscrapers."
+        }
       ]
     }
   ]
