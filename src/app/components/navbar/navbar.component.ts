@@ -8,69 +8,84 @@ import { APP_CONFIG } from '../../app.config';
   standalone: true,
   imports: [CommonModule, RouterLink],
   template: `
-    <nav [ngClass]="scrolled ? 'bg-white/95 backdrop-blur-md shadow-lg py-3' : 'bg-transparent py-5'"
+    <nav [ngClass]="scrolled ? 'bg-slate-900 shadow-xl py-3' : 'bg-slate-900/50 backdrop-blur-md py-5'"
          class="fixed w-full top-0 left-0 z-50 transition-all duration-500 ease-in-out">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="flex justify-between items-center">
 
           <!-- Logo & Title -->
-          <div class="flex items-center cursor-pointer" routerLink="/">
-            <div class="w-10 h-10 rounded-full bg-sky-500 flex items-center justify-center text-white font-bold text-lg shadow-md mr-3">
-              U
+          <div class="flex items-center cursor-pointer group" routerLink="/">
+            <div class="relative w-14 h-14 mr-3 overflow-hidden rounded-xl bg-white/10 backdrop-blur-sm shadow-inner flex items-center justify-center p-1.5 group-hover:bg-white/20 transition-all duration-300">
+              <img src="assets/images/logo.png" alt="Unique Tours & Travels Logo" class="w-full h-full object-contain transform group-hover:scale-110 transition-transform duration-500">
             </div>
-            <span [ngClass]="scrolled ? 'text-slate-900' : 'text-white'"
-                  class="font-bold text-lg tracking-tight transition-colors duration-300">
-               Unique Tours and Travels
-            </span>
+            <div class="flex flex-col">
+              <span class="text-white font-extrabold text-xl tracking-tighter leading-none">
+                 Unique Tours & Travels
+              </span>
+              <span class="text-[10px] uppercase tracking-[0.2em] font-bold text-sky-400 mt-1">Explore the World</span>
+            </div>
           </div>
 
           <!-- Desktop Menu -->
-          <div class="hidden md:flex items-center space-x-8">
+          <div class="hidden md:flex items-center space-x-7">
             <a routerLink="/"
-               [ngClass]="scrolled ? 'text-slate-700 hover:text-sky-600' : 'text-white/90 hover:text-white'"
-               class="nav-link font-semibold transition-colors duration-300 relative group">
+               class="text-white/90 hover:text-white nav-link font-bold text-sm transition-colors duration-300 relative group py-2">
               Home
-              <span class="absolute -bottom-1 left-0 w-0 h-0.5 bg-sky-500 group-hover:w-full transition-all duration-300"></span>
+              <span class="absolute bottom-0 left-0 w-0 h-0.5 bg-sky-500 group-hover:w-full transition-all duration-300"></span>
             </a>
 
             <!-- Tours Dropdown -->
-            <div class="relative group cursor-pointer">
-              <a [ngClass]="scrolled ? 'text-slate-700 hover:text-sky-600' : 'text-white/90 hover:text-white'"
-                 class="nav-link font-semibold transition-colors duration-300 flex items-center relative group">
+            <div class="relative group cursor-pointer py-2">
+              <div class="text-white/90 hover:text-white nav-link font-bold text-sm transition-colors duration-300 flex items-center relative gap-1">
                 Tours
-                <svg class="w-4 h-4 ml-1 transition-transform duration-300 group-hover:rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
-                <span class="absolute -bottom-1 left-0 w-0 h-0.5 bg-sky-500 group-hover:w-full transition-all duration-300"></span>
-              </a>
-              <div class="absolute left-0 mt-2 w-56 bg-white rounded-xl shadow-2xl opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 transform origin-top scale-95 group-hover:scale-100 border border-slate-100 overflow-hidden">
-                <a routerLink="/explore/domestic" class="block px-5 py-3.5 text-sm text-slate-700 hover:bg-sky-50 hover:text-sky-600 transition-colors font-semibold">🇮🇳 Domestic Tours</a>
-                <a routerLink="/explore/international" class="block px-5 py-3.5 text-sm text-slate-700 hover:bg-sky-50 hover:text-sky-600 transition-colors font-semibold border-t border-slate-50">🌍 International Tours</a>
+                <svg class="w-4 h-4 transition-transform duration-300 group-hover:rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
+                <span class="absolute bottom-0 left-0 w-0 h-0.5 bg-sky-500 group-hover:w-full transition-all duration-300"></span>
+              </div>
+              <!-- Luxury Dropdown Panel -->
+              <div class="absolute left-1/2 -translate-x-1/2 mt-3 w-64 bg-slate-900/95 backdrop-blur-xl rounded-2xl shadow-2xl opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 transform origin-top scale-90 group-hover:scale-100 border border-white/10 overflow-hidden z-[60]">
+                <div class="p-2 space-y-1">
+                  <a routerLink="/explore/domestic" class="flex items-center gap-3 px-4 py-3 text-sm text-white/80 hover:text-white hover:bg-white/10 rounded-xl transition-all font-bold group/item">
+                    <span class="text-sky-400 group-hover/item:scale-110 transition-transform">
+                      <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"></path></svg>
+                    </span>
+                    <span>Domestic Tours</span>
+                  </a>
+                  <a routerLink="/explore/international" class="flex items-center gap-3 px-4 py-3 text-sm text-white/80 hover:text-white hover:bg-white/10 rounded-xl transition-all font-bold group/item">
+                    <span class="text-sky-400 group-hover/item:scale-110 transition-transform">
+                      <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9"></path></svg>
+                    </span>
+                    <span>International Tours</span>
+                  </a>
+                </div>
               </div>
             </div>
 
             <a routerLink="/explore"
-               [ngClass]="scrolled ? 'text-slate-700 hover:text-sky-600' : 'text-white/90 hover:text-white'"
-               class="nav-link font-semibold transition-colors duration-300 relative group">
+               class="text-white/90 hover:text-white nav-link font-bold text-sm transition-colors duration-300 relative group py-2">
               Explore
-              <span class="absolute -bottom-1 left-0 w-0 h-0.5 bg-sky-500 group-hover:w-full transition-all duration-300"></span>
+              <span class="absolute bottom-0 left-0 w-0 h-0.5 bg-sky-500 group-hover:w-full transition-all duration-300"></span>
+            </a>
+
+            <a routerLink="/blog"
+               class="text-white/90 hover:text-white nav-link font-bold text-sm transition-colors duration-300 relative group py-2">
+              Blog
+              <span class="absolute bottom-0 left-0 w-0 h-0.5 bg-sky-500 group-hover:w-full transition-all duration-300"></span>
             </a>
 
             <a routerLink="/about"
-               [ngClass]="scrolled ? 'text-slate-700 hover:text-sky-600' : 'text-white/90 hover:text-white'"
-               class="nav-link font-semibold transition-colors duration-300 relative group">
+               class="text-white/90 hover:text-white nav-link font-bold text-sm transition-colors duration-300 relative group py-2">
               About Us
-              <span class="absolute -bottom-1 left-0 w-0 h-0.5 bg-sky-500 group-hover:w-full transition-all duration-300"></span>
+              <span class="absolute bottom-0 left-0 w-0 h-0.5 bg-sky-500 group-hover:w-full transition-all duration-300"></span>
             </a>
 
             <a [href]="'https://wa.me/' + APP_CONFIG.whatsapp" target="_blank"
-               class="px-6 py-2.5 rounded-full font-bold text-sm transition-all duration-300 shadow-md hover:shadow-xl flex items-center bg-sky-500 text-white hover:bg-sky-600 transform hover:-translate-y-0.5">
-               <svg class="w-4 h-4 mr-2" fill="currentColor" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg>
-              Contact Us
+               class="px-7 py-3 rounded-xl font-black text-xs uppercase tracking-widest transition-all duration-500 shadow-lg hover:shadow-sky-500/25 flex items-center bg-sky-500 text-white hover:bg-sky-400 transform hover:-translate-y-1 active:scale-95">
+               Contact Us
             </a>
           </div>
 
           <!-- Mobile Hamburger -->
-          <button (click)="mobileOpen = !mobileOpen" class="md:hidden z-50 w-10 h-10 flex flex-col items-center justify-center space-y-1.5"
-                  [ngClass]="scrolled ? 'text-slate-800' : 'text-white'">
+          <button (click)="mobileOpen = !mobileOpen" class="md:hidden z-50 w-10 h-10 flex flex-col items-center justify-center space-y-1.5 text-white">
             <span class="block w-6 h-0.5 bg-current transition-all duration-300"
                   [ngClass]="mobileOpen ? 'rotate-45 translate-y-2' : ''"></span>
             <span class="block w-6 h-0.5 bg-current transition-all duration-300"
@@ -83,26 +98,22 @@ import { APP_CONFIG } from '../../app.config';
       </div>
 
       <!-- Mobile Menu Overlay -->
-      <div class="md:hidden fixed inset-0 bg-black/60 backdrop-blur-sm z-40 transition-opacity duration-300"
+      <div class="md:hidden fixed inset-0 bg-slate-900/40 backdrop-blur-md z-40 transition-all duration-500"
            [ngClass]="mobileOpen ? 'opacity-100 visible' : 'opacity-0 invisible'"
            (click)="mobileOpen = false"></div>
 
       <!-- Mobile Menu Panel -->
-      <div class="md:hidden fixed top-0 right-0 h-full w-72 bg-white shadow-2xl z-50 transition-transform duration-300 ease-in-out"
+      <div class="md:hidden fixed top-0 right-0 h-full w-[85%] bg-slate-900 text-white shadow-[-20px_0_50px_rgba(0,0,0,0.1)] z-50 transition-transform duration-500 cubic-bezier(0.4, 0, 0.2, 1)"
            [ngClass]="mobileOpen ? 'translate-x-0' : 'translate-x-full'">
-        <div class="p-8 pt-20 space-y-6">
-          <a routerLink="/" (click)="mobileOpen = false"
-             class="block text-lg font-bold text-slate-800 hover:text-sky-600 transition-colors">Home</a>
-          <a routerLink="/explore/domestic" (click)="mobileOpen = false"
-             class="block text-lg font-bold text-slate-800 hover:text-sky-600 transition-colors">Domestic Tours</a>
-          <a routerLink="/explore/international" (click)="mobileOpen = false"
-             class="block text-lg font-bold text-slate-800 hover:text-sky-600 transition-colors">International Tours</a>
-          <a routerLink="/explore" (click)="mobileOpen = false"
-             class="block text-lg font-bold text-slate-800 hover:text-sky-600 transition-colors">Explore All</a>
-          <a routerLink="/about" (click)="mobileOpen = false"
-             class="block text-lg font-bold text-slate-800 hover:text-sky-600 transition-colors">About Us</a>
+        <div class="p-8 pt-24 space-y-1 flex flex-col items-center text-center">
+          <a routerLink="/" (click)="mobileOpen = false" class="w-full py-4 text-xl font-black border-b border-white/5 uppercase tracking-tighter">Home</a>
+          <a routerLink="/explore/domestic" (click)="mobileOpen = false" class="w-full py-4 text-xl font-black border-b border-white/5 uppercase tracking-tighter">Domestic Tours</a>
+          <a routerLink="/explore/international" (click)="mobileOpen = false" class="w-full py-4 text-xl font-black border-b border-white/5 uppercase tracking-tighter">International Tours</a>
+          <a routerLink="/explore" (click)="mobileOpen = false" class="w-full py-4 text-xl font-black border-b border-white/5 uppercase tracking-tighter">Explore</a>
+          <a routerLink="/blog" (click)="mobileOpen = false" class="w-full py-4 text-xl font-black border-b border-white/5 uppercase tracking-tighter text-sky-400">Blog</a>
+          <a routerLink="/about" (click)="mobileOpen = false" class="w-full py-4 text-xl font-black border-b border-white/5 uppercase tracking-tighter">About Us</a>
           <a [href]="'https://wa.me/' + APP_CONFIG.whatsapp" target="_blank"
-             class="block mt-4 bg-sky-500 text-white text-center py-3 rounded-xl font-bold hover:bg-sky-600 transition-colors shadow-lg">
+             class="w-full mt-8 bg-sky-500 text-white py-5 rounded-2xl font-black uppercase tracking-widest hover:bg-sky-400 transition-all shadow-xl shadow-sky-500/20 active:scale-95">
             Contact Us
           </a>
         </div>
