@@ -33,8 +33,17 @@ import { CommonModule, isPlatformBrowser } from '@angular/common';
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 w-full">
 
         <div class="text-center mb-16">
-          <span class="text-sky-500 font-bold tracking-wider uppercase text-sm mb-2 block">Testimonials</span>
-          <h2 class="text-4xl md:text-5xl font-bold text-slate-800 tracking-tight animate-heading">What Our Travelers Say</h2>
+          <span class="text-sky-500 font-bold tracking-wider uppercase text-sm mb-3 block flex items-center justify-center gap-3">
+            <span class="w-8 h-[2px] bg-sky-400"></span>
+            Testimonials
+            <span class="w-8 h-[2px] bg-sky-400"></span>
+          </span>
+          <h2 class="text-4xl md:text-5xl font-bold text-slate-800 tracking-tight animate-heading mb-4">What Our Travelers Say</h2>
+          <div class="flex items-center justify-center gap-2">
+            <span class="w-12 h-1 bg-gradient-to-r from-sky-400 to-blue-500 rounded-full"></span>
+            <span class="w-3 h-3 bg-sky-500 rounded-full"></span>
+            <span class="w-12 h-1 bg-gradient-to-l from-sky-400 to-blue-500 rounded-full"></span>
+          </div>
         </div>
 
         <div class="relative max-w-6xl mx-auto">

@@ -20,7 +20,7 @@ import { APP_CONFIG } from '../../app.config';
             </div>
             <span [ngClass]="scrolled ? 'text-slate-900' : 'text-white'"
                   class="font-bold text-lg tracking-tight transition-colors duration-300">
-              Unique Tours
+               Unique Tours and Travels
             </span>
           </div>
 

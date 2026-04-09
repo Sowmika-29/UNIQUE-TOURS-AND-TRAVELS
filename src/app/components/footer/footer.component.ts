@@ -21,7 +21,7 @@ import { APP_CONFIG } from '../../app.config';
       <div>
         <div class="flex items-center mb-6">
           <div class="w-12 h-12 rounded-full bg-sky-500 flex items-center justify-center text-white font-bold text-xl shadow-lg mr-3">U</div>
-          <h2 class="text-2xl font-bold tracking-tight">Unique Tours</h2>
+          <h2 class="text-2xl font-bold tracking-tight">Unique Tours and Travels</h2>
         </div>
         <p class="text-slate-400 leading-relaxed mb-6">
           Discover curated travel experiences across domestic and international destinations. Your journey begins here.

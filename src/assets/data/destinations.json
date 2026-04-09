@@ -139,7 +139,7 @@
       "id": "andaman",
       "region": "Bay of Bengal",
       "name": "Andaman",
-      "type": "Domestic",
+      "type": "International",
       "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=800&q=80",
       "places": [
         { "name": "Port Blair", "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=600&q=80", "description": "The capital city with the historic Cellular Jail, Corbyn's Cove Beach, and Ross Island views." },
@@ -154,7 +154,7 @@
       "id": "lakshadweep",
       "region": "Arabian Sea",
       "name": "Lakshadweep",
-      "type": "Domestic",
+      "type": "International",
       "image": "https://images.unsplash.com/photo-1510414842594-a61c69b5ae57?auto=format&fit=crop&w=800&q=80",
       "places": [
         { "name": "Agatti", "image": "https://images.unsplash.com/photo-1514282401047-d79a71a590e8?auto=format&fit=crop&w=600&q=80", "description": "A coral island with an airstrip, spectacular lagoon views, and world-class snorkeling reefs." },
