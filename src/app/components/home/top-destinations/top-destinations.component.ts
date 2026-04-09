@@ -1,95 +1,83 @@
-import { Component } from '@angular/core';
-import { CommonModule } from '@angular/common';
+import { Component, AfterViewInit, PLATFORM_ID, Inject } from '@angular/core';
+import { CommonModule, isPlatformBrowser } from '@angular/common';
 import { RouterLink } from '@angular/router';
+import { gsap } from 'gsap';
+import { ScrollTrigger } from 'gsap/ScrollTrigger';
+
+gsap.registerPlugin(ScrollTrigger);
 
 @Component({
   selector: 'app-top-destinations',
   standalone: true,
   imports: [CommonModule, RouterLink],
   template: `
-    <section class="py-24 relative overflow-hidden bg-gradient-to-br from-sky-200 via-sky-100 to-sky-200">
+    <section class="py-24 relative overflow-hidden bg-gradient-to-br from-white via-sky-50 to-white hero-trigger">
 
-      <!-- 3D Animated Background -->
+      <!-- Premium Animated Background -->
       <div class="absolute inset-0 pointer-events-none overflow-hidden">
-        <!-- Floating gradient orbs -->
-        <div class="orb orb-1"></div>
-        <div class="orb orb-2"></div>
-        <div class="orb orb-3"></div>
+        <div class="orb orb-1 opacity-20"></div>
+        <div class="orb orb-2 opacity-20"></div>
+        <div class="orb orb-3 opacity-20"></div>
 
-        <!-- 3D spinning shapes -->
-        <div class="rotate-box rb-1"></div>
-        <div class="rotate-box rb-2"></div>
-        <div class="rotate-box rb-3"></div>
-        <div class="rotate-box rb-4"></div>
-
-        <!-- Floating dots -->
-        <div class="dot dot-1"></div>
-        <div class="dot dot-2"></div>
-        <div class="dot dot-3"></div>
-        <div class="dot dot-4"></div>
-        <div class="dot dot-5"></div>
-
-        <!-- Animated wave -->
-        <svg class="absolute bottom-0 left-0 w-full" viewBox="0 0 1440 120" preserveAspectRatio="none" style="height: 80px;">
-          <path d="M0,60 C360,120 720,0 1080,60 C1260,90 1380,40 1440,60 L1440,120 L0,120 Z" fill="rgba(56, 189, 248, 0.15)">
-            <animate attributeName="d" dur="8s" repeatCount="indefinite"
-              values="M0,60 C360,120 720,0 1080,60 C1260,90 1380,40 1440,60 L1440,120 L0,120 Z;
-                      M0,80 C360,20 720,100 1080,40 C1260,60 1380,80 1440,50 L1440,120 L0,120 Z;
-                      M0,60 C360,120 720,0 1080,60 C1260,90 1380,40 1440,60 L1440,120 L0,120 Z"/>
-          </path>
-          <path d="M0,80 C480,20 960,100 1440,40 L1440,120 L0,120 Z" fill="rgba(56, 189, 248, 0.1)">
-            <animate attributeName="d" dur="6s" repeatCount="indefinite"
-              values="M0,80 C480,20 960,100 1440,40 L1440,120 L0,120 Z;
-                      M0,50 C480,100 960,20 1440,70 L1440,120 L0,120 Z;
-                      M0,80 C480,20 960,100 1440,40 L1440,120 L0,120 Z"/>
-          </path>
-        </svg>
+        <!-- Floating 3D-like elements -->
+        <div class="rotate-box rb-1 floating-element" data-speed="0.05"></div>
+        <div class="rotate-box rb-2 floating-element" data-speed="-0.03"></div>
+        <div class="rotate-box rb-3 floating-element" data-speed="0.04"></div>
       </div>
 
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
 
-        <div class="text-center mb-16">
-          <span class="text-sky-500 font-bold tracking-wider uppercase text-sm mb-3 block flex items-center justify-center gap-3">
+        <div class="text-center mb-16 section-header opacity-0 translate-y-10">
+          <span class="text-sky-500 font-bold tracking-widest uppercase text-sm mb-3 block flex items-center justify-center gap-3">
             <span class="w-8 h-[2px] bg-sky-400"></span>
-            Featured Experiences
+            Handpicked for You
             <span class="w-8 h-[2px] bg-sky-400"></span>
           </span>
-          <h2 class="text-4xl md:text-5xl font-bold text-slate-800 tracking-tight animate-heading mb-4">Top Destinations</h2>
+          <h2 class="text-4xl md:text-6xl font-black text-slate-900 tracking-tighter mb-4">Top Destinations</h2>
           <div class="flex items-center justify-center gap-2">
-            <span class="w-12 h-1 bg-gradient-to-r from-sky-400 to-blue-500 rounded-full"></span>
-            <span class="w-3 h-3 bg-sky-500 rounded-full"></span>
-            <span class="w-12 h-1 bg-gradient-to-l from-sky-400 to-blue-500 rounded-full"></span>
+            <span class="w-16 h-1 bg-sky-500 rounded-full"></span>
+            <span class="w-3 h-3 bg-indigo-500 rounded-full animate-ping"></span>
+            <span class="w-16 h-1 bg-sky-500 rounded-full"></span>
           </div>
         </div>
 
-        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 destination-grid">
 
           <a *ngFor="let dest of topDestinations; let i = index"
              [routerLink]="['/destination', dest.id]"
-             class="group relative h-[360px] rounded-2xl overflow-hidden shadow-lg hover:shadow-[0_0_30px_rgba(56,189,248,0.4)] transition-all duration-500 cursor-pointer flex items-end animate-heading"
-             [style.animation-delay]="(i * 0.1) + 's'">
+             class="group destination-card relative h-[450px] rounded-[32px] overflow-hidden shadow-xl hover:shadow-2xl transition-all duration-700 cursor-pointer overflow-hidden opacity-0 translate-y-20">
 
-            <img [src]="dest.image" [alt]="dest.name" class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-110">
-            <div class="absolute inset-0 bg-gradient-to-t from-slate-900/90 via-slate-900/30 to-transparent"></div>
-            <div class="absolute inset-0 bg-sky-500/20 mix-blend-overlay opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+            <img [src]="dest.image" [alt]="dest.name" class="absolute inset-0 w-full h-full object-cover transition-transform duration-[1.5s] ease-out group-hover:scale-110">
+            <div class="absolute inset-0 bg-gradient-to-t from-slate-950 via-transparent to-transparent opacity-80 group-hover:opacity-90 transition-opacity"></div>
+            
+            <!-- Tilt & Glow Card Effect -->
+            <div class="absolute inset-0 bg-gradient-to-tr from-sky-500/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
 
-            <div class="relative z-10 p-8 w-full transform transition-transform duration-500 group-hover:-translate-y-2">
-              <h3 class="text-3xl font-bold text-white mb-2 drop-shadow-md group-hover:text-sky-100 transition-colors">{{dest.name}}</h3>
-              <div class="w-12 h-1 bg-sky-500 transform origin-left transition-transform duration-300 group-hover:scale-x-[2]"></div>
+            <div class="absolute bottom-0 left-0 p-8 w-full transform transition-transform duration-500 group-hover:-translate-y-4">
+              <span class="inline-block px-3 py-1 bg-sky-500/20 backdrop-blur-md border border-white/20 text-sky-300 text-[10px] font-black uppercase tracking-widest rounded-full mb-3 opacity-0 group-hover:opacity-100 translate-y-4 group-hover:translate-y-0 transition-all duration-500">
+                Explore Destination
+              </span>
+              <h3 class="text-4xl font-bold text-white drop-shadow-2xl group-hover:text-sky-100 transition-colors tracking-tight">{{dest.name}}</h3>
+              <div class="w-0 group-hover:w-20 h-1 bg-sky-500 mt-3 transition-all duration-700 delay-100"></div>
             </div>
 
+            <!-- Interactive Overlay -->
+            <div class="absolute top-6 right-6 w-12 h-12 rounded-full bg-white/10 backdrop-blur-md flex items-center justify-center text-white opacity-0 group-hover:opacity-100 transform rotate-45 group-hover:rotate-0 transition-all duration-500">
+               <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M17 8l4 4m0 0l-4 4m4-4H3"></path></svg>
+            </div>
           </a>
 
         </div>
 
-        <!-- CTA Button -->
-        <div class="text-center mt-14 animate-heading" style="animation-delay: 0.6s">
-          <a routerLink="/explore" class="explore-btn group">
-            <span class="btn-shimmer"></span>
-            <span class="btn-glow"></span>
-            <span class="relative z-10 flex items-center gap-3">
+        <!-- CTA Section -->
+        <div class="text-center mt-20 cta-reveal opacity-0 scale-95">
+          <a routerLink="/explore" class="premium-btn group">
+            <span class="btn-ripple"></span>
+            <span class="relative z-10 flex items-center gap-4">
               Explore All Destinations
-              <svg class="w-5 h-5 transform group-hover:translate-x-2 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
+              <div class="w-8 h-8 rounded-full bg-white/20 flex items-center justify-center group-hover:bg-white/40 transition-colors">
+                 <svg class="w-4 h-4 transition-transform group-hover:translate-x-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M13 7l5 5m0 0l-5 5m5-5H6"></path></svg>
+              </div>
             </span>
           </a>
         </div>
@@ -98,129 +86,59 @@ import { RouterLink } from '@angular/router';
     </section>
   `,
   styles: [`
-    .orb {
-      position: absolute;
-      border-radius: 50%;
-      filter: blur(50px);
-    }
-    .orb-1 {
-      width: 350px; height: 350px;
-      background: rgba(56, 189, 248, 0.3);
-      top: -60px; left: -60px;
-      animation: orb-move 14s ease-in-out infinite;
-    }
-    .orb-2 {
-      width: 400px; height: 400px;
-      background: rgba(14, 165, 233, 0.2);
-      bottom: -80px; right: -80px;
-      animation: orb-move 18s ease-in-out infinite 3s;
-    }
-    .orb-3 {
-      width: 250px; height: 250px;
-      background: rgba(56, 189, 248, 0.2);
-      top: 40%; left: 45%;
-      animation: orb-move 12s ease-in-out infinite 6s;
-    }
+    .orb { position: absolute; border-radius: 50%; filter: blur(80px); }
+    .orb-1 { width: 500px; height: 500px; background: rgba(14, 165, 233, 0.15); top: -100px; left: -100px; }
+    .orb-2 { width: 600px; height: 600px; background: rgba(79, 70, 229, 0.1); bottom: -150px; right: -150px; }
+    .orb-3 { width: 400px; height: 400px; background: rgba(14, 165, 233, 0.1); top: 30%; left: 40%; }
 
-    .rotate-box {
-      position: absolute;
-      border: 3px solid rgba(56, 189, 248, 0.4);
-      animation: box-spin linear infinite;
+    .rotate-box { 
+      position: absolute; 
+      border: 2px solid rgba(14, 165, 233, 0.2); 
     }
-    .rb-1 { width: 50px; height: 50px; border-radius: 10px; top: 12%; right: 14%; animation-duration: 10s; }
-    .rb-2 { width: 35px; height: 35px; border-radius: 8px;  bottom: 18%; left: 6%;  animation-duration: 14s; animation-direction: reverse; }
-    .rb-3 { width: 28px; height: 28px; border-radius: 50%;  top: 55%; right: 5%;  animation-duration: 18s; }
-    .rb-4 { width: 20px; height: 20px; border-radius: 4px;  top: 30%; left: 3%;   animation-duration: 12s; animation-direction: reverse; }
+    .rb-1 { width: 80px; height: 80px; border-radius: 20px; top: 15%; right: 10%; }
+    .rb-2 { width: 60px; height: 60px; border-radius: 15px; bottom: 20%; left: 8%; }
+    .rb-3 { width: 40px; height: 40px; border-radius: 50%; top: 45%; right: 5%; }
 
-    .dot {
-      position: absolute;
-      border-radius: 50%;
-      background: rgba(56, 189, 248, 0.45);
-      bottom: 0;
-      animation: dot-rise linear infinite;
-    }
-    .dot-1 { width: 10px; height: 10px; left: 10%; animation-duration: 8s; }
-    .dot-2 { width: 14px; height: 14px; left: 30%; animation-duration: 11s; animation-delay: 2s; }
-    .dot-3 { width: 8px;  height: 8px;  left: 50%; animation-duration: 9s;  animation-delay: 4s; }
-    .dot-4 { width: 12px; height: 12px; left: 70%; animation-duration: 10s; animation-delay: 1s; }
-    .dot-5 { width: 10px; height: 10px; left: 88%; animation-duration: 7s;  animation-delay: 3s; }
-
-    @keyframes orb-move {
-      0%, 100% { transform: translate(0, 0) scale(1); }
-      25% { transform: translate(50px, -40px) scale(1.15); }
-      50% { transform: translate(-30px, 30px) scale(0.9); }
-      75% { transform: translate(40px, 20px) scale(1.1); }
-    }
-    @keyframes box-spin {
-      0%   { transform: perspective(400px) rotateX(0deg) rotateY(0deg); }
-      100% { transform: perspective(400px) rotateX(360deg) rotateY(360deg); }
-    }
-    @keyframes dot-rise {
-      0%   { transform: translateY(0); opacity: 0; }
-      10%  { opacity: 0.8; }
-      85%  { opacity: 0.3; }
-      100% { transform: translateY(-700px); opacity: 0; }
-    }
-
-    /* Premium CTA Button */
-    .explore-btn {
+    .premium-btn {
       position: relative;
       display: inline-flex;
       align-items: center;
-      padding: 18px 48px;
-      border-radius: 9999px;
-      font-size: 1.125rem;
-      font-weight: 700;
+      padding: 20px 56px;
+      border-radius: 30px;
+      font-size: 1.25rem;
+      font-weight: 900;
       color: white;
-      background: linear-gradient(135deg, #0ea5e9, #3b82f6, #0ea5e9);
-      background-size: 200% 200%;
-      animation: gradient-shift 4s ease infinite;
-      box-shadow: 0 8px 30px rgba(14, 165, 233, 0.4);
+      background: #0f172a;
+      box-shadow: 0 20px 40px rgba(15, 23, 42, 0.2);
       overflow: hidden;
-      transition: all 0.3s ease;
-      text-decoration: none;
-      cursor: pointer;
+      transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
     }
-    .explore-btn:hover {
-      transform: translateY(-4px) scale(1.03);
-      box-shadow: 0 12px 40px rgba(14, 165, 233, 0.55);
+    .premium-btn:hover {
+      transform: translateY(-8px) scale(1.05);
+      box-shadow: 0 30px 60px rgba(14, 165, 233, 0.3);
+      background: #0ea5e9;
     }
-
-    .btn-shimmer {
+    .btn-ripple {
       position: absolute;
-      top: 0; left: 0;
-      width: 60%;
-      height: 100%;
-      background: linear-gradient(90deg, transparent, rgba(255,255,255,0.3), transparent);
-      transform: translateX(-100%);
-      animation: shimmer-sweep 3s ease-in-out infinite;
+      top: 50%; left: 50%;
+      width: 0%; height: 0%;
+      background: rgba(255, 255, 255, 0.1);
+      border-radius: 50%;
+      transform: translate(-50%, -50%);
+      transition: width 0.6s, height 0.6s;
     }
-
-    .btn-glow {
-      position: absolute;
-      inset: -3px;
-      border-radius: 9999px;
-      background: linear-gradient(135deg, #38bdf8, #818cf8, #38bdf8);
-      background-size: 200% 200%;
-      animation: gradient-shift 4s ease infinite;
-      z-index: -1;
-      opacity: 0.6;
-      filter: blur(8px);
-    }
-
-    @keyframes gradient-shift {
-      0%   { background-position: 0% 50%; }
-      50%  { background-position: 100% 50%; }
-      100% { background-position: 0% 50%; }
-    }
-    @keyframes shimmer-sweep {
-      0%   { transform: translateX(-100%); }
-      50%  { transform: translateX(250%); }
-      100% { transform: translateX(250%); }
+    .premium-btn:hover .btn-ripple {
+      width: 300%; height: 300%;
     }
   `]
 })
-export class TopDestinationsComponent {
+export class TopDestinationsComponent implements AfterViewInit {
+  private isBrowser: boolean;
+
+  constructor(@Inject(PLATFORM_ID) platformId: Object) {
+    this.isBrowser = isPlatformBrowser(platformId);
+  }
+
   topDestinations = [
     { id: 'kerala', name: 'Kerala', image: 'https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?auto=format&fit=crop&w=800&q=80' },
     { id: 'goa', name: 'Goa', image: 'https://images.unsplash.com/photo-1614082242765-7c98ca0f3df3?auto=format&fit=crop&w=800&q=80' },
@@ -229,4 +147,65 @@ export class TopDestinationsComponent {
     { id: 'dubai', name: 'Dubai', image: 'https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&fit=crop&w=800&q=80' },
     { id: 'bali', name: 'Bali', image: 'https://images.unsplash.com/photo-1537996194471-e657df975ab4?auto=format&fit=crop&w=800&q=80' }
   ];
+
+  ngAfterViewInit() {
+    if (this.isBrowser) {
+      this.initAnimations();
+    }
+  }
+
+  private initAnimations() {
+    // Reveal Section Header
+    gsap.to('.section-header', {
+      opacity: 1,
+      y: 0,
+      duration: 1,
+      ease: 'power4.out',
+      scrollTrigger: {
+        trigger: '.section-header',
+        start: 'top 85%'
+      }
+    });
+
+    // Reveal Destination Cards in Staggered Fashion
+    gsap.to('.destination-card', {
+      opacity: 1,
+      y: 0,
+      duration: 1.2,
+      stagger: 0.15,
+      ease: 'power3.out',
+      scrollTrigger: {
+        trigger: '.destination-grid',
+        start: 'top 80%'
+      }
+    });
+
+    // Reveal CTA Button
+    gsap.to('.cta-reveal', {
+      opacity: 1,
+      scale: 1,
+      duration: 1,
+      ease: 'back.out(1.7)',
+      scrollTrigger: {
+        trigger: '.cta-reveal',
+        start: 'top 90%'
+      }
+    });
+
+    // Floating Background Elements Handled by GSAP
+    gsap.utils.toArray<HTMLElement>('.floating-element').forEach(el => {
+      const speed = parseFloat(el.dataset['speed'] || '0.05');
+      gsap.to(el, {
+        y: (i, target) => -ScrollTrigger.maxScroll(window) * speed,
+        rotation: 360,
+        ease: 'none',
+        scrollTrigger: {
+          scrub: true,
+          trigger: '.hero-trigger',
+          start: 'top bottom',
+          end: 'bottom top'
+        }
+      });
+    });
+  }
 }

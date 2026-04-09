@@ -75,9 +75,6 @@ import { APP_CONFIG } from '../../app.config';
                      <div class="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent"></div>
                      <h3 class="absolute bottom-4 left-5 text-xl font-bold text-white drop-shadow-md z-10">{{place.name}}</h3>
                    </div>
-                   <div class="p-5" *ngIf="place.description">
-                     <p class="text-slate-500 text-sm leading-relaxed">{{place.description}}</p>
-                   </div>
                  </div>
                </div>
             </div>
@@ -206,7 +203,6 @@ export class DestinationDetailComponent implements OnInit {
 
   excludes = [
     'Personal expenses',
-    'Boating / rides not included',
     'Laundry and tips',
     'Optional tours',
     'Any activity not listed in inclusions',

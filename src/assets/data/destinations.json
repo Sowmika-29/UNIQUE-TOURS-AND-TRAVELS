@@ -12,7 +12,8 @@
         { "name": "Kochi", "image": "https://images.unsplash.com/photo-1569263979104-865ab7cd8d13?auto=format&fit=crop&w=600&q=80", "description": "A vibrant port city blending colonial heritage, Chinese fishing nets, and spice markets." },
         { "name": "Varkala", "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=600&q=80", "description": "Dramatic red cliffs overlooking pristine golden beaches and mineral water springs." },
         { "name": "Thekkady", "image": "https://images.unsplash.com/photo-1561731216-c3a4d99437d5?auto=format&fit=crop&w=600&q=80", "description": "Home to Periyar Wildlife Sanctuary, offering jungle treks and scenic boat rides." },
-        { "name": "Athirapally", "image": "https://images.unsplash.com/photo-1482938289607-e9573fc25ebb?auto=format&fit=crop&w=600&q=80", "description": "Kerala's largest waterfall, often called the Niagara of India, surrounded by lush rainforests." }
+        { "name": "Vagamon", "image": "https://images.unsplash.com/photo-1634980969450-dd03af212b16?auto=format&fit=crop&w=600&q=80", "description": "A quiet hill station with meadows and pine forests." },
+        { "name": "Trivandrum", "image": "https://images.unsplash.com/photo-1706238080572-e508e83cead1?auto=format&fit=crop&w=600&q=80", "description": "The capital city known for Padmanabhaswamy Temple and beaches." }
       ]
     },
     {

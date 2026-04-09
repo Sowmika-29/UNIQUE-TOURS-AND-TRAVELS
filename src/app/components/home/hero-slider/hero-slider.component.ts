@@ -1,24 +1,21 @@
-import { Component, OnInit, OnDestroy, PLATFORM_ID, Inject } from '@angular/core';
+import { Component, OnInit, OnDestroy, PLATFORM_ID, Inject, AfterViewInit } from '@angular/core';
 import { CommonModule, isPlatformBrowser } from '@angular/common';
 import { RouterLink } from '@angular/router';
+import { gsap } from 'gsap';
+import { ScrollTrigger } from 'gsap/ScrollTrigger';
+
+gsap.registerPlugin(ScrollTrigger);
 
 @Component({
   selector: 'app-hero-slider',
   standalone: true,
   imports: [CommonModule, RouterLink],
   template: `
-    <div class="relative w-full h-[100vh] min-h-[600px] overflow-hidden bg-slate-900 group">
+    <div class="relative w-full h-[100vh] min-h-[600px] overflow-hidden bg-slate-900 group hero-container">
       
       <!-- Animated particle overlay -->
       <div class="absolute inset-0 z-[15] pointer-events-none overflow-hidden">
-        <div class="hero-particle hp-1"></div>
-        <div class="hero-particle hp-2"></div>
-        <div class="hero-particle hp-3"></div>
-        <div class="hero-particle hp-4"></div>
-        <div class="hero-particle hp-5"></div>
-        <div class="hero-particle hp-6"></div>
-        <div class="hero-particle hp-7"></div>
-        <div class="hero-particle hp-8"></div>
+        <div *ngFor="let p of [1,2,3,4,5,6,7,8]" class="hero-particle hp-{{p}}"></div>
       </div>
 
       <!-- Images -->
@@ -27,29 +24,29 @@ import { RouterLink } from '@angular/router';
            [ngClass]="i === currentIndex ? 'opacity-100 z-10' : 'opacity-0 z-0'">
         
         <img [src]="slide.image" [alt]="slide.title" 
-             class="absolute inset-0 w-full h-full object-cover origin-center transition-transform duration-[12000ms] ease-out"
-             [ngClass]="i === currentIndex ? 'scale-110' : 'scale-100'">
+             class="absolute inset-0 w-full h-full object-cover origin-center hero-image"
+             [ngClass]="i === currentIndex ? 'scale-110 active-slide' : 'scale-100'">
         
         <div class="absolute inset-0 bg-black/30"></div>
         <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-black/20 to-transparent"></div>
         
         <!-- Content -->
         <div class="absolute inset-0 flex items-center justify-center z-20">
-          <div class="text-center px-4 max-w-4xl mx-auto" *ngIf="i === currentIndex">
-            <span class="text-sky-100 font-bold tracking-[0.2em] uppercase text-sm md:text-base mb-4 block drop-shadow-lg animate-heading">
+          <div class="text-center px-4 max-w-4xl mx-auto hero-content" *ngIf="i === currentIndex">
+            <span class="hero-subtitle text-sky-100 font-bold tracking-[0.2em] uppercase text-sm md:text-base mb-4 block drop-shadow-lg opacity-0">
                {{slide.subtitle}}
             </span>
-            <h1 class="text-5xl md:text-7xl lg:text-8xl font-bold text-white mb-6 drop-shadow-xl animate-heading" style="animation-delay: 0.2s">
+            <h1 class="hero-title text-5xl md:text-7xl lg:text-8xl font-bold text-white mb-6 drop-shadow-xl tracking-tighter opacity-0">
               {{slide.title}}
             </h1>
-            <p class="text-lg md:text-xl text-slate-200 mb-10 max-w-2xl mx-auto drop-shadow-md animate-heading" style="animation-delay: 0.4s">
+            <p class="hero-desc text-lg md:text-xl text-slate-200 mb-10 max-w-2xl mx-auto drop-shadow-md opacity-0">
               {{slide.description}}
             </p>
-            <div class="flex flex-col sm:flex-row justify-center space-y-4 sm:space-y-0 sm:space-x-6 animate-heading" style="animation-delay: 0.6s">
+            <div class="hero-btns flex flex-col sm:flex-row justify-center space-y-4 sm:space-y-0 sm:space-x-6 opacity-0">
               <a routerLink="/explore" class="bg-sky-500 text-white px-8 py-4 rounded-full font-bold text-lg hover:bg-white hover:text-sky-600 transition-all duration-300 transform hover:-translate-y-1 shadow-[0_0_20px_rgba(14,165,233,0.4)] hover:shadow-[0_0_30px_rgba(255,255,255,0.6)] text-center">
                 Explore The World
               </a>
-              <a href="https://wa.me/919597371949" target="_blank" class="glass-panel text-white hover:bg-white hover:text-slate-900 px-8 py-4 rounded-full font-bold text-lg transition-all duration-300 text-center">
+              <a href="https://wa.me/919597371949" target="_blank" class="glass-panel text-white hover:bg-white hover:text-slate-900 px-8 py-4 rounded-full font-bold text-lg transition-all duration-300 text-center border border-white/20">
                 Contact Us
               </a>
             </div>
@@ -58,10 +55,10 @@ import { RouterLink } from '@angular/router';
       </div>
       
       <!-- Custom Controls -->
-      <button (click)="prev()" class="absolute left-6 top-1/2 -translate-y-1/2 z-30 w-14 h-14 rounded-full glass-panel flex items-center justify-center text-white hover:bg-sky-500 hover:border-sky-500 transition-colors opacity-0 group-hover:opacity-100 hidden md:flex">
+      <button (click)="prev()" class="absolute left-6 top-1/2 -translate-y-1/2 z-30 w-14 h-14 rounded-full glass-panel flex items-center justify-center text-white hover:bg-sky-500 hover:border-sky-500 transition-colors opacity-0 group-hover:opacity-100 hidden md:flex border border-white/20">
         <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"></path></svg>
       </button>
-      <button (click)="next()" class="absolute right-6 top-1/2 -translate-y-1/2 z-30 w-14 h-14 rounded-full glass-panel flex items-center justify-center text-white hover:bg-sky-500 hover:border-sky-500 transition-colors opacity-0 group-hover:opacity-100 hidden md:flex">
+      <button (click)="next()" class="absolute right-6 top-1/2 -translate-y-1/2 z-30 w-14 h-14 rounded-full glass-panel flex items-center justify-center text-white hover:bg-sky-500 hover:border-sky-500 transition-colors opacity-0 group-hover:opacity-100 hidden md:flex border border-white/20">
         <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
       </button>
 
@@ -76,13 +73,17 @@ import { RouterLink } from '@angular/router';
     </div>
   `,
   styles: [`
+    .glass-panel {
+      background: rgba(255, 255, 255, 0.1);
+      backdrop-filter: blur(10px);
+    }
     .hero-particle {
       position: absolute;
       border-radius: 50%;
-      background: rgba(255, 255, 255, 0.4);
-      bottom: 0;
+      background: rgba(255, 255, 255, 0.2);
+      bottom: -20px;
       animation: hero-rise linear infinite;
-      box-shadow: 0 0 6px rgba(255, 255, 255, 0.3);
+      box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
     }
     .hp-1 { width: 8px;  height: 8px;  left: 5%;  animation-duration: 10s; }
     .hp-2 { width: 12px; height: 12px; left: 15%; animation-duration: 14s; animation-delay: 1s; }
@@ -94,14 +95,14 @@ import { RouterLink } from '@angular/router';
     .hp-8 { width: 10px; height: 10px; left: 95%; animation-duration: 15s; animation-delay: 7s; }
 
     @keyframes hero-rise {
-      0%   { transform: translateY(0); opacity: 0; }
-      10%  { opacity: 0.8; }
-      85%  { opacity: 0.3; }
-      100% { transform: translateY(-100vh); opacity: 0; }
+      0%   { transform: translateY(0) rotate(0deg); opacity: 0; }
+      20%  { opacity: 0.6; }
+      80%  { opacity: 0.2; }
+      100% { transform: translateY(-110vh) rotate(360deg); opacity: 0; }
     }
   `]
 })
-export class HeroSliderComponent implements OnInit, OnDestroy {
+export class HeroSliderComponent implements OnInit, OnDestroy, AfterViewInit {
   slides = [
     {
       image: "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?auto=format&fit=crop&w=1920&q=80",
@@ -149,16 +150,47 @@ export class HeroSliderComponent implements OnInit, OnDestroy {
     }
   }
 
+  ngAfterViewInit() {
+    if (this.isBrowser) {
+      this.initGSAP();
+    }
+  }
+
   ngOnDestroy() {
     if (this.isBrowser) {
       this.stopSlideShow();
+      ScrollTrigger.getAll().forEach(t => t.kill());
     }
+  }
+
+  private initGSAP() {
+    // Parallax Effect
+    gsap.to('.hero-image', {
+      y: '20%',
+      ease: 'none',
+      scrollTrigger: {
+        trigger: '.hero-container',
+        start: 'top top',
+        end: 'bottom top',
+        scrub: true
+      }
+    });
+
+    this.animateText();
+  }
+
+  private animateText() {
+    const tl = gsap.timeline();
+    tl.fromTo('.hero-subtitle', { y: 20, opacity: 0 }, { y: 0, opacity: 1, duration: 0.8, ease: 'power3.out' })
+      .fromTo('.hero-title', { y: 30, opacity: 0 }, { y: 0, opacity: 1, duration: 1, ease: 'power4.out' }, '-=0.5')
+      .fromTo('.hero-desc', { y: 20, opacity: 0 }, { y: 0, opacity: 1, duration: 0.8, ease: 'power3.out' }, '-=0.6')
+      .fromTo('.hero-btns', { y: 20, opacity: 0 }, { y: 0, opacity: 1, duration: 0.8, ease: 'power3.out' }, '-=0.6');
   }
 
   startSlideShow() {
     this.intervalId = setInterval(() => {
       this.next();
-    }, 5000);
+    }, 6000);
   }
 
   stopSlideShow() {
@@ -170,16 +202,20 @@ export class HeroSliderComponent implements OnInit, OnDestroy {
   next() {
     this.currentIndex = (this.currentIndex + 1) % this.slides.length;
     this.resetTimer();
+    setTimeout(() => this.animateText(), 100);
   }
 
   prev() {
     this.currentIndex = (this.currentIndex - 1 + this.slides.length) % this.slides.length;
     this.resetTimer();
+    setTimeout(() => this.animateText(), 100);
   }
 
   goToSlide(index: number) {
+    if (this.currentIndex === index) return;
     this.currentIndex = index;
     this.resetTimer();
+    setTimeout(() => this.animateText(), 100);
   }
 
   resetTimer() {

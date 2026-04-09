@@ -66,6 +66,12 @@ import { APP_CONFIG } from '../../app.config';
               <span class="absolute bottom-0 left-0 w-0 h-0.5 bg-sky-500 group-hover:w-full transition-all duration-300"></span>
             </a>
 
+            <a routerLink="/services"
+               class="text-white/90 hover:text-white nav-link font-bold text-sm transition-colors duration-300 relative group py-2">
+              Services
+              <span class="absolute bottom-0 left-0 w-0 h-0.5 bg-sky-500 group-hover:w-full transition-all duration-300"></span>
+            </a>
+
             <a routerLink="/blog"
                class="text-white/90 hover:text-white nav-link font-bold text-sm transition-colors duration-300 relative group py-2">
               Blog
@@ -110,6 +116,7 @@ import { APP_CONFIG } from '../../app.config';
           <a routerLink="/explore/domestic" (click)="mobileOpen = false" class="w-full py-4 text-xl font-black border-b border-white/5 uppercase tracking-tighter">Domestic Tours</a>
           <a routerLink="/explore/international" (click)="mobileOpen = false" class="w-full py-4 text-xl font-black border-b border-white/5 uppercase tracking-tighter">International Tours</a>
           <a routerLink="/explore" (click)="mobileOpen = false" class="w-full py-4 text-xl font-black border-b border-white/5 uppercase tracking-tighter">Explore</a>
+          <a routerLink="/services" (click)="mobileOpen = false" class="w-full py-4 text-xl font-black border-b border-white/5 uppercase tracking-tighter">Services</a>
           <a routerLink="/blog" (click)="mobileOpen = false" class="w-full py-4 text-xl font-black border-b border-white/5 uppercase tracking-tighter text-sky-400">Blog</a>
           <a routerLink="/about" (click)="mobileOpen = false" class="w-full py-4 text-xl font-black border-b border-white/5 uppercase tracking-tighter">About Us</a>
           <a [href]="'https://wa.me/' + APP_CONFIG.whatsapp" target="_blank"

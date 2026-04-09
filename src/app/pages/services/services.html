@@ -1,0 +1,76 @@
+<div class="min-h-screen bg-slate-50 pt-32 pb-20 overflow-hidden">
+  <!-- Hero Section with Background Parallax -->
+  <div class="relative py-20 mb-16 overflow-hidden">
+    <div class="absolute inset-0 z-0 scale-110 hero-bg">
+      <div class="absolute inset-0 bg-gradient-to-br from-sky-600/20 to-indigo-900/20 mix-blend-overlay"></div>
+      <div class="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?auto=format&fit=crop&w=1920&q=80')] bg-cover bg-center opacity-10"></div>
+    </div>
+
+    <div class="max-w-7xl mx-auto px-4 relative z-10 text-center">
+      <h1 class="text-5xl md:text-7xl font-black text-slate-900 mb-6 tracking-tighter">
+        Our <span class="text-sky-500">Premium</span> Services
+      </h1>
+      <p class="text-xl text-slate-600 max-w-2xl mx-auto font-medium">
+        Discover world-class travel experiences tailored to your unique style. From romantic escapes to team adventures.
+      </p>
+    </div>
+  </div>
+
+  <!-- Services Grid -->
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8 services-grid">
+      <div *ngFor="let service of services"
+           class="group service-card bg-white p-10 rounded-[40px] shadow-[0_15px_60px_-15px_rgba(0,0,0,0.08)] hover:shadow-sky-500/20 transition-all duration-700 border border-slate-100/60 flex flex-col items-center text-center relative overflow-hidden">
+
+        <!-- Hover Shimmer Layer -->
+        <div class="absolute inset-0 bg-gradient-to-tr from-sky-500/[0.03] to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-700 pointer-events-none"></div>
+
+        <!-- Glassmorphic Icon Container -->
+        <div class="w-20 h-20 bg-slate-50 flex items-center justify-center rounded-3xl mb-8 group-hover:bg-sky-500 group-hover:shadow-[0_20px_40px_-10px_rgba(14,165,233,0.4)] transition-all duration-700 transform z-10">
+          <svg class="w-10 h-10 text-slate-400 group-hover:text-white transition-all duration-500" 
+               fill="none" 
+               stroke="currentColor" 
+               viewBox="0 0 24 24" 
+               xmlns="http://www.w3.org/2000/svg">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" [attr.d]="service.iconPath"></path>
+          </svg>
+        </div>
+
+        <h3 class="text-2xl font-black text-slate-900 mb-4 tracking-tighter transition-all duration-500 group-hover:text-sky-600 z-10">
+          {{ service.title }}
+        </h3>
+        <p class="text-slate-500 font-medium leading-relaxed z-10 text-sm max-w-[200px]">
+          {{ service.tagline }}
+        </p>
+
+        <!-- Premium Underline -->
+        <div class="mt-8 relative w-12 h-1 bg-slate-100 rounded-full overflow-hidden z-10 group-hover:w-20 transition-all duration-700">
+           <div class="absolute inset-0 bg-sky-500 transform -translate-x-full group-hover:translate-x-0 transition-transform duration-700 delay-100"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Bottom CTA Section -->
+  <div class="max-w-7xl mx-auto px-4 mt-32">
+    <div class="cta-section bg-slate-900 rounded-[40px] p-12 md:p-20 text-center relative overflow-hidden shadow-2xl">
+      <!-- Animated Background Circles -->
+      <div class="absolute -top-24 -left-24 w-64 h-64 bg-sky-500/20 rounded-full blur-3xl"></div>
+      <div class="absolute -bottom-24 -right-24 w-64 h-64 bg-indigo-500/20 rounded-full blur-3xl"></div>
+
+      <div class="relative z-10">
+        <h2 class="text-4xl md:text-5xl font-black text-white mb-8 tracking-tight">
+          Explore Destinations Based on Your Travel Style
+        </h2>
+        <button routerLink="/explore"
+                class="group relative px-10 py-5 bg-white text-slate-900 font-black text-lg rounded-2xl overflow-hidden shadow-xl hover:shadow-sky-500/30 transition-all duration-300 transform hover:-translate-y-1 active:scale-95">
+          <span class="relative z-10 flex items-center gap-3">
+            Explore All Destinations
+            <svg class="w-5 h-5 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M13 7l5 5m0 0l-5 5m5-5H6"></path></svg>
+          </span>
+          <div class="absolute inset-0 bg-sky-500 translate-y-full group-hover:translate-y-0 transition-transform duration-300 -z-0 opacity-10"></div>
+        </button>
+      </div>
+    </div>
+  </div>
+</div>

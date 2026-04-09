@@ -1,0 +1,88 @@
+.service-card {
+  transform-origin: center;
+  backface-visibility: hidden;
+  will-change: transform, box-shadow;
+  perspective: 1000px;
+}
+
+.service-card:hover {
+  transform: translateY(-16px) rotateX(4deg) scale(1.02);
+}
+
+/* Service Icon Shine Effect */
+.service-card .w-20 {
+  position: relative;
+  overflow: hidden;
+}
+
+.service-card:hover .w-20::after {
+  content: '';
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  background: linear-gradient(
+    45deg,
+    transparent,
+    rgba(255, 255, 255, 0.4),
+    transparent
+  );
+  transform: rotate(45deg);
+  animation: icon-shine 1s ease-in-out forwards;
+}
+
+@keyframes icon-shine {
+  0% { transform: translate(-100%, -100%) rotate(45deg); }
+  100% { transform: translate(100%, 100%) rotate(45deg); }
+}
+
+/* Glassmorphism for CTA section */
+.cta-section {
+  background: linear-gradient(135deg, #020617 0%, #0f172a 100%);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+/* Advanced Mouse Glow Effect */
+.service-card::before {
+  content: '';
+  position: absolute;
+  inset: -1px;
+  border-radius: 40px;
+  background: radial-gradient(
+    600px circle at var(--mouse-x, 50%) var(--mouse-y, 50%),
+    rgba(14, 165, 233, 0.12),
+    transparent 40%
+  );
+  z-index: 0;
+  opacity: 0;
+  transition: opacity 0.5s ease;
+  pointer-events: none;
+}
+
+/* Refined Glass Border */
+.service-card::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: 40px;
+  padding: 1.5px;
+  background: linear-gradient(
+    135deg,
+    rgba(14, 165, 233, 0.2),
+    transparent,
+    rgba(14, 165, 233, 0.1)
+  );
+  mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  mask-composite: exclude;
+  -webkit-mask-composite: xor;
+  pointer-events: none;
+  opacity: 0.3;
+  transition: opacity 0.5s ease;
+}
+
+.service-card:hover::before,
+.service-card:hover::after {
+  opacity: 1;
+}
