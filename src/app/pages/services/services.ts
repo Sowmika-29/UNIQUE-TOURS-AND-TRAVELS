@@ -6,6 +6,14 @@ import { ScrollTrigger } from 'gsap/ScrollTrigger';
 
 gsap.registerPlugin(ScrollTrigger);
 
+export interface Service {
+  title: string;
+  tagline: string;
+  iconPath: string;
+  color: string;
+  isPopular?: boolean;
+}
+
 @Component({
   selector: 'app-services',
   standalone: true,
@@ -19,7 +27,8 @@ export class ServicesComponent implements OnInit, AfterViewInit {
       title: 'Honeymoon Trips', 
       tagline: 'Romantic getaways for newlywed couples.', 
       iconPath: 'M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z',
-      color: 'rose'
+      color: 'rose',
+      isPopular: true
     },
     { 
       title: 'Family Trips', 
@@ -55,7 +64,8 @@ export class ServicesComponent implements OnInit, AfterViewInit {
       title: 'Adventure Trips', 
       tagline: 'Thrill-seeking journeys for the brave.', 
       iconPath: 'M13 2L3 14h9l-1 8 10-12h-9l1-8z',
-      color: 'orange'
+      color: 'orange',
+      isPopular: true
     },
     { 
       title: 'Pilgrimage Tours', 
@@ -100,6 +110,7 @@ export class ServicesComponent implements OnInit, AfterViewInit {
   ngAfterViewInit() {
     if (isPlatformBrowser(this.platformId)) {
       this.initAnimations();
+      this.initTiltCards();
     }
   }
 
@@ -154,5 +165,60 @@ export class ServicesComponent implements OnInit, AfterViewInit {
         card.style.setProperty('--mouse-y', `${y}px`);
       });
     });
+  }
+
+  private initTiltCards() {
+    const cards = document.querySelectorAll('.service-card');
+    cards.forEach((card: any) => {
+      card.addEventListener('mousemove', (e: MouseEvent) => {
+        const rect = card.getBoundingClientRect();
+        const x = e.clientX - rect.left;
+        const y = e.clientY - rect.top;
+        const centerX = rect.width / 2;
+        const centerY = rect.height / 2;
+        
+        const rotateX = (centerY - y) / 10;
+        const rotateY = (x - centerX) / 10;
+
+        gsap.to(card, {
+          rotateX: rotateX,
+          rotateY: rotateY,
+          scale: 1.05,
+          duration: 0.5,
+          ease: 'power3.out',
+          overwrite: true
+        });
+      });
+
+      card.addEventListener('mouseleave', () => {
+        gsap.to(card, {
+          rotateX: 0,
+          rotateY: 0,
+          scale: 1,
+          duration: 0.8,
+          ease: 'elastic.out(1, 0.3)',
+          overwrite: true
+        });
+      });
+    });
+  }
+
+  getColorClasses(color: string) {
+    const maps: any = {
+      rose: 'group-hover:text-rose-600 group-hover:bg-rose-500 group-hover:shadow-rose-500/40',
+      sky: 'group-hover:text-sky-600 group-hover:bg-sky-500 group-hover:shadow-sky-500/40',
+      amber: 'group-hover:text-amber-600 group-hover:bg-amber-500 group-hover:shadow-amber-500/40',
+      indigo: 'group-hover:text-indigo-600 group-hover:bg-indigo-500 group-hover:shadow-indigo-500/40',
+      purple: 'group-hover:text-purple-600 group-hover:bg-purple-500 group-hover:shadow-purple-500/40',
+      slate: 'group-hover:text-slate-600 group-hover:bg-slate-500 group-hover:shadow-slate-500/40',
+      orange: 'group-hover:text-orange-600 group-hover:bg-orange-500 group-hover:shadow-orange-500/40',
+      emerald: 'group-hover:text-emerald-600 group-hover:bg-emerald-500 group-hover:shadow-emerald-500/40',
+      teal: 'group-hover:text-teal-600 group-hover:bg-teal-500 group-hover:shadow-teal-500/40',
+      yellow: 'group-hover:text-yellow-600 group-hover:bg-yellow-500 group-hover:shadow-yellow-500/40',
+      cyan: 'group-hover:text-cyan-600 group-hover:bg-cyan-500 group-hover:shadow-cyan-500/40',
+      blue: 'group-hover:text-blue-600 group-hover:bg-blue-500 group-hover:shadow-blue-500/40',
+      violet: 'group-hover:text-violet-600 group-hover:bg-violet-500 group-hover:shadow-violet-500/40',
+    };
+    return maps[color] || maps.sky;
   }
 }

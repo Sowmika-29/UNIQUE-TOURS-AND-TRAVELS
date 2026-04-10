@@ -1,14 +1,31 @@
-<div class="min-h-screen bg-slate-50 pt-32 pb-20 overflow-hidden">
+<div class="min-h-screen bg-gradient-to-b from-white via-sky-50/30 to-white pt-32 pb-20 overflow-hidden relative">
+  <!-- Dynamic Background Animation -->
+  <div class="absolute inset-0 z-0 overflow-hidden pointer-events-none">
+    <div class="blob-bg b-1"></div>
+    <div class="blob-bg b-2"></div>
+    <div class="blob-bg b-3"></div>
+    <div class="blob-bg b-4"></div>
+    <!-- Floating Particles -->
+    <div class="particle p-1"></div>
+    <div class="particle p-2"></div>
+    <div class="particle p-3"></div>
+    <div class="particle p-4"></div>
+    <div class="particle p-5"></div>
+    <!-- More Blobs for Coverage -->
+    <div class="blob-bg b-5"></div>
+    <div class="blob-bg b-6"></div>
+    <div class="blob-bg b-7"></div>
+  </div>
   <!-- Hero Section with Background Parallax -->
-  <div class="relative py-20 mb-16 overflow-hidden">
+  <div class="relative py-20 mb-16 overflow-hidden z-20">
     <div class="absolute inset-0 z-0 scale-110 hero-bg">
       <div class="absolute inset-0 bg-gradient-to-br from-sky-600/20 to-indigo-900/20 mix-blend-overlay"></div>
       <div class="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?fm=webp&fit=crop&w=1920&q=50')] bg-cover bg-center opacity-10"></div>
     </div>
 
     <div class="max-w-7xl mx-auto px-4 relative z-10 text-center">
-      <h1 class="text-5xl md:text-7xl font-black text-slate-900 mb-6 tracking-tighter">
-        Our Travel Services
+      <h1 class="text-6xl md:text-8xl font-black text-slate-900 mb-6 tracking-tighter leading-none services-title">
+        EXPLORE OUR<br><span class="text-sky-500">TRAVEL UNIVERSE</span>
       </h1>
       <p class="text-xl text-slate-600 max-w-2xl mx-auto font-medium">
         Discover world-class travel experiences tailored to your unique style. From romantic escapes to team adventures.
@@ -17,16 +34,23 @@
   </div>
 
   <!-- Services Grid -->
-  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8 services-grid">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-20">
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-12 services-grid">
       <div *ngFor="let service of services"
-           class="group service-card bg-white p-10 rounded-[40px] shadow-[0_15px_60px_-15px_rgba(0,0,0,0.08)] hover:shadow-sky-500/20 transition-all duration-700 border border-slate-100/60 flex flex-col items-center text-center relative overflow-hidden">
+           class="group service-card bg-white/70 backdrop-blur-md p-10 rounded-[40px] shadow-[0_15px_60px_-15px_rgba(0,0,0,0.08)] transition-all duration-700 border border-white/80 flex flex-col items-center text-center relative overflow-hidden">
+
+        <!-- Badge -->
+        <div *ngIf="service.isPopular" 
+             class="absolute top-6 right-6 bg-slate-900 text-white text-[10px] font-black uppercase tracking-widest px-3 py-1.5 rounded-full z-20 shadow-lg scale-90 group-hover:scale-100 transition-transform">
+          Popular
+        </div>
 
         <!-- Hover Shimmer Layer -->
         <div class="absolute inset-0 bg-gradient-to-tr from-sky-500/[0.03] to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-700 pointer-events-none"></div>
 
         <!-- Glassmorphic Icon Container -->
-        <div class="w-20 h-20 bg-slate-50 flex items-center justify-center rounded-3xl mb-8 group-hover:bg-sky-500 group-hover:shadow-[0_20px_40px_-10px_rgba(14,165,233,0.4)] transition-all duration-700 transform z-10">
+        <div [ngClass]="getColorClasses(service.color)"
+             class="w-20 h-20 bg-slate-50 flex items-center justify-center rounded-3xl mb-8 group-hover:shadow-2xl transition-all duration-700 transform z-10">
           <svg class="w-10 h-10 text-slate-400 group-hover:text-white transition-all duration-500" 
                fill="none" 
                stroke="currentColor" 
@@ -36,7 +60,8 @@
           </svg>
         </div>
 
-        <h3 class="text-2xl font-black text-slate-900 mb-4 tracking-tighter transition-all duration-500 group-hover:text-sky-600 z-10">
+        <h3 [ngClass]="'group-hover:text-' + service.color + '-600'"
+            class="text-2xl font-black text-slate-900 mb-4 tracking-tighter transition-all duration-500 z-10">
           {{ service.title }}
         </h3>
         <p class="text-slate-500 font-medium leading-relaxed z-10 text-sm max-w-[200px]">
@@ -45,14 +70,14 @@
 
         <!-- Premium Underline -->
         <div class="mt-8 relative w-12 h-1 bg-slate-100 rounded-full overflow-hidden z-10 group-hover:w-20 transition-all duration-700">
-           <div class="absolute inset-0 bg-sky-500 transform -translate-x-full group-hover:translate-x-0 transition-transform duration-700 delay-100"></div>
+           <div [className]="'absolute inset-0 transform -translate-x-full group-hover:translate-x-0 transition-transform duration-700 delay-100 bg-' + service.color + '-500'"></div>
         </div>
       </div>
     </div>
   </div>
 
   <!-- Bottom CTA Section -->
-  <div class="max-w-7xl mx-auto px-4 mt-32">
+  <div class="max-w-7xl mx-auto px-4 mt-32 relative z-20">
     <div class="cta-section bg-slate-900 rounded-[40px] p-12 md:p-20 text-center relative overflow-hidden shadow-2xl">
       <!-- Animated Background Circles -->
       <div class="absolute -top-24 -left-24 w-64 h-64 bg-sky-500/20 rounded-full blur-3xl"></div>

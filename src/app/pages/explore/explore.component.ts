@@ -1,4 +1,5 @@
 import { Component, OnInit, OnDestroy } from '@angular/core';
+import { SeoService } from '../../services/seo.service';
 import { CommonModule } from '@angular/common';
 import { Router, RouterLink, NavigationEnd } from '@angular/router';
 import { FormsModule } from '@angular/forms';
@@ -169,7 +170,8 @@ export class ExploreComponent implements OnInit, OnDestroy {
 
   constructor(
     private router: Router,
-    private destService: DestinationService
+    private destService: DestinationService,
+    private seoService: SeoService
   ) {}
 
   ngOnInit() {
@@ -240,6 +242,30 @@ export class ExploreComponent implements OnInit, OnDestroy {
     }
 
     this.filteredDestinations = filtered;
+    this.updateSeo();
+  }
+
+  private updateSeo() {
+    let seoTitle = 'Explore All Destinations';
+    let seoDesc = 'Browse our complete collection of domestic and international tour packages. Find your next adventure with Unique Tours & Travels.';
+    let seoUrl = '/explore';
+
+    if (this.activeFilter === 'domestic') {
+      seoTitle = 'Domestic Tour Packages';
+      seoDesc = 'Explore the beauty of India with our premium domestic tour packages. From Kerala backwaters to Goa beaches, discover India like never before.';
+      seoUrl = '/explore/domestic';
+    } else if (this.activeFilter === 'international') {
+      seoTitle = 'International Tour Packages';
+      seoDesc = 'Discover world-class international destinations with our curated tour packages. Explore Dubai, Bali, Thailand, and more with Unique Tours & Travels.';
+      seoUrl = '/explore/international';
+    }
+
+    this.seoService.updateMetadata({
+      title: seoTitle,
+      description: seoDesc,
+      url: seoUrl,
+      keywords: `tour packages, ${this.activeFilter} tours, travel destinations, Unique Tours & Travels`
+    });
   }
 
   resetFilters() {

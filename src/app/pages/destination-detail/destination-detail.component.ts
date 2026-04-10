@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { ActivatedRoute, RouterLink } from '@angular/router';
 import { DestinationService, Destination } from '../../services/destination.service';
+import { SeoService } from '../../services/seo.service';
 import { APP_CONFIG } from '../../app.config';
 
 @Component({
@@ -213,7 +214,8 @@ export class DestinationDetailComponent implements OnInit {
 
   constructor(
     private route: ActivatedRoute,
-    private destService: DestinationService
+    private destService: DestinationService,
+    private seoService: SeoService
   ) {}
 
   ngOnInit() {
@@ -228,11 +230,44 @@ export class DestinationDetailComponent implements OnInit {
         const fetch = this.destService.getDestinationById(id);
 
         this.destination = await Promise.race([fetch, timeout]);
+        
+        if (this.destination) {
+          this.updateSeoMetadata(this.destination);
+        }
       } else {
         this.destination = null;
       }
 
       this.isLoading = false;
+    });
+  }
+
+  private updateSeoMetadata(destination: Destination) {
+    const placesList = destination.places.map(p => p.name).join(', ');
+    const description = `Explore ${destination.name} tours. Visit ${placesList} and more. Premium travel packages for ${destination.region}. Book your ${destination.name} trip with Unique Tours & Travels.`;
+    
+    this.seoService.updateMetadata({
+      title: `${destination.name} Tour Packages`,
+      description: description,
+      image: destination.image,
+      url: `/destination/${destination.id}`,
+      type: 'article',
+      keywords: `${destination.name} tour, ${destination.name} packages, ${destination.region} tourism, visit ${destination.name}`
+    });
+
+    // Structured Data (JSON-LD)
+    this.seoService.setStructuredData({
+      "@context": "https://schema.org",
+      "@type": "TouristDestination",
+      "name": destination.name,
+      "description": description,
+      "image": destination.image,
+      "touristType": destination.type,
+      "containsPlace": destination.places.map(p => ({
+        "@type": "Place",
+        "name": p.name,
+        "image": p.image
+      }))
     });
   }
 }
