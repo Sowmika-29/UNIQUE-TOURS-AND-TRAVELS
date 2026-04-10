@@ -10,13 +10,15 @@
 /* Removed static hover as GSAP handles 3D tilt */
 /* .service-card:hover { ... } */
 
-/* Service Icon Shine Effect */
-.service-card .w-20 {
+/* Service Image Container */
+.service-card .w-32 {
   position: relative;
   overflow: hidden;
+  border: 4px solid rgba(255, 255, 255, 0.5);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
 }
 
-.service-card:hover .w-20::after {
+.service-card:hover .w-32::after {
   content: '';
   position: absolute;
   top: -50%;
@@ -127,6 +129,17 @@
 
 .bg-violet-500 { background-color: #8b5cf6; }
 .text-violet-600 { color: #7c3aed; }
+
+/* Image scaling on card hover */
+.service-card:hover .w-32 img {
+  transform: scale(1.15);
+  filter: brightness(1.1);
+}
+
+.service-card .w-32 img {
+  transition: all 0.7s cubic-bezier(0.4, 0, 0.2, 1);
+  will-change: transform, filter;
+}
 
 .services-title {
   text-shadow: 0 10px 30px rgba(0,0,0,0.05);

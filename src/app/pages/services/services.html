@@ -48,16 +48,12 @@
         <!-- Hover Shimmer Layer -->
         <div class="absolute inset-0 bg-gradient-to-tr from-sky-500/[0.03] to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-700 pointer-events-none"></div>
 
-        <!-- Glassmorphic Icon Container -->
+        <!-- Glassmorphic Image Container -->
         <div [ngClass]="getColorClasses(service.color)"
-             class="w-20 h-20 bg-slate-50 flex items-center justify-center rounded-3xl mb-8 group-hover:shadow-2xl transition-all duration-700 transform z-10">
-          <svg class="w-10 h-10 text-slate-400 group-hover:text-white transition-all duration-500" 
-               fill="none" 
-               stroke="currentColor" 
-               viewBox="0 0 24 24" 
-               xmlns="http://www.w3.org/2000/svg">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" [attr.d]="service.iconPath"></path>
-          </svg>
+             class="w-32 h-32 bg-slate-50 flex items-center justify-center rounded-[2rem] mb-8 group-hover:shadow-2xl transition-all duration-700 transform z-10 overflow-hidden">
+          <img [src]="service.imagePath" 
+               [alt]="service.title" 
+               class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700">
         </div>
 
         <h3 [ngClass]="'group-hover:text-' + service.color + '-600'"
