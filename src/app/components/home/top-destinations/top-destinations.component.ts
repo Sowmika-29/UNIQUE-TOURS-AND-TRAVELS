@@ -11,13 +11,21 @@ gsap.registerPlugin(ScrollTrigger);
   standalone: true,
   imports: [CommonModule, RouterLink],
   template: `
-    <section class="py-24 relative overflow-hidden bg-gradient-to-br from-white via-sky-50 to-white hero-trigger">
+    <section class="py-24 relative overflow-hidden bg-gradient-to-b from-sky-100 via-sky-50 to-white hero-trigger">
 
       <!-- Premium Animated Background -->
       <div class="absolute inset-0 pointer-events-none overflow-hidden">
-        <div class="orb orb-1 opacity-20"></div>
-        <div class="orb orb-2 opacity-20"></div>
-        <div class="orb orb-3 opacity-20"></div>
+        <div class="orb orb-1 opacity-40"></div>
+        <div class="orb orb-2 opacity-30"></div>
+        <div class="orb orb-3 opacity-30"></div>
+        <div class="orb orb-4 opacity-20"></div>
+
+        <!-- Floating Particles -->
+        <div class="particle p-1"></div>
+        <div class="particle p-2"></div>
+        <div class="particle p-3"></div>
+        <div class="particle p-4"></div>
+        <div class="particle p-5"></div>
 
         <!-- Floating 3D-like elements -->
         <div class="rotate-box rb-1 floating-element" data-speed="0.05"></div>
@@ -88,14 +96,35 @@ gsap.registerPlugin(ScrollTrigger);
     </section>
   `,
   styles: [`
-    .orb { position: absolute; border-radius: 50%; filter: blur(80px); }
-    .orb-1 { width: 500px; height: 500px; background: rgba(14, 165, 233, 0.15); top: -100px; left: -100px; }
-    .orb-2 { width: 600px; height: 600px; background: rgba(79, 70, 229, 0.1); bottom: -150px; right: -150px; }
-    .orb-3 { width: 400px; height: 400px; background: rgba(14, 165, 233, 0.1); top: 30%; left: 40%; }
+    .orb { position: absolute; border-radius: 50%; filter: blur(100px); }
+    .orb-1 { width: 700px; height: 700px; background: radial-gradient(circle, #bae6fd 0%, #38bdf8 100%); top: -100px; left: -150px; }
+    .orb-2 { width: 800px; height: 800px; background: radial-gradient(circle, #e0f2fe 0%, #0ea5e9 100%); bottom: -200px; right: -200px; }
+    .orb-3 { width: 500px; height: 500px; background: radial-gradient(circle, #7dd3fc 0%, #38bdf8 100%); top: 30%; left: 35%; }
+    .orb-4 { width: 400px; height: 400px; background: radial-gradient(circle, #bae6fd 0%, #0ea5e9 100%); bottom: 10%; left: 10%; }
+
+    /* Floating Particles */
+    .particle {
+      position: absolute;
+      width: 10px;
+      height: 10px;
+      background: rgba(14, 165, 233, 0.4);
+      border-radius: 50%;
+      box-shadow: 0 0 15px rgba(14, 165, 233, 0.5);
+    }
+    .p-1 { top: 20%; left: 10%; animation: particle-float 15s infinite alternate linear; }
+    .p-2 { top: 40%; right: 15%; animation: particle-float 20s infinite alternate-reverse ease-in-out; width: 6px; height: 6px; }
+    .p-3 { bottom: 30%; left: 20%; animation: particle-float 18s infinite alternate-reverse linear; width: 12px; height: 12px; opacity: 0.3; }
+    .p-4 { top: 70%; right: 5%; animation: particle-float 25s infinite alternate linear; width: 8px; height: 8px; }
+    .p-5 { top: 5%; right: 40%; animation: particle-float 22s infinite alternate linear; }
+
+    @keyframes particle-float {
+      0% { transform: translate(0, 0) rotate(0deg); }
+      100% { transform: translate(150px, -150px) rotate(360deg); }
+    }
 
     .rotate-box { 
       position: absolute; 
-      border: 2px solid rgba(14, 165, 233, 0.2); 
+      border: 2px solid rgba(14, 165, 233, 0.3); 
     }
     .rb-1 { width: 80px; height: 80px; border-radius: 20px; top: 15%; right: 10%; }
     .rb-2 { width: 60px; height: 60px; border-radius: 15px; bottom: 20%; left: 8%; }

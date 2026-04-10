@@ -11,12 +11,21 @@ gsap.registerPlugin(ScrollTrigger);
   standalone: true,
   imports: [CommonModule, RouterLink],
   template: `
-    <section class="py-24 bg-gradient-to-b from-white to-sky-50 relative overflow-hidden category-section">
+    <section class="py-24 bg-gradient-to-b from-sky-50 via-sky-100 to-white relative overflow-hidden category-section">
 
       <!-- Premium Background Elements -->
       <div class="absolute inset-0 pointer-events-none overflow-hidden">
-        <div class="orb orb-1 opacity-20"></div>
-        <div class="orb orb-2 opacity-20"></div>
+        <div class="orb orb-1 opacity-30"></div>
+        <div class="orb orb-2 opacity-25"></div>
+        <div class="orb orb-3 opacity-20"></div>
+        
+        <!-- Floating Particles -->
+        <div class="particle p-1"></div>
+        <div class="particle p-2"></div>
+        <div class="particle p-3"></div>
+        <div class="particle p-4"></div>
+        <div class="particle p-5"></div>
+
         <div class="floating-bubble bubble-1"></div>
         <div class="floating-bubble bubble-2"></div>
       </div>
@@ -92,15 +101,37 @@ gsap.registerPlugin(ScrollTrigger);
     </section>
   `,
   styles: [`
-    .orb { position: absolute; border-radius: 50%; filter: blur(100px); }
-    .orb-1 { width: 400px; height: 400px; background: rgba(14, 165, 233, 0.2); top: -100px; left: -100px; }
-    .orb-2 { width: 300px; height: 300px; background: rgba(99, 102, 241, 0.15); bottom: -50px; right: 10%; }
+    .orb { position: absolute; border-radius: 50%; filter: blur(120px); }
+    .orb-1 { width: 600px; height: 600px; background: radial-gradient(circle, #bae6fd 0%, #38bdf8 100%); top: -150px; left: -150px; }
+    .orb-2 { width: 500px; height: 500px; background: radial-gradient(circle, #e0f2fe 0%, #0ea5e9 100%); bottom: -100px; right: 8%; opacity: 0.3; }
+    .orb-3 { width: 400px; height: 400px; background: radial-gradient(circle, #bae6fd 0%, #38bdf8 100%); top: 30%; right: -200px; }
+
+    /* Floating Particles */
+    .particle {
+      position: absolute;
+      width: 10px;
+      height: 10px;
+      background: rgba(14, 165, 233, 0.4);
+      border-radius: 50%;
+      box-shadow: 0 0 15px rgba(14, 165, 233, 0.5);
+    }
+    .p-1 { top: 15%; left: 8%; animation: particle-float 12s infinite alternate linear; }
+    .p-2 { top: 35%; right: 12%; animation: particle-float 18s infinite alternate-reverse ease-in-out; width: 6px; height: 6px; }
+    .p-3 { bottom: 25%; left: 18%; animation: particle-float 14s infinite alternate-reverse linear; width: 12px; height: 12px; opacity: 0.3; }
+    .p-4 { top: 65%; right: 4%; animation: particle-float 22s infinite alternate linear; width: 8px; height: 8px; }
+    .p-5 { top: 8%; right: 45%; animation: particle-float 20s infinite alternate linear; }
+
+    @keyframes particle-float {
+      0% { transform: translate(0, 0) rotate(0deg); }
+      100% { transform: translate(120px, -120px) rotate(360deg); }
+    }
 
     .floating-bubble {
       position: absolute;
-      width: 100px; height: 100px;
-      border: 1px solid rgba(14, 165, 233, 0.2);
-      border-radius: 30px;
+      width: 120px; height: 120px;
+      border: 2px solid rgba(14, 165, 233, 0.3);
+      border-radius: 35px;
+      backdrop-filter: blur(5px);
     }
     .bubble-1 { top: 10%; right: 5%; }
     .bubble-2 { bottom: 15%; left: 5%; }
