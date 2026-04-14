@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600;700;800&family=Inter:wght@400;500;600;700&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -13,11 +13,45 @@
     font-family: 'Inter', system-ui, -apple-system, sans-serif;
     scroll-behavior: smooth;
     background-color: #f8fafc;
-    color: #1e293b;
+    color: #475569; /* gray-600 equivalent */
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Poppins', sans-serif;
+    color: #0f172a; /* text-dark */
   }
 }
 
 @layer utilities {
+  .text-skyblue { color: #0ea5e9; }
+  .text-dark { color: #0f172a; }
+  .text-light-gray { color: #64748b; }
+  
+  .font-heading { font-family: 'Poppins', sans-serif; }
+  .font-body { font-family: 'Inter', sans-serif; }
+
+  .hero-gradient {
+    background: linear-gradient(135deg, #0ea5e9 0%, #38bdf8 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .title-underline {
+    position: relative;
+    display: inline-block;
+  }
+  .title-underline::after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: -8px;
+    transform: translateX(-50%);
+    width: 50px;
+    height: 3px;
+    background-color: #0ea5e9;
+    border-radius: 999px;
+  }
+
   .hover-scale {
     transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
   }

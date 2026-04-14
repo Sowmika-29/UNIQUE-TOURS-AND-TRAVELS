@@ -68,12 +68,6 @@ export class ServicesComponent implements OnInit, AfterViewInit {
       isPopular: true
     },
     { 
-      title: 'Pilgrimage Tours', 
-      tagline: 'Spiritual journeys to world sacred sites.', 
-      imagePath: 'assets/images/akshardham-temple-complex.webp',
-      color: 'emerald'
-    },
-    { 
       title: 'Weekend Getaways', 
       tagline: 'Quick escapes from the daily grind.', 
       imagePath: 'assets/images/lonavala-green-hills-fog.webp',

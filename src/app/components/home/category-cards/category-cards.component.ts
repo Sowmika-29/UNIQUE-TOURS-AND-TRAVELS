@@ -32,8 +32,11 @@ gsap.registerPlugin(ScrollTrigger);
 
       <div class="max-w-[900px] mx-auto px-4 relative z-10 w-full">
         
-        <div class="text-center mb-6 category-header opacity-0 translate-y-10">
-          <h2 class="text-3xl md:text-5xl font-black text-slate-900 tracking-tighter mb-2 italic">Choose Your Destination Style</h2>
+        <div class="text-center mb-10 category-header opacity-0 translate-y-10">
+          <h2 class="text-3xl md:text-5xl font-black tracking-tighter italic title-underline">
+            <span class="text-skyblue">Choose Your</span>
+            <span class="text-dark"> Destination Style</span>
+          </h2>
         </div>
 
         <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -52,7 +55,7 @@ gsap.registerPlugin(ScrollTrigger);
             <div class="relative z-10 w-full p-6 transform transition-transform duration-700 group-hover:-translate-y-2">
                <div class="mb-2 overflow-hidden">
                   <span class="inline-block text-sky-400 font-black text-[9px] tracking-widest uppercase mb-1 transform translate-y-full group-hover:translate-y-0 transition-transform duration-500">Incredible India</span>
-                  <h3 class="text-2xl md:text-3xl font-black text-white tracking-tighter">Domestic</h3>
+                  <h3 class="text-2xl md:text-3xl font-black !text-white tracking-tighter">Domestic</h3>
                </div>
                <p class="text-gray-300 text-xs font-medium max-w-[200px] opacity-0 group-hover:opacity-100 transition-opacity duration-700 delay-200">Discover the hidden gems across the subcontinent.</p>
                
@@ -79,7 +82,7 @@ gsap.registerPlugin(ScrollTrigger);
             <div class="relative z-10 w-full p-6 transform transition-transform duration-700 group-hover:-translate-y-2">
                <div class="mb-2 overflow-hidden">
                   <span class="inline-block text-indigo-400 font-black text-[9px] tracking-widest uppercase mb-1 transform translate-y-full group-hover:translate-y-0 transition-transform duration-500">Global Escapes</span>
-                  <h3 class="text-2xl md:text-3xl font-black text-white tracking-tighter">International</h3>
+                  <h3 class="text-2xl md:text-3xl font-black !text-white tracking-tighter">International</h3>
                </div>
                <p class="text-gray-300 text-xs font-medium max-w-[200px] opacity-0 group-hover:opacity-100 transition-opacity duration-700 delay-200">Across oceans and continents, luxury awaits.</p>
 

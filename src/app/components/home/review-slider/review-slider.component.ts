@@ -43,7 +43,10 @@ export interface Review {
 
         <div class="relative w-full mb-12 flex items-center justify-center">
           <div class="text-center">
-            <h2 class="text-3xl md:text-5xl font-black text-slate-900 tracking-tighter mb-0 italic">What Our Travelers Say</h2>
+            <h2 class="text-3xl md:text-5xl font-black tracking-tighter mb-0 italic title-underline">
+              <span class="text-skyblue">What Our</span>
+              <span class="text-dark"> Travelers Say</span>
+            </h2>
           </div>
           <button (click)="toggleModal()" 
                   class="hidden md:flex absolute right-10 top-1/2 -translate-y-1/2 bg-sky-500 hover:bg-sky-600 text-white font-bold py-2.5 px-6 rounded-full shadow-lg shadow-sky-200 transition-all duration-300 transform hover:-translate-y-[calc(50%+4px)] active:scale-95 items-center gap-2 text-sm shrink-0">

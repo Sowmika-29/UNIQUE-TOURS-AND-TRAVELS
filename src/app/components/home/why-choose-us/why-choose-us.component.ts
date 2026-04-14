@@ -24,7 +24,10 @@ gsap.registerPlugin(ScrollTrigger);
       <div class="max-w-[1200px] mx-auto px-4 relative z-10 w-full">
 
         <div class="text-center mb-8 why-header opacity-0 translate-y-10">
-          <h2 class="text-3xl md:text-5xl font-black text-slate-900 tracking-tighter mb-4  decoration-4 underline-offset-4">Why Unique Tours & Travels</h2>
+          <h2 class="text-3xl md:text-5xl font-black tracking-tighter title-underline">
+            <span class="text-skyblue">Why</span>
+            <span class="text-dark"> Unique Tours & Travels</span>
+          </h2>
         </div>
 
         <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 feature-grid">

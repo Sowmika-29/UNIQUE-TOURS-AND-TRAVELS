@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, NgZone, ChangeDetectorRef } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { ActivatedRoute, RouterLink } from '@angular/router';
 import { DestinationService, Destination } from '../../services/destination.service';
@@ -53,7 +53,7 @@ import { APP_CONFIG } from '../../app.config';
                   [ngClass]="destination.type === 'Domestic' ? 'bg-sky-500/90 text-white' : 'bg-amber-500/90 text-white'">
               {{destination.type}} · {{destination.region}}
             </span>
-            <h1 class="text-5xl md:text-7xl font-bold text-white drop-shadow-2xl tracking-tight animate-heading">{{destination.name}} Travel Guide</h1>
+            <h1 class="text-5xl md:text-7xl font-bold text-white drop-shadow-2xl tracking-tight animate-heading">Discover {{destination.name}}</h1>
           </div>
         </div>
       </div>
@@ -215,30 +215,52 @@ export class DestinationDetailComponent implements OnInit {
   constructor(
     private route: ActivatedRoute,
     private destService: DestinationService,
-    private seoService: SeoService
+    private seoService: SeoService,
+    private ngZone: NgZone,
+    private cdr: ChangeDetectorRef
   ) {}
 
   ngOnInit() {
-    this.route.paramMap.subscribe(async params => {
+    this.route.paramMap.subscribe(params => {
       const id = params.get('name');
       this.isLoading = true;
       this.imageLoaded = false;
+      this.activeTab = 'includes';
+      window.scrollTo(0, 0);
 
       if (id) {
-        // Add a 10-second timeout to prevent infinite loading
-        const timeout = new Promise<null>(resolve => setTimeout(() => resolve(null), 10000));
-        const fetch = this.destService.getDestinationById(id);
+        this.ngZone.run(async () => {
+          try {
+            // Add a timeout to prevent infinite loading
+            const timeout = new Promise<null>(resolve => setTimeout(() => resolve(null), 10000));
+            const fetchTask = this.destService.getDestinationById(id);
 
-        this.destination = await Promise.race([fetch, timeout]);
-        
-        if (this.destination) {
-          this.updateSeoMetadata(this.destination);
-        }
+            this.destination = await Promise.race([fetchTask, timeout]);
+            
+            if (this.destination) {
+              this.updateSeoMetadata(this.destination);
+            }
+          } catch (error) {
+            console.error('Error loading destination:', error);
+            this.destination = null;
+          } finally {
+            this.isLoading = false;
+            this.cdr.detectChanges(); // Force UI update
+            
+            // Refresh ScrollTrigger if GSAP is loaded
+            setTimeout(() => {
+              if (typeof (window as any).gsap !== 'undefined') {
+                (window as any).gsap.registerPlugin((window as any).ScrollTrigger);
+                (window as any).ScrollTrigger.refresh();
+              }
+            }, 100);
+          }
+        });
       } else {
         this.destination = null;
+        this.isLoading = false;
+        this.cdr.detectChanges();
       }
-
-      this.isLoading = false;
     });
   }
 

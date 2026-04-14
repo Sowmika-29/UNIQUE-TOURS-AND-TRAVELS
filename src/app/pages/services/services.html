@@ -24,49 +24,45 @@
     </div>
 
     <div class="max-w-7xl mx-auto px-4 relative z-10 text-center">
-      <h1 class="text-6xl md:text-8xl font-black text-slate-900 mb-6 tracking-tighter leading-none services-title">
-        EXPLORE OUR<br><span class="text-sky-500">TRAVEL UNIVERSE</span>
+      <h1 class="text-6xl md:text-8xl font-black mb-6 tracking-tighter leading-none services-title ">
+        <span class="text-skyblue">EXPLORE OUR</span><br>
+        <span class="text-dark">TRAVEL UNIVERSE</span>
       </h1>
-      <p class="text-xl text-slate-600 max-w-2xl mx-auto font-medium">
-        Discover world-class travel experiences tailored to your unique style. From romantic escapes to team adventures.
-      </p>
     </div>
   </div>
 
   <!-- Services Grid -->
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-20">
-    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-12 services-grid">
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8 services-grid">
       <div *ngFor="let service of services"
-           class="group service-card bg-white/70 backdrop-blur-md p-10 rounded-[40px] shadow-[0_15px_60px_-15px_rgba(0,0,0,0.08)] transition-all duration-700 border border-white/80 flex flex-col items-center text-center relative overflow-hidden">
+           class="group service-card bg-white rounded-[40px] shadow-lg hover:shadow-2xl transition-all duration-700 border border-slate-100 flex flex-col relative overflow-hidden h-full">
 
         <!-- Badge -->
         <div *ngIf="service.isPopular" 
-             class="absolute top-6 right-6 bg-slate-900 text-white text-[10px] font-black uppercase tracking-widest px-3 py-1.5 rounded-full z-20 shadow-lg scale-90 group-hover:scale-100 transition-transform">
+             class="absolute top-4 right-4 bg-slate-900 text-white text-[9px] font-black uppercase tracking-widest px-3 py-1.5 rounded-full z-20 shadow-lg scale-90 group-hover:scale-100 transition-transform">
           Popular
         </div>
 
-        <!-- Hover Shimmer Layer -->
-        <div class="absolute inset-0 bg-gradient-to-tr from-sky-500/[0.03] to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-700 pointer-events-none"></div>
-
-        <!-- Glassmorphic Image Container -->
-        <div [ngClass]="getColorClasses(service.color)"
-             class="w-32 h-32 bg-slate-50 flex items-center justify-center rounded-[2rem] mb-8 group-hover:shadow-2xl transition-all duration-700 transform z-10 overflow-hidden">
+        <!-- Image Container -->
+        <div class="service-img-wrapper w-full h-48 relative overflow-hidden">
           <img [src]="service.imagePath" 
                [alt]="service.title" 
-               class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700">
+               class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-1000">
+          <!-- Soft Gradient Overlay -->
+          <div class="absolute inset-0 bg-gradient-to-t from-white/20 to-transparent"></div>
         </div>
 
-        <h3 [ngClass]="'group-hover:text-' + service.color + '-600'"
-            class="text-2xl font-black text-slate-900 mb-4 tracking-tighter transition-all duration-500 z-10">
-          {{ service.title }}
-        </h3>
-        <p class="text-slate-500 font-medium leading-relaxed z-10 text-sm max-w-[200px]">
-          {{ service.tagline }}
-        </p>
-
-        <!-- Premium Underline -->
-        <div class="mt-8 relative w-12 h-1 bg-slate-100 rounded-full overflow-hidden z-10 group-hover:w-20 transition-all duration-700">
-           <div [className]="'absolute inset-0 transform -translate-x-full group-hover:translate-x-0 transition-transform duration-700 delay-100 bg-' + service.color + '-500'"></div>
+        <!-- Content Area -->
+        <div class="p-6 flex flex-col items-center text-center flex-grow">
+          <h3 [ngClass]="'group-hover:text-' + service.color + '-600'"
+              class="text-xl md:text-2xl font-black text-dark mb-4 tracking-tighter transition-all duration-500 font-heading">
+            {{ service.title }}
+          </h3>
+          
+          <!-- Minimal Accent Line -->
+          <div class="mt-auto w-8 h-1 bg-slate-100 rounded-full overflow-hidden group-hover:w-16 transition-all duration-500">
+             <div [className]="'h-full transform -translate-x-full group-hover:translate-x-0 transition-transform duration-700 bg-' + service.color + '-500'"></div>
+          </div>
         </div>
       </div>
     </div>
@@ -80,8 +76,9 @@
       <div class="absolute -bottom-24 -right-24 w-64 h-64 bg-indigo-500/20 rounded-full blur-3xl"></div>
 
       <div class="relative z-10">
-        <h2 class="text-4xl md:text-5xl font-black text-white mb-8 tracking-tight">
-          Explore Destinations Based on Your Travel Style
+        <h2 class="text-4xl md:text-5xl font-black text-white mb-8 tracking-tight font-heading">
+          <span class="text-skyblue">Explore Destinations</span><br>
+          <span class="text-white">Based on Your Travel Style</span>
         </h2>
         <button routerLink="/explore"
                 class="group relative px-10 py-5 bg-white text-slate-900 font-black text-lg rounded-2xl overflow-hidden shadow-xl hover:shadow-sky-500/30 transition-all duration-300 transform hover:-translate-y-1 active:scale-95">

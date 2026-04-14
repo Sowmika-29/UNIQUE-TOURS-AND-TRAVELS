@@ -23,7 +23,7 @@ import { APP_CONFIG } from '../../app.config';
           <div class="w-12 h-12 rounded-xl bg-white/10 backdrop-blur-sm shadow-inner flex items-center justify-center p-1.5 mr-3 overflow-hidden border border-white/10">
             <img src="assets/images/logo.webp" alt="Unique Tours & Travels - Premium Travel Agency" class="w-full h-full object-contain">
           </div>
-          <h2 class="text-2xl font-bold tracking-tight">Unique Tours & Travels</h2>
+          <h2 class="text-2xl font-bold tracking-tight !text-white">Unique Tours & Travels</h2>
         </div>
         <p class="text-slate-400 leading-relaxed mb-6">
           Discover curated travel experiences across domestic and international destinations. Your journey begins here.
@@ -37,7 +37,7 @@ import { APP_CONFIG } from '../../app.config';
 
       <!-- Quick Links -->
       <div>
-        <h3 class="text-lg font-bold mb-6 text-sky-400">Quick Links</h3>
+        <h3 class="text-lg font-bold mb-6 !text-white">Quick Links</h3>
         <ul class="space-y-3">
           <li><a routerLink="/" class="text-slate-400 hover:text-white hover:translate-x-1 transition-all duration-300 inline-block">Home</a></li>
           <li><a routerLink="/explore" class="text-slate-400 hover:text-white hover:translate-x-1 transition-all duration-300 inline-block">Explore</a></li>
@@ -49,7 +49,7 @@ import { APP_CONFIG } from '../../app.config';
 
       <!-- Contact Info -->
       <div>
-        <h3 class="text-lg font-bold mb-6 text-sky-400">Contact Us</h3>
+        <h3 class="text-lg font-bold mb-6 !text-white">Contact Us</h3>
         <div class="space-y-4 text-slate-400">
           <div class="flex items-start">
             <svg class="w-5 h-5 text-sky-500 mr-3 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>

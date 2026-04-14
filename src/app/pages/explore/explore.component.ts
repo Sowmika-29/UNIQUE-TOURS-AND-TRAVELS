@@ -30,10 +30,7 @@ import { Subscription } from 'rxjs';
         
         <div class="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h1 class="sr-only">Explore Domestic & International Destinations</h1>
-          <h2 class="text-4xl md:text-6xl font-black text-white mb-4 uppercase tracking-tighter">{{title}}</h2>
-          <p class="text-lg text-slate-400 max-w-2xl mx-auto font-medium leading-relaxed">
-            Discover breathtaking landscapes and hidden gems curated for your next journey.
-          </p>
+          <h2 class="text-4xl md:text-6xl font-black text-white mb-4 uppercase tracking-tighter">{{pageHeaderTitle}}</h2>
         </div>
       </div>
 
@@ -94,7 +91,7 @@ import { Subscription } from 'rxjs';
 
             <!-- Card Content Overlay -->
             <div class="relative z-10 mt-auto p-6 text-white w-full transform transition-all duration-500 group-hover:-translate-y-2">
-              <h3 class="text-2xl font-black mb-1 group-hover:text-sky-300 transition-colors tracking-tighter leading-none">{{dest.name}}</h3>
+              <h3 class="text-2xl font-black mb-1 !text-white !group-hover:text-sky-300 transition-colors tracking-tighter leading-none">{{dest.name}}</h3>
               <p class="text-[10px] text-slate-300 uppercase tracking-widest font-bold mb-3">{{dest.region}}</p>
               
               <div class="flex items-center text-[11px] font-bold bg-white/10 backdrop-blur-md px-3 py-1.5 rounded-xl border border-white/10 w-fit">
@@ -219,9 +216,15 @@ export class ExploreComponent implements OnInit, OnDestroy {
     }
   }
 
+  get pageHeaderTitle(): string {
+    if (this.activeFilter === 'domestic') return 'Domestic Tours';
+    if (this.activeFilter === 'international') return 'International Tours';
+    return 'Explore All Destinations';
+  }
+
   setFilter(type: 'all' | 'domestic' | 'international') {
-    this.activeFilter = type;
-    this.applyFilter();
+    const targetUrl = type === 'all' ? '/explore' : `/explore/${type}`;
+    this.router.navigateByUrl(targetUrl);
   }
 
   applyFilter() {

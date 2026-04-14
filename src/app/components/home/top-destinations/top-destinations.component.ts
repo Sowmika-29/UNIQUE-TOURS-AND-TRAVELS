@@ -36,12 +36,10 @@ gsap.registerPlugin(ScrollTrigger);
       <div class="max-w-[1200px] mx-auto px-4 relative z-10 w-full">
 
         <div class="text-center mb-10 section-header opacity-0 translate-y-10">
-          <span class="text-sky-500 font-bold tracking-widest uppercase text-xs mb-2 block flex items-center justify-center gap-2">
-            <span class="w-6 h-[1px] bg-sky-400"></span>
-            Handpicked for You
-            <span class="w-6 h-[1px] bg-sky-400"></span>
-          </span>
-          <h2 class="text-3xl md:text-5xl font-black text-slate-900 tracking-tighter mb-3">Top Destinations</h2>
+          <h2 class="text-3xl md:text-5xl font-black tracking-tighter title-underline">
+            <span class="text-skyblue">Top</span>
+            <span class="text-dark"> Destinations</span>
+          </h2>
         </div>
 
         <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 destination-grid">
@@ -62,7 +60,7 @@ gsap.registerPlugin(ScrollTrigger);
               <span class="inline-block px-3 py-1 bg-sky-500/20 backdrop-blur-md border border-white/20 text-sky-300 text-[9px] font-black uppercase tracking-widest rounded-full mb-2 opacity-0 group-hover:opacity-100 translate-y-3 group-hover:translate-y-0 transition-all duration-500">
                 Explore Destination
               </span>
-              <h3 class="text-2xl font-bold text-white drop-shadow-lg group-hover:text-sky-100 transition-colors tracking-tight">{{dest.name}}</h3>
+              <h3 class="text-2xl font-bold !text-white drop-shadow-lg !group-hover:text-sky-100 transition-colors tracking-tight">{{dest.name}}</h3>
               <div class="w-0 group-hover:w-16 h-1 bg-sky-500 mt-2 transition-all duration-700 delay-100"></div>
             </div>
 

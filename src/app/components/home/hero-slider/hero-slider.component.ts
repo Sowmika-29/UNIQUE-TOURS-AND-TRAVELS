@@ -39,8 +39,9 @@ gsap.registerPlugin(ScrollTrigger);
             <span class="hero-subtitle text-sky-100 font-bold tracking-[0.2em] uppercase text-sm md:text-base mb-4 block drop-shadow-lg">
                {{slide.subtitle}}
             </span>
-            <h2 class="hero-title text-4xl md:text-6xl font-bold text-white mb-6 drop-shadow-xl tracking-tighter">
-              {{slide.title}}
+            <h2 class="hero-title text-5xl md:text-7xl font-black mb-6 drop-shadow-xl tracking-tighter leading-none">
+              <span class="hero-gradient block md:inline">Explore</span>
+              <span class="text-white"> The World</span>
             </h2>
             <p class="hero-desc text-lg md:text-xl text-slate-200 mb-10 max-w-2xl mx-auto drop-shadow-md">
               {{slide.description}}
