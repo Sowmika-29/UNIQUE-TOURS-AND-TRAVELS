@@ -44,7 +44,7 @@ import { APP_CONFIG } from '../../app.config';
         <div class="content-rise cr-3"></div>
       </div>
 
-      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 relative z-10">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-20 pb-4 relative z-10">
 
         <!-- Our Story -->
         <div class="grid md:grid-cols-2 gap-16 items-center mb-24">

@@ -7,7 +7,7 @@ import { APP_CONFIG } from '../../app.config';
   standalone: true,
   imports: [RouterLink],
   template: `
-<footer class="bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 text-white pt-20 pb-8 relative overflow-hidden">
+<footer class="bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 text-white pt-10 pb-8 relative overflow-hidden">
 
   <!-- Decorative circles -->
   <div class="absolute top-0 right-0 w-96 h-96 bg-sky-500/5 rounded-full -translate-y-1/2 translate-x-1/2"></div>

@@ -12,7 +12,7 @@ import { Subscription } from 'rxjs';
   standalone: true,
   imports: [CommonModule, RouterLink, FormsModule],
   template: `
-    <div class="min-h-screen bg-slate-50 pt-28 pb-20 relative overflow-hidden">
+    <div class="min-h-screen bg-slate-50 pt-28 pb-4 relative overflow-hidden">
       
       <!-- Animated Background Decorations -->
       <div class="absolute inset-0 pointer-events-none overflow-hidden">
@@ -34,32 +34,39 @@ import { Subscription } from 'rxjs';
         </div>
       </div>
 
-      <!-- New Filter & Search Bar -->
-      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mb-12 relative z-30">
-        <div class="bg-white p-4 md:p-6 rounded-3xl shadow-xl border border-slate-100 flex flex-col md:flex-row gap-6 items-center justify-between">
+      <!-- Enhanced Filter & Search Bar Section -->
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mb-16 relative z-30">
+        
+        <!-- Background Glow Orbs for Filter Bar -->
+        <div class="absolute -inset-10 pointer-events-none overflow-hidden blur-3xl opacity-20">
+          <div class="absolute top-1/2 left-1/4 w-64 h-32 bg-sky-400 rounded-full animate-mesh-orb-1"></div>
+          <div class="absolute top-1/2 right-1/4 w-64 h-32 bg-indigo-400 rounded-full animate-mesh-orb-2"></div>
+        </div>
+
+        <div class="relative bg-white/70 backdrop-blur-2xl p-5 md:p-7 rounded-[2.5rem] shadow-[0_20px_50px_rgba(0,0,0,0.05)] border border-white/50 flex flex-col md:flex-row gap-6 items-center justify-between filter-bar-glass transition-all duration-500 hover:shadow-sky-500/10 hover:border-sky-200/50">
           
-          <!-- Category Toggles -->
-          <div class="flex p-1.5 bg-slate-100 rounded-2xl w-full md:w-auto">
+          <!-- Category Toggles with Glass Effect -->
+          <div class="flex p-1.5 bg-slate-50/50 backdrop-blur-md rounded-2xl w-full md:w-auto border border-slate-200/30">
             <button *ngFor="let option of filterOptions"
                     (click)="setFilter(option.id)"
-                    [ngClass]="activeFilter === option.id ? 'bg-sky-500 text-white shadow-lg shadow-sky-200' : 'text-slate-500 hover:text-slate-800'"
-                    class="flex-1 md:flex-none px-6 py-3 rounded-xl font-bold text-xs uppercase tracking-widest transition-all duration-300">
+                    [ngClass]="activeFilter === option.id ? 'bg-sky-500 text-white shadow-xl shadow-sky-200 scale-105' : 'text-slate-500 hover:text-slate-800 hover:bg-white/50'"
+                    class="flex-1 md:flex-none px-7 py-3 rounded-xl font-black text-[10px] uppercase tracking-[0.2em] transition-all duration-500">
               {{option.label}}
             </button>
           </div>
 
-          <!-- Clean Search Bar -->
-          <div class="relative w-full md:w-96 group">
+          <!-- Clean Search Bar with Interior Glow -->
+          <div class="relative w-full md:w-[450px] group">
             <input type="text" 
                    [(ngModel)]="searchQuery" 
                    (input)="applyFilter()"
-                   placeholder="Search destinations..." 
-                   class="w-full bg-slate-50 border-2 border-slate-100 rounded-2xl px-12 py-3.5 text-slate-700 font-bold focus:bg-white focus:border-sky-500 transition-all placeholder:text-slate-300">
-            <div class="absolute left-4 top-1/2 -translate-y-1/2 text-slate-300 group-focus-within:text-sky-500 transition-colors">
-              <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path></svg>
+                   placeholder="Discover your next adventure..." 
+                   class="w-full bg-slate-50/50 backdrop-blur-sm border-2 border-slate-100 rounded-[1.5rem] px-14 py-4 text-slate-700 font-bold focus:bg-white focus:border-sky-500 focus:shadow-inner-lg transition-all placeholder:text-slate-300">
+            <div class="absolute left-5 top-1/2 -translate-y-1/2 text-slate-300 group-focus-within:text-sky-500 transition-colors">
+              <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path></svg>
             </div>
-            <div *ngIf="searchQuery" (click)="searchQuery=''; applyFilter()" class="absolute right-4 top-1/2 -translate-y-1/2 text-slate-300 hover:text-slate-600 cursor-pointer">
-              <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path></svg>
+            <div *ngIf="searchQuery" (click)="searchQuery=''; applyFilter()" class="absolute right-5 top-1/2 -translate-y-1/2 text-slate-300 hover:text-rose-500 cursor-pointer transition-colors">
+              <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M6 18L18 6M6 6l12 12"></path></svg>
             </div>
           </div>
 
@@ -137,6 +144,23 @@ import { Subscription } from 'rxjs';
       background: rgba(14, 165, 233, 0.08);
       bottom: 20%; left: -100px;
     }
+    @keyframes mesh-orb-1 {
+      0%, 100% { transform: translate(0, 0) scale(1); }
+      33% { transform: translate(30px, -50px) scale(1.1); }
+      66% { transform: translate(-20px, 20px) scale(0.9); }
+    }
+    @keyframes mesh-orb-2 {
+      0%, 100% { transform: translate(0, 0) scale(1.1); }
+      33% { transform: translate(-50px, 30px) scale(0.9); }
+      66% { transform: translate(20px, -20px) scale(1.1); }
+    }
+    .animate-mesh-orb-1 { animation: mesh-orb-1 15s infinite ease-in-out; }
+    .animate-mesh-orb-2 { animation: mesh-orb-2 18s infinite ease-in-out; }
+    
+    .filter-bar-glass {
+      background: linear-gradient(135deg, rgba(255,255,255,0.8), rgba(255,255,255,0.5));
+    }
+
     @keyframes fade-up {
       from { opacity: 0; transform: translateY(30px); }
       to { opacity: 1; transform: translateY(0); }

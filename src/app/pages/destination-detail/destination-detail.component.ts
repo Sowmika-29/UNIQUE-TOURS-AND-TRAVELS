@@ -38,7 +38,7 @@ import { APP_CONFIG } from '../../app.config';
     </div>
 
     <!-- LOADED STATE -->
-    <div class="min-h-screen bg-slate-50 relative pb-32" *ngIf="!isLoading && destination">
+    <div class="bg-slate-50 relative pb-6" *ngIf="!isLoading && destination">
 
       <!-- HERO SECTION -->
       <div class="relative h-[50vh] min-h-[400px] w-full bg-slate-900 overflow-hidden">
