@@ -10,7 +10,7 @@ gsap.registerPlugin(ScrollTrigger);
   standalone: true,
   imports: [CommonModule],
   template: `
-    <section class="py-24 bg-gradient-to-br from-white via-sky-50 to-white relative overflow-hidden why-section">
+    <section class="py-4 md:py-8 bg-gradient-to-br from-white via-sky-50 to-white relative overflow-hidden why-section">
 
       <!-- Premium Background Effects -->
       <div class="absolute inset-0 pointer-events-none overflow-hidden">
@@ -21,48 +21,44 @@ gsap.registerPlugin(ScrollTrigger);
         <div class="floating-ring ring-2"></div>
       </div>
 
-      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 w-full">
+      <div class="max-w-[1200px] mx-auto px-4 relative z-10 w-full">
 
-        <div class="text-center mb-20 why-header opacity-0 translate-y-10">
-          <span class="text-sky-500 font-black tracking-[0.4em] uppercase text-xs mb-4 block">
-            Why Unique Tours & Travels
-          </span>
-          <h2 class="text-4xl md:text-6xl font-black text-slate-900 tracking-tighter mb-6 underline decoration-sky-500 decoration-8 underline-offset-8">The Gold Standard</h2>
-          <p class="text-slate-500 max-w-2xl mx-auto text-lg font-medium">Elevating your travel experience with unparalleled service and expertise.</p>
+        <div class="text-center mb-8 why-header opacity-0 translate-y-10">
+          <h2 class="text-3xl md:text-5xl font-black text-slate-900 tracking-tighter mb-4  decoration-4 underline-offset-4">Why Unique Tours & Travels</h2>
         </div>
 
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 feature-grid">
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 feature-grid">
 
-          <div class="feature-card bg-white rounded-[40px] p-10 shadow-xl hover:shadow-2xl transition-all duration-500 group border border-slate-100 flex flex-col items-center text-center opacity-0 translate-y-20">
-            <div class="w-20 h-20 rounded-3xl bg-sky-500 text-white flex items-center justify-center mb-8 transform group-hover:rotate-12 transition-transform duration-500 shadow-lg shadow-sky-200">
-              <svg class="w-10 h-10" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"></path></svg>
+          <div class="feature-card bg-white rounded-2xl p-6 shadow-md hover:shadow-lg transition-all duration-500 group border border-slate-100 flex flex-col items-center text-center opacity-0 translate-y-20">
+            <div class="w-16 h-16 rounded-2xl bg-sky-500 text-white flex items-center justify-center mb-6 transform group-hover:rotate-12 transition-transform duration-500 shadow-lg shadow-sky-200">
+              <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"></path></svg>
             </div>
-            <h3 class="text-2xl font-black text-slate-900 mb-4 tracking-tight">Trusted Experts</h3>
-            <p class="text-slate-500 font-medium leading-relaxed italic">Years of crafting seamless itineraries with reliable global partnerships.</p>
+            <h3 class="text-xl font-black text-slate-900 mb-3 tracking-tight">Trusted Experts</h3>
+            <p class="text-slate-500 text-sm font-medium leading-relaxed italic">Years of crafting seamless itineraries with reliable global partnerships.</p>
           </div>
 
-          <div class="feature-card bg-white rounded-[40px] p-10 shadow-xl hover:shadow-2xl transition-all duration-500 group border border-slate-100 flex flex-col items-center text-center opacity-0 translate-y-20">
-            <div class="w-20 h-20 rounded-3xl bg-indigo-500 text-white flex items-center justify-center mb-8 transform group-hover:-rotate-12 transition-transform duration-500 shadow-lg shadow-indigo-200">
-              <svg class="w-10 h-10" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+          <div class="feature-card bg-white rounded-2xl p-6 shadow-md hover:shadow-lg transition-all duration-500 group border border-slate-100 flex flex-col items-center text-center opacity-0 translate-y-20">
+            <div class="w-16 h-16 rounded-2xl bg-indigo-500 text-white flex items-center justify-center mb-6 transform group-hover:-rotate-12 transition-transform duration-500 shadow-lg shadow-indigo-200">
+              <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
             </div>
-            <h3 class="text-2xl font-black text-slate-900 mb-4 tracking-tight">Handpicked</h3>
-            <p class="text-slate-500 font-medium leading-relaxed italic">Personally vetted locations ensuring authentic and safe experiences.</p>
+            <h3 class="text-xl font-black text-slate-900 mb-3 tracking-tight">Handpicked</h3>
+            <p class="text-slate-500 text-sm font-medium leading-relaxed italic">Personally vetted locations ensuring authentic and safe experiences.</p>
           </div>
 
-          <div class="feature-card bg-white rounded-[40px] p-10 shadow-xl hover:shadow-2xl transition-all duration-500 group border border-slate-100 flex flex-col items-center text-center opacity-0 translate-y-20">
-            <div class="w-20 h-20 rounded-3xl bg-emerald-500 text-white flex items-center justify-center mb-8 transform group-hover:scale-110 transition-transform duration-500 shadow-lg shadow-emerald-200">
-              <svg class="w-10 h-10" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+          <div class="feature-card bg-white rounded-2xl p-6 shadow-md hover:shadow-lg transition-all duration-500 group border border-slate-100 flex flex-col items-center text-center opacity-0 translate-y-20">
+            <div class="w-16 h-16 rounded-2xl bg-emerald-500 text-white flex items-center justify-center mb-6 transform group-hover:scale-110 transition-transform duration-500 shadow-lg shadow-emerald-200">
+              <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
             </div>
-            <h3 class="text-2xl font-black text-slate-900 mb-4 tracking-tight">Best Value</h3>
-            <p class="text-slate-500 font-medium leading-relaxed italic">Premium quality at competitive prices with zero hidden costs.</p>
+            <h3 class="text-xl font-black text-slate-900 mb-3 tracking-tight">Best Value</h3>
+            <p class="text-slate-500 text-sm font-medium leading-relaxed italic">Premium quality at competitive prices with zero hidden costs.</p>
           </div>
 
-          <div class="feature-card bg-white rounded-[40px] p-10 shadow-xl hover:shadow-2xl transition-all duration-500 group border border-slate-100 flex flex-col items-center text-center opacity-0 translate-y-20">
-            <div class="w-20 h-20 rounded-3xl bg-rose-500 text-white flex items-center justify-center mb-8 transform group-hover:rotate-12 transition-transform duration-500 shadow-lg shadow-rose-200">
-              <svg class="w-10 h-10" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M18.364 5.636l-3.536 3.536m0 5.656l3.536 3.536M9.172 9.172L5.636 5.636m3.536 9.192l-3.536 3.536M21 12a9 9 0 11-18 0 9 9 0 0118 0zm-5 0a4 4 0 11-8 0 4 4 0 018 0z"></path></svg>
+          <div class="feature-card bg-white rounded-2xl p-6 shadow-md hover:shadow-lg transition-all duration-500 group border border-slate-100 flex flex-col items-center text-center opacity-0 translate-y-20">
+            <div class="w-16 h-16 rounded-2xl bg-rose-500 text-white flex items-center justify-center mb-6 transform group-hover:rotate-12 transition-transform duration-500 shadow-lg shadow-rose-200">
+              <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M18.364 5.636l-3.536 3.536m0 5.656l3.536 3.536M9.172 9.172L5.636 5.636m3.536 9.192l-3.536 3.536M21 12a9 9 0 11-18 0 9 9 0 0118 0zm-5 0a4 4 0 11-8 0 4 4 0 018 0z"></path></svg>
             </div>
-            <h3 class="text-2xl font-black text-slate-900 mb-4 tracking-tight">24/7 Support</h3>
-            <p class="text-slate-500 font-medium leading-relaxed italic">Round-the-clock assistance before, during, and after your trip.</p>
+            <h3 class="text-xl font-black text-slate-900 mb-3 tracking-tight">24/7 Support</h3>
+            <p class="text-slate-500 text-sm font-medium leading-relaxed italic">Round-the-clock assistance before, during, and after your trip.</p>
           </div>
 
         </div>

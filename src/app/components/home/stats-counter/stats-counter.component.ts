@@ -6,7 +6,7 @@ import { CommonModule, isPlatformBrowser } from '@angular/common';
   standalone: true,
   imports: [CommonModule],
   template: `
-    <section class="py-20 bg-gradient-to-r from-sky-500 via-blue-500 to-sky-600 relative overflow-hidden">
+    <section class="py-4 md:py-8 bg-gradient-to-r from-sky-500 via-blue-500 to-sky-600 relative overflow-hidden">
 
       <!-- Animated background -->
       <div class="absolute inset-0 pointer-events-none overflow-hidden">
@@ -21,14 +21,14 @@ import { CommonModule, isPlatformBrowser } from '@angular/common';
         <div class="float-circle fc-6"></div>
       </div>
 
-      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-        <div class="grid grid-cols-2 md:grid-cols-4 gap-8 text-center text-white">
+      <div class="max-w-[1200px] mx-auto px-4 relative z-10 w-full">
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-6 text-center text-white">
 
           <div *ngFor="let stat of stats; let i = index" class="stat-card">
-            <div class="text-5xl md:text-6xl font-bold mb-2 drop-shadow-lg">
+            <div class="text-3xl md:text-5xl font-bold mb-1 drop-shadow-lg">
               {{ stat.current }}{{ stat.suffix }}
             </div>
-            <div class="text-white/80 font-medium text-base uppercase tracking-wider">{{ stat.label }}</div>
+            <div class="text-white/80 font-bold text-xs uppercase tracking-widest">{{ stat.label }}</div>
           </div>
 
         </div>

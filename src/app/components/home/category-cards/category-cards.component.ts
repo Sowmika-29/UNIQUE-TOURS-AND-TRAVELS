@@ -11,7 +11,7 @@ gsap.registerPlugin(ScrollTrigger);
   standalone: true,
   imports: [CommonModule, RouterLink],
   template: `
-    <section class="py-24 bg-gradient-to-b from-sky-50 via-sky-100 to-white relative overflow-hidden category-section">
+    <section class="py-12 md:py-16 bg-gradient-to-b from-sky-50 via-sky-100 to-white relative overflow-hidden category-section">
 
       <!-- Premium Background Elements -->
       <div class="absolute inset-0 pointer-events-none overflow-hidden">
@@ -30,68 +30,64 @@ gsap.registerPlugin(ScrollTrigger);
         <div class="floating-bubble bubble-2"></div>
       </div>
 
-      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+      <div class="max-w-[900px] mx-auto px-4 relative z-10 w-full">
         
-        <div class="text-center mb-16 category-header opacity-0 translate-y-10">
-          <span class="text-sky-500 font-black tracking-[0.3em] uppercase text-xs mb-3 block">
-            Choose Your Destination
-          </span>
-          <h2 class="text-5xl md:text-7xl font-black text-slate-900 tracking-tighter mb-4 italic">Where to Next?</h2>
-          <div class="w-24 h-2 bg-sky-500 mx-auto rounded-full"></div>
+        <div class="text-center mb-6 category-header opacity-0 translate-y-10">
+          <h2 class="text-3xl md:text-5xl font-black text-slate-900 tracking-tighter mb-2 italic">Choose Your Destination Style</h2>
         </div>
 
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
           
           <!-- Domestic Tours Card -->
           <a routerLink="/explore/domestic"
-             class="group cat-card relative h-[600px] rounded-[40px] overflow-hidden shadow-2xl hover:shadow-sky-500/20 transition-all duration-700 cursor-pointer flex items-end opacity-0 -translate-x-20">
+             class="group cat-card relative h-[380px] max-w-[320px] mx-auto w-full rounded-2xl overflow-hidden shadow-xl hover:shadow-sky-500/20 transition-all duration-700 cursor-pointer flex items-end opacity-0 -translate-x-20">
             <img src="https://images.unsplash.com/photo-1524492412937-b28074a5d7da?fm=webp&fit=crop&w=1200&q=50" 
                  alt="Domestic Tours - Explore Incredible India's heritage and landscapes" 
                  loading="lazy"
-                 class="absolute inset-0 w-full h-full object-cover transition-transform duration-[1.5s] ease-out group-hover:scale-110">
+                 class="absolute inset-0 w-full h-full object-cover transition-transform duration-[1.5s] ease-out group-hover:scale-[1.03]">
             
-            <div class="absolute inset-0 bg-gradient-to-t from-slate-900 via-slate-900/40 to-transparent"></div>
-            <div class="absolute inset-0 bg-sky-500/10 opacity-0 group-hover:opacity-100 transition duration-700"></div>
+            <div class="absolute inset-0 bg-gradient-to-t from-slate-900/90 via-slate-900/30 to-transparent"></div>
+            <div class="absolute inset-0 bg-sky-500/5 opacity-0 group-hover:opacity-100 transition duration-700"></div>
 
-            <div class="relative z-10 w-full p-12 transform transition-transform duration-700 group-hover:-translate-y-6">
-               <div class="mb-4 overflow-hidden">
-                  <span class="inline-block text-sky-400 font-black text-sm tracking-widest uppercase mb-2 transform translate-y-full group-hover:translate-y-0 transition-transform duration-500">Incredible India</span>
-                  <h3 class="text-5xl md:text-6xl font-black text-white tracking-tighter">Domestic</h3>
+            <div class="relative z-10 w-full p-6 transform transition-transform duration-700 group-hover:-translate-y-2">
+               <div class="mb-2 overflow-hidden">
+                  <span class="inline-block text-sky-400 font-black text-[9px] tracking-widest uppercase mb-1 transform translate-y-full group-hover:translate-y-0 transition-transform duration-500">Incredible India</span>
+                  <h3 class="text-2xl md:text-3xl font-black text-white tracking-tighter">Domestic</h3>
                </div>
-               <p class="text-gray-300 text-xl font-medium max-w-xs opacity-0 group-hover:opacity-100 transition-opacity duration-700 delay-200">Discover the hidden gems across the subcontinent.</p>
+               <p class="text-gray-300 text-xs font-medium max-w-[200px] opacity-0 group-hover:opacity-100 transition-opacity duration-700 delay-200">Discover the hidden gems across the subcontinent.</p>
                
-               <div class="mt-8 flex items-center gap-4 text-white font-bold group/btn">
-                  <span class="w-12 h-12 rounded-full border-2 border-white/30 flex items-center justify-center group-hover/btn:bg-white group-hover/btn:text-sky-600 transition-all duration-300">
-                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M17 8l4 4m0 0l-4 4m4-4H3"></path></svg>
+               <div class="mt-4 flex items-center gap-2 text-white font-bold group/btn">
+                  <span class="w-8 h-8 rounded-full border border-white/30 flex items-center justify-center group-hover/btn:bg-white group-hover/btn:text-sky-600 transition-all duration-300">
+                    <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M17 8l4 4m0 0l-4 4m4-4H3"></path></svg>
                   </span>
-                  <span class="tracking-widest uppercase text-xs">Explore More</span>
+                  <span class="tracking-widest uppercase text-[9px]">Explore More</span>
                </div>
             </div>
           </a>
 
           <!-- International Tours Card -->
           <a routerLink="/explore/international"
-             class="group cat-card relative h-[600px] rounded-[40px] overflow-hidden shadow-2xl hover:shadow-indigo-500/20 transition-all duration-700 cursor-pointer flex items-end opacity-0 translate-x-20">
+             class="group cat-card relative h-[380px] max-w-[320px] mx-auto w-full rounded-2xl overflow-hidden shadow-xl hover:shadow-indigo-500/20 transition-all duration-700 cursor-pointer flex items-end opacity-0 translate-x-20">
             <img src="https://images.unsplash.com/photo-1512453979798-5ea266f8880c?fm=webp&fit=crop&w=1200&q=50" 
                  alt="International Tours - Luxury global escapes across continents" 
                  loading="lazy"
-                 class="absolute inset-0 w-full h-full object-cover transition-transform duration-[1.5s] ease-out group-hover:scale-110">
+                 class="absolute inset-0 w-full h-full object-cover transition-transform duration-[1.5s] ease-out group-hover:scale-[1.03]">
             
-            <div class="absolute inset-0 bg-gradient-to-t from-slate-900 via-slate-900/40 to-transparent"></div>
-            <div class="absolute inset-0 bg-indigo-500/10 opacity-0 group-hover:opacity-100 transition duration-700"></div>
+            <div class="absolute inset-0 bg-gradient-to-t from-slate-900/90 via-slate-900/30 to-transparent"></div>
+            <div class="absolute inset-0 bg-indigo-500/5 opacity-0 group-hover:opacity-100 transition duration-700"></div>
 
-            <div class="relative z-10 w-full p-12 transform transition-transform duration-700 group-hover:-translate-y-6">
-               <div class="mb-4 overflow-hidden">
-                  <span class="inline-block text-indigo-400 font-black text-sm tracking-widest uppercase mb-2 transform translate-y-full group-hover:translate-y-0 transition-transform duration-500">Global Escapes</span>
-                  <h3 class="text-5xl md:text-6xl font-black text-white tracking-tighter">International</h3>
+            <div class="relative z-10 w-full p-6 transform transition-transform duration-700 group-hover:-translate-y-2">
+               <div class="mb-2 overflow-hidden">
+                  <span class="inline-block text-indigo-400 font-black text-[9px] tracking-widest uppercase mb-1 transform translate-y-full group-hover:translate-y-0 transition-transform duration-500">Global Escapes</span>
+                  <h3 class="text-2xl md:text-3xl font-black text-white tracking-tighter">International</h3>
                </div>
-               <p class="text-gray-300 text-xl font-medium max-w-xs opacity-0 group-hover:opacity-100 transition-opacity duration-700 delay-200">Across oceans and continents, luxury awaits.</p>
+               <p class="text-gray-300 text-xs font-medium max-w-[200px] opacity-0 group-hover:opacity-100 transition-opacity duration-700 delay-200">Across oceans and continents, luxury awaits.</p>
 
-               <div class="mt-8 flex items-center gap-4 text-white font-bold group/btn">
-                  <span class="w-12 h-12 rounded-full border-2 border-white/30 flex items-center justify-center group-hover/btn:bg-white group-hover/btn:text-indigo-600 transition-all duration-300">
-                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M17 8l4 4m0 0l-4 4m4-4H3"></path></svg>
+               <div class="mt-4 flex items-center gap-2 text-white font-bold group/btn">
+                  <span class="w-8 h-8 rounded-full border border-white/30 flex items-center justify-center group-hover/btn:bg-white group-hover/btn:text-indigo-600 transition-all duration-300">
+                    <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M17 8l4 4m0 0l-4 4m4-4H3"></path></svg>
                   </span>
-                  <span class="tracking-widest uppercase text-xs">Explore More</span>
+                  <span class="tracking-widest uppercase text-[9px]">Explore More</span>
                </div>
             </div>
           </a>

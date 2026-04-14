@@ -1,4 +1,4 @@
-import { Component, OnInit, OnDestroy, PLATFORM_ID, Inject, AfterViewInit } from '@angular/core';
+import { Component, OnInit, OnDestroy, PLATFORM_ID, Inject, AfterViewInit, ChangeDetectorRef } from '@angular/core';
 import { CommonModule, isPlatformBrowser } from '@angular/common';
 import { RouterLink } from '@angular/router';
 import { gsap } from 'gsap';
@@ -11,7 +11,7 @@ gsap.registerPlugin(ScrollTrigger);
   standalone: true,
   imports: [CommonModule, RouterLink],
   template: `
-    <div class="relative w-full h-[100vh] min-h-[600px] overflow-hidden bg-slate-900 group hero-container">
+    <div class="relative w-full h-screen min-h-[500px] overflow-hidden bg-slate-900 group hero-container">
       
       <!-- Animated particle overlay -->
       <div class="absolute inset-0 z-[15] pointer-events-none overflow-hidden">
@@ -30,30 +30,34 @@ gsap.registerPlugin(ScrollTrigger);
         <div class="absolute inset-0 bg-black/30"></div>
         <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-black/20 to-transparent"></div>
         
-        <!-- Content -->
+        <!-- Content (Text only) -->
         <div class="absolute inset-0 flex items-center justify-center z-20">
           <div class="text-center px-4 max-w-4xl mx-auto hero-content" *ngIf="i === currentIndex">
             <!-- Primary SEO Heading -->
             <h1 class="sr-only">Explore the World with Unique Tours & Travels</h1>
             
-            <span class="hero-subtitle text-sky-100 font-bold tracking-[0.2em] uppercase text-sm md:text-base mb-4 block drop-shadow-lg opacity-0">
+            <span class="hero-subtitle text-sky-100 font-bold tracking-[0.2em] uppercase text-sm md:text-base mb-4 block drop-shadow-lg">
                {{slide.subtitle}}
             </span>
-            <h2 class="hero-title text-5xl md:text-7xl lg:text-8xl font-bold text-white mb-6 drop-shadow-xl tracking-tighter opacity-0">
+            <h2 class="hero-title text-4xl md:text-6xl font-bold text-white mb-6 drop-shadow-xl tracking-tighter">
               {{slide.title}}
             </h2>
-            <p class="hero-desc text-lg md:text-xl text-slate-200 mb-10 max-w-2xl mx-auto drop-shadow-md opacity-0">
+            <p class="hero-desc text-lg md:text-xl text-slate-200 mb-10 max-w-2xl mx-auto drop-shadow-md">
               {{slide.description}}
             </p>
-            <div class="hero-btns flex flex-col sm:flex-row justify-center space-y-4 sm:space-y-0 sm:space-x-6 opacity-0">
-              <a routerLink="/explore" class="bg-sky-500 text-white px-8 py-4 rounded-full font-bold text-lg hover:bg-white hover:text-sky-600 transition-all duration-300 transform hover:-translate-y-1 shadow-[0_0_20px_rgba(14,165,233,0.4)] hover:shadow-[0_0_30px_rgba(255,255,255,0.6)] text-center">
-                Explore The World
-              </a>
-              <a href="https://wa.me/919597371949" target="_blank" class="glass-panel text-white hover:bg-white hover:text-slate-900 px-8 py-4 rounded-full font-bold text-lg transition-all duration-300 text-center border border-white/20">
-                Contact Us
-              </a>
-            </div>
           </div>
+        </div>
+      </div>
+
+      <!-- Static Buttons Overlay -->
+      <div class="absolute inset-0 flex items-end justify-center pb-20 z-[25] pointer-events-none">
+        <div class="hero-btns flex flex-col sm:flex-row justify-center space-y-4 sm:space-y-0 sm:space-x-6 w-full max-w-4xl px-4 pointer-events-auto">
+          <a routerLink="/explore" class="bg-sky-500 text-white px-8 py-3 rounded-full font-bold text-lg hover:bg-white hover:text-sky-600 transition-all duration-300 transform hover:-translate-y-1 shadow-[0_0_20px_rgba(14,165,233,0.4)] hover:shadow-[0_0_30px_rgba(255,255,255,0.6)] text-center">
+            Explore The World
+          </a>
+          <a href="https://wa.me/919597371949" target="_blank" class="glass-panel text-white hover:bg-white hover:text-slate-900 px-8 py-3 rounded-full font-bold text-lg transition-all duration-300 text-center border border-white/20">
+            Contact Us
+          </a>
         </div>
       </div>
       
@@ -66,10 +70,10 @@ gsap.registerPlugin(ScrollTrigger);
       </button>
 
       <!-- Indicators -->
-      <div class="absolute bottom-10 left-0 w-full flex justify-center space-x-3 z-30">
+      <div class="absolute bottom-6 left-0 w-full flex justify-center space-x-3 z-30">
         <button *ngFor="let slide of slides; let i = index" 
                 (click)="goToSlide(i)"
-                class="w-3 h-3 rounded-full transition-all duration-300"
+                class="w-2.5 h-2.5 rounded-full transition-all duration-300"
                 [ngClass]="i === currentIndex ? 'bg-sky-500 w-8' : 'bg-white/50 hover:bg-white'"></button>
       </div>
 
@@ -132,7 +136,7 @@ export class HeroSliderComponent implements OnInit, OnDestroy, AfterViewInit {
       description: "Step back in time through majestic histories."
     },
     {
-      image: "https://images.unsplash.com/photo-1542314831-c53cd4b85ca4?fm=webp&fit=crop&w=1920&q=50",
+      image: "https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?fm=webp&fit=crop&w=1920&q=50",
       title: "City Escapes",
       subtitle: "URBAN EXPLORATION",
       description: "Feel the vibrant pulse of iconic metropoles."
@@ -143,7 +147,10 @@ export class HeroSliderComponent implements OnInit, OnDestroy, AfterViewInit {
   private intervalId: any;
   private isBrowser: boolean;
 
-  constructor(@Inject(PLATFORM_ID) platformId: Object) {
+  constructor(
+    @Inject(PLATFORM_ID) platformId: Object,
+    private cdr: ChangeDetectorRef
+  ) {
     this.isBrowser = isPlatformBrowser(platformId);
   }
 
@@ -183,42 +190,55 @@ export class HeroSliderComponent implements OnInit, OnDestroy, AfterViewInit {
   }
 
   private animateText() {
-    const tl = gsap.timeline();
-    tl.fromTo('.hero-subtitle', { y: 20, opacity: 0 }, { y: 0, opacity: 1, duration: 0.8, ease: 'power3.out' })
-      .fromTo('.hero-title', { y: 30, opacity: 0 }, { y: 0, opacity: 1, duration: 1, ease: 'power4.out' }, '-=0.5')
-      .fromTo('.hero-desc', { y: 20, opacity: 0 }, { y: 0, opacity: 1, duration: 0.8, ease: 'power3.out' }, '-=0.6')
-      .fromTo('.hero-btns', { y: 20, opacity: 0 }, { y: 0, opacity: 1, duration: 0.8, ease: 'power3.out' }, '-=0.6');
+    if (!this.isBrowser) return;
+    
+    // Use a small delay to ensure Angular has updated the DOM for the next slide
+    setTimeout(() => {
+      const tl = gsap.timeline();
+      tl.fromTo('.hero-subtitle', { y: 20, opacity: 0 }, { y: 0, opacity: 1, duration: 0.8, ease: 'power3.out' })
+        .fromTo('.hero-title', { y: 30, opacity: 0 }, { y: 0, opacity: 1, duration: 1, ease: 'power4.out' }, '-=0.5')
+        .fromTo('.hero-desc', { y: 20, opacity: 0 }, { y: 0, opacity: 1, duration: 0.8, ease: 'power3.out' }, '-=0.6');
+    }, 50);
   }
 
   startSlideShow() {
+    this.stopSlideShow();
     this.intervalId = setInterval(() => {
-      this.next();
-    }, 6000);
+      this.nextSlideLogic();
+    }, 5000);
   }
 
   stopSlideShow() {
     if (this.intervalId) {
       clearInterval(this.intervalId);
+      this.intervalId = null;
     }
   }
 
-  next() {
+  private nextSlideLogic() {
     this.currentIndex = (this.currentIndex + 1) % this.slides.length;
+    this.cdr.detectChanges(); // Force detection to ensure transition classes are applied
+    this.animateText();
+  }
+
+  next() {
+    this.nextSlideLogic();
     this.resetTimer();
-    setTimeout(() => this.animateText(), 100);
   }
 
   prev() {
     this.currentIndex = (this.currentIndex - 1 + this.slides.length) % this.slides.length;
+    this.cdr.detectChanges();
+    this.animateText();
     this.resetTimer();
-    setTimeout(() => this.animateText(), 100);
   }
 
   goToSlide(index: number) {
     if (this.currentIndex === index) return;
     this.currentIndex = index;
+    this.cdr.detectChanges();
+    this.animateText();
     this.resetTimer();
-    setTimeout(() => this.animateText(), 100);
   }
 
   resetTimer() {

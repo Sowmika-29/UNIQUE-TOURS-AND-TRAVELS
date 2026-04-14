@@ -11,7 +11,7 @@ gsap.registerPlugin(ScrollTrigger);
   standalone: true,
   imports: [CommonModule, RouterLink],
   template: `
-    <section class="py-24 relative overflow-hidden bg-gradient-to-b from-sky-100 via-sky-50 to-white hero-trigger">
+    <section class="py-12 md:py-16 relative overflow-hidden bg-gradient-to-b from-sky-100 via-sky-50 to-white hero-trigger">
 
       <!-- Premium Animated Background -->
       <div class="absolute inset-0 pointer-events-none overflow-hidden">
@@ -33,60 +33,55 @@ gsap.registerPlugin(ScrollTrigger);
         <div class="rotate-box rb-3 floating-element" data-speed="0.04"></div>
       </div>
 
-      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+      <div class="max-w-[1200px] mx-auto px-4 relative z-10 w-full">
 
-        <div class="text-center mb-16 section-header opacity-0 translate-y-10">
-          <span class="text-sky-500 font-bold tracking-widest uppercase text-sm mb-3 block flex items-center justify-center gap-3">
-            <span class="w-8 h-[2px] bg-sky-400"></span>
+        <div class="text-center mb-10 section-header opacity-0 translate-y-10">
+          <span class="text-sky-500 font-bold tracking-widest uppercase text-xs mb-2 block flex items-center justify-center gap-2">
+            <span class="w-6 h-[1px] bg-sky-400"></span>
             Handpicked for You
-            <span class="w-8 h-[2px] bg-sky-400"></span>
+            <span class="w-6 h-[1px] bg-sky-400"></span>
           </span>
-          <h2 class="text-4xl md:text-6xl font-black text-slate-900 tracking-tighter mb-4">Top Destinations</h2>
-          <div class="flex items-center justify-center gap-2">
-            <span class="w-16 h-1 bg-sky-500 rounded-full"></span>
-            <span class="w-3 h-3 bg-indigo-500 rounded-full animate-ping"></span>
-            <span class="w-16 h-1 bg-sky-500 rounded-full"></span>
-          </div>
+          <h2 class="text-3xl md:text-5xl font-black text-slate-900 tracking-tighter mb-3">Top Destinations</h2>
         </div>
 
-        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 destination-grid">
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 destination-grid">
 
           <a *ngFor="let dest of topDestinations; let i = index"
              [routerLink]="['/destination', dest.id]"
-             class="group destination-card relative h-[450px] rounded-[32px] overflow-hidden shadow-xl hover:shadow-2xl transition-all duration-700 cursor-pointer overflow-hidden opacity-0 translate-y-20">
+             class="group destination-card relative h-[380px] max-w-[300px] mx-auto w-full rounded-2xl overflow-hidden shadow-lg hover:shadow-xl transition-all duration-700 cursor-pointer opacity-0 translate-y-20">
 
             <img [src]="dest.image" [alt]="dest.name + ' travel destination - Unique Tours & Travels'" 
                  loading="lazy"
                  class="absolute inset-0 w-full h-full object-cover transition-transform duration-[1.5s] ease-out group-hover:scale-110">
-            <div class="absolute inset-0 bg-gradient-to-t from-slate-950 via-transparent to-transparent opacity-80 group-hover:opacity-90 transition-opacity"></div>
+            <div class="absolute inset-0 bg-gradient-to-t from-slate-950/80 via-transparent to-transparent opacity-100 transition-opacity"></div>
             
             <!-- Tilt & Glow Card Effect -->
             <div class="absolute inset-0 bg-gradient-to-tr from-sky-500/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
 
-            <div class="absolute bottom-0 left-0 p-8 w-full transform transition-transform duration-500 group-hover:-translate-y-4">
-              <span class="inline-block px-3 py-1 bg-sky-500/20 backdrop-blur-md border border-white/20 text-sky-300 text-[10px] font-black uppercase tracking-widest rounded-full mb-3 opacity-0 group-hover:opacity-100 translate-y-4 group-hover:translate-y-0 transition-all duration-500">
+            <div class="absolute bottom-0 left-0 p-6 w-full transform transition-transform duration-500 group-hover:-translate-y-2">
+              <span class="inline-block px-3 py-1 bg-sky-500/20 backdrop-blur-md border border-white/20 text-sky-300 text-[9px] font-black uppercase tracking-widest rounded-full mb-2 opacity-0 group-hover:opacity-100 translate-y-3 group-hover:translate-y-0 transition-all duration-500">
                 Explore Destination
               </span>
-              <h3 class="text-4xl font-bold text-white drop-shadow-2xl group-hover:text-sky-100 transition-colors tracking-tight">{{dest.name}}</h3>
-              <div class="w-0 group-hover:w-20 h-1 bg-sky-500 mt-3 transition-all duration-700 delay-100"></div>
+              <h3 class="text-2xl font-bold text-white drop-shadow-lg group-hover:text-sky-100 transition-colors tracking-tight">{{dest.name}}</h3>
+              <div class="w-0 group-hover:w-16 h-1 bg-sky-500 mt-2 transition-all duration-700 delay-100"></div>
             </div>
 
             <!-- Interactive Overlay -->
-            <div class="absolute top-6 right-6 w-12 h-12 rounded-full bg-white/10 backdrop-blur-md flex items-center justify-center text-white opacity-0 group-hover:opacity-100 transform rotate-45 group-hover:rotate-0 transition-all duration-500">
-               <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M17 8l4 4m0 0l-4 4m4-4H3"></path></svg>
+            <div class="absolute top-4 right-4 w-10 h-10 rounded-full bg-white/10 backdrop-blur-md flex items-center justify-center text-white opacity-0 group-hover:opacity-100 transform rotate-45 group-hover:rotate-0 transition-all duration-500">
+               <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M17 8l4 4m0 0l-4 4m4-4H3"></path></svg>
             </div>
           </a>
 
         </div>
 
         <!-- CTA Section -->
-        <div class="text-center mt-20 cta-reveal opacity-0 scale-95">
-          <a routerLink="/explore" class="premium-btn group">
+        <div class="text-center mt-12 cta-reveal opacity-0 scale-95">
+          <a routerLink="/explore" class="premium-btn group scale-90">
             <span class="btn-ripple"></span>
-            <span class="relative z-10 flex items-center gap-4">
+            <span class="relative z-10 flex items-center gap-3">
               Explore All Destinations
-              <div class="w-8 h-8 rounded-full bg-white/20 flex items-center justify-center group-hover:bg-white/40 transition-colors">
-                 <svg class="w-4 h-4 transition-transform group-hover:translate-x-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M13 7l5 5m0 0l-5 5m5-5H6"></path></svg>
+              <div class="w-6 h-6 rounded-full bg-white/20 flex items-center justify-center group-hover:bg-white/40 transition-colors">
+                 <svg class="w-3 h-3 transition-transform group-hover:translate-x-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M13 7l5 5m0 0l-5 5m5-5H6"></path></svg>
               </div>
             </span>
           </a>

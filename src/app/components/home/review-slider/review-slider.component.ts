@@ -15,7 +15,7 @@ export interface Review {
   standalone: true,
   imports: [CommonModule, FormsModule],
   template: `
-    <section class="py-24 bg-gradient-to-br from-sky-200 via-sky-100 to-sky-200 relative overflow-hidden">
+    <section class="py-4 md:py-8 bg-gradient-to-br from-sky-200 via-sky-100 to-sky-200 relative overflow-hidden">
 
       <!-- Animated Background -->
       <div class="absolute inset-0 pointer-events-none overflow-hidden">
@@ -39,23 +39,24 @@ export interface Review {
         <div class="sparkle sp-4"></div>
       </div>
 
-      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 w-full">
+      <div class="max-w-[1200px] mx-auto px-4 relative z-10 w-full">
 
-        <div class="text-center mb-16">
-          <span class="text-sky-500 font-bold tracking-wider uppercase text-sm mb-3 block flex items-center justify-center gap-3">
-            <span class="w-8 h-[2px] bg-sky-400"></span>
-            Testimonials
-            <span class="w-8 h-[2px] bg-sky-400"></span>
-          </span>
-          <h2 class="text-4xl md:text-5xl font-bold text-slate-800 tracking-tight animate-heading mb-4">What Our Travelers Say</h2>
-          <div class="flex items-center justify-center gap-2 mb-8">
-            <span class="w-12 h-1 bg-gradient-to-r from-sky-400 to-blue-500 rounded-full"></span>
-            <span class="w-3 h-3 bg-sky-500 rounded-full"></span>
-            <span class="w-12 h-1 bg-gradient-to-l from-sky-400 to-blue-500 rounded-full"></span>
+        <div class="relative w-full mb-12 flex items-center justify-center">
+          <div class="text-center">
+            <h2 class="text-3xl md:text-5xl font-black text-slate-900 tracking-tighter mb-0 italic">What Our Travelers Say</h2>
           </div>
           <button (click)="toggleModal()" 
-                  class="bg-sky-500 hover:bg-sky-600 text-white font-bold py-3 px-8 rounded-full shadow-lg shadow-sky-200 transition-all duration-300 transform hover:-translate-y-1 active:scale-95 flex items-center gap-2 mx-auto">
-            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z"></path></svg>
+                  class="hidden md:flex absolute right-10 top-1/2 -translate-y-1/2 bg-sky-500 hover:bg-sky-600 text-white font-bold py-2.5 px-6 rounded-full shadow-lg shadow-sky-200 transition-all duration-300 transform hover:-translate-y-[calc(50%+4px)] active:scale-95 items-center gap-2 text-sm shrink-0">
+            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z"></path></svg>
+            Write a Review
+          </button>
+        </div>
+
+        <!-- Mobile Review Button -->
+        <div class="flex md:hidden justify-center mb-10">
+          <button (click)="toggleModal()" 
+                  class="bg-sky-500 hover:bg-sky-600 text-white font-bold py-2.5 px-6 rounded-full shadow-lg shadow-sky-200 transition-all duration-300 transform hover:-translate-y-1 active:scale-95 flex items-center gap-2 text-sm">
+            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z"></path></svg>
             Write a Review
           </button>
         </div>
@@ -78,31 +79,31 @@ export interface Review {
                  [style.transform]="'translateX(calc(-' + currentIndex * (100 / itemsPerSlide) + '%))'">
 
               <div *ngFor="let review of reviews" class="w-full sm:w-1/2 lg:w-1/3 flex-shrink-0 px-4">
-                <div class="bg-white/90 backdrop-blur-sm border border-sky-100 rounded-2xl p-8 shadow-md hover:shadow-xl hover:scale-[1.02] transition-all duration-300 h-full flex flex-col">
+                <div class="bg-white/90 backdrop-blur-sm border border-sky-100 rounded-2xl p-6 shadow-md hover:shadow-xl hover:scale-[1.02] transition-all duration-300 h-full flex flex-col">
 
-                  <div class="flex mb-6">
+                  <div class="flex mb-4">
                     <svg *ngFor="let s of [1,2,3,4,5]" 
                          [class]="s <= review.rating ? 'text-amber-400' : 'text-slate-200'"
-                         class="w-5 h-5 fill-current" viewBox="0 0 20 20">
+                         class="w-4 h-4 fill-current" viewBox="0 0 20 20">
                       <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
                     </svg>
                   </div>
 
-                  <p class="text-slate-600 font-medium text-base leading-relaxed flex-grow italic">
+                  <p class="text-slate-600 font-medium text-sm leading-relaxed flex-grow italic">
                     "{{review.comment}}"
                   </p>
                   
-                  <div class="text-xs text-slate-400 mt-4 font-semibold uppercase tracking-widest">
+                  <div class="text-[10px] text-slate-400 mt-3 font-semibold uppercase tracking-widest">
                     {{review.date}}
                   </div>
 
-                  <div class="flex items-center mt-6 pt-6 border-t border-sky-100">
-                    <div class="w-12 h-12 rounded-full bg-gradient-to-br from-sky-400 to-blue-500 flex items-center justify-center font-bold text-lg text-white uppercase shadow-lg">
+                  <div class="flex items-center mt-4 pt-4 border-t border-sky-100">
+                    <div class="w-10 h-10 rounded-full bg-gradient-to-br from-sky-400 to-blue-500 flex items-center justify-center font-bold text-base text-white uppercase shadow-lg">
                       {{review.name.charAt(0)}}
                     </div>
-                    <div class="ml-4 flex flex-col">
-                      <span class="text-slate-800 font-bold text-base">{{review.name}}</span>
-                      <span class="text-sky-500 text-xs font-medium">Verified Traveler</span>
+                    <div class="ml-3 flex flex-col">
+                      <span class="text-slate-800 font-bold text-sm">{{review.name}}</span>
+                      <span class="text-sky-500 text-[10px] font-medium">Verified Traveler</span>
                     </div>
                   </div>
                 </div>
