@@ -43,7 +43,7 @@ export interface Review {
 
         <div class="relative w-full mb-12 flex items-center justify-center">
           <div class="text-center">
-            <h2 class="text-3xl md:text-5xl font-black tracking-tighter mb-0 italic title-underline">
+            <h2 class="text-3xl md:text-5xl font-black tracking-tighter mb-0 italic">
               <span class="text-skyblue">What Our</span>
               <span class="text-dark"> Travelers Say</span>
             </h2>

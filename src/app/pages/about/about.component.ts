@@ -1,10 +1,11 @@
 import { Component } from '@angular/core';
 import { APP_CONFIG } from '../../app.config';
+import { WhyChooseUsComponent } from "../../components/home/why-choose-us/why-choose-us.component";
 
 @Component({
   selector: 'app-about',
   standalone: true,
-  imports: [],
+  imports: [WhyChooseUsComponent],
   template: `
     <!-- Hero Banner -->
     <div class="relative h-[50vh] min-h-[400px] w-full bg-slate-900 overflow-hidden">
@@ -91,6 +92,11 @@ import { APP_CONFIG } from '../../app.config';
             <h3 class="text-xl font-bold text-slate-800 mb-3">Our Values</h3>
             <p class="text-slate-500 leading-relaxed">Transparency, safety, customer satisfaction, and a genuine love for helping people discover new places.</p>
           </div>
+        </div>
+
+        <!-- Why Choose Us Section -->
+        <div class="mb-24">
+          <app-why-choose-us></app-why-choose-us>
         </div>
 
         <!-- CTA -->

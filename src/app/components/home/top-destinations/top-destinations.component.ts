@@ -36,7 +36,7 @@ gsap.registerPlugin(ScrollTrigger);
       <div class="max-w-[1200px] mx-auto px-4 relative z-10 w-full">
 
         <div class="text-center mb-10 section-header opacity-0 translate-y-10">
-          <h2 class="text-3xl md:text-5xl font-black tracking-tighter title-underline">
+          <h2 class="text-3xl md:text-5xl font-black tracking-tighter">
             <span class="text-skyblue">Top</span>
             <span class="text-dark"> Destinations</span>
           </h2>

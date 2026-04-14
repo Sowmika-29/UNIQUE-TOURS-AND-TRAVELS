@@ -18,7 +18,7 @@ gsap.registerPlugin(ScrollTrigger);
         <div *ngFor="let p of [1,2,3,4,5,6,7,8]" class="hero-particle hp-{{p}}"></div>
       </div>
 
-      <!-- Images -->
+      <!-- Background Images -->
       <div *ngFor="let slide of slides; let i = index" 
            class="absolute inset-0 w-full h-full transition-opacity duration-1000 ease-in-out"
            [ngClass]="i === currentIndex ? 'opacity-100 z-10' : 'opacity-0 z-0'">
@@ -29,36 +29,38 @@ gsap.registerPlugin(ScrollTrigger);
         
         <div class="absolute inset-0 bg-black/30"></div>
         <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-black/20 to-transparent"></div>
-        
-        <!-- Content (Text only) -->
-        <div class="absolute inset-0 flex items-center justify-center z-20">
-          <div class="text-center px-4 max-w-4xl mx-auto hero-content" *ngIf="i === currentIndex">
+      </div>
+
+      <!-- Content Overlay -->
+      <div class="absolute inset-0 flex items-center justify-center z-20 pointer-events-none">
+        <div class="text-center px-4 max-w-5xl mx-auto w-full">
+          
+          <!-- DYNAMIC TEXT (Changes per slide) -->
+          <div class="hero-content-text mb-12" *ngIf="slides[currentIndex] as activeSlide">
             <!-- Primary SEO Heading -->
             <h1 class="sr-only">Explore the World with Unique Tours & Travels</h1>
             
-            <span class="hero-subtitle text-sky-100 font-bold tracking-[0.2em] uppercase text-sm md:text-base mb-4 block drop-shadow-lg">
-               {{slide.subtitle}}
+            <span class="hero-subtitle text-sky-100 font-black tracking-[0.3em] uppercase text-xs md:text-sm mb-6 block drop-shadow-lg opacity-0">
+               {{activeSlide.subtitle}}
             </span>
-            <h2 class="hero-title text-5xl md:text-7xl font-black mb-6 drop-shadow-xl tracking-tighter leading-none">
-              <span class="hero-gradient block md:inline">Explore</span>
-              <span class="text-white"> The World</span>
+            <h2 class="hero-title text-5xl md:text-8xl font-black mb-8 drop-shadow-2xl tracking-tighter leading-[0.9] opacity-0 text-white">
+              {{activeSlide.title}}
             </h2>
-            <p class="hero-desc text-lg md:text-xl text-slate-200 mb-10 max-w-2xl mx-auto drop-shadow-md">
-              {{slide.description}}
+            <p class="hero-desc text-base md:text-xl text-slate-200 mx-auto drop-shadow-md font-medium opacity-0 max-w-2xl">
+              {{activeSlide.description}}
             </p>
           </div>
-        </div>
-      </div>
 
-      <!-- Static Buttons Overlay -->
-      <div class="absolute inset-0 flex items-end justify-center pb-20 z-[25] pointer-events-none">
-        <div class="hero-btns flex flex-col sm:flex-row justify-center space-y-4 sm:space-y-0 sm:space-x-6 w-full max-w-4xl px-4 pointer-events-auto">
-          <a routerLink="/explore" class="bg-sky-500 text-white px-8 py-3 rounded-full font-bold text-lg hover:bg-white hover:text-sky-600 transition-all duration-300 transform hover:-translate-y-1 shadow-[0_0_20px_rgba(14,165,233,0.4)] hover:shadow-[0_0_30px_rgba(255,255,255,0.6)] text-center">
-            Explore The World
-          </a>
-          <a href="https://wa.me/919597371949" target="_blank" class="glass-panel text-white hover:bg-white hover:text-slate-900 px-8 py-3 rounded-full font-bold text-lg transition-all duration-300 text-center border border-white/20">
-            Contact Us
-          </a>
+          <!-- STATIC BUTTONS (Always visible) -->
+          <div class="hero-btns-static flex flex-col sm:flex-row justify-center space-y-4 sm:space-y-0 sm:space-x-6 w-full max-w-4xl mx-auto pointer-events-auto">
+            <a routerLink="/explore" class="bg-sky-500 text-white px-10 py-4 rounded-full font-black text-lg hover:bg-white hover:text-sky-600 transition-all duration-500 transform hover:-translate-y-1 shadow-[0_10px_30px_rgba(14,165,233,0.4)] hover:shadow-white/20 text-center uppercase tracking-widest">
+              Begin Journey
+            </a>
+            <a href="https://wa.me/919597371949" target="_blank" class="glass-panel text-white hover:bg-white hover:text-slate-900 px-10 py-4 rounded-full font-black text-lg transition-all duration-500 text-center border border-white/30 backdrop-blur-md uppercase tracking-widest">
+              Contact Us
+            </a>
+          </div>
+
         </div>
       </div>
       
@@ -187,6 +189,12 @@ export class HeroSliderComponent implements OnInit, OnDestroy, AfterViewInit {
       }
     });
 
+    // One-time entry animation for Static Buttons
+    gsap.fromTo('.hero-btns-static', 
+      { y: 30, opacity: 0 }, 
+      { y: 0, opacity: 1, duration: 1.2, delay: 0.8, ease: 'power3.out' }
+    );
+
     this.animateText();
   }
 
@@ -206,7 +214,7 @@ export class HeroSliderComponent implements OnInit, OnDestroy, AfterViewInit {
     this.stopSlideShow();
     this.intervalId = setInterval(() => {
       this.nextSlideLogic();
-    }, 5000);
+    }, 5000); // 5 Seconds as requested
   }
 
   stopSlideShow() {

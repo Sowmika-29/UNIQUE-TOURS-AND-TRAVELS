@@ -1,4 +1,4 @@
-import { Component, OnInit, OnDestroy } from '@angular/core';
+import { Component, OnInit, OnDestroy, ChangeDetectorRef, NgZone } from '@angular/core';
 import { SeoService } from '../../services/seo.service';
 import { CommonModule } from '@angular/common';
 import { Router, RouterLink, NavigationEnd } from '@angular/router';
@@ -23,9 +23,10 @@ import { Subscription } from 'rxjs';
       <!-- Header Section -->
       <div class="relative bg-slate-900 overflow-hidden mb-12 pt-24 pb-24 rounded-b-[3rem] shadow-2xl">
         <div class="absolute inset-0 z-0">
-           <img src="https://images.unsplash.com/photo-1436491865332-7a61a109cc05?fm=webp&fit=crop&w=1920&q=50" 
-                class="w-full h-full object-cover opacity-20 scale-110 blur-[2px]" alt="World Map">
-           <div class="absolute inset-0 bg-gradient-to-b from-transparent to-slate-900/90"></div>
+           <img [src]="headerBackgroundImage" 
+                class="w-full h-full object-cover opacity-30 transition-all duration-1000 scale-105" 
+                [alt]="pageHeaderTitle">
+           <div class="absolute inset-0 bg-gradient-to-b from-slate-900/40 via-transparent to-slate-900/90"></div>
         </div>
         
         <div class="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
@@ -192,7 +193,9 @@ export class ExploreComponent implements OnInit, OnDestroy {
   constructor(
     private router: Router,
     private destService: DestinationService,
-    private seoService: SeoService
+    private seoService: SeoService,
+    private cdr: ChangeDetectorRef,
+    private ngZone: NgZone
   ) {}
 
   ngOnInit() {
@@ -202,7 +205,12 @@ export class ExploreComponent implements OnInit, OnDestroy {
     this.routerSub = this.router.events.pipe(
       filter(event => event instanceof NavigationEnd)
     ).subscribe((event: any) => {
-      this.checkInitialFilter(event.urlAfterRedirects);
+      this.ngZone.run(() => {
+        this.checkInitialFilter(event.urlAfterRedirects);
+        this.cdr.detectChanges();
+        // Force scroll to top on navigation to ensure visibility
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+      });
     });
   }
 
@@ -246,6 +254,19 @@ export class ExploreComponent implements OnInit, OnDestroy {
     return 'Explore All Destinations';
   }
 
+  get headerBackgroundImage(): string {
+    if (this.activeFilter === 'domestic') {
+      // Stunning Indian Landscapes (Himalayas/Nubra Valley)
+      return "https://images.unsplash.com/photo-1506461883276-594a12b11cf3?fm=webp&fit=crop&w=1920&q=50";
+    }
+    if (this.activeFilter === 'international') {
+      // Iconic European/Global Vibes (Swiss Alps/Village)
+      return "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?fm=webp&fit=crop&w=1920&q=50";
+    }
+    // High-impact Wanderlust/Adventure for All
+    return "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?fm=webp&fit=crop&w=1920&q=50";
+  }
+
   setFilter(type: 'all' | 'domestic' | 'international') {
     const targetUrl = type === 'all' ? '/explore' : `/explore/${type}`;
     this.router.navigateByUrl(targetUrl);
@@ -270,6 +291,7 @@ export class ExploreComponent implements OnInit, OnDestroy {
 
     this.filteredDestinations = filtered;
     this.updateSeo();
+    this.cdr.detectChanges();
   }
 
   private updateSeo() {
