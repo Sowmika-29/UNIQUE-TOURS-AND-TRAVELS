@@ -30,7 +30,7 @@ gsap.registerPlugin(ScrollTrigger);
         <div class="floating-bubble bubble-2"></div>
       </div>
 
-      <div class="max-w-[900px] mx-auto px-4 relative z-10 w-full">
+      <div class="max-w-[1100px] mx-auto px-4 relative z-10 w-full">
         
         <div class="text-center mb-10 category-header opacity-0 translate-y-10">
           <h2 class="text-3xl md:text-5xl font-black tracking-tighter italic">
@@ -43,7 +43,7 @@ gsap.registerPlugin(ScrollTrigger);
           
           <!-- Domestic Tours Card -->
           <a routerLink="/explore/domestic"
-             class="group cat-card relative h-[380px] max-w-[320px] mx-auto w-full rounded-2xl overflow-hidden shadow-xl hover:shadow-sky-500/20 transition-all duration-700 cursor-pointer flex items-end opacity-0 -translate-x-20">
+             class="group cat-card relative aspect-square max-w-[500px] mx-auto w-full rounded-3xl overflow-hidden shadow-2xl hover:shadow-sky-500/30 transition-all duration-700 cursor-pointer flex items-end opacity-0 -translate-x-20">
             <img src="https://images.unsplash.com/photo-1524492412937-b28074a5d7da?fm=webp&fit=crop&w=1200&q=50" 
                  alt="Domestic Tours - Explore Incredible India's heritage and landscapes" 
                  loading="lazy"
@@ -70,7 +70,7 @@ gsap.registerPlugin(ScrollTrigger);
 
           <!-- International Tours Card -->
           <a routerLink="/explore/international"
-             class="group cat-card relative h-[380px] max-w-[320px] mx-auto w-full rounded-2xl overflow-hidden shadow-xl hover:shadow-indigo-500/20 transition-all duration-700 cursor-pointer flex items-end opacity-0 translate-x-20">
+             class="group cat-card relative aspect-square max-w-[500px] mx-auto w-full rounded-3xl overflow-hidden shadow-2xl hover:shadow-indigo-500/30 transition-all duration-700 cursor-pointer flex items-end opacity-0 translate-x-20">
             <img src="https://images.unsplash.com/photo-1512453979798-5ea266f8880c?fm=webp&fit=crop&w=1200&q=50" 
                  alt="International Tours - Luxury global escapes across continents" 
                  loading="lazy"

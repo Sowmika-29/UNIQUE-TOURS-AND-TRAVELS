@@ -54,7 +54,7 @@ import { WhyChooseUsComponent } from "../../components/home/why-choose-us/why-ch
             <h2 class="text-4xl font-bold text-slate-800 mb-6">Making Travel Dreams Come True Since 2015</h2>
             <p class="text-slate-600 leading-relaxed mb-4">
               Unique Tours & Travels was born from a simple passion — to help people explore the world's most 
-              breathtaking destinations without the hassle. Based in Puliyur, Karur, we've grown from a small 
+              breathtaking destinations without the hassle. Based in Karur, we've grown from a small 
               local agency into a trusted name for both domestic and international travel.
             </p>
             <p class="text-slate-600 leading-relaxed">

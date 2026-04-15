@@ -44,8 +44,8 @@ export interface Review {
         <div class="relative w-full mb-12 flex items-center justify-center">
           <div class="text-center">
             <h2 class="text-3xl md:text-5xl font-black tracking-tighter mb-0 italic">
-              <span class="text-skyblue">What Our</span>
-              <span class="text-dark"> Travelers Say</span>
+              <span class="text-skyblue">Customer</span>
+              <span class="text-dark"> Reviews</span>
             </h2>
           </div>
           <button (click)="toggleModal()" 
@@ -172,6 +172,26 @@ export interface Review {
           </form>
         </div>
       </div>
+
+      <!-- THANK YOU POPUP -->
+      <div *ngIf="showPopup" class="fixed inset-0 z-[200] flex items-center justify-center px-4">
+        <div class="absolute inset-0 bg-slate-900/40 backdrop-blur-[2px]" (click)="closePopup()"></div>
+        <div class="bg-white border-2 border-sky-400 text-slate-800 rounded-[20px] p-10 shadow-[0_20px_50px_rgba(0,0,0,0.2)] flex flex-col items-center gap-6 relative max-w-md w-full animate-toast-center">
+          <!-- Close Button -->
+          <button (click)="closePopup()" class="absolute top-4 right-4 text-slate-400 hover:text-sky-500 transition-colors">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M6 18L18 6M6 6l12 12"></path></svg>
+          </button>
+
+          <div class="w-16 h-16 bg-sky-500 rounded-full flex items-center justify-center text-white text-3xl shadow-lg shadow-sky-200">
+            ✔
+          </div>
+          <div class="text-center">
+            <h4 class="text-2xl font-black text-slate-800 mb-2">Thank You!</h4>
+            <p class="text-slate-600 font-medium">Thank you for your review! We appreciate your feedback.</p>
+          </div>
+        </div>
+      </div>
+
     </section>
   `,
   styles: [`
@@ -264,39 +284,74 @@ export interface Review {
       from { opacity: 0; transform: scale(0.9) translateY(20px); }
       to   { opacity: 1; transform: scale(1) translateY(0); }
     }
+
+    .animate-toast-center {
+      animation: toast-center-in-out 5s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+    }
+
+    @keyframes toast-center-in-out {
+      0% { opacity: 0; transform: scale(0.9) translateY(20px); }
+      8% { opacity: 1; transform: scale(1) translateY(0); }
+      92% { opacity: 1; transform: scale(1) translateY(0); }
+      100% { opacity: 0; transform: scale(0.9) translateY(20px); }
+    }
   `]
 })
 export class ReviewSliderComponent implements OnInit, OnDestroy {
   defaultReviews: Review[] = [
     { 
-      name: "Sarah Jenkins", 
-      comment: "Absolutely stunning experience! Unique Tours organized everything perfectly. The Kerala backwaters tour was magical!",
-      rating: 5,
+      name: "Prem Sayee", 
+      comment: "Good experience. I have booked Unique Tours & Travels many times. They charge affordable prices and provide reliable service. The overall trip was smooth and well-managed. I highly recommend them for anyone looking for a stress-free travel partner.",
+      rating: 4.8,
       date: "March 15, 2026"
     },
     { 
-      name: "David Chen", 
-      comment: "Very professional team. They handled all the intricacies of our Dubai trip flawlessly. Will book again!",
+      name: "SomeThinK Different", 
+      comment: "Had a great journey with UTT last month. The moments were unforgettable. Thanks for the great support and experienced driver. My family was really happy and satisfied with the service. Definitely booking again for our next vacation!",
       rating: 5,
       date: "February 28, 2026"
     },
     { 
-      name: "Emily Roberts", 
-      comment: "From start to finish, the customer service was phenomenal. Bali was magical and every detail was covered.",
+      name: "Nanda Kumar", 
+      comment: "Best experience. Very safe and comfortable journey. I got excellent service and the team was very friendly to us. Everything was handled professionally and on time. Truly a quality travel agency.",
       rating: 5,
       date: "January 10, 2026"
     },
     { 
-      name: "Michael Lawson", 
-      comment: "The royal tour across Rajasthan was a 10/10. Unique Tours picked the best forts and palaces to visit.",
-      rating: 5,
+      name: "Vijay Venkatraman", 
+      comment: "Both the driver and owner are very customer friendly. Had a nice journey and I have traveled again with the same agency. Their consistency in service is really good. Always a pleasure traveling with this team.",
+      rating: 4.7,
       date: "December 22, 2025"
     },
     { 
-      name: "Sophia Martinez", 
-      comment: "Our honeymoon in the Maldives was pure perfection. Thank you Unique Tours for making it unforgettable!",
-      rating: 5,
+      name: "Uthaya Kumar", 
+      comment: "Very good service with a friendly approach. The vehicle was neat and clean. Overall, it was a comfortable and pleasant travel experience. Looking forward to many more trips in the future!",
+      rating: 4.8,
       date: "November 05, 2025"
+    },
+    { 
+      name: "Gowsalya Vasudevan", 
+      comment: "Thank you Unique Tours & Travels for making my trip comfortable and safe. The journey was well planned and I felt secure throughout the trip. Excellent attention to detail for solo woman travelers.",
+      rating: 5,
+      date: "October 18, 2025"
+    },
+    { 
+      name: "Suresh Sivaprakasam", 
+      comment: "Driver did a very good job and the pricing was quite reasonable. The trip was smooth and there were no issues during the travel. Satisfied with the overall coordination and punctuality.",
+      rating: 4.6,
+      date: "September 12, 2025"
+    },
+    { 
+      name: "Kumaravel A", 
+      comment: "Excellent service. It feels like traveling with a family member. Very caring and supportive throughout the journey. They really treat every traveler like their own family.",
+      rating: 5,
+      date: "August 24, 2025"
+    },
+    { 
+      name: "Jagadesan Jagan", 
+      comment: "Excellent driving and very good service. The trip was safe and comfortable from start to end. Highly recommended for long-distance travels with family.",
+      rating: 4.7,
+      date: "July 05, 2025"
     }
   ];
 
@@ -314,6 +369,8 @@ export class ReviewSliderComponent implements OnInit, OnDestroy {
     date: ''
   };
   formError = '';
+  showPopup = false;
+  private popupTimeoutId: any;
 
   private isBrowser: boolean;
   private intervalId: any;
@@ -333,7 +390,7 @@ export class ReviewSliderComponent implements OnInit, OnDestroy {
   }
 
   loadReviews() {
-    const saved = localStorage.getItem('userReviews');
+    const saved = localStorage.getItem('uniqueToursUserReviews');
     const userReviews: Review[] = saved ? JSON.parse(saved) : [];
     this.reviews = [...userReviews, ...this.defaultReviews];
   }
@@ -355,6 +412,13 @@ export class ReviewSliderComponent implements OnInit, OnDestroy {
     this.newReview.rating = r;
   }
 
+  closePopup() {
+    this.showPopup = false;
+    if (this.popupTimeoutId) {
+      clearTimeout(this.popupTimeoutId);
+    }
+  }
+
   submitReview() {
     if (!this.newReview.name || !this.newReview.comment || this.newReview.rating === 0) {
       this.formError = 'Please fill in all fields and provide a rating.';
@@ -369,15 +433,22 @@ export class ReviewSliderComponent implements OnInit, OnDestroy {
     this.newReview.isUserAdded = true;
 
     // Save to local list
-    const saved = localStorage.getItem('userReviews');
+    const saved = localStorage.getItem('uniqueToursUserReviews');
     const userReviews: Review[] = saved ? JSON.parse(saved) : [];
     userReviews.unshift({...this.newReview});
-    localStorage.setItem('userReviews', JSON.stringify(userReviews));
+    localStorage.setItem('uniqueToursUserReviews', JSON.stringify(userReviews));
 
     // Reload list and show first
     this.loadReviews();
     this.currentIndex = 0;
     this.toggleModal();
+
+    // Show Thank You Popup
+    this.showPopup = true;
+    if (this.popupTimeoutId) clearTimeout(this.popupTimeoutId);
+    this.popupTimeoutId = setTimeout(() => {
+      this.showPopup = false;
+    }, 5000);
   }
 
   ngOnDestroy() {
