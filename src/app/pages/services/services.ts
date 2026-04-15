@@ -97,6 +97,18 @@ export class ServicesComponent implements OnInit, AfterViewInit {
       imagePath: 'assets/images/raja-ampat-island-clusters.webp',
       color: 'violet'
     },
+    { 
+      title: 'Devotional Tours', 
+      tagline: 'Spiritual journeys to sacred sites and ancient temples.', 
+      imagePath: 'assets/images/trivandrum-padmanabhaswamy-temple.webp',
+      color: 'emerald'
+    },
+    { 
+      title: 'Incentive Tours', 
+      tagline: 'Rewarding experiences for corporate achievements.', 
+      imagePath: 'assets/images/singapore-marina-bay-sands.webp',
+      color: 'blue'
+    },
   ];
 
   ngOnInit() {}

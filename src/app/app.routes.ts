@@ -45,5 +45,10 @@ export const routes: Routes = [
     loadComponent: () => import('./pages/services/services').then(m => m.ServicesComponent),
     title: 'Our Services - Unique Tours & Travels'
   },
+  {
+    path: 'contact',
+    loadComponent: () => import('./pages/contact/contact.component').then(m => m.ContactComponent),
+    title: 'Contact Us - Unique Tours & Travels'
+  },
   { path: '**', redirectTo: '' }
 ];

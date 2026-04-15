@@ -43,7 +43,7 @@ gsap.registerPlugin(ScrollTrigger);
           
           <!-- Domestic Tours Card -->
           <a routerLink="/explore/domestic"
-             class="group cat-card relative aspect-square max-w-[500px] mx-auto w-full rounded-3xl overflow-hidden shadow-2xl hover:shadow-sky-500/30 transition-all duration-700 cursor-pointer flex items-end opacity-0 -translate-x-20">
+             class="group cat-card relative aspect-square max-w-[500px] mx-auto w-full rounded-3xl overflow-hidden shadow-2xl hover:shadow-sky-500/40 hover:-translate-y-1.5 transition-all duration-700 cursor-pointer flex items-end opacity-0 -translate-x-20">
             <img src="https://images.unsplash.com/photo-1524492412937-b28074a5d7da?fm=webp&fit=crop&w=1200&q=50" 
                  alt="Domestic Tours - Explore Incredible India's heritage and landscapes" 
                  loading="lazy"
@@ -53,9 +53,9 @@ gsap.registerPlugin(ScrollTrigger);
             <div class="absolute inset-0 bg-sky-500/5 opacity-0 group-hover:opacity-100 transition duration-700"></div>
 
             <div class="relative z-10 w-full p-6 transform transition-transform duration-700 group-hover:-translate-y-2">
-               <div class="mb-2 overflow-hidden">
+               <div class="mb-2 overflow-visible">
                   <span class="inline-block text-sky-400 font-black text-[9px] tracking-widest uppercase mb-1 transform translate-y-full group-hover:translate-y-0 transition-transform duration-500">Incredible India</span>
-                  <h3 class="text-2xl md:text-3xl font-black !text-white tracking-tighter">Domestic</h3>
+                  <h3 class="text-2xl md:text-4xl font-bold !text-white tracking-wide transition-all duration-300 group-hover:text-sky-400 group-hover:scale-105 origin-center drop-shadow-xl">Domestic</h3>
                </div>
                <p class="text-gray-300 text-xs font-medium max-w-[200px] opacity-0 group-hover:opacity-100 transition-opacity duration-700 delay-200">Discover the hidden gems across the subcontinent.</p>
                
@@ -70,8 +70,8 @@ gsap.registerPlugin(ScrollTrigger);
 
           <!-- International Tours Card -->
           <a routerLink="/explore/international"
-             class="group cat-card relative aspect-square max-w-[500px] mx-auto w-full rounded-3xl overflow-hidden shadow-2xl hover:shadow-indigo-500/30 transition-all duration-700 cursor-pointer flex items-end opacity-0 translate-x-20">
-            <img src="https://images.unsplash.com/photo-1512453979798-5ea266f8880c?fm=webp&fit=crop&w=1200&q=50" 
+             class="group cat-card relative aspect-square max-w-[500px] mx-auto w-full rounded-3xl overflow-hidden shadow-2xl hover:shadow-indigo-500/40 hover:-translate-y-1.5 transition-all duration-700 cursor-pointer flex items-end opacity-0 translate-x-20">
+            <img src="https://images.unsplash.com/photo-1510414842594-a61c69b5ae57?fm=webp&fit=crop&w=1200&q=50" 
                  alt="International Tours - Luxury global escapes across continents" 
                  loading="lazy"
                  class="absolute inset-0 w-full h-full object-cover transition-transform duration-[1.5s] ease-out group-hover:scale-[1.03]">
@@ -80,9 +80,9 @@ gsap.registerPlugin(ScrollTrigger);
             <div class="absolute inset-0 bg-indigo-500/5 opacity-0 group-hover:opacity-100 transition duration-700"></div>
 
             <div class="relative z-10 w-full p-6 transform transition-transform duration-700 group-hover:-translate-y-2">
-               <div class="mb-2 overflow-hidden">
+               <div class="mb-2 overflow-visible">
                   <span class="inline-block text-indigo-400 font-black text-[9px] tracking-widest uppercase mb-1 transform translate-y-full group-hover:translate-y-0 transition-transform duration-500">Global Escapes</span>
-                  <h3 class="text-2xl md:text-3xl font-black !text-white tracking-tighter">International</h3>
+                  <h3 class="text-2xl md:text-4xl font-bold !text-white tracking-wide transition-all duration-300 group-hover:text-sky-400 group-hover:scale-105 origin-center drop-shadow-xl">International</h3>
                </div>
                <p class="text-gray-300 text-xs font-medium max-w-[200px] opacity-0 group-hover:opacity-100 transition-opacity duration-700 delay-200">Across oceans and continents, luxury awaits.</p>
 

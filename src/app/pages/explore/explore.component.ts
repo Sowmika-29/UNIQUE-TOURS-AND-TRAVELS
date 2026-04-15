@@ -99,7 +99,7 @@ import { Subscription } from 'rxjs';
 
             <!-- Card Content Overlay -->
             <div class="relative z-10 mt-auto p-6 text-white w-full transform transition-all duration-500 group-hover:-translate-y-2">
-              <h3 class="text-2xl font-black mb-1 !text-white !group-hover:text-sky-300 transition-colors tracking-tighter leading-none">{{dest.name}}</h3>
+              <h3 class="text-2xl md:text-3xl font-bold mb-1 !text-white tracking-wide transition-all duration-300 group-hover:text-sky-400 group-hover:scale-105 origin-center drop-shadow-2xl leading-none text-left">{{dest.name}}</h3>
               <p class="text-[10px] text-slate-300 uppercase tracking-widest font-bold mb-3">{{dest.region}}</p>
               
               <div class="flex items-center text-[11px] font-bold bg-white/10 backdrop-blur-md px-3 py-1.5 rounded-xl border border-white/10 w-fit">

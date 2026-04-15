@@ -46,7 +46,7 @@ gsap.registerPlugin(ScrollTrigger);
 
           <a *ngFor="let dest of topDestinations; let i = index"
              [routerLink]="['/destination', dest.id]"
-             class="group destination-card relative h-[380px] max-w-[300px] mx-auto w-full rounded-2xl overflow-hidden shadow-lg hover:shadow-xl transition-all duration-700 cursor-pointer opacity-0 translate-y-20">
+             class="group destination-card relative h-[380px] max-w-[300px] mx-auto w-full rounded-2xl overflow-hidden shadow-lg hover:shadow-sky-500/20 hover:-translate-y-1.5 transition-all duration-700 cursor-pointer opacity-0 translate-y-20">
 
             <img [src]="dest.image" [alt]="dest.name + ' travel destination - Unique Tours & Travels'" 
                  loading="lazy"
@@ -60,7 +60,7 @@ gsap.registerPlugin(ScrollTrigger);
               <span class="inline-block px-3 py-1 bg-sky-500/20 backdrop-blur-md border border-white/20 text-sky-300 text-[9px] font-black uppercase tracking-widest rounded-full mb-2 opacity-0 group-hover:opacity-100 translate-y-3 group-hover:translate-y-0 transition-all duration-500">
                 Explore Destination
               </span>
-              <h3 class="text-2xl font-bold !text-white drop-shadow-lg !group-hover:text-sky-100 transition-colors tracking-tight">{{dest.name}}</h3>
+              <h3 class="text-2xl md:text-3xl font-bold !text-white tracking-wide transition-all duration-300 group-hover:text-sky-400 group-hover:scale-105 origin-center drop-shadow-2xl">{{dest.name}}</h3>
               <div class="w-0 group-hover:w-16 h-1 bg-sky-500 mt-2 transition-all duration-700 delay-100"></div>
             </div>
 

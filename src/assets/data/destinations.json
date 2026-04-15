@@ -41,6 +41,11 @@
           "name": "Trivandrum",
           "image": "assets/images/trivandrum-padmanabhaswamy-temple.webp",
           "description": "The capital city known for Padmanabhaswamy Temple and beaches."
+        },
+        {
+          "name": "Kanthalloor",
+          "image": "assets/images/vagamon-green-meadows-pine.webp",
+          "description": "A peaceful hill village near Munnar known for apple orchards, strawberry farms, cool climate, and scenic mountain views."
         }
       ]
     },
@@ -136,7 +141,7 @@
         },
         {
           "name": "Solang Valley",
-          "image": "assets/images/solang-valley-paragliding.webp",
+          "image": "assets/images/manali-snow-mountains-valley.webp",
           "description": "A side valley at the top of the Kullu Valley, known for paragliding, zorbing, and beautiful snowy slopes."
         },
         {

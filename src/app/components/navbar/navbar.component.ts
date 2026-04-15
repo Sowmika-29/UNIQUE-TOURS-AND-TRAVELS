@@ -84,7 +84,7 @@ import { APP_CONFIG } from '../../app.config';
               <span class="absolute bottom-0 left-0 w-0 h-0.5 bg-sky-500 group-hover:w-full transition-all duration-300"></span>
             </a>
 
-            <a [href]="'https://wa.me/' + APP_CONFIG.whatsapp" target="_blank"
+            <a routerLink="/contact"
                class="px-7 py-3 rounded-xl font-black text-xs uppercase tracking-widest transition-all duration-500 shadow-lg hover:shadow-sky-500/25 flex items-center bg-sky-500 text-white hover:bg-sky-400 transform hover:-translate-y-1 active:scale-95">
                Contact Us
             </a>
@@ -119,8 +119,8 @@ import { APP_CONFIG } from '../../app.config';
           <a routerLink="/services" (click)="mobileOpen = false" class="w-full py-4 text-xl font-black border-b border-white/5 uppercase tracking-tighter">Services</a>
           <a routerLink="/blog" (click)="mobileOpen = false" class="w-full py-4 text-xl font-black border-b border-white/5 uppercase tracking-tighter text-sky-400">Blog</a>
           <a routerLink="/about" (click)="mobileOpen = false" class="w-full py-4 text-xl font-black border-b border-white/5 uppercase tracking-tighter">About Us</a>
-          <a [href]="'https://wa.me/' + APP_CONFIG.whatsapp" target="_blank"
-             class="w-full mt-8 bg-sky-500 text-white py-5 rounded-2xl font-black uppercase tracking-widest hover:bg-sky-400 transition-all shadow-xl shadow-sky-500/20 active:scale-95">
+          <a routerLink="/contact" (click)="mobileOpen = false"
+             class="w-full mt-8 bg-sky-500 text-white py-5 rounded-2xl font-black uppercase tracking-widest hover:bg-sky-400 transition-all shadow-xl shadow-sky-500/20 active:scale-95 text-center">
             Contact Us
           </a>
         </div>

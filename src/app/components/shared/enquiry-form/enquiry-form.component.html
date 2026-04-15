@@ -1,0 +1,204 @@
+<section [class.py-12]="!isFullPage" [class.py-20]="isFullPage" class="relative overflow-hidden bg-white">
+    
+    <!-- Stylized Travel Background -->
+    <div class="absolute inset-0 pointer-events-none overflow-hidden">
+        <div class="orb orb-1 opacity-30"></div>
+        <div class="orb orb-2 opacity-25"></div>
+        <div class="orb orb-3 opacity-20"></div>
+        
+        <!-- Floating Particles -->
+        <div class="particle p-1"></div>
+        <div class="particle p-2"></div>
+        <div class="particle p-3"></div>
+        <div class="particle p-4"></div>
+        <div class="particle p-5"></div>
+
+        <div class="floating-bubble bubble-1"></div>
+        <div class="floating-bubble bubble-2"></div>
+    </div>
+
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+        
+        <div class="max-w-4xl mx-auto">
+            
+            <!-- Compact Heading Section -->
+            <div class="text-center mb-10 animate-slide-up">
+                <div class="inline-flex items-center gap-2 px-3 py-1.5 bg-[#9bddff]/20 rounded-full mb-4 border border-[#9bddff]/30">
+                    <span class="relative flex h-2 w-2">
+                        <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-sky-400 opacity-75"></span>
+                        <span class="relative inline-flex rounded-full h-2 w-2 bg-sky-500"></span>
+                    </span>
+                    <span class="text-[9px] font-black uppercase tracking-[0.2em] text-slate-600">Travel Concierge Ready</span>
+                </div>
+                <h2 class="text-3xl md:text-5xl font-black text-slate-900 mb-2 tracking-tighter leading-none">
+                    Plan Your <span class="bg-gradient-to-r from-sky-600 to-sky-400 bg-clip-text text-transparent italic">Dream </span> Trip 
+                </h2>
+                <p class="text-sm md:text-base text-slate-500 font-medium max-w-lg mx-auto">
+                    Fill in your details and we'll handle the rest.
+                </p>
+            </div>
+
+            <!-- Enhanced Frame Design - 2 Column Layout -->
+            <div class="enquiry-frame-premium p-6 md:p-10 relative overflow-hidden animate-scale-in">
+                
+                <!-- Internal Gradient Glow -->
+                <div class="absolute top-0 right-0 w-32 h-32 bg-[#9bddff]/40 blur-[60px] rounded-full -mr-16 -mt-16"></div>
+
+                <form [formGroup]="enquiryForm" (ngSubmit)="onSubmit()" class="grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-4 relative z-10">
+                    
+                    <!-- 1. Name -->
+                    <div class="space-y-1 group">
+                        <label class="input-label-modern">Full Name</label>
+                        <div class="relative">
+                            <span class="absolute left-5 top-1/2 -translate-y-1/2 text-slate-300 group-focus-within:text-sky-500 transition-colors">
+                                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"></path></svg>
+                            </span>
+                            <input type="text" formControlName="name" placeholder="Enter your full name *"
+                                   [class.error-border]="enquiryForm.get('name')?.touched && enquiryForm.get('name')?.invalid"
+                                   class="premium-vertical-input w-full pl-14">
+                        </div>
+                        <p *ngIf="enquiryForm.get('name')?.touched && enquiryForm.get('name')?.invalid" class="error-text-modern">Required • Name is missing</p>
+                    </div>
+
+                    <!-- 2. Email -->
+                    <div class="space-y-1 group">
+                        <label class="input-label-modern">Email Address</label>
+                        <div class="relative">
+                            <span class="absolute left-5 top-1/2 -translate-y-1/2 text-slate-300 group-focus-within:text-sky-500 transition-colors">
+                                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path></svg>
+                            </span>
+                            <input type="email" formControlName="email" placeholder="example@email.com *"
+                                   [class.error-border]="enquiryForm.get('email')?.touched && enquiryForm.get('email')?.invalid"
+                                   class="premium-vertical-input w-full pl-14">
+                        </div>
+                        <div *ngIf="enquiryForm.get('email')?.touched && enquiryForm.get('email')?.invalid" class="error-text-modern">
+                            <span *ngIf="enquiryForm.get('email')?.errors?.['email']">Invalid format</span>
+                            <span *ngIf="enquiryForm.get('email')?.errors?.['required']">Required</span>
+                        </div>
+                    </div>
+
+                    <!-- 3. City -->
+                    <div class="space-y-1 group">
+                        <label class="input-label-modern">Residence City</label>
+                        <div class="relative">
+                            <span class="absolute left-5 top-1/2 -translate-y-1/2 text-slate-300 group-focus-within:text-sky-500 transition-colors">
+                                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path></svg>
+                            </span>
+                            <input type="text" formControlName="city" placeholder="E.g. Karur / Trichy *"
+                                   [class.error-border]="enquiryForm.get('city')?.touched && enquiryForm.get('city')?.invalid"
+                                   class="premium-vertical-input w-full pl-14">
+                        </div>
+                        <p *ngIf="enquiryForm.get('city')?.touched && enquiryForm.get('city')?.invalid" class="error-text-modern">Required • City needed</p>
+                    </div>
+
+                    <!-- 4. WhatsApp -->
+                    <div class="space-y-1 group">
+                        <label class="input-label-modern">WhatsApp Number</label>
+                        <div class="relative">
+                            <span class="absolute left-5 top-1/2 -translate-y-1/2 text-slate-300 group-focus-within:text-sky-500 transition-colors">
+                                <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.582 2.128 2.182-.573c.978.58 1.911.928 3.145.929 3.178 0 5.767-2.587 5.768-5.766 0-3.18-2.587-5.766-5.764-5.766zm3.376 8.232c-.128.366-.633.639-.878.68-.244.041-.351.107-1.427-.331-1.156-.471-1.891-1.637-1.948-1.713-.058-.076-.464-.617-.464-1.187 0-.57.301-.851.408-.962.106-.111.213-.153.284-.153.072 0 .143 0 .205.003.067.003.158-.026.247.191.092.224.316.772.343.827.027.055.046.12.008.196-.038.077-.057.126-.114.192-.058.067-.122.149-.174.2-.057.057-.118.12-.051.235.067.114.297.491.637.795.438.391.81.512.924.569.114.058.181.049.249-.03.067-.077.291-.341.368-.456.077-.115.153-.096.258-.058.105.038.666.314.781.371.114.058.191.087.219.135.029.048.029.278-.099.643z"/></svg>
+                            </span>
+                            <input type="tel" formControlName="whatsapp" placeholder="10 Digit WhatsApp Number *"
+                                   [class.error-border]="enquiryForm.get('whatsapp')?.touched && enquiryForm.get('whatsapp')?.invalid"
+                                   class="premium-vertical-input w-full pl-14 pr-12">
+                            <span class="absolute right-5 top-1/2 -translate-y-1/2 opacity-30 select-none">🇮🇳</span>
+                        </div>
+                        <p *ngIf="enquiryForm.get('whatsapp')?.touched && enquiryForm.get('whatsapp')?.invalid" class="error-text-modern">Required • 10 digits</p>
+                    </div>
+
+                    <!-- 5. Destination -->
+                    <div class="space-y-1 group">
+                        <label class="input-label-modern">Travel Destination</label>
+                        <div class="relative">
+                            <span class="absolute left-5 top-1/2 -translate-y-1/2 text-slate-300 group-focus-within:text-sky-500 transition-colors">
+                                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                            </span>
+                            <input type="text" formControlName="destination" placeholder="E.g. Europe / Kerala / Dubai *"
+                                   [class.error-border]="enquiryForm.get('destination')?.touched && enquiryForm.get('destination')?.invalid"
+                                   class="premium-vertical-input w-full pl-14">
+                        </div>
+                        <p *ngIf="enquiryForm.get('destination')?.touched && enquiryForm.get('destination')?.invalid" class="error-text-modern">Required • Tell us where</p>
+                    </div>
+
+                    <!-- 6. Date -->
+                    <div class="space-y-1 group">
+                        <label class="input-label-modern">Preferred travel window</label>
+                        <div class="relative">
+                            <span class="absolute left-5 top-1/2 -translate-y-1/2 text-slate-300 group-focus-within:text-sky-500 transition-colors">
+                                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path></svg>
+                            </span>
+                            <input type="date" formControlName="date"
+                                   [class.error-border]="enquiryForm.get('date')?.touched && enquiryForm.get('date')?.invalid"
+                                   class="premium-vertical-input w-full pl-14">
+                        </div>
+                        <p *ngIf="enquiryForm.get('date')?.touched && enquiryForm.get('date')?.invalid" class="error-text-modern">Required • Select a date</p>
+                    </div>
+
+                    <!-- 7. People -->
+                    <div class="space-y-1 group">
+                        <label class="input-label-modern">Guest Count</label>
+                        <div class="relative">
+                            <span class="absolute left-5 top-1/2 -translate-y-1/2 text-slate-300 group-focus-within:text-sky-500 transition-colors">
+                                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197M13 7a4 4 0 11-8 0 4 4 0 018 0z"></path></svg>
+                            </span>
+                            <input type="number" formControlName="people" placeholder="Number of travelers *"
+                                   [class.error-border]="enquiryForm.get('people')?.touched && enquiryForm.get('people')?.invalid"
+                                   class="premium-vertical-input w-full pl-14">
+                        </div>
+                        <p *ngIf="enquiryForm.get('people')?.touched && enquiryForm.get('people')?.invalid" class="error-text-modern">Required • Guest count</p>
+                    </div>
+
+                    <!-- 8. Vacation Type -->
+                    <div class="space-y-1 group relative">
+                        <label class="input-label-modern">Travel Style</label>
+                        <div class="relative">
+                            <span class="absolute left-5 top-1/2 -translate-y-1/2 text-slate-300 group-focus-within:text-sky-500 transition-colors">
+                                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"></path></svg>
+                            </span>
+                            <select formControlName="vacationType" 
+                                    [class.error-border]="enquiryForm.get('vacationType')?.touched && enquiryForm.get('vacationType')?.invalid"
+                                    class="premium-vertical-input w-full pl-14 appearance-none cursor-pointer">
+                                <option value="" disabled selected>Select My Style</option>
+                                <option *ngFor="let type of vacationTypes" [value]="type">{{type}}</option>
+                            </select>
+                            <span class="absolute right-5 top-1/2 -translate-y-1/2 text-slate-400 pointer-events-none group-focus-within:rotate-180 transition-transform">
+                                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
+                            </span>
+                        </div>
+                        <p *ngIf="enquiryForm.get('vacationType')?.touched && enquiryForm.get('vacationType')?.invalid" class="error-text-modern">Required • Pick a style</p>
+                    </div>
+
+                    <!-- Enhanced Submit Button - Span Full Width -->
+                    <div class="md:col-span-2 mt-4 pt-2">
+                        <button type="submit" 
+                                class="juicy-btn w-full py-5 text-white font-black uppercase tracking-[0.3em] text-sm md:text-base rounded-2xl shadow-xl transition-all duration-500 relative overflow-hidden group uppercase">
+                            <span class="relative z-10 flex items-center justify-center gap-3">
+                                BEGIN JOURNEY
+                                <svg class="w-6 h-6 animate-bounce-x" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M13 7l5 5m0 0l-5 5m5-5H6"></path></svg>
+                            </span>
+                            <div class="btn-shine absolute inset-0 bg-gradient-to-r from-transparent via-white/40 to-transparent -translate-x-[150%] skew-x-12 group-hover:translate-x-[150%] transition-transform duration-1000"></div>
+                        </button>
+                    </div>
+
+                </form>
+
+                <!-- Refined Trust Section -->
+                <div class="mt-8 pt-6 border-t border-slate-100 flex flex-wrap justify-center items-center gap-x-8 gap-y-4">
+                    <div class="trust-pill group">
+                        <div class="icon-box"><svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20"><path d="M5 9V7a5 5 0 0110 0v2a2 2 0 012 2v5a2 2 0 01-2 2H5a2 2 0 01-2-2v-5a2 2 0 012-2zm8-2v2H7V7a3 3 0 016 0z"/></svg></div>
+                        <span>SECURE</span>
+                    </div>
+                    <div class="trust-pill group">
+                        <div class="icon-box"><svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20"><path d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-12a1 1 0 10-2 0v4a1 1 0 00.293.707l2.828 2.829a1 1 0 101.415-1.415L11 9.586V6z"/></svg></div>
+                        <span>24/7 LIVE</span>
+                    </div>
+                    <div class="trust-pill group">
+                        <div class="icon-box"><svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div>
+                        <span>TRUSTED</span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section>
