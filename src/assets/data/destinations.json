@@ -10,12 +10,82 @@
         {
           "name": "Munnar",
           "image": "assets/images/munnar-tea-plantation-hills.webp",
-          "description": "A scenic hill station blanketed in tea plantations, misty valleys, and cascading waterfalls."
+          "description": "A scenic hill station blanketed in tea plantations, misty valleys, and cascading waterfalls.",
+          "subPlaces": [
+            {
+              "name": "Tea Gardens",
+              "image": "assets/images/munnar-tea-plantation-hills.webp",
+              "location": "Munnar, Kerala",
+              "description": "Vast stretches of emerald green tea plantations offering breathtaking panoramic views."
+            },
+            {
+              "name": "Eravikulam Park",
+              "image": "assets/images/munnar-tea-plantation-hills.webp",
+              "location": "Munnar, Kerala",
+              "description": "Home to the endangered Nilgiri Tahr and the highest peak in South India."
+            },
+            {
+              "name": "Mattupetty Dam",
+              "image": "assets/images/munnar-tea-plantation-hills.webp",
+              "location": "Munnar, Kerala",
+              "description": "A beautiful lake and dam site perfect for boating and elephant sightings."
+            },
+            {
+              "name": "Echo Point",
+              "image": "assets/images/munnar-tea-plantation-hills.webp",
+              "location": "Munnar, Kerala",
+              "description": "A natural echo phenomenon spot surrounded by misty hills and the lake."
+            },
+            {
+              "name": "Rose Garden",
+              "image": "assets/images/munnar-tea-plantation-hills.webp",
+              "location": "Munnar, Kerala",
+              "description": "A vibrant botanical garden showcasing a variety of exotic roses and spices."
+            },
+            {
+              "name": "Lakkam Falls",
+              "image": "assets/images/munnar-tea-plantation-hills.webp",
+              "location": "Munnar, Kerala",
+              "description": "A serene waterfall near the tea gardens, ideal for refreshing nature walks."
+            }
+          ]
         },
         {
           "name": "Alleppey",
           "image": "assets/images/alleppey-houseboat-in-backwaters.webp",
-          "description": "Known as the Venice of the East, famous for its tranquil backwater houseboat cruises."
+          "description": "Known as the Venice of the East, famous for its tranquil backwater houseboat cruises.",
+          "subPlaces": [
+            {
+              "name": "Houseboat Cruise",
+              "image": "assets/images/alleppey-houseboat-in-backwaters.webp",
+              "location": "Alleppey Backwaters",
+              "description": "Traditional Kettuvallam stay through the scenic internal canals."
+            },
+            {
+              "name": "Marari Beach",
+              "image": "assets/images/alleppey-houseboat-in-backwaters.webp",
+              "location": "Alleppey, Kerala",
+              "description": "A pristine white sand beach perfect for peace and relaxation."
+            },
+            {
+              "name": "Alleppey Lighthouse",
+              "image": "assets/images/alleppey-houseboat-in-backwaters.webp",
+              "location": "Alleppey Beach",
+              "description": "Historical landmark offering panoramic views of the Arabian Sea."
+            },
+            {
+              "name": "Punnamada Lake",
+              "image": "assets/images/alleppey-houseboat-in-backwaters.webp",
+              "location": "Alleppey",
+              "description": "Famous as the venue for the legendary Nehru Trophy Boat Race."
+            },
+            {
+              "name": "Vembanad Lake",
+              "image": "assets/images/alleppey-houseboat-in-backwaters.webp",
+              "location": "Alleppey",
+              "description": "The largest lake in India, central to the Kerala backwater experience."
+            }
+          ]
         },
         {
           "name": "Kochi",
@@ -98,7 +168,27 @@
         {
           "name": "Calangute",
           "image": "assets/images/calangute-crowded-beach.webp",
-          "description": "The Queen of Beaches — buzzing nightlife, water sports, and golden sunsets."
+          "description": "The Queen of Beaches — buzzing nightlife, water sports, and golden sunsets.",
+          "subPlaces": [
+            {
+              "name": "Baga Beach",
+              "image": "assets/images/calangute-crowded-beach.webp",
+              "location": "North Goa",
+              "description": "The epicenter of Goa's party scene with famous shacks like Tito's and Mambos."
+            },
+            {
+              "name": "Anjuna Flea Market",
+              "image": "assets/images/calangute-crowded-beach.webp",
+              "location": "North Goa",
+              "description": "A legendary beachside market featuring everything from boho jewelry to local spices."
+            },
+            {
+              "name": "Aguada Fort",
+              "image": "assets/images/calangute-crowded-beach.webp",
+              "location": "Candolim, Goa",
+              "description": "A well-preserved 17th-century Portuguese fort offering stunning Arabian sea views."
+            }
+          ]
         },
         {
           "name": "Baga",
@@ -432,7 +522,27 @@
         {
           "name": "Marina",
           "image": "assets/images/dubai-marina-night-skyline.webp",
-          "description": "A stunning waterfront promenade with yacht tours, skyscraper views, and vibrant dining scenes."
+          "description": "A stunning waterfront promenade with yacht tours, skyscraper views, and vibrant dining scenes.",
+          "subPlaces": [
+            {
+              "name": "Dubai Marina Yacht Club",
+              "image": "assets/images/dubai-marina-night-skyline.webp",
+              "location": "Dubai Marina, UAE",
+              "description": "A premier sailing destination offering luxury yacht experiences and dining."
+            },
+            {
+              "name": "The Walk at JBR",
+              "image": "assets/images/dubai-marina-night-skyline.webp",
+              "location": "JBR, Dubai",
+              "description": "A lively seaside boulevard with street performers, outdoor dining, and shopping."
+            },
+            {
+              "name": "Flying Cup",
+              "image": "assets/images/dubai-marina-night-skyline.webp",
+              "location": "The Beach, JBR",
+              "description": "An aerial dining experience providing 360-degree views of the Marina and Palm Jumeirah."
+            }
+          ]
         },
         {
           "name": "Museum of Future",

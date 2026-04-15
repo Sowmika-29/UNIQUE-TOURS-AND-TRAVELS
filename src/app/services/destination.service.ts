@@ -2,10 +2,18 @@ import { Injectable, inject } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { firstValueFrom } from 'rxjs';
 
+export interface SubPlace {
+  name: string;
+  image: string;
+  location: string;
+  description: string;
+}
+
 export interface Place {
   name: string;
   image: string;
   description?: string;
+  subPlaces?: SubPlace[];
 }
 
 export interface Destination {
@@ -61,5 +69,13 @@ export class DestinationService {
     const data = await this.fetchDestinations();
     const all = [...data.domestic, ...data.international];
     return all.find(d => d.id === id) || null;
+  }
+
+  async getSubPlace(category: string, destinationId: string, placeName: string): Promise<Place | null> {
+    const data = await this.fetchDestinations();
+    const destinations = category.toLowerCase() === 'domestic' ? data.domestic : data.international;
+    const dest = destinations.find(d => d.id === destinationId);
+    if (!dest) return null;
+    return dest.places.find(p => p.name.toLowerCase() === placeName.toLowerCase()) || null;
   }
 }

@@ -31,6 +31,11 @@ export const routes: Routes = [
     title: 'Destination Details - Unique Tours & Travels'
   },
   {
+    path: 'destination/:category/:place/:subplace',
+    loadComponent: () => import('./pages/place-detail/place-detail.component').then(m => m.PlaceDetailComponent),
+    title: 'Place Details - Unique Tours & Travels'
+  },
+  {
     path: 'blog',
     loadComponent: () => import('./pages/blog/blog.component').then(m => m.BlogComponent),
     title: 'Travel Blog - Unique Tours & Travels'
