@@ -48,15 +48,12 @@ import { DestinationService } from '../../services/destination.service';
             </div>
 
             <!-- Card Content Overlay -->
-            <div class="relative mt-auto p-6 z-10">
-              <h3 class="text-2xl md:text-3xl font-bold text-white mb-2 transition-colors duration-300 group-hover:text-sky-400">
+            <div class="relative mt-auto p-6 z-10 bg-gradient-to-t from-slate-900 to-transparent">
+              <h3 class="text-2xl md:text-3xl font-bold text-white mb-4">
                 {{ dest.name }}
               </h3>
-              <p class="text-slate-300 text-xs md:text-sm mb-4 line-clamp-2 opacity-0 group-hover:opacity-100 transition-all duration-500 transform translate-y-4 group-hover:translate-y-0">
-                {{ dest.description }}
-              </p>
               
-              <div class="flex flex-wrap gap-2 group-hover:opacity-100 opacity-0 transition-opacity duration-500 transform translate-y-4 group-hover:translate-y-0">
+              <div class="flex flex-wrap gap-2">
                 <button (click)="exploreDestination(dest)" 
                         class="bg-white/10 backdrop-blur-md border border-white/20 text-white px-4 py-2 rounded-xl text-[10px] font-black uppercase tracking-widest hover:bg-sky-500 hover:border-sky-500 transition-all flex-1 whitespace-nowrap">
                   Explore →

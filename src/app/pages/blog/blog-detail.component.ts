@@ -83,14 +83,11 @@ import { APP_CONFIG } from '../../app.config';
                         <span class="px-3 py-1 bg-white/10 backdrop-blur-md border border-white/20 text-white text-[9px] font-black tracking-widest uppercase rounded-full">Recommended</span>
                         <span class="text-white/60 text-[10px] uppercase font-bold tracking-widest">{{dest.type}}</span>
                      </div>
-                     <h3 class="text-3xl font-black text-white mb-3 group-hover:text-sky-400 transition-colors">{{dest.name}}</h3>
-                     <p class="text-white/70 text-sm font-medium line-clamp-2 mb-6 transform translate-y-4 opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-500">
-                        {{dest.description}}
-                     </p>
+                     <h3 class="text-3xl font-black text-white mb-6">{{dest.name}}</h3>
                      
-                     <div class="flex gap-3 transform translate-y-4 opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-500 delay-75">
-                        <button (click)="exploreDestination(dest)" class="flex-1 py-3 bg-white text-slate-900 text-[10px] font-black uppercase tracking-widest rounded-xl hover:bg-sky-500 hover:text-white transition-all">Explore →</button>
-                        <button (click)="enquire(dest.name)" class="p-3 bg-green-500 text-white rounded-xl hover:bg-green-600 transition-all">
+                     <div class="flex gap-3">
+                        <button (click)="exploreDestination(dest)" class="flex-1 py-3 bg-white text-slate-900 text-[10px] font-black uppercase tracking-widest rounded-xl hover:bg-sky-500 hover:text-white transition-all shadow-md">Explore →</button>
+                        <button (click)="enquire(dest.name)" class="p-3 bg-green-500 text-white rounded-xl hover:bg-green-600 transition-all shadow-md">
                            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M12.031 6.172c-3.181 0-5.767 2.586-5.767 5.767 0 1.267.405 2.436 1.096 3.39l-.794 2.895 2.964-.778c.801.439 1.713.69 2.687.69.003 0 .006 0 .009 0 3.181 0 5.767-2.586 5.767-5.767 0-3.181-2.586-5.767-5.767-5.767zm3.387 8.191c-.139.394-.803.743-1.129.771-.326.028-.654.159-2.071-.416-1.89-.769-3.08-2.693-3.174-2.822-.094-.129-.763-.915-.763-1.745 0-.83.435-1.236.589-1.406l.426-.446c.105-.107.279-.163.42-.163.141 0 .28.001.402.006.126.005.297-.047.464.351.168.398.573 1.396.623 1.496.05.1.084.217.017.35-.067.133-.1.217-.2.333-.1.117-.21.263-.3.351-.102.102-.208.213-.089.417.12.204.53.873 1.139 1.414.782.696 1.438.91 1.643 1.013.204.104.323.086.443-.053.12-.139.513-.598.651-.803.136-.205.275-.172.466-.102.19.07 1.21.571 1.417.674.207.104.345.154.394.239.049.085.049.492-.09.886z"/></svg>
                         </button>
                      </div>

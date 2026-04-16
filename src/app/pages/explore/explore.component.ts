@@ -45,10 +45,10 @@ import { Subscription } from 'rxjs';
           <div class="absolute top-1/2 right-1/4 w-64 h-32 bg-[#7fd1e8] rounded-full animate-mesh-orb-2"></div>
         </div>
 
-        <div class="relative bg-white/70 backdrop-blur-2xl p-5 md:p-7 rounded-[2.5rem] shadow-[0_20px_50px_rgba(0,0,0,0.05)] border border-white/50 flex flex-col md:flex-row gap-6 items-center justify-between filter-bar-glass transition-all duration-500 hover:shadow-sky-500/10 hover:border-sky-200/50">
+        <div class="relative bg-white/80 backdrop-blur-2xl p-5 md:p-7 rounded-[2.5rem] shadow-[0_20px_50px_rgba(0,0,0,0.05)] border-[3px] border-[#87cefa] flex flex-col md:flex-row gap-6 items-center justify-between filter-bar-glass transition-all duration-500 hover:shadow-[#87cefa]/20">
           
           <!-- Category Toggles with Glass Effect -->
-          <div class="flex p-1.5 bg-slate-50/50 backdrop-blur-md rounded-2xl w-full md:w-auto border border-slate-200/30">
+          <div class="flex p-1.5 bg-slate-50/50 backdrop-blur-md rounded-2xl w-full md:w-auto border-2 border-[#87cefa]">
             <button *ngFor="let option of filterOptions"
                     (click)="setFilter(option.id)"
                     [ngClass]="activeFilter === option.id ? 'bg-[#a4dded] text-slate-900 shadow-xl shadow-[#a4dded]/20 scale-105' : 'text-slate-500 hover:text-slate-800 hover:bg-white/50'"
@@ -63,7 +63,7 @@ import { Subscription } from 'rxjs';
                    [(ngModel)]="searchQuery" 
                    (input)="applyFilter()"
                    placeholder="Discover your next adventure..." 
-                   class="w-full bg-slate-50/50 backdrop-blur-sm border-2 border-slate-100 rounded-[1.5rem] px-14 py-4 text-slate-700 font-bold focus:bg-white focus:border-sky-500 focus:shadow-inner-lg transition-all placeholder:text-slate-300">
+                   class="w-full bg-slate-50/50 backdrop-blur-sm border-2 border-[#87cefa] rounded-[1.5rem] px-14 py-4 text-slate-700 font-bold focus:bg-white focus:border-sky-500 focus:shadow-inner-lg transition-all placeholder:text-slate-300">
             <div class="absolute left-5 top-1/2 -translate-y-1/2 text-slate-300 group-focus-within:text-sky-500 transition-colors">
               <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path></svg>
             </div>

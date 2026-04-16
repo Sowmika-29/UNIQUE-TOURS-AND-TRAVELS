@@ -58,13 +58,18 @@
     box-shadow: 0 12px 24px -8px rgba(155, 221, 255, 0.2);
 }
 
+.premium-vertical-input::placeholder {
+    font-weight: 300;
+    font-size: 13px;
+    color: rgba(30, 41, 59, 0.4); /* transparent slate color */
+}
+
 .input-label-modern {
     display: block;
-    font-size: 10px;
-    font-weight: 900;
-    text-transform: uppercase;
-    letter-spacing: 0.25em;
-    color: #64748b;
+    font-size: 15px;
+    font-weight: 700;
+    color: #1e293b;
+    margin-bottom: 0.5rem;
     transition: color 0.3s ease;
 }
 

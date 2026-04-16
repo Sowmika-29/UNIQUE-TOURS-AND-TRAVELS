@@ -57,14 +57,11 @@ interface BlogPost {
                   <span class="w-1.5 h-1.5 rounded-full bg-sky-400"></span>
                   <span>5 Min Read</span>
                </div>
-               <h3 class="text-2xl font-black text-slate-900 mb-4 group-hover:text-sky-600 transition-colors leading-tight tracking-tight">
+               <h3 class="text-2xl font-black text-slate-900 mb-8 leading-tight tracking-tight">
                 {{blog.title}}
                </h3>
-               <p class="text-slate-500 font-medium leading-relaxed text-sm line-clamp-3 mb-8">
-                {{blog.description}}
-               </p>
 
-               <div class="flex items-center text-sky-500 font-black text-xs uppercase tracking-widest group-hover:gap-4 gap-2 transition-all">
+               <div class="flex items-center text-sky-500 font-black text-xs uppercase tracking-widest gap-2">
                   Read Article
                   <span class="text-lg">→</span>
                </div>

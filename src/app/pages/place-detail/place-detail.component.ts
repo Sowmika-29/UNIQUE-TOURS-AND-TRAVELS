@@ -39,7 +39,7 @@ import { APP_CONFIG } from '../../app.config';
            <span class="opacity-40">/</span>
            <a [routerLink]="['/destination', type, parentId]" class="hover:text-white transition-colors capitalize">{{parentId}}</a>
            <span class="opacity-40">/</span>
-           <a [routerLink]="['/destination', type, parentId, placeName?.toLowerCase()]" class="hover:text-white transition-colors capitalize">{{placeName}}</a>
+           <a [routerLink]="['/destination', type, parentId, (placeName || '').toLowerCase()]" class="hover:text-white transition-colors capitalize">{{placeName}}</a>
            <ng-container *ngIf="subPlaceName">
              <span class="opacity-40">/</span>
              <span class="text-sky-400 font-black">{{subPlaceName}}</span>
