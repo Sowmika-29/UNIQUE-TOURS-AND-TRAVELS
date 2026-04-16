@@ -9,7 +9,7 @@ import { WhyChooseUsComponent } from "../../components/home/why-choose-us/why-ch
   template: `
     <!-- Hero Banner -->
     <div class="relative h-[50vh] min-h-[400px] w-full bg-slate-900 overflow-hidden">
-      <img src="https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?fm=webp&fit=crop&w=1920&q=50"
+      <img src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?fm=webp&fit=crop&w=1920&q=80"
            alt="About Us" class="absolute inset-0 w-full h-full object-cover opacity-40">
       <div class="absolute inset-0 bg-gradient-to-t from-slate-900 via-slate-900/50 to-transparent"></div>
 
@@ -32,7 +32,7 @@ import { WhyChooseUsComponent } from "../../components/home/why-choose-us/why-ch
     </div>
 
     <!-- Content -->
-    <div class="relative overflow-hidden">
+    <div class="relative overflow-hidden bg-slate-50">
 
       <!-- Animated background for content area -->
       <div class="absolute inset-0 pointer-events-none overflow-hidden">
@@ -51,7 +51,7 @@ import { WhyChooseUsComponent } from "../../components/home/why-choose-us/why-ch
         <div class="grid md:grid-cols-2 gap-16 items-center mb-24">
           <div class="animate-heading">
             <span class="text-sky-500 font-bold tracking-wider uppercase text-sm mb-4 block">Our Story</span>
-            <h2 class="text-4xl font-bold text-slate-800 mb-6">Making Travel Dreams Come True Since 2015</h2>
+            <h2 class="text-4xl font-bold text-slate-800 mb-6">Making Travel Dreams Come True Since 2017</h2>
             <p class="text-slate-600 leading-relaxed mb-4">
               Unique Tours & Travels was born from a simple passion — to help people explore the world's most 
               breathtaking destinations without the hassle. Based in Karur, we've grown from a small 
@@ -69,28 +69,25 @@ import { WhyChooseUsComponent } from "../../components/home/why-choose-us/why-ch
           </div>
         </div>
 
-        <!-- Mission / Vision -->
-        <div class="grid md:grid-cols-3 gap-8 mb-24">
-          <div class="bg-white/90 backdrop-blur-sm rounded-2xl p-8 shadow-lg border border-sky-100 hover:shadow-xl hover:-translate-y-2 transition-all duration-300 animate-heading" style="animation-delay: 0.1s">
-            <div class="w-14 h-14 rounded-2xl bg-gradient-to-br from-sky-400 to-blue-500 text-white flex items-center justify-center mb-6 shadow-lg">
-              <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path></svg>
-            </div>
-            <h3 class="text-xl font-bold text-slate-800 mb-3">Our Mission</h3>
-            <p class="text-slate-500 leading-relaxed">To make world-class travel accessible and affordable for everyone, with personalized service at every step.</p>
+        <!-- Mission / Vision / Values - Redesigned with custom CSS -->
+        <div class="grid md:grid-cols-3 gap-12 md:gap-10 mb-32 relative mt-8">
+          
+          <!-- Mission Card -->
+          <div class="mission-container animate-heading" style="animation-delay: 0.1s; margin: 20px auto;">
+            <h3 class="mission-title text-xl uppercase font-black">Our Mission</h3>
+            <p class="text-slate-600 leading-relaxed font-semibold text-base italic mt-4">"To make world-class travel accessible and affordable for everyone, with personalized service at every step of your journey."</p>
           </div>
-          <div class="bg-white/90 backdrop-blur-sm rounded-2xl p-8 shadow-lg border border-sky-100 hover:shadow-xl hover:-translate-y-2 transition-all duration-300 animate-heading" style="animation-delay: 0.2s">
-            <div class="w-14 h-14 rounded-2xl bg-gradient-to-br from-emerald-400 to-teal-500 text-white flex items-center justify-center mb-6 shadow-lg">
-              <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z"></path></svg>
-            </div>
-            <h3 class="text-xl font-bold text-slate-800 mb-3">Our Vision</h3>
-            <p class="text-slate-500 leading-relaxed">To become South India's most loved travel brand, known for trust, quality, and unforgettable experiences.</p>
+
+          <!-- Vision Card -->
+          <div class="mission-container animate-heading" style="animation-delay: 0.2s; margin: 20px auto;">
+            <h3 class="mission-title text-xl uppercase font-black">Our Vision</h3>
+            <p class="text-slate-600 leading-relaxed font-semibold text-base italic mt-4">"To become South India's most loved travel brand, recognized for absolute trust, elite quality, and unforgettable memories."</p>
           </div>
-          <div class="bg-white/90 backdrop-blur-sm rounded-2xl p-8 shadow-lg border border-sky-100 hover:shadow-xl hover:-translate-y-2 transition-all duration-300 animate-heading" style="animation-delay: 0.3s">
-            <div class="w-14 h-14 rounded-2xl bg-gradient-to-br from-amber-400 to-orange-500 text-white flex items-center justify-center mb-6 shadow-lg">
-              <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"></path></svg>
-            </div>
-            <h3 class="text-xl font-bold text-slate-800 mb-3">Our Values</h3>
-            <p class="text-slate-500 leading-relaxed">Transparency, safety, customer satisfaction, and a genuine love for helping people discover new places.</p>
+
+          <!-- Values Card -->
+          <div class="mission-container animate-heading" style="animation-delay: 0.3s; margin: 20px auto;">
+            <h3 class="mission-title text-xl uppercase font-black">Our Values</h3>
+            <p class="text-slate-600 leading-relaxed font-semibold text-base italic mt-4">"Transparency, safety, and a deep-rooted passion for helping people discover the hidden gems of our world."</p>
           </div>
         </div>
 
@@ -120,6 +117,31 @@ import { WhyChooseUsComponent } from "../../components/home/why-choose-us/why-ch
     </div>
   `,
   styles: [`
+    .mission-container {
+      position: relative;
+      border: 3px solid #1e88c9;
+      padding: 40px;
+      max-width: 600px;
+      background: white;
+      height: 100%;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.05);
+      transition: all 0.3s;
+    }
+    .mission-container:hover {
+      box-shadow: 0 10px 30px rgba(30,136,201,0.15);
+    }
+    .mission-title {
+      position: absolute;
+      top: -14px;
+      left: 20px;
+      background: #f8fafc;
+      padding: 0 10px;
+      color: #1e88c9;
+      font-weight: bold;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+
     .about-particle {
       position: absolute;
       border-radius: 50%;
@@ -207,6 +229,14 @@ import { WhyChooseUsComponent } from "../../components/home/why-choose-us/why-ch
     @keyframes cta-rotate {
       0%   { transform: rotate(0deg); }
       100% { transform: rotate(360deg); }
+    }
+
+    @keyframes float {
+      0%, 100% { transform: translateY(0) scale(1); }
+      50% { transform: translateY(-30px) scale(1.05); }
+    }
+    .animate-float {
+      animation: float 8s ease-in-out infinite;
     }
   `]
 })

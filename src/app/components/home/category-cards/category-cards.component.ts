@@ -43,9 +43,9 @@ gsap.registerPlugin(ScrollTrigger);
           
           <!-- Domestic Tours Card -->
           <a routerLink="/explore/domestic"
-             class="group cat-card relative aspect-square max-w-[500px] mx-auto w-full rounded-3xl overflow-hidden shadow-2xl hover:shadow-sky-500/40 hover:-translate-y-1.5 transition-all duration-700 cursor-pointer flex items-end opacity-0 -translate-x-20">
-            <img src="https://images.unsplash.com/photo-1524492412937-b28074a5d7da?fm=webp&fit=crop&w=1200&q=50" 
-                 alt="Domestic Tours - Explore Incredible India's heritage and landscapes" 
+             class="group cat-card relative aspect-square max-w-[500px] mx-auto w-full rounded-3xl overflow-hidden shadow-2xl hover:shadow-[#a4dded]/40 hover:-translate-y-1.5 transition-all duration-700 cursor-pointer flex items-end opacity-0 -translate-x-20">
+            <img src="assets/images/DomesticCover.webp" 
+                 alt="Domestic Tours - Premium Munnar Tea Gardens" 
                  loading="lazy"
                  class="absolute inset-0 w-full h-full object-cover transition-transform duration-[1.5s] ease-out group-hover:scale-[1.03]">
             
@@ -54,7 +54,6 @@ gsap.registerPlugin(ScrollTrigger);
 
             <div class="relative z-10 w-full p-6 transform transition-transform duration-700 group-hover:-translate-y-2">
                <div class="mb-2 overflow-visible">
-                  <span class="inline-block text-sky-400 font-black text-[9px] tracking-widest uppercase mb-1 transform translate-y-full group-hover:translate-y-0 transition-transform duration-500">Incredible India</span>
                   <h3 class="text-2xl md:text-4xl font-bold !text-white tracking-wide transition-all duration-300 group-hover:text-sky-400 group-hover:scale-105 origin-center drop-shadow-xl">Domestic</h3>
                </div>
                <p class="text-gray-300 text-xs font-medium max-w-[200px] opacity-0 group-hover:opacity-100 transition-opacity duration-700 delay-200">Discover the hidden gems across the subcontinent.</p>
@@ -81,7 +80,6 @@ gsap.registerPlugin(ScrollTrigger);
 
             <div class="relative z-10 w-full p-6 transform transition-transform duration-700 group-hover:-translate-y-2">
                <div class="mb-2 overflow-visible">
-                  <span class="inline-block text-indigo-400 font-black text-[9px] tracking-widest uppercase mb-1 transform translate-y-full group-hover:translate-y-0 transition-transform duration-500">Global Escapes</span>
                   <h3 class="text-2xl md:text-4xl font-bold !text-white tracking-wide transition-all duration-300 group-hover:text-sky-400 group-hover:scale-105 origin-center drop-shadow-xl">International</h3>
                </div>
                <p class="text-gray-300 text-xs font-medium max-w-[200px] opacity-0 group-hover:opacity-100 transition-opacity duration-700 delay-200">Across oceans and continents, luxury awaits.</p>
@@ -158,7 +156,8 @@ export class CategoryCardsComponent implements AfterViewInit {
       ease: 'power4.out',
       scrollTrigger: {
         trigger: '.category-section',
-        start: 'top 85%'
+        start: 'top 90%',
+        once: true
       }
     });
 
@@ -171,7 +170,8 @@ export class CategoryCardsComponent implements AfterViewInit {
       stagger: 0.2,
       scrollTrigger: {
         trigger: '.category-section',
-        start: 'top 70%'
+        start: 'top 85%',
+        once: true
       }
     });
 

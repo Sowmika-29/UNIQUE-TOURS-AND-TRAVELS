@@ -23,92 +23,18 @@ export interface Service {
 })
 export class ServicesComponent implements OnInit, AfterViewInit {
   services = [
-    { 
-      title: 'Honeymoon Trips', 
-      tagline: 'Romantic getaways for newlywed couples.', 
-      imagePath: 'assets/images/maldives-overwater-villas-turquoise.webp',
-      color: 'rose',
-      isPopular: true
-    },
-    { 
-      title: 'Family Trips', 
-      tagline: 'Memorable vacations for all generations.', 
-      imagePath: 'assets/images/calangute-crowded-beach.webp',
-      color: 'sky'
-    },
-    { 
-      title: 'Student Trips', 
-      tagline: 'Educational & fun group exploration.', 
-      imagePath: 'assets/images/jogini-falls-waterfall-trek.webp',
-      color: 'amber'
-    },
-    { 
-      title: 'College Tours', 
-      tagline: 'Inspiring visits to top institutions.', 
-      imagePath: 'assets/images/amer-fort-hilltop-aerial.webp',
-      color: 'indigo'
-    },
-    { 
-      title: 'Farewell Trips', 
-      tagline: 'Celebrate the end of an iconic chapter.', 
-      imagePath: 'assets/images/varkala-cliff-beach-aerial.webp',
-      color: 'purple'
-    },
-    { 
-      title: 'Corporate Tours', 
-      tagline: 'Team building in inspiring world locales.', 
-      imagePath: 'assets/images/dubai-marina-night-skyline.webp',
-      color: 'slate'
-    },
-    { 
-      title: 'Adventure Trips', 
-      tagline: 'Thrill-seeking journeys for the brave.', 
-      imagePath: 'assets/images/dudhsagar-waterfall-in-forest.webp',
-      color: 'orange',
-      isPopular: true
-    },
-    { 
-      title: 'Weekend Getaways', 
-      tagline: 'Quick escapes from the daily grind.', 
-      imagePath: 'assets/images/lonavala-green-hills-fog.webp',
-      color: 'teal'
-    },
-    { 
-      title: 'Summer Packages', 
-      tagline: 'Refresh yourself in cool destinations.', 
-      imagePath: 'assets/images/alleppey-houseboat-in-backwaters.webp',
-      color: 'yellow'
-    },
-    { 
-      title: 'Winter Packages', 
-      tagline: 'Experience the magic of the fresh snow.', 
-      imagePath: 'assets/images/manali-snow-mountains-valley.webp',
-      color: 'cyan'
-    },
-    { 
-      title: 'Group Tours', 
-      tagline: 'Meet new people and explore together.', 
-      imagePath: 'assets/images/hampi-stone-ruins-chariot.webp',
-      color: 'blue'
-    },
-    { 
-      title: 'Customized Tours', 
-      tagline: 'Your dream trip, exactly as you want.', 
-      imagePath: 'assets/images/raja-ampat-island-clusters.webp',
-      color: 'violet'
-    },
-    { 
-      title: 'Devotional Tours', 
-      tagline: 'Spiritual journeys to sacred sites and ancient temples.', 
-      imagePath: 'assets/images/trivandrum-padmanabhaswamy-temple.webp',
-      color: 'emerald'
-    },
-    { 
-      title: 'Incentive Tours', 
-      tagline: 'Rewarding experiences for corporate achievements.', 
-      imagePath: 'assets/images/singapore-marina-bay-sands.webp',
-      color: 'blue'
-    },
+    { title: 'Student Trips', slug: 'student-trips', tagline: 'Budget-friendly, Fun & Backpacking', imagePath: 'assets/images/jogini-falls-waterfall-trek.webp', color: 'amber' },
+    { title: 'Honeymoon Trips', slug: 'honeymoon-trips', tagline: 'Romantic & Private', imagePath: 'assets/images/maldives-overwater-villas-turquoise.webp', color: 'rose', isPopular: true },
+    { title: 'Family Trips', slug: 'family-trips', tagline: 'Safe, Relaxing & Sightseeing', imagePath: 'assets/images/calangute-crowded-beach.webp', color: 'sky' },
+    { title: 'College Tours', slug: 'college-tours', tagline: 'Group Activities & Thrills', imagePath: 'assets/images/amer-fort-hilltop-aerial.webp', color: 'indigo' },
+    { title: 'Farewell Trips', slug: 'farewell-trips', tagline: 'Memorable Final Getaways', imagePath: 'assets/images/varkala-cliff-beach-aerial.webp', color: 'purple' },
+    { title: 'Corporate / Incentive Tours', slug: 'corporate-trips', tagline: 'Luxury & Team Building', imagePath: 'assets/images/dubai-marina-night-skyline.webp', color: 'slate' },
+    { title: 'Adventure Trips', slug: 'adventure-trips', tagline: 'Thrilling Experiences', imagePath: 'assets/images/dudhsagar-waterfall-in-forest.webp', color: 'orange', isPopular: true },
+    { title: 'Weekend Getaways', slug: 'weekend-getaways', tagline: 'Short & Sweet', imagePath: 'assets/images/lonavala-green-hills-fog.webp', color: 'teal' },
+    { title: 'Summer Packages', slug: 'summer-packages', tagline: 'Beat the Heat', imagePath: 'assets/images/alleppey-houseboat-in-backwaters.webp', color: 'yellow' },
+    { title: 'Winter Packages', slug: 'winter-packages', tagline: 'Sun & Sand', imagePath: 'assets/images/manali-snow-mountains-valley.webp', color: 'cyan' },
+    { title: 'Devotional Tours', slug: 'devotional-tours', tagline: 'Spiritual & Temples', imagePath: 'assets/images/trivandrum-padmanabhaswamy-temple.webp', color: 'emerald' },
+    { title: 'Group / Customized Tours', slug: 'customized-tours', tagline: 'Flexible & Versatile', imagePath: 'assets/images/hampi-stone-ruins-chariot.webp', color: 'blue' }
   ];
 
   ngOnInit() {}

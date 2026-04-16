@@ -1,5 +1,6 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { RouterLink } from '@angular/router';
 
 interface BlogPost {
   title: string;
@@ -10,46 +11,63 @@ interface BlogPost {
 @Component({
   selector: 'app-blog',
   standalone: true,
-  imports: [CommonModule],
+  imports: [CommonModule, RouterLink],
   template: `
     <div class="min-h-screen bg-slate-50 pt-32 pb-20 relative overflow-hidden">
       
-      <!-- Background elements -->
-      <div class="absolute inset-0 pointer-events-none opacity-20">
-        <div class="absolute top-40 right-10 w-64 h-64 bg-sky-200 rounded-full blur-3xl"></div>
-        <div class="absolute bottom-40 left-10 w-72 h-72 bg-blue-100 rounded-full blur-3xl"></div>
+      <!-- Animated Background elements -->
+      <div class="absolute inset-0 pointer-events-none overflow-hidden">
+        <div class="orb orb-blizzard-1"></div>
+        <div class="orb orb-blizzard-2"></div>
+        <div class="floating-bubble bubble-1"></div>
+        <div class="floating-bubble bubble-2"></div>
       </div>
 
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <!-- Header -->
         <div class="text-center mb-16 animate-fade-in">
-          <span class="text-sky-600 font-bold tracking-[0.2em] uppercase text-xs mb-3 block">Travel Diaries</span>
-          <h1 class="text-4xl md:text-5xl font-black text-slate-900 mb-6 uppercase tracking-tighter">Travel Tips & Blogs</h1>
-          <div class="w-20 h-1.5 bg-sky-500 mx-auto rounded-full shadow-lg shadow-sky-100"></div>
+          <span class="text-sky-600 font-black tracking-[0.2em] uppercase text-[10px] mb-3 block">Explorer Diaries</span>
+          <h1 class="text-4xl md:text-6xl font-black text-slate-900 mb-6 uppercase tracking-tighter">Travel Tips & Blogs</h1>
+          <div class="w-20 h-1.5 bg-sky-500 mx-auto rounded-full shadow-lg shadow-sky-200"></div>
         </div>
 
         <!-- Blog Grid -->
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
           <div *ngFor="let blog of blogs; let i = index" 
-               class="group bg-white rounded-[2.5rem] overflow-hidden shadow-xl hover:shadow-2xl transition-all duration-500 animate-slide-up border border-slate-100"
+               [routerLink]="['/blog', blog.title]"
+               class="group cursor-pointer bg-white rounded-[2.5rem] overflow-hidden shadow-xl hover:shadow-2xl transition-all duration-500 animate-slide-up border border-slate-100/50"
                [style.animation-delay]="i * 100 + 'ms'">
             
             <!-- Image with zoom effect -->
-            <div class="h-60 overflow-hidden relative">
-              <img [src]="blog.image" [alt]="blog.title + ' - Travel Blog Post'" 
+            <div class="h-64 overflow-hidden relative">
+              <img [src]="blog.image" [alt]="blog.title" 
                    loading="lazy"
                    class="w-full h-full object-cover transform transition-transform duration-700 group-hover:scale-110">
               <div class="absolute inset-0 bg-slate-900/10 group-hover:bg-transparent transition-colors duration-300"></div>
+              
+              <div class="absolute top-6 left-6">
+                <span class="px-4 py-1.5 bg-white/90 backdrop-blur-md rounded-full text-[10px] font-black uppercase tracking-widest text-sky-600">Featured</span>
+              </div>
             </div>
 
             <!-- Content -->
             <div class="p-8 pb-10">
-              <h3 class="text-2xl font-black text-slate-900 mb-4 group-hover:text-sky-600 transition-colors leading-tight tracking-tight">
+               <div class="flex items-center gap-4 text-slate-400 text-[10px] font-bold uppercase tracking-widest mb-4">
+                  <span>April 2026</span>
+                  <span class="w-1.5 h-1.5 rounded-full bg-sky-400"></span>
+                  <span>5 Min Read</span>
+               </div>
+               <h3 class="text-2xl font-black text-slate-900 mb-4 group-hover:text-sky-600 transition-colors leading-tight tracking-tight">
                 {{blog.title}}
-              </h3>
-              <p class="text-slate-500 font-medium leading-[1.8] text-sm md:text-base">
+               </h3>
+               <p class="text-slate-500 font-medium leading-relaxed text-sm line-clamp-3 mb-8">
                 {{blog.description}}
-              </p>
+               </p>
+
+               <div class="flex items-center text-sky-500 font-black text-xs uppercase tracking-widest group-hover:gap-4 gap-2 transition-all">
+                  Read Article
+                  <span class="text-lg">→</span>
+               </div>
             </div>
           </div>
         </div>
@@ -57,6 +75,24 @@ interface BlogPost {
     </div>
   `,
   styles: [`
+    .orb { position: absolute; border-radius: 50%; filter: blur(120px); z-index: 0; opacity: 0.5; }
+    .orb-blizzard-1 { width: 600px; height: 600px; top: -200px; right: -100px; background: #ace5ee; animation: drift 25s infinite alternate; }
+    .orb-blizzard-2 { width: 500px; height: 500px; bottom: 10%; left: -150px; background: #9bddff; animation: drift 20s infinite alternate-reverse; }
+
+    .floating-bubble { position: absolute; border: 2px solid rgba(172, 229, 238, 0.4); border-radius: 50%; animation: float 12s infinite ease-in-out; z-index: 0; }
+    .bubble-1 { width: 150px; height: 150px; top: 20%; left: 10%; }
+    .bubble-2 { width: 100px; height: 100px; bottom: 30%; right: 15%; }
+
+    @keyframes drift { 
+      0% { transform: translate(0,0) scale(1); }
+      100% { transform: translate(100px, 150px) scale(1.1); }
+    }
+
+    @keyframes float {
+      0%, 100% { transform: translateY(0) rotate(0); }
+      50% { transform: translateY(-40px) rotate(20deg); }
+    }
+
     @keyframes fade-in {
       from { opacity: 0; transform: translateY(-20px); }
       to { opacity: 1; transform: translateY(0); }

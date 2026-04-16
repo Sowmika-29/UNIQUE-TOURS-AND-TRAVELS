@@ -31,25 +31,46 @@ import { APP_CONFIG } from '../../app.config';
       </div>
 
       <!-- LOADED CONTENT -->
-      <div *ngIf="!isLoading && place" class="relative z-10">
+      <div *ngIf="!isLoading && placeData" class="relative z-10">
         
+        <!-- BREADCRUMBS -->
+        <div class="absolute top-8 left-6 md:left-12 z-30 flex items-center gap-2 text-white/60 text-[10px] font-black uppercase tracking-widest animate-fade-in">
+           <a routerLink="/" class="hover:text-white transition-colors">Home</a>
+           <span class="opacity-40">/</span>
+           <a [routerLink]="['/destination', type, parentId]" class="hover:text-white transition-colors capitalize">{{parentId}}</a>
+           <span class="opacity-40">/</span>
+           <a [routerLink]="['/destination', type, parentId, placeName?.toLowerCase()]" class="hover:text-white transition-colors capitalize">{{placeName}}</a>
+           <ng-container *ngIf="subPlaceName">
+             <span class="opacity-40">/</span>
+             <span class="text-sky-400 font-black">{{subPlaceName}}</span>
+           </ng-container>
+        </div>
+
         <!-- HERO SECTION -->
         <div class="relative h-[65vh] min-h-[500px] w-full flex items-center justify-center overflow-hidden">
-          <img [src]="place.image" [alt]="place.name" class="absolute inset-0 w-full h-full object-cover">
+          <img [src]="placeData.image" [alt]="placeData.name" class="absolute inset-0 w-full h-full object-cover">
           <!-- Premium Overlay Gradient -->
           <div class="absolute inset-0 bg-gradient-to-t from-slate-900 via-slate-900/40 to-black/30"></div>
           
           <div class="relative z-20 text-center px-4 animate-fade-slide">
             <div class="inline-flex items-center gap-2 px-4 py-2 bg-white/10 backdrop-blur-md rounded-full mb-6 border border-white/20">
               <span class="w-2 h-2 rounded-full bg-sky-400 animate-pulse"></span>
-              <span class="text-xs font-black uppercase tracking-[0.2em] text-white/90">Curated Destination</span>
+              <span class="text-xs font-black uppercase tracking-[0.2em] text-white/90">
+                {{ subPlaceName ? 'Direct Spot View' : 'Destination Overview' }}
+              </span>
             </div>
             <h1 class="text-6xl md:text-8xl font-black text-white tracking-tighter mb-4 drop-shadow-2xl">
-              {{place.name}}
+              {{placeData.name}}
             </h1>
             <p class="text-xl text-white/80 font-medium max-w-2xl mx-auto leading-relaxed">
-              {{place.description}}
+              {{placeData.description}}
             </p>
+            
+            <div *ngIf="subPlaceName" class="mt-8">
+               <button (click)="openBooking(placeData.name)" class="px-10 py-4 bg-sky-500 text-white rounded-2xl font-black uppercase tracking-widest hover:bg-sky-600 transition-all shadow-xl">
+                 GET PACKAGE DETAILS
+               </button>
+            </div>
           </div>
 
           <!-- Bottom Curve -->
@@ -60,19 +81,19 @@ import { APP_CONFIG } from '../../app.config';
           </div>
         </div>
 
-        <!-- SUB-PLACES GRID -->
-        <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
+        <!-- SUB-PLACES GRID (Only show if viewing a Place, not a direct Sub-Place) -->
+        <section *ngIf="!subPlaceName && placeData.subPlaces?.length" class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
           
           <div class="flex flex-col md:flex-row md:items-end justify-between mb-12 gap-6 animate-slide-up">
             <div>
               <h2 class="text-4xl font-black text-slate-800 tracking-tight mb-2">Must Visit Places</h2>
-              <p class="text-slate-500 font-medium">Handpicked spots in {{place.name}} for an unforgettable experience.</p>
+              <p class="text-slate-500 font-medium">Handpicked spots in {{placeData.name}} for an unforgettable experience.</p>
             </div>
             <div class="h-1 w-24 bg-sky-500 rounded-full hidden md:block"></div>
           </div>
 
           <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            <div *ngFor="let sub of place.subPlaces; let i = index" 
+            <div *ngFor="let sub of placeData.subPlaces; let i = index" 
                  class="group premium-card animate-stagger"
                  [style.animation-delay]="(i * 0.1) + 's'">
               
@@ -104,10 +125,38 @@ import { APP_CONFIG } from '../../app.config';
 
         </section>
 
+        <!-- Optional: Specific Spot Details (If viewing a Sub-Place) -->
+        <section *ngIf="subPlaceName" class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 animate-slide-up">
+           <div class="bg-white rounded-3xl p-10 shadow-2xl border border-slate-100">
+              <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+                 <div>
+                    <span class="text-sky-500 font-black text-xs uppercase tracking-widest mb-4 block">Spot Spotlight</span>
+                    <h2 class="text-4xl font-black text-slate-900 mb-6 transition-all">Why Visit {{placeData.name}}?</h2>
+                    <p class="text-slate-600 leading-relaxed text-lg mb-8">
+                       {{placeData.description}} Discover the hidden gems and unique experiences that make this spot a highlight of {{placeName}}.
+                    </p>
+                    <div class="flex gap-4">
+                       <div class="p-4 bg-slate-50 rounded-2xl flex-1">
+                          <p class="text-[10px] font-black uppercase text-slate-400 tracking-tighter mb-1">Location</p>
+                          <p class="text-sm font-bold text-slate-700">{{placeData.location || placeName}}</p>
+                       </div>
+                       <div class="p-4 bg-slate-50 rounded-2xl flex-1">
+                          <p class="text-[10px] font-black uppercase text-slate-400 tracking-tighter mb-1">Experience Type</p>
+                          <p class="text-sm font-bold text-slate-700">Sightseeing & Adventure</p>
+                       </div>
+                    </div>
+                 </div>
+                 <div class="rounded-2xl overflow-hidden shadow-2xl transform rotate-2">
+                    <img [src]="placeData.image" class="w-full h-full object-cover aspect-video" [alt]="placeData.name">
+                 </div>
+              </div>
+           </div>
+        </section>
+
       </div>
 
       <!-- ERROR STATE -->
-      <div *ngIf="!isLoading && !place" class="min-h-screen flex items-center justify-center p-4">
+      <div *ngIf="!isLoading && !placeData" class="min-h-screen flex items-center justify-center p-4">
         <div class="text-center">
           <div class="text-9xl mb-8">🔍</div>
           <h2 class="text-4xl font-black text-slate-800 mb-4">Place Details Not Found</h2>
@@ -154,42 +203,44 @@ import { APP_CONFIG } from '../../app.config';
   `]
 })
 export class PlaceDetailComponent implements OnInit {
-  place: Place | null = null;
+  placeData: any = null;
   isLoading = true;
-  category: string = '';
-  destinationId: string = '';
+  
+  type: string = '';
+  parentId: string = '';
   placeName: string = '';
+  subPlaceName: string = '';
 
   constructor(
     private route: ActivatedRoute,
     private destService: DestinationService,
     private seoService: SeoService,
-    private cdr: ChangeDetectorRef,
-    private ngZone: NgZone
+    private cdr: ChangeDetectorRef
   ) {}
 
   ngOnInit() {
     this.route.paramMap.subscribe(params => {
-      this.category = params.get('category') || '';
-      this.destinationId = params.get('place') || ''; // The ID of the state/destination
-      this.placeName = params.get('subplace') || '';
+      this.type = params.get('type') || '';
+      this.parentId = params.get('parent') || '';
+      this.placeName = params.get('place') || '';
+      this.subPlaceName = params.get('subPlace') || '';
 
-      if (this.category && this.destinationId && this.placeName) {
-        this.loadPlaceDetails();
-      } else {
-        this.isLoading = false;
-      }
+      this.loadDetails();
     });
   }
 
-  async loadPlaceDetails() {
+  async loadDetails() {
     this.isLoading = true;
     window.scrollTo(0, 0);
     
     try {
-      this.place = await this.destService.getSubPlace(this.category, this.destinationId, this.placeName);
-      if (this.place) {
-        this.updateSeo(this.place);
+      // Find the most specific data available
+      const searchName = this.subPlaceName || this.placeName;
+      const result = await this.destService.findPlaceOrSubPlace(searchName);
+      
+      if (result) {
+        this.placeData = result.data;
+        this.updateSeo(result.data);
       }
     } catch (e) {
       console.error('Error loading place details:', e);
@@ -199,17 +250,17 @@ export class PlaceDetailComponent implements OnInit {
     }
   }
 
-  updateSeo(place: Place) {
+  updateSeo(data: any) {
     this.seoService.updateMetadata({
-      title: `${place.name} - Unique Tours & Travels`,
-      description: `Plan your trip to ${place.name}. ${place.description}`,
-      image: place.image,
-      url: `/destination/${this.category}/${this.destinationId}/${this.placeName.toLowerCase()}`
+      title: `${data.name} - Unique Tours & Travels`,
+      description: data.description,
+      image: data.image,
+      url: `/destination/${this.type}/${this.parentId}/${this.placeName}${this.subPlaceName ? '/' + this.subPlaceName : ''}`
     });
   }
 
-  openBooking(subName: string) {
-    const message = `Hi! I'm interested in visiting ${subName} in ${this.place?.name}. Can you provide tour details?`;
+  openBooking(name: string) {
+    const message = `Hi! I'm interested in visiting ${name}. Can you provide tour details?`;
     window.open(`https://wa.me/${APP_CONFIG.whatsapp}?text=${encodeURIComponent(message)}`, '_blank');
   }
 }

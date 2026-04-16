@@ -26,12 +26,17 @@ export const routes: Routes = [
     title: 'International Tours - Unique Tours & Travels'
   },
   {
-    path: 'destination/:name',
+    path: 'destination/:type/:id',
     loadComponent: () => import('./pages/destination-detail/destination-detail.component').then(m => m.DestinationDetailComponent),
     title: 'Destination Details - Unique Tours & Travels'
   },
   {
-    path: 'destination/:category/:place/:subplace',
+    path: 'destination/:type/:parent/:place',
+    loadComponent: () => import('./pages/place-detail/place-detail.component').then(m => m.PlaceDetailComponent),
+    title: 'Place Details - Unique Tours & Travels'
+  },
+  {
+    path: 'destination/:type/:parent/:place/:subPlace',
     loadComponent: () => import('./pages/place-detail/place-detail.component').then(m => m.PlaceDetailComponent),
     title: 'Place Details - Unique Tours & Travels'
   },
@@ -39,6 +44,11 @@ export const routes: Routes = [
     path: 'blog',
     loadComponent: () => import('./pages/blog/blog.component').then(m => m.BlogComponent),
     title: 'Travel Blog - Unique Tours & Travels'
+  },
+  {
+    path: 'blog/:title',
+    loadComponent: () => import('./pages/blog/blog-detail.component').then(m => m.BlogDetailComponent),
+    title: 'Blog Article - Unique Tours & Travels'
   },
   {
     path: 'about',
@@ -49,6 +59,11 @@ export const routes: Routes = [
     path: 'services',
     loadComponent: () => import('./pages/services/services').then(m => m.ServicesComponent),
     title: 'Our Services - Unique Tours & Travels'
+  },
+  {
+    path: 'services/:type',
+    loadComponent: () => import('./pages/services/service-destinations.component').then(m => m.ServiceDestinationsComponent),
+    title: 'Service Destinations - Unique Tours & Travels'
   },
   {
     path: 'contact',

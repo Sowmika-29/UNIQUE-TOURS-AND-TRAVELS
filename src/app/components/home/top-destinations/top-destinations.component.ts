@@ -187,7 +187,8 @@ export class TopDestinationsComponent implements AfterViewInit {
       ease: 'power4.out',
       scrollTrigger: {
         trigger: '.section-header',
-        start: 'top 85%'
+        start: 'top 95%',
+        once: true
       }
     });
 
@@ -200,7 +201,8 @@ export class TopDestinationsComponent implements AfterViewInit {
       ease: 'power3.out',
       scrollTrigger: {
         trigger: '.destination-grid',
-        start: 'top 80%'
+        start: 'top 95%',
+        once: true
       }
     });
 
