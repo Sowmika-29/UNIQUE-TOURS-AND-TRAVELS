@@ -44,7 +44,7 @@ gsap.registerPlugin(ScrollTrigger);
           <!-- Domestic Tours Card -->
           <a routerLink="/explore/domestic"
              class="group cat-card relative aspect-square max-w-[500px] mx-auto w-full rounded-3xl overflow-hidden shadow-2xl hover:shadow-[#a4dded]/40 hover:-translate-y-1.5 transition-all duration-700 cursor-pointer flex items-end opacity-0 -translate-x-20">
-            <img src="assets/images/DomesticCover.webp" 
+            <img src="/assets/images/DomesticCover.webp" 
                  alt="Domestic Tours - Premium Munnar Tea Gardens" 
                  loading="lazy"
                  class="absolute inset-0 w-full h-full object-cover transition-transform duration-[1.5s] ease-out group-hover:scale-[1.03]">

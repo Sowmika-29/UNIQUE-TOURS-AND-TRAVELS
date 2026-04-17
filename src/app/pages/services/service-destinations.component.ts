@@ -43,7 +43,7 @@ import { DestinationService } from '../../services/destination.service';
             
             <!-- Reused Image from Existing Data -->
             <div class="absolute inset-0">
-              <img [src]="dest.image" [alt]="dest.name" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-[1.05]">
+              <img [src]="dest.image.startsWith('/') ? dest.image : '/' + dest.image" [alt]="dest.name" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-[1.05]">
               <div class="absolute inset-0 bg-gradient-to-t from-slate-900 via-slate-900/20 to-transparent opacity-80 decoration-overlay"></div>
             </div>
 

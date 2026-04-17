@@ -48,7 +48,7 @@ import { APP_CONFIG } from '../../app.config';
 
         <!-- HERO SECTION -->
         <div class="relative h-[65vh] min-h-[500px] w-full flex items-center justify-center overflow-hidden">
-          <img [src]="placeData.image" [alt]="placeData.name" class="absolute inset-0 w-full h-full object-cover">
+          <img [src]="placeData.image.startsWith('/') ? placeData.image : '/' + placeData.image" [alt]="placeData.name" class="absolute inset-0 w-full h-full object-cover">
           <!-- Premium Overlay Gradient -->
           <div class="absolute inset-0 bg-gradient-to-t from-slate-900 via-slate-900/40 to-black/30"></div>
           
@@ -99,7 +99,7 @@ import { APP_CONFIG } from '../../app.config';
                  [style.animation-delay]="(i * 0.1) + 's'">
               
               <div class="relative h-64 overflow-hidden rounded-t-2xl">
-                <img [src]="sub.image" [alt]="sub.name" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110">
+                <img [src]="sub.image.startsWith('/') ? sub.image : '/' + sub.image" [alt]="sub.name" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110">
                 <div class="absolute top-4 left-4">
                   <span class="px-3 py-1 bg-white/90 backdrop-blur-sm rounded-full text-[10px] font-black tracking-widest text-sky-600 uppercase">
                     Featured Spot
@@ -148,7 +148,7 @@ import { APP_CONFIG } from '../../app.config';
                     </div>
                  </div>
                  <div class="rounded-2xl overflow-hidden shadow-2xl transform rotate-2">
-                    <img [src]="placeData.image" class="w-full h-full object-cover aspect-video" [alt]="placeData.name">
+                    <img [src]="placeData.image.startsWith('/') ? placeData.image : '/' + placeData.image" class="w-full h-full object-cover aspect-video" [alt]="placeData.name">
                  </div>
               </div>
            </div>

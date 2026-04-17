@@ -96,7 +96,7 @@ import { Subscription } from 'rxjs';
             
             <!-- Compact Image View -->
             <div class="absolute inset-0 w-full h-full overflow-hidden">
-              <img [src]="dest.image" [alt]="dest.name + ' - Unique Tours & Travels'" 
+              <img [src]="dest.image.startsWith('/') ? dest.image : '/' + dest.image" [alt]="dest.name + ' - Unique Tours & Travels'" 
                    [loading]="i < 3 ? 'eager' : 'lazy'"
                    class="w-full h-full object-cover transition-transform duration-[1.5s] group-hover:scale-110">
               <div class="absolute inset-0 bg-gradient-to-t from-slate-900/80 via-transparent to-transparent opacity-60 group-hover:opacity-80 transition-opacity"></div>
@@ -297,11 +297,11 @@ export class ExploreComponent implements OnInit, OnDestroy {
   get headerBackgroundImage(): string {
     if (this.activeFilter === 'domestic') {
       // Stunning Indian Landscapes (Munnar Tea Gardens / Kerala Backwaters - Premium Cinematic)
-      return "assets/images/domestic-hero-premium.png";
+      return "/assets/images/domestic-hero-premium.webp";
     }
     if (this.activeFilter === 'international') {
       // Iconic European/Global Vibes (Swiss Alps/Village)
-      return "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?fm=webp&fit=crop&w=1920&q=50";
+      return "/assets/images/Gili Islands.webp";
     }
     // High-impact Wanderlust/Adventure for All
     return "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?fm=webp&fit=crop&w=1920&q=50";

@@ -2547,7 +2547,7 @@
           "subPlaces": [
             {
               "name": "Port Blair",
-              "image": "assets/images/Port Blair.webp",
+              "image": "assets/images/port-blair.webp",
               "location": "Andaman",
               "description": "Capital city and Cellular Jail."
             },
@@ -2590,7 +2590,7 @@
           "subPlaces": [
             {
               "name": "Havelock Island",
-              "image": "assets/images/Havelock.webp",
+              "image": "assets/images/havelock.webp",
               "location": "Andaman",
               "description": "Radhanagar beach and scuba diving."
             },
@@ -2608,7 +2608,7 @@
             },
             {
               "name": "Radhanagar Beach",
-              "image": "assets/images/Radhanagar Beach.webp",
+              "image": "assets/images/radhanagar.webp",
               "location": "Havelock",
               "description": "Globally ranked as one of the most beautiful beaches in Asia."
             },
@@ -2633,7 +2633,7 @@
           "subPlaces": [
             {
               "name": "Neil Island",
-              "image": "assets/images/Neil Island.webp",
+              "image": "assets/images/neil-island.webp",
               "location": "Andaman",
               "description": "Peaceful island getaway."
             },
@@ -2676,7 +2676,7 @@
           "subPlaces": [
             {
               "name": "Ross Island",
-              "image": "assets/images/Ross Island.webp",
+              "image": "assets/images/ross-island.webp",
               "location": "Andaman",
               "description": "Historic ruins island."
             },
@@ -2719,7 +2719,7 @@
           "subPlaces": [
             {
               "name": "Baratang",
-              "image": "assets/images/Baratang.webp",
+              "image": "assets/images/baratang.webp",
               "location": "Andaman",
               "description": "Limestone caves and mangroves."
             },
@@ -2816,7 +2816,7 @@
           "subPlaces": [
             {
               "name": "At the Top",
-              "image": "assets/images/At the Top.webp",
+              "image": "assets/images/Burj Khalifa-At the Top.webp",
               "location": "Dubai",
               "description": "The observation deck on levels 124 and 125 with panoramic views."
             },
@@ -3350,7 +3350,7 @@
           "subPlaces": [
             {
               "name": "Tegallalang Rice Terrace",
-              "image": "assets/images/Tegallalang Rice Terrace.webp",
+              "image": "assets/images/bali-rice-terraces-temple.webp",
               "location": "Ubud",
               "description": "Famous green rice terraces."
             },
@@ -3939,7 +3939,7 @@
           "subPlaces": [
             {
               "name": "Patong Beach",
-              "image": "assets/images/Patong Beach.webp",
+              "image": "assets/images/phuket-beach-aerial.webp",
               "location": "Phuket",
               "description": "Famous beach with nightlife."
             },
@@ -4220,31 +4220,31 @@
             },
             {
               "name": "George Town",
-              "image": "assets/images/george-town.webp",
+              "image": "assets/images/George Town.webp",
               "location": "Penang",
               "description": "Historic center known for its colorful street art and shophouses."
             },
             {
               "name": "Kek Lok Si",
-              "image": "assets/images/kek-lok-si.webp",
+              "image": "assets/images/Kek Lok Si.webp",
               "location": "Penang",
               "description": "The largest Buddhist temple in Malaysia on a scenic hill."
             },
             {
               "name": "Batu Ferringhi",
-              "image": "assets/images/batu-ferringhi.webp",
+              "image": "assets/images/Batu Ferringhi.webp",
               "location": "Penang",
               "description": "Popular beach strip for water sports and night markets."
             },
             {
               "name": "Penang Hill",
-              "image": "assets/images/penang-hill.webp",
+              "image": "assets/images/Penang Hill.webp",
               "location": "Penang",
               "description": "Take a funicular train to the top for cool air and views."
             },
             {
               "name": "Clan Jetties",
-              "image": "assets/images/clan-jetties.webp",
+              "image": "assets/images/Clan Jetties.webp",
               "location": "Penang",
               "description": "Traditional wooden floating villages on the waterfront."
             }
@@ -4263,31 +4263,31 @@
             },
             {
               "name": "SkyBridge",
-              "image": "assets/images/langkawi-sky-bridge.webp",
+              "image": "assets/images/SkyBridge.webp",
               "location": "Langkawi",
               "description": "A 125-meter curved pedestrian cable bridge on a mountain."
             },
             {
               "name": "Eagle Square",
-              "image": "assets/images/eagle-square.webp",
+              "image": "assets/images/Eagle Square.webp",
               "location": "Langkawi",
               "description": "The island's landmark featuring a massive 12-meter eagle statue."
             },
             {
               "name": "Pantai Cenang",
-              "image": "assets/images/pantai-cenang.webp",
+              "image": "assets/images/Pantai Cenang.webp",
               "location": "Langkawi",
               "description": "The most popular beach with lots of restaurants and duty-free shops."
             },
             {
               "name": "Underwater World",
-              "image": "assets/images/underwater-world.webp",
+              "image": "assets/images/Underwater World.webp",
               "location": "Langkawi",
               "description": "One of the largest marine and freshwater aquaria in SE Asia."
             },
             {
               "name": "Kilim Geoforest",
-              "image": "assets/images/kilim-geoforest.webp",
+              "image": "assets/images/Kilim Geoforest.webp",
               "location": "Langkawi",
               "description": "Fascinating mangrove boat tour with eagle feeding and caves."
             }
@@ -4306,31 +4306,31 @@
             },
             {
               "name": "Jonker Street",
-              "image": "assets/images/jonker-street.webp",
+              "image": "assets/images/Jonker Street.webp",
               "location": "Melaka",
               "description": "Famous night market full of antiques, handicrafts and street bites."
             },
             {
               "name": "Stadthuys",
-              "image": "assets/images/stadthuys.webp",
+              "image": "assets/images/Stadthuys.webp",
               "location": "Melaka",
               "description": "The landmark brick-red building that was the office of Dutch Governors."
             },
             {
               "name": "A Famosa",
-              "image": "assets/images/a-famosa.webp",
+              "image": "assets/images/A Famosa.webp",
               "location": "Melaka",
               "description": "The remnants of a Portuguese fortress built in the 16th century."
             },
             {
               "name": "River Cruise",
-              "image": "assets/images/river-cruise.webp",
+              "image": "assets/images/River Cruise.webp",
               "location": "Melaka",
               "description": "Scenic boat ride showing the city’s murals and historical houses."
             },
             {
               "name": "Chen Hoon Teng",
-              "image": "assets/images/chen-hoon-teng.webp",
+              "image": "assets/images/Chen Hoon Teng.webp",
               "location": "Melaka",
               "description": "The oldest functional traditional Chinese temple in Malaysia."
             }
@@ -4338,7 +4338,7 @@
         },
         {
           "name": "Cameron Highlands",
-          "image": "assets/images/cameron-highlands-tea-plantation.webp",
+          "image": "assets/images/Cameron Highlands.webp",
           "description": "Cool highland retreat with rolling tea plantations, strawberry farms, and mossy forest trails.",
           "subPlaces": [
             {
@@ -4349,31 +4349,31 @@
             },
             {
               "name": "BOH Tea Centre",
-              "image": "assets/images/boh-tea-centre.webp",
+              "image": "assets/images/BOH Tea Centre.webp",
               "location": "Cameron",
               "description": "Spectacular tea garden with a modern balcony overlooking the hills."
             },
             {
               "name": "Mossy Forest",
-              "image": "assets/images/mossy-forest.webp",
+              "image": "assets/images/Mossy Forest.webp",
               "location": "Cameron",
               "description": "A high-altitude forest area with mist-shrouded, ancient trees."
             },
             {
               "name": "Lavender Garden",
-              "image": "assets/images/lavender-garden.webp",
+              "image": "assets/images/Lavender Garden.webp",
               "location": "Cameron",
               "description": "Featuring colorful purple flowers and fresh honey products."
             },
             {
               "name": "Strawberry Farm",
-              "image": "assets/images/strawberry-farm.webp",
+              "image": "assets/images/Strawberry Farm.webp",
               "location": "Cameron",
               "description": "Popular stop for harvesting fresh berries and eating fruit desserts."
             },
             {
               "name": "Butterfly Farm",
-              "image": "assets/images/butterfly-farm.webp",
+              "image": "assets/images/Butterfly Farm.webp",
               "location": "Cameron",
               "description": "Large indoor garden filled with exotic butterflies and reptiles."
             }
@@ -4392,31 +4392,31 @@
             },
             {
               "name": "Mount Kinabalu",
-              "image": "assets/images/mount-kinabalu.webp",
+              "image": "assets/images/Mount Kinabalu.webp",
               "location": "Sabah",
               "description": "Southeast Asia's highest peak and owner of unique botanical biodiversity."
             },
             {
               "name": "Sepilok Centre",
-              "image": "assets/images/sepilok-centre.webp",
+              "image": "assets/images/Sepilok Centre.webp",
               "location": "Sabah",
               "description": "World-famous rehabilitation center for orphaned orangutans."
             },
             {
               "name": "Kinabatangan",
-              "image": "assets/images/kinabatangan.webp",
+              "image": "assets/images/Kinabatangan.webp",
               "location": "Sabah",
               "description": "Experience river cruises to see pygmy elephants and crocodiles."
             },
             {
               "name": "Sipadan Island",
-              "image": "assets/images/sipadan-island.webp",
+              "image": "assets/images/Sipadan Island.webp",
               "location": "Sabah",
               "description": "Globally top-ranked dive spot with turtles and massive fish schools."
             },
             {
               "name": "Kuching",
-              "image": "assets/images/kuching.webp",
+              "image": "assets/images/Kuching.webp",
               "location": "Sarawak",
               "description": "The charming capital of Sarawak known for its cat statues and history."
             }
@@ -4433,7 +4433,7 @@
       "places": [
         {
           "name": "Colombo",
-          "image": "assets/images/colombo-city-skyline-sri.webp",
+          "image": "assets/images/Colombo.webp",
           "description": "Sri Lanka's bustling commercial capital with colonial architecture, Galle Face Green, and temples.",
           "subPlaces": [
             {
@@ -4444,31 +4444,31 @@
             },
             {
               "name": "Galle Face Green",
-              "image": "assets/images/galle-face-green.webp",
+              "image": "assets/images/galle face green colombu.webp",
               "location": "Colombo",
               "description": "Ocean-side urban park for sunset walks and street food."
             },
             {
               "name": "Gangaramaya Temple",
-              "image": "assets/images/gangaramaya-temple.webp",
+              "image": "assets/images/Gangaramaya temple.webp",
               "location": "Colombo",
               "description": "Highly eclectic Buddhist temple known for its mix of architectural styles."
             },
             {
               "name": "National Museum",
-              "image": "assets/images/National Museum.webp",
+              "image": "assets/images/National Museum colombu.webp",
               "location": "Colombo",
               "description": "Largest museum in the country housing ancient royal regalia."
             },
             {
               "name": "Dutch Hospital",
-              "image": "assets/images/dutch-hospital.webp",
+              "image": "assets/images/dutch hospital colombo.webp",
               "location": "Colombo",
               "description": "Heritage shopping and dining precinct in a former colonial hospital."
             },
             {
               "name": "Viharamahadevi Park",
-              "image": "assets/images/viharamahadevi-park.webp",
+              "image": "assets/images/viharamahadevi park.webp",
               "location": "Colombo",
               "description": "The largest and oldest park in the city center."
             }
@@ -4481,37 +4481,37 @@
           "subPlaces": [
             {
               "name": "Temple of Tooth",
-              "image": "assets/images/temple-of-tooth.webp",
+              "image": "assets/images/Temple of Tooth.webp",
               "location": "Kandy",
               "description": "Sacred Buddhist temple."
             },
             {
               "name": "Kandy Lake",
-              "image": "assets/images/kandy-lake.webp",
+              "image": "assets/images/Kandy Lake.webp",
               "location": "Kandy",
               "description": "Peaceful lake in city center."
             },
             {
               "name": "Botanical Garden",
-              "image": "assets/images/botanical-garden.webp",
+              "image": "assets/images/Botanical Garden.webp",
               "location": "Kandy",
               "description": "Huge garden with exotic plants."
             },
             {
               "name": "View Point",
-              "image": "assets/images/Kandy View Point.webp",
+              "image": "assets/images/View Point.webp",
               "location": "Kandy",
               "description": "Best city view spot."
             },
             {
               "name": "Cultural Show",
-              "image": "assets/images/cultural-show.webp",
+              "image": "assets/images/Cultural Showsrilanka.webp",
               "location": "Kandy",
               "description": "Traditional dance performance."
             },
             {
               "name": "Udawatta Forest",
-              "image": "assets/images/udawatta-forest.webp",
+              "image": "assets/images/Udawatta Forest.webp",
               "location": "Kandy",
               "description": "Nature walk forest reserve."
             }
@@ -4519,7 +4519,7 @@
         },
         {
           "name": "Galle",
-          "image": "assets/images/galle-fort-coast.webp",
+          "image": "assets/images/Galle.webp",
           "description": "A UNESCO-fortified coastal city with Dutch colonial charm, lighthouse, and artisanal boutiques.",
           "subPlaces": [
             {
@@ -4530,31 +4530,31 @@
             },
             {
               "name": "Dutch Fort",
-              "image": "assets/images/dutch-fort.webp",
+              "image": "assets/images/Dutch Fort.webp",
               "location": "Galle",
               "description": "A well-preserved colonial-era fortress on the southwest coast."
             },
             {
               "name": "Galle Lighthouse",
-              "image": "assets/images/galle-lighthouse.webp",
+              "image": "assets/images/Galle Lighthouse.webp",
               "location": "Galle",
               "description": "The oldest light station in Sri Lanka, offering iconic views."
             },
             {
               "name": "Unawatuna Beach",
-              "image": "assets/images/unawatuna-beach.webp",
+              "image": "assets/images/Unawatuna Beach.webp",
               "location": "Near Galle",
               "description": "Famous banana-shaped beach known for calm swimming surf."
             },
             {
               "name": "National Marine Museum",
-              "image": "assets/images/national-marine-museum.webp",
+              "image": "assets/images/National Marine Museum.webp",
               "location": "Galle",
               "description": "Located in a former Dutch warehouse, showing underwater discoveries."
             },
             {
               "name": "Dutch Reformed Church",
-              "image": "assets/images/dutch-reformed-church.webp",
+              "image": "assets/images/Dutch Reformed Church.webp",
               "location": "Galle",
               "description": "Historic church built in 1755 with ancient tombstones."
             }
@@ -4573,31 +4573,31 @@
             },
             {
               "name": "Lion Rock",
-              "image": "assets/images/lion-rock.webp",
+              "image": "assets/images/Lion Rock.webp",
               "location": "Sigiriya",
               "description": "The massive rock pillar that housed a palace complex on its flat top."
             },
             {
               "name": "Mirror Wall",
-              "image": "assets/images/mirror-wall.webp",
+              "image": "assets/images/Mirror Wall.webp",
               "location": "Sigiriya",
               "description": "Highly polished wall containing graffiti from as early as 8th century."
             },
             {
               "name": "Water Gardens",
-              "image": "assets/images/water-gardens.webp",
+              "image": "assets/images/Water Gardens.webp",
               "location": "Sigiriya",
               "description": "Some of the world's oldest landscaped gardens with functional hydraulics."
             },
             {
               "name": "Sigiriya Frescoes",
-              "image": "assets/images/sigiriya-frescoes.webp",
+              "image": "assets/images/Sigiriya Frescoes.webp",
               "location": "Sigiriya",
               "description": "Exquisite ancient paintings of ladies on the rock face."
             },
             {
               "name": "Pidurangala Rock",
-              "image": "assets/images/pidurangala-rock.webp",
+              "image": "assets/images/Pidurangala Rock.webp",
               "location": "Near Sigiriya",
               "description": "Lesser known peak offering the best direct view of Sigiriya Rock."
             }
@@ -4616,31 +4616,31 @@
             },
             {
               "name": "Gregory Lake",
-              "image": "assets/images/gregory-lake.webp",
+              "image": "assets/images/Gregory Lake.webp",
               "location": "Nuwara Eliya",
               "description": "Large park area and lake for boat rides and pony trekking."
             },
             {
               "name": "Victoria Park",
-              "image": "assets/images/victoria-park.webp",
+              "image": "assets/images/Victoria Park.webp",
               "location": "Nuwara Eliya",
               "description": "Public park famous for its rare birds and colorful flora."
             },
             {
               "name": "Pedro Tea Estate",
-              "image": "assets/images/pedro-tea-estate.webp",
+              "image": "assets/images/Pedro Tea Estate.webp",
               "location": "Nuwara Eliya",
               "description": "Learn about the production of world-renowned Ceylon tea."
             },
             {
               "name": "Horton Plains",
-              "image": "assets/images/horton-plains.webp",
+              "image": "assets/images/Horton Plains.webp",
               "location": "Near Nuwara Eliya",
               "description": "High plateau hosting the dramatic 'World’s End' precipice."
             },
             {
               "name": "Seetha Amman Temple",
-              "image": "assets/images/seetha-amman-temple.webp",
+              "image": "assets/images/Seetha Amman Temple.webp",
               "location": "Nuwara Eliya",
               "description": "Temple linked to the legendary Ramayana epic in a scenic setting."
             }
@@ -4659,31 +4659,31 @@
             },
             {
               "name": "Nine Arches Bridge",
-              "image": "assets/images/nine-arches-bridge.webp",
+              "image": "assets/images/Nine Arches Bridge.webp",
               "location": "Ella",
               "description": "One of the best examples of colonial-era railway construction."
             },
             {
               "name": "Little Adam's Peak",
-              "image": "assets/images/little-adams-peak.webp",
+              "image": "assets/images/Little Adam's Peak.webp",
               "location": "Ella",
               "description": "Relatively easy hike offering stunning 360-degree views."
             },
             {
               "name": "Ravana Falls",
-              "image": "assets/images/ravana-falls.webp",
+              "image": "assets/images/Ravana Falls.webp",
               "location": "Ella",
               "description": "Wide, majestic waterfall named after the legendary king Ravana."
             },
             {
               "name": "Ella Rock",
-              "image": "assets/images/ella-rock.webp",
+              "image": "assets/images/Ella Rock,.webp",
               "location": "Ella",
               "description": "Challenging trek through tea plantations to a panoramic cliff."
             },
             {
               "name": "Demodara Loop",
-              "image": "assets/images/demodara-loop.webp",
+              "image": "assets/images/Demodara Loop.webp",
               "location": "Ella",
               "description": "Unique railway spiral where the track passes under itself."
             }
@@ -4711,31 +4711,31 @@
             },
             {
               "name": "Agatti Island Beach",
-              "image": "assets/images/agatti-island-beach.webp",
+              "image": "assets/images/Agatti Island Beach.webp",
               "location": "Agatti",
               "description": "Pristine white sand beach with turquoise lagoon waters."
             },
             {
               "name": "Sunset Point",
-              "image": "assets/images/Sunset Point ladkh.webp",
+              "image": "assets/images/Sunset Point lakshadweep.webp",
               "location": "Agatti",
               "description": "Best location on the island for viewing the horizon at dusk."
             },
             {
               "name": "Scuba Point",
-              "image": "assets/images/scuba-point.webp",
+              "image": "assets/images/Scuba Point.webp",
               "location": "Agatti Lagoon",
               "description": "Vibrant underwater life with colorful corals and turtles."
             },
             {
               "name": "Agatti Airstrip",
-              "image": "assets/images/agatti-airstrip.webp",
+              "image": "assets/images/Agatti Airstrip.webp",
               "location": "Agatti",
               "description": "One of the most scenic airport approaches in the world."
             },
             {
               "name": "Eastern Jetty",
-              "image": "assets/images/eastern-jetty.webp",
+              "image": "assets/images/Eastern Jetty.webp",
               "location": "Agatti",
               "description": "Traditional harbor area for local inter-island ferry services."
             }
@@ -4926,31 +4926,31 @@
             },
             {
               "name": "Tip Beach",
-              "image": "assets/images/tip-beach.webp",
+              "image": "assets/images/Tip Beach.webp",
               "location": "Kalpeni",
               "description": "A scenic narrow strip of sand at the very edge of the lagoon."
             },
             {
               "name": "Pitt Island",
-              "image": "assets/images/pitt-island.webp",
+              "image": "assets/images/Pitt Island.webp",
               "location": "Near Kalpeni",
               "description": "Secluded islets accessible via wading through low tide waters."
             },
             {
               "name": "Storm Bank",
-              "image": "assets/images/storm-bank.webp",
+              "image": "assets/images/Storm Bank.webp",
               "location": "Kalpeni",
               "description": "Massive ridge of dried coral boulders created by an 1847 storm."
             },
             {
               "name": "Hosiery Unit",
-              "image": "assets/images/hosiery-unit.webp",
+              "image": "assets/images/Hosiery Unit.webp",
               "location": "Kalpeni",
               "description": "Small-scale local industry producing island-style fabrics."
             },
             {
               "name": "Coral Reef Walk",
-              "image": "assets/images/coral-reef-walk.webp",
+              "image": "assets/images/Coral Reef Walk.webp",
               "location": "Kalpeni Lagoon",
               "description": "Wading through shallow waters to observe reef life up close."
             }
@@ -4978,31 +4978,31 @@
             },
             {
               "name": "Mendut Temple",
-              "image": "assets/images/mendut-temple.webp",
+              "image": "assets/images/Mendut Temple.webp",
               "location": "Near Borobudur",
               "description": "9th-century Buddhist temple containing a massive 3-meter stone Buddha."
             },
             {
               "name": "Pawon Temple",
-              "image": "assets/images/pawon-temple.webp",
+              "image": "assets/images/Pawon Temple.webp",
               "location": "Borobudur",
               "description": "Small, elegant temple located exactly halfway between Borobudur and Mendut."
             },
             {
               "name": "Setumbu Hill",
-              "image": "assets/images/setumbu-hill.webp",
+              "image": "assets/images/Setumbu Hill.webp",
               "location": "Near Borobudur",
               "description": "Premier sunrise viewpoint over the temple shrouded in morning mist."
             },
             {
               "name": "Village Tour",
-              "image": "assets/images/village-tour-java.webp",
+              "image": "assets/images/Village Tour.webp",
               "location": "Borobudur",
               "description": "Explore the surrounding traditional Javanese life via horse-drawn cart."
             },
             {
               "name": "Elo River",
-              "image": "assets/images/elo-river-rafting.webp",
+              "image": "assets/images/Elo River.webp",
               "location": "Near Borobudur",
               "description": "Experience white water rafting adventures through scenic tropical landscapes."
             }
@@ -5010,42 +5010,42 @@
         },
         {
           "name": "Komodo Island",
-          "image": "assets/images/komodo-island.webp",
+          "image": "assets/images/Komodo Island.webp",
           "description": "Home to the famous Komodo Dragons and stunning Pink Beach in East Nusa Tenggara.",
           "subPlaces": [
             {
               "name": "Komodo Island",
-              "image": "assets/images/komodo-island.webp",
+              "image": "assets/images/Komodo Island.webp",
               "location": "East Nusa Tenggara",
               "description": "Komodo dragons and pink beach."
             },
             {
               "name": "Loh Liang",
-              "image": "assets/images/loh-liang-komodo.webp",
+              "image": "assets/images/Loh Liang.webp",
               "location": "Komodo",
               "description": "The main entry point and ranger station for tracking giant dragons."
             },
             {
               "name": "Pink Beach",
-              "image": "assets/images/pink-beach-komodo.webp",
+              "image": "assets/images/Pink Beach.webp",
               "location": "Komodo",
               "description": "One of only seven beaches in the world with natural pink sand."
             },
             {
               "name": "Padar Island",
-              "image": "assets/images/padar-island.webp",
+              "image": "assets/images/Padar Island.webp",
               "location": "Near Komodo",
               "description": "Hike to the summit for iconic views of three different colored bays."
             },
             {
               "name": "Manta Point",
-              "image": "assets/images/manta-point-diving.webp",
+              "image": "assets/images/manta points.webp",
               "location": "Komodo National Park",
               "description": "A popular drift-diving spot to behold giant manta rays in clear water."
             },
             {
               "name": "Rinca Island",
-              "image": "assets/images/rinca-island-dragons.webp",
+              "image": "assets/images/Rinca Island.webp",
               "location": "Komodo National Park",
               "description": "Another major island home to free-roaming komodo dragons and wildlife."
             }
@@ -5064,31 +5064,31 @@
             },
             {
               "name": "Wayag Islands",
-              "image": "assets/images/wayag-islands.webp",
+              "image": "assets/images/Wayag Islands.webp",
               "location": "Raja Ampat",
               "description": "The quintessential icon of the region with mushroom-shaped karst islets."
             },
             {
               "name": "Piaynemo",
-              "image": "assets/images/piaynemo-viewpoint.webp",
+              "image": "assets/images/Piaynemo.webp",
               "location": "Raja Ampat",
               "description": "A smaller version of Wayag offering a wooden staircase to a spectacular view."
             },
             {
               "name": "Cape Kri",
-              "image": "assets/images/cape-kri-diving.webp",
+              "image": "assets/images/Cape Kri.webp",
               "location": "Raja Ampat",
               "description": "Holds the world record for the most fish species recorded in a single dive."
             },
             {
               "name": "Arborek Village",
-              "image": "assets/images/arborek-village.webp",
+              "image": "assets/images/Arborek Village.webp",
               "location": "Raja Ampat",
               "description": "Pioneer tourism village known for its friendly locals and clean reef."
             },
             {
               "name": "Pasir Timbul",
-              "image": "assets/images/pasir-timbul-sandbank.webp",
+              "image": "assets/images/Pasir Timbul.webp",
               "location": "Near Mansuar",
               "description": "A magical rising sandbank that appears only during the low tide."
             }
@@ -5096,42 +5096,42 @@
         },
         {
           "name": "Mount Bromo",
-          "image": "assets/images/mount-bromo-volcano-sunrise.webp",
+          "image": "assets/images/Mount Bromo.webp",
           "description": "An active volcano in East Java, famous for its surreal landscapes and spectacular sunrises.",
           "subPlaces": [
             {
               "name": "Mount Bromo",
-              "image": "assets/images/mount-bromo-volcano-sunrise.webp",
+              "image": "assets/images/Mount Bromo.webp",
               "location": "East Java",
               "description": "Volcano sunrise."
             },
             {
               "name": "Penanjakan View",
-              "image": "assets/images/penanjakan-view-bromo.webp",
+              "image": "assets/images/Penanjakan View.webp",
               "location": "Bromo",
               "description": "The highest viewpoint for witnessing the 'Sea of Sand' at dawn."
             },
             {
               "name": "Sea of Sand",
-              "image": "assets/images/sea-of-sand-bromo.webp",
+              "image": "assets/images/Sea of Sand.webp",
               "location": "Bromo Caldera",
               "description": "A vast, gray volcanic desert surrounding the active crater."
             },
             {
               "name": "Bromo Crater",
-              "image": "assets/images/bromo-crater.webp",
+              "image": "assets/images/Bromo Crater.webp",
               "location": "Mount Bromo",
               "description": "Ascend 250 concrete steps to peer directly into the steaming volcano."
             },
             {
               "name": "Teletubbies Hills",
-              "image": "assets/images/teletubbies-hills-bromo.webp",
+              "image": "assets/images/Teletubbies Hills.webp",
               "location": "Bromo",
               "description": "Rolling green savannah hills contrasting with the volcanic sand."
             },
             {
               "name": "Madakaripura",
-              "image": "assets/images/madakaripura-waterfall.webp",
+              "image": "assets/images/Madakaripura.webp",
               "location": "Near Bromo",
               "description": "The most spectacular waterfall in East Java, located in a deep canyon."
             }
@@ -5139,42 +5139,42 @@
         },
         {
           "name": "Gili Islands",
-          "image": "assets/images/gili-islands-beach-boats.webp",
+          "image": "assets/images/Gili Islands.webp",
           "description": "Three small islands near Lombok, known for their white sand beaches and incredible turtle diving.",
           "subPlaces": [
             {
               "name": "Gili Islands",
-              "image": "assets/images/gili-islands-beach-boats.webp",
+              "image": "assets/images/Gili Islands.webp",
               "location": "Lombok",
               "description": "White sand and turtle diving."
             },
             {
               "name": "Gili Trawangan",
-              "image": "assets/images/gili-trawangan.webp",
+              "image": "assets/images/Gili Trawangan.webp",
               "location": "Gili Islands",
               "description": "The 'Party Island' with vibrant nightlife and world-class diving."
             },
             {
               "name": "Gili Meno",
-              "image": "assets/images/gili-meno.webp",
+              "image": "assets/images/Gili Meno.webp",
               "location": "Gili Islands",
               "description": "The most peaceful island, perfect for honeymoons and quiet escapes."
             },
             {
               "name": "Gili Air",
-              "image": "assets/images/gili-air.webp",
+              "image": "assets/images/Gili Air.webp",
               "location": "Gili Islands",
               "description": "A perfect blend of chill vibes and social scenes with local character."
             },
             {
               "name": "Turtle Point",
-              "image": "assets/images/turtle-point-gili.webp",
+              "image": "assets/images/Turtle Point.webp",
               "location": "Gili Meno",
               "description": "Best shore-access snorkeling to swim with hawksbill sea turtles."
             },
             {
               "name": "Bask Underwater",
-              "image": "assets/images/bask-underwater-statues.webp",
+              "image": "assets/images/Bask Underwater.webp",
               "location": "Gili Meno",
               "description": "Stunning sculpture of 48 life-sized figures underwater."
             }
@@ -5193,31 +5193,31 @@
             },
             {
               "name": "Monas",
-              "image": "assets/images/monas-jakarta.webp",
+              "image": "assets/images/Monas.webp",
               "location": "Jakarta",
               "description": "National Monument symbolizing the fight for Indonesian independence."
             },
             {
               "name": "Kota Tua",
-              "image": "assets/images/kota-tua-jakarta.webp",
+              "image": "assets/images/Kota Tua.webp",
               "location": "Jakarta",
               "description": "The 'Old Town' with preserved Dutch colonial architecture and museums."
             },
             {
               "name": "Istiqlal Mosque",
-              "image": "assets/images/istiqlal-mosque.webp",
+              "image": "assets/images/Istiqlal Mosque.webp",
               "location": "Jakarta",
               "description": "The largest mosque in Southeast Asia, known for its modern design."
             },
             {
               "name": "Ancol Dreamland",
-              "image": "assets/images/ancol-dreamland.webp",
+              "image": "assets/images/Ancol Dreamland.webp",
               "location": "Jakarta Waterfront",
               "description": "Massive amusement park complex with beaches and oceanariums."
             },
             {
               "name": "Grand Indonesia",
-              "image": "assets/images/grand-indonesia-mall.webp",
+              "image": "assets/images/Grand Indonesia.webp",
               "location": "Jakarta center",
               "description": "One of Southeast Asia's largest luxury shopping malls."
             }

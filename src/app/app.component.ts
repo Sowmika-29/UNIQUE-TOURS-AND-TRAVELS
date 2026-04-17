@@ -17,7 +17,7 @@ import { filter } from 'rxjs/operators';
          class="fixed inset-0 z-[9999] bg-white transition-opacity duration-1000 flex items-center justify-center p-4" 
          [ngClass]="{'opacity-0 pointer-events-none': fadeSplash}">
       <video #splashVideo class="w-64 md:w-80 max-w-full drop-shadow-sm h-auto object-contain" autoplay muted playsinline (ended)="onSplashComplete()">
-        <source src="assets/Splash%20screen/Splash-screen.mp4" type="video/mp4">
+        <source src="/assets/Splash screen/Splash-screen.mp4" type="video/mp4">
       </video>
       <button (click)="onSplashComplete()" class="absolute z-[10000] bottom-10 right-10 bg-slate-200 hover:bg-slate-300 text-slate-600 hover:text-slate-900 px-6 py-2 rounded-full text-xs font-black tracking-widest uppercase transition-all shadow-sm border border-slate-300">
         Skip 
