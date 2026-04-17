@@ -87,8 +87,17 @@ import { APP_CONFIG } from '../../app.config';
 
     </div>
 
-    <div class="border-t border-slate-700/50 pt-6 text-center text-sm text-slate-500">
-      © 2026 Unique Tours & Travels. All rights reserved.
+    <div class="border-t border-slate-700/50 pt-6 text-center text-sm text-slate-500 flex flex-col md:flex-row items-center justify-between gap-4">
+      <p>© 2026 Unique Tours & Travels. All rights reserved.</p>
+      <p class="text-slate-500/80">
+        Developed by 
+        <a href="https://www.creinx.com/" 
+           target="_blank" 
+           rel="noopener noreferrer" 
+           class="text-sky-500/70 hover:text-sky-400 hover:underline transition-all duration-300 font-medium">
+          Creinx
+        </a>
+      </p>
     </div>
 
   </div>
