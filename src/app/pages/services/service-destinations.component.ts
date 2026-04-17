@@ -21,8 +21,7 @@ import { DestinationService } from '../../services/destination.service';
         <!-- Hero Content -->
         <div class="relative z-10 text-center px-4 animate-fade-in">
           <h1 class="text-4xl md:text-6xl font-black mb-4 tracking-tighter">
-            <span class="bg-gradient-to-r from-brand to-brand-light bg-clip-text text-transparent italic pr-2">{{ activeService?.title }}</span>
-            <span class="text-slate-900 ml-3">{{ activeService?.accent }}</span>
+           <span class="text-slate-900 ml-3">{{ activeService?.accent }}</span>
           </h1>
           <p class="text-slate-700 text-sm md:text-xl font-medium max-w-2xl mx-auto uppercase tracking-[0.2em]">
             {{ activeService?.subtitle }}
@@ -125,17 +124,17 @@ export class ServiceDestinationsComponent implements OnInit {
   };
 
   constructor(
-    private route: ActivatedRoute, 
+    private route: ActivatedRoute,
     private router: Router,
     private destService: DestinationService
-  ) {}
+  ) { }
 
   ngOnInit() {
     this.route.paramMap.subscribe(async params => {
       this.isLoading = true;
       const type = params.get('type') || 'student-trips';
       const meta = this.headerMetadata[type] || this.headerMetadata['student-trips'];
-      
+
       this.activeService = {
         ...meta,
         destinations: []
@@ -179,7 +178,7 @@ export class ServiceDestinationsComponent implements OnInit {
   }
 
   enquireOnWhatsapp(destName: string) {
-    const phoneNumber = "919000000000"; 
+    const phoneNumber = "919000000000";
     const message = `Hello, I’m interested in ${destName} trip. Please share package details.`;
     const encodedMessage = encodeURIComponent(message);
     window.open(`https://wa.me/${phoneNumber}?text=${encodedMessage}`, '_blank');

@@ -2547,7 +2547,7 @@
           "subPlaces": [
             {
               "name": "Port Blair",
-              "image": "assets/images/port-blair.webp",
+              "image": "assets/images/Port Blair.webp",
               "location": "Andaman",
               "description": "Capital city and Cellular Jail."
             },
@@ -2590,7 +2590,7 @@
           "subPlaces": [
             {
               "name": "Havelock Island",
-              "image": "assets/images/havelock.webp",
+              "image": "assets/images/Havelock.webp",
               "location": "Andaman",
               "description": "Radhanagar beach and scuba diving."
             },
@@ -2633,7 +2633,7 @@
           "subPlaces": [
             {
               "name": "Neil Island",
-              "image": "assets/images/neil-island.webp",
+              "image": "assets/images/Neil Island.webp",
               "location": "Andaman",
               "description": "Peaceful island getaway."
             },
@@ -2676,7 +2676,7 @@
           "subPlaces": [
             {
               "name": "Ross Island",
-              "image": "assets/images/ross-island.webp",
+              "image": "assets/images/Ross Island.webp",
               "location": "Andaman",
               "description": "Historic ruins island."
             },
@@ -2719,7 +2719,7 @@
           "subPlaces": [
             {
               "name": "Baratang",
-              "image": "assets/images/baratang.webp",
+              "image": "assets/images/Baratang.webp",
               "location": "Andaman",
               "description": "Limestone caves and mangroves."
             },
@@ -2762,7 +2762,7 @@
           "subPlaces": [
             {
               "name": "Radhanagar",
-              "image": "assets/images/radhanagar.webp",
+              "image": "assets/images/Radhanagar.webp",
               "location": "Andaman",
               "description": "One of Asia’s best beaches."
             },
@@ -2816,13 +2816,13 @@
           "subPlaces": [
             {
               "name": "At the Top",
-              "image": "assets/images/Burj Khalifa-At the Top.webp",
+              "image": "assets/images/At the Top.webp",
               "location": "Dubai",
               "description": "The observation deck on levels 124 and 125 with panoramic views."
             },
             {
               "name": "The Lounge",
-              "image": "assets/images/dubai-luxury-lounge.webp",
+              "image": "assets/images/The Lounge.webp",
               "location": "Dubai",
               "description": "World's highest lounge on layers 152-154 for luxury dining."
             },
@@ -2846,7 +2846,7 @@
             },
             {
               "name": "Sky Views",
-              "image": "assets/images/sky-views.webp",
+              "image": "assets/images/Sky Views.webp",
               "location": "Dubai",
               "description": "Glass walk and slide experience on a platform adjacent to the tower."
             }
@@ -2877,13 +2877,13 @@
             },
             {
               "name": "Sand Boarding",
-              "image": "assets/images/sand-boarding.webp",
+              "image": "assets/images/Sand Boarding.webp",
               "location": "Dubai Desert",
               "description": "Experience surfing on the sand down the steep desert slopes."
             },
             {
               "name": "Quad Biking",
-              "image": "assets/images/quad-biking.webp",
+              "image": "assets/images/Quad Biking.webp",
               "location": "Dubai Desert",
               "description": "Self-drive adventure on all-terrain vehicles in the open sand."
             },
@@ -2909,12 +2909,12 @@
             {
               "name": "Aquaventure",
               "image": "assets/images/Aquaventure.webp",
-              "location": "Atlantis",
+              "location": "Palm Jumeirah",
               "description": "The world's largest waterpark with record-breaking slides."
             },
             {
               "name": "The Pointe",
-              "image": "assets/images/the-pointe.webp",
+              "image": "assets/images/The Pointe.webp",
               "location": "Palm Jumeirah",
               "description": "Waterfront dining destination with a spectacular fountain show."
             },
@@ -2926,13 +2926,13 @@
             },
             {
               "name": "The View",
-              "image": "assets/images/the-view.webp",
+              "image": "assets/images/The View.webp",
               "location": "Palm Tower",
               "description": "Observation deck on the 52nd floor with 360-degree palm views."
             },
             {
               "name": "Nakheel Mall",
-              "image": "assets/images/nakheel-mall.webp",
+              "image": "assets/images/Nakheel Mall.webp",
               "location": "Palm Jumeirah",
               "description": "Luxury shopping and entertainment hub at the heart of the palm."
             }
@@ -2951,31 +2951,31 @@
             },
             {
               "name": "Ice Rink",
-              "image": "assets/images/ice-rink.webp",
+              "image": "assets/images/Ice Rink.webp",
               "location": "Dubai Mall",
               "description": "Olympic-sized indoor ice skating rink for all ages."
             },
             {
               "name": "VR Park",
-              "image": "assets/images/vr-park.webp",
+              "image": "assets/images/VR Park.webp",
               "location": "Dubai Mall",
               "description": "Virtual reality theme park with various immersive experiences."
             },
             {
               "name": "KidZania",
-              "image": "assets/images/kidzania.webp",
+              "image": "assets/images/KidZania.webp",
               "location": "Dubai Mall",
               "description": "Interactive city for kids where they can play adult roles."
             },
             {
               "name": "Reel Cinemas",
-              "image": "assets/images/reel-cinemas.webp",
+              "image": "assets/images/Reel Cinemas.webp",
               "location": "Dubai Mall",
               "description": "A massive luxury multiplex for the ultimate movie experience."
             },
             {
               "name": "Hysteria",
-              "image": "assets/images/hysteria.webp",
+              "image": "assets/images/Hysteria.webp",
               "location": "Dubai Mall",
               "description": "A haunted house extreme fear attraction for thrill seekers."
             }
@@ -2988,31 +2988,31 @@
           "subPlaces": [
             {
               "name": "Marina Walk",
-              "image": "assets/images/marina-walk.webp",
+              "image": "assets/images/Marina Walk.webp",
               "location": "Dubai Marina",
               "description": "7-kilometer tree-lined promenade for walking and dining."
             },
             {
               "name": "JBR Beach",
-              "image": "assets/images/jbr-beach.webp",
+              "image": "assets/images/JBR Beach.webp",
               "location": "Marina",
               "description": "Public beach with water sports and retail stores."
             },
             {
               "name": "XLine Marina",
-              "image": "assets/images/xline-marina.webp",
+              "image": "assets/images/XLine Marina.webp",
               "location": "Dubai Marina",
               "description": "The world's longest urban zipline through the skyscrapers."
             },
             {
               "name": "Yacht Tour",
-              "image": "assets/images/yacht-tour.webp",
+              "image": "assets/images/Yacht Tour.webp",
               "location": "Dubai Marina",
               "description": "Cruise around the marina and palm on a luxury private yacht."
             },
             {
               "name": "Skydive Dubai",
-              "image": "assets/images/skydive-dubai.webp",
+              "image": "assets/images/Skydive Dubai.webp",
               "location": "Marina",
               "description": "Jump over the Palm Jumeirah from the Marina dropzone."
             },
@@ -3031,13 +3031,13 @@
           "subPlaces": [
             {
               "name": "Future Heroes",
-              "image": "assets/images/future-heroes.webp",
+              "image": "assets/images/Future Heroes.webp",
               "location": "Museum",
               "description": "Dedicated floor for children to learn and solve future challenges."
             },
             {
               "name": "OSS Hope",
-              "image": "assets/images/oss-hope.webp",
+              "image": "assets/images/OSS Hope.webp",
               "location": "Museum",
               "description": "Exhibit taking visitors on a journey to a space station in 2071."
             },
@@ -3055,13 +3055,13 @@
             },
             {
               "name": "Tomorrow Today",
-              "image": "assets/images/tomorrow-today.webp",
+              "image": "assets/images/Tomorrow Today.webp",
               "location": "Museum",
               "description": "Showcase of near-future technology and innovative concepts."
             },
             {
               "name": "The Vault of Life",
-              "image": "assets/images/vault-of-life.webp",
+              "image": "assets/images/The Vault of Life.webp",
               "location": "Museum",
               "description": "A DNA library of 2,400 species showcased in glowing jars."
             }
@@ -3089,32 +3089,32 @@
             },
             {
               "name": "Grand Mosque",
-              "image": "assets/images/grand-mosque-male.webp",
+              "image": "assets/images/Grand Mosque.webp",
               "location": "Male",
               "description": "Largest mosque in Maldives with a grand golden dome."
             },
             {
               "name": "Fish Market",
               "location": "Male",
-              "image": "assets/images/fish-market-male.webp",
+              "image": "assets/images/Fish Market.webp",
               "description": "Vibrant local market showing the daily catch of tuna and more."
             },
             {
               "name": "National Museum",
               "location": "Male",
-              "image": "assets/images/National Museum.webp",
+              "image": "assets/images/national museum maldives.webp",
               "description": "Historic artifacts and royal treasures of Maldivian heritage."
             },
             {
               "name": "Artificial Beach",
               "location": "Male",
-              "image": "assets/images/artificial-beach-male.webp",
+              "image": "assets/images/Artificial Beach,.webp",
               "description": "A popular man-made beach for locals and travelers alike."
             },
             {
               "name": "Sultan Park",
               "location": "Male",
-              "image": "assets/images/sultan-park-male.webp",
+              "image": "assets/images/Sultan Park.webp",
               "description": "Lush public garden surrounding the historic museum building."
             }
           ]
@@ -3132,31 +3132,31 @@
             },
             {
               "name": "Bikini Beach",
-              "image": "assets/images/bikini-beach-maafushi.webp",
+              "image": "assets/images/Bikini Beach.webp",
               "location": "Maafushi",
               "description": "Dedicated tourist beach for sunbathing and swimming."
             },
             {
               "name": "Sandbank Picnic",
-              "image": "assets/images/sandbank-picnic-maafushi.webp",
+              "image": "assets/images/Sandbank Picnic,.webp",
               "location": "Near Maafushi",
               "description": "Day trip to a secluded sandbank in the middle of ocean."
             },
             {
               "name": "Turtle Snorkeling",
-              "image": "assets/images/turtle-snorkeling-maafushi.webp",
+              "image": "assets/images/Turtle Snorkeling.webp",
               "location": "Maafushi",
               "description": "Guided swim with sea turtles in their natural habitat."
             },
             {
               "name": "Night Fishing",
-              "image": "assets/images/night-fishing-maafushi.webp",
+              "image": "assets/images/Night Fishing.webp",
               "location": "Maafushi",
               "description": "Traditional Maldivian style hand-line fishing trip at sunset."
             },
             {
               "name": "Kandooma Reef",
-              "image": "assets/images/kandooma-reef-maafushi.webp",
+              "image": "assets/images/Kandooma Reef.webp",
               "location": "Near Maafushi",
               "description": "One of the best diving spots for observing sharks and rays."
             }
@@ -3175,31 +3175,31 @@
             },
             {
               "name": "House Reef",
-              "image": "assets/images/biyadhoo-house-reef.webp",
+              "image": "assets/images/House Reef.webp",
               "location": "Biyadhoo",
               "description": "Spectacular natural reef just steps away from the beach."
             },
             {
               "name": "Palm Grove",
-              "image": "assets/images/biyadhoo-palm-grove.webp",
+              "image": "assets/images/Palm Grove.webp",
               "location": "Biyadhoo",
               "description": "Dense tropical garden with coconut and banana trees."
             },
             {
               "name": "Diving Center",
-              "image": "assets/images/biyadhoo-diving-center.webp",
+              "image": "assets/images/Diving Center.webp",
               "location": "Biyadhoo",
               "description": "Professional diving school offering PADI certified courses."
             },
             {
               "name": "Manta Point",
-              "image": "assets/images/biyadhoo-manta-point.webp",
+              "image": "assets/images/manta point.webp",
               "location": "Near Biyadhoo",
               "description": "Seasonal spot to witness dozens of giant manta rays."
             },
             {
               "name": "Canoe Track",
-              "image": "assets/images/biyadhoo-canoe-track.webp",
+              "image": "assets/images/canoe track.webp",
               "location": "Biyadhoo Lagoon",
               "description": "Explore the calm turquoise lagoon on a rental canoe."
             }
@@ -3218,31 +3218,31 @@
             },
             {
               "name": "Sea of Stars",
-              "image": "assets/images/vaadhoo-sea-of-stars.webp",
+              "image": "assets/images/Sea of Stars.webp",
               "location": "Vaadhoo Beach",
               "description": "The mesmerizing night glow caused by bioluminescence."
             },
             {
               "name": "Starlight Dinner",
-              "image": "assets/images/vaadhoo-starlight-dinner.webp",
+              "image": "assets/images/Starlight Dinner.webp",
               "location": "Vaadhoo",
               "description": "Romantic beachside dining next to the glowing waters."
             },
             {
               "name": "Sunset Pier",
-              "image": "assets/images/vaadhoo-sunset-pier.webp",
+              "image": "assets/images/Sunset Pier.webp",
               "location": "Vaadhoo",
               "description": "A long wooden deck perfect for horizon photography."
             },
             {
               "name": "Maldivian Village",
-              "image": "assets/images/vaadhoo-village.webp",
+              "image": "assets/images/Maldivian Village.webp",
               "location": "Vaadhoo",
               "description": "Experience the local life and traditional island culture."
             },
             {
               "name": "Coral Garden",
-              "image": "assets/images/vaadhoo-coral-garden.webp",
+              "image": "assets/images/Coral Garden.webp",
               "location": "Vaadhoo Lagoon",
               "description": "Large area of shallow coral reefs for first-time snorkelers."
             }
@@ -3261,31 +3261,31 @@
             },
             {
               "name": "Empty Beach",
-              "image": "assets/images/fulhadhoo-empty-beach.webp",
+              "image": "assets/images/Empty Beach.webp",
               "location": "Fulhadhoo",
               "description": "Miles of white sand with absolutely no crowds."
             },
             {
               "name": "Baa Atoll Biosphere",
-              "image": "assets/images/fulhadhoo-biosphere.webp",
+              "image": "assets/images/Baa Atoll Biosphere.webp",
               "location": "Baa Atoll",
               "description": "UNESCO-recognized marine reserve with rich biodiversity."
             },
             {
               "name": "Jungle Trail",
-              "image": "assets/images/fulhadhoo-jungle-trail.webp",
+              "image": "assets/images/Jungle Trail.webp",
               "location": "Fulhadhoo",
               "description": "Scenic walk through the island's interior tropical forest."
             },
             {
               "name": "Lagoon Swim",
-              "image": "assets/images/fulhadhoo-lagoon-swim.webp",
+              "image": "assets/images/Lagoon Swim.webp",
               "location": "Fulhadhoo",
               "description": "Safe and shallow waters ideal for afternoon swimming."
             },
             {
               "name": "Local Teashop",
-              "image": "assets/images/fulhadhoo-teashop.webp",
+              "image": "assets/images/Local Teashop.webp",
               "location": "Fulhadhoo",
               "description": "Enjoy traditional Maldivian 'Hedhika' snacks with tea."
             }
@@ -3304,31 +3304,31 @@
             },
             {
               "name": "Sandbank Point",
-              "image": "assets/images/kuramathi-sandbank.webp",
+              "image": "assets/images/Sandbank Point.webp",
               "location": "Kuramathi",
               "description": "A long, winding sandbank stretching far into the ocean."
             },
             {
               "name": "Eco Center",
-              "image": "assets/images/kuramathi-eco-center.webp",
+              "image": "assets/images/Eco Center.webp",
               "location": "Kuramathi",
               "description": "Learn about marine conservation and see a sperm whale skeleton."
             },
             {
               "name": "Banyan Tree Trail",
-              "image": "assets/images/kuramathi-banyan-tree.webp",
+              "image": "assets/images/Banyan Tree Trail.webp",
               "location": "Kuramathi",
               "description": "Garden walk featuring ancient and massive Banyan trees."
             },
             {
               "name": "Snorkel Safari",
-              "image": "assets/images/kuramathi-snorkel-safari.webp",
+              "image": "assets/images/Snorkel Safari.webp",
               "location": "Kuramathi Reef",
               "description": "Guided boat trip to the best hidden spots on the resort reef."
             },
             {
               "name": "Overwater Spa",
-              "image": "assets/images/kuramathi-overwater-spa.webp",
+              "image": "assets/images/Overwater Spa.webp",
               "location": "Kuramathi",
               "description": "Luxury wellness center with treatment rooms over the lagoon."
             }
@@ -3380,7 +3380,7 @@
             },
             {
               "name": "Art Market",
-              "image": "assets/images/Ubud Art Market.webp",
+              "image": "assets/images/Art Market.webp",
               "location": "Ubud",
               "description": "Local handicrafts and souvenirs."
             }
@@ -3411,19 +3411,19 @@
             },
             {
               "name": "Beachwalk Mall",
-              "image": "assets/images/beachwalk-mall.webp",
+              "image": "assets/images/Beachwalk Mall.webp",
               "location": "Kuta",
               "description": "Open-air luxury shopping center facing the ocean."
             },
             {
               "name": "Discovery Plaza",
-              "image": "assets/images/discovery-plaza.webp",
+              "image": "assets/images/Discovery Plaza.webp",
               "location": "Kuta",
               "description": "Large beachside destination for dining and local events."
             },
             {
               "name": "Poppies Lane",
-              "image": "assets/images/poppies-lane.webp",
+              "image": "assets/images/Poppies Lane.webp",
               "location": "Kuta",
               "description": "Iconic narrow street filled with budget stays and cozy cafes."
             }
@@ -3442,31 +3442,31 @@
             },
             {
               "name": "Petitenget Temple",
-              "image": "assets/images/petitenget-temple.webp",
+              "image": "assets/images/Petitenget Temple.webp",
               "location": "Seminyak",
               "description": "Ancient sea temple located on a quiet stretch of beach."
             },
             {
               "name": "Seminyak Square",
-              "image": "assets/images/seminyak-square.webp",
+              "image": "assets/images/Seminyak Square.webp",
               "location": "Seminyak",
               "description": "The central hub for high-end fashion and art galleries."
             },
             {
               "name": "Double Six Beach",
-              "image": "assets/images/double-six-beach.webp",
+              "image": "assets/images/Double Six Beach.webp",
               "location": "Seminyak",
               "description": "Famous for colorful beanbag beach bars and live music."
             },
             {
               "name": "Eat Street",
-              "image": "assets/images/eat-street-seminyak.webp",
+              "image": "assets/images/Eat Street.webp",
               "location": "Seminyak",
               "description": "Lively road packed with top-tier international cuisines."
             },
             {
               "name": "Potato Head",
-              "image": "assets/images/potato-head-beach-club.webp",
+              "image": "assets/images/Potato Head.webp",
               "location": "Seminyak",
               "description": "One of the world's most creative and sustainable beach clubs."
             }
@@ -3509,7 +3509,7 @@
             },
             {
               "name": "Diamond Beach",
-              "image": "assets/images/Diamond Beach.webp",
+              "image": "assets/images/Diamond beach.webp",
               "location": "Nusa Penida",
               "description": "Stunning white sand beach accessible via a carved stair path."
             }
@@ -3528,31 +3528,31 @@
             },
             {
               "name": "Uluwatu Temple",
-              "image": "assets/images/uluwatu-temple-cliff.webp",
+              "image": "assets/images/Uluwatu Temple.webp",
               "location": "Uluwatu",
               "description": "Spiritual temple perched 70 meters above the Indian Ocean."
             },
             {
               "name": "Padang Padang",
-              "image": "assets/images/padang-padang.webp",
+              "image": "assets/images/Padang Padang.webp",
               "location": "Uluwatu",
               "description": "Famous surf beach featured in 'Eat Pray Love' movie."
             },
             {
               "name": "Suluban Beach",
-              "image": "assets/images/suluban-beach.webp",
+              "image": "assets/images/Suluban Beach.webp",
               "location": "Uluwatu",
               "description": "A hidden cave beach known as the entrance to giant surf waves."
             },
             {
               "name": "Garuda Wisnu",
-              "image": "assets/images/garuda-wisnu.webp",
+              "image": "assets/images/Garuda Wisnu.webp",
               "location": "Uluwatu",
               "description": "Massive cultural park with one of the world's tallest statues."
             },
             {
               "name": "Bingin Beach",
-              "image": "assets/images/bingin-beach.webp",
+              "image": "assets/images/Bingin beach.webp",
               "location": "Uluwatu",
               "description": "Secluded rocky shore popular with advanced surfers and sunset searchers."
             }
@@ -3571,31 +3571,31 @@
             },
             {
               "name": "Batu Bolong",
-              "image": "assets/images/batu-bolong.webp",
+              "image": "assets/images/Batu Bolong.webp",
               "location": "Canggu",
               "description": "The most active beach for social surfing and nightlife."
             },
             {
               "name": "Tanah Lot",
-              "image": "assets/images/tanah-lot.webp",
+              "image": "assets/images/Tanah Lot.webp",
               "location": "Near Canggu",
               "description": "Ancient Hindu temple set on an offshore rock formation."
             },
             {
               "name": "Echo Beach",
-              "image": "assets/images/echo-beach.webp",
+              "image": "assets/images/Echo Beach.webp",
               "location": "Canggu",
               "description": "Black sand beach famous for reef breaks and seafood BBQ."
             },
             {
               "name": "Berawa Beach",
-              "image": "assets/images/berawa-beach.webp",
+              "image": "assets/images/Berawa Beach.webp",
               "location": "Canggu",
               "description": "Upscale area with beach clubs and boutique cafes."
             },
             {
               "name": "Love Anchor",
-              "image": "assets/images/love-anchor.webp",
+              "image": "assets/images/Love Anchor.webp",
               "location": "Canggu",
               "description": "Iconic bazaar market for island-style clothing and accessories."
             }
@@ -3627,7 +3627,7 @@
             },
             {
               "name": "Sands Skypark",
-              "image": "assets/images/Sands Skypark.webp",
+              "image": "assets/images/Sands Skypark'.webp",
               "location": "Marina Bay",
               "description": "The giant rooftop deck with world's largest infinity pool."
             },
@@ -3639,7 +3639,7 @@
             },
             {
               "name": "The Helix Bridge",
-              "image": "assets/images/Helix Bridge.webp",
+              "image": "assets/images/The Helix Bridge.webp",
               "location": "Marina Bay",
               "description": "The double-helix pedestrian walkway with multiple viewing decks."
             },
@@ -3670,31 +3670,31 @@
             },
             {
               "name": "S.E.A. Aquarium",
-              "image": "assets/images/sentosa-sea-aquarium.webp",
+              "image": "assets/images/S.E.A. Aquarium.webp",
               "location": "Sentosa",
               "description": "One of the world's largest collections of manta rays and sharks."
             },
             {
               "name": "Palawan Beach",
-              "image": "assets/images/palawan-beach.webp",
+              "image": "assets/images/Palawan Beach.webp",
               "location": "Sentosa",
               "description": "Family-friendly beach with a suspension bridge to a small islet."
             },
             {
               "name": "Sentosa Luge",
-              "image": "assets/images/sentosa-luge.webp",
+              "image": "assets/images/Sentosa Luge.webp",
               "location": "Sentosa",
               "description": "A gravity-fueled thrill ride through forest tracks."
             },
             {
               "name": "Fort Siloso",
-              "image": "assets/images/fort-siloso.webp",
+              "image": "assets/images/Fort Siloso.webp",
               "location": "Sentosa",
               "description": "Singapore's only restored coastal gun battery and museum."
             },
             {
               "name": "Wings of Time",
-              "image": "assets/images/wings-of-time.webp",
+              "image": "assets/images/Wings of Time.webp",
               "location": "Siloso Beach",
               "description": "An award-winning outdoor night show against the open sea."
             }
@@ -3719,7 +3719,7 @@
             },
             {
               "name": "Flower Dome",
-              "image": "assets/images/Flower Dome.webp",
+              "image": "assets/images/Flower dome.webp",
               "location": "Gardens",
               "description": "World's largest glass greenhouse with plants from 5 continents."
             },
@@ -3762,7 +3762,7 @@
             },
             {
               "name": "Ancient Egypt",
-              "image": "assets/images/Ancient Egypt.webp",
+              "image": "assets/images/Ancient egypt.webp",
               "location": "Universal",
               "description": "Features the Revenge of the Mummy indoor psychological thriller."
             },
@@ -3992,31 +3992,31 @@
             },
             {
               "name": "Sanctuary of Truth",
-              "image": "assets/images/sanctuary-of-truth.webp",
+              "image": "assets/images/Sanctuary of Truth.webp",
               "location": "Pattaya",
               "description": "Gigantic all-wood structure filled with intricate carvings."
             },
             {
               "name": "Walking Street",
-              "image": "assets/images/walking-street.webp",
+              "image": "assets/images/Walking Street.webp",
               "location": "Pattaya",
               "description": "The biggest and busiest party hotspot in the country."
             },
             {
               "name": "Coral Island",
-              "image": "assets/images/lakshadweep-coral-island-lagoon.webp",
+              "image": "assets/images/Coral Island.webp",
               "location": "Pattaya",
               "description": "Parasailing, jet-skiing and snorkeling hub just offshore."
             },
             {
               "name": "Nong Nooch Garden",
-              "image": "assets/images/nong-nooch-garden.webp",
+              "image": "assets/images/Nong Nooch Garden.webp",
               "location": "Pattaya",
               "description": "Award-winning botanical garden with cultural shows."
             },
             {
               "name": "Art in Paradise",
-              "image": "assets/images/art-in-paradise.webp",
+              "image": "assets/images/Art in Paradise.webp",
               "location": "Pattaya",
               "description": "Interactive 3D art museum perfect for family photography."
             }
@@ -4035,31 +4035,31 @@
             },
             {
               "name": "Doi Suthep",
-              "image": "assets/images/doi-suthep.webp",
+              "image": "assets/images/Doi Suthep.webp",
               "location": "Chiang Mai",
               "description": "Golden temple situated on a mountain peak overlooking the city."
             },
             {
               "name": "Elephant Sanctuary",
-              "image": "assets/images/elephant-sanctuary.webp",
+              "image": "assets/images/Elephant Sanctuary.webp",
               "location": "Chiang Mai",
               "description": "Ethical centers for rescued elephants to live freely."
             },
             {
               "name": "Night Bazaar",
-              "image": "assets/images/Night Bazaar.webp",
+              "image": "assets/images/Night Bazaar Thailand.webp",
               "location": "Chiang Mai",
               "description": "Main hub for northern Thai handicrafts, food and arts."
             },
             {
               "name": "Old City Walls",
-              "image": "assets/images/old-city-walls.webp",
+              "image": "assets/images/Old City Walls.webp",
               "location": "Chiang Mai",
               "description": "Historic gated area holding hundreds of ancient temples."
             },
             {
               "name": "Doi Inthanon",
-              "image": "assets/images/doi-inthanon.webp",
+              "image": "assets/images/Doi Inthanon.webp",
               "location": "Near Chiang Mai",
               "description": "Thailand's highest peak with waterfalls and twin pagodas."
             }
@@ -4078,31 +4078,31 @@
             },
             {
               "name": "Railay Beach",
-              "image": "assets/images/railay-beach.webp",
+              "image": "assets/images/Railay Beach.webp",
               "location": "Krabi",
               "description": "Accessible only by boat, a world-class rock climbing destination."
             },
             {
               "name": "Tiger Cave Temple",
-              "image": "assets/images/tiger-cave-temple.webp",
+              "image": "assets/images/Tiger Cave Temple.webp",
               "location": "Krabi",
               "description": "A sacred Buddhist site reachable by climbing 1,237 steps."
             },
             {
               "name": "Emerald Pool",
-              "image": "assets/images/emerald-pool.webp",
+              "image": "assets/images/Emerald Pool.webp",
               "location": "Krabi",
               "description": "Crystal clear natural swimming pond in a forest reserve."
             },
             {
               "name": "Ao Nang Beach",
-              "image": "assets/images/ao-nang-beach.webp",
+              "image": "assets/images/Ao Nang Beach.webp",
               "location": "Krabi",
               "description": "Main tourist hub for island hopping and accommodation."
             },
             {
               "name": "Four Islands Tour",
-              "image": "assets/images/four-islands-tour.webp",
+              "image": "assets/images/Four Islands tours.webp",
               "location": "Krabi",
               "description": "Popular speedboat trip visiting Koh Poda, Koh Gai and others."
             }
@@ -4121,31 +4121,31 @@
             },
             {
               "name": "Wat Mahathat",
-              "image": "assets/images/wat-mahathat.webp",
+              "image": "assets/images/Wat Mahathat.webp",
               "location": "Ayutthaya",
               "description": "Home to the famous Buddha head entwined in Banyan tree roots."
             },
             {
               "name": "Wat Phra Si Sanphet",
-              "image": "assets/images/wat-phra-si-sanphet.webp",
+              "image": "assets/images/Wat Phra Si Sanphet.webp",
               "location": "Ayutthaya",
               "description": "The most important temple of the former royal palace."
             },
             {
               "name": "Historical Park",
-              "image": "assets/images/historical-park.webp",
+              "image": "assets/images/Historical Park.webp",
               "location": "Ayutthaya",
               "description": "UNESCO World Heritage site covering central ruin areas."
             },
             {
               "name": "Wat Chaiwatthanaram",
-              "image": "assets/images/wat-chaiwatthanaram.webp",
+              "image": "assets/images/Wat Chaiwatthanaram.webp",
               "location": "Ayutthaya",
               "description": "Khmer-style temple known for its majestic sunset reflections."
             },
             {
               "name": "Chao Sam Phraya",
-              "image": "assets/images/chao-sam-phraya.webp",
+              "image": "assets/images/Chao Sam Phraya.webp",
               "location": "Ayutthaya",
               "description": "Museum housing gold artifacts and treasures from temple crypts."
             }
@@ -4162,7 +4162,7 @@
       "places": [
         {
           "name": "Kuala Lumpur",
-          "image": "assets/images/kuala-lumpur-twin-towers.webp",
+          "image": "assets/images/Kuala Lumpur.webp",
           "tags": [
             "city",
             "culture"
@@ -4183,25 +4183,25 @@
             },
             {
               "name": "Batu Caves",
-              "image": "assets/images/batu-caves.webp",
+              "image": "assets/images/Batu Caves.webp",
               "location": "Near KL",
               "description": "Massive limestone caves containing Hindu temples and statues."
             },
             {
               "name": "KL Tower",
-              "image": "assets/images/kl-tower.webp",
+              "image": "assets/images/KL Tower.webp",
               "location": "KL City",
               "description": "Observation tower offering high-altitude city views and dining."
             },
             {
               "name": "Bukit Bintang",
-              "image": "assets/images/bukit-bintang.webp",
+              "image": "assets/images/Bukit Bintang.webp",
               "location": "KL City",
               "description": "The city's trendiest shopping, entertainment and food hub."
             },
             {
               "name": "Merdeka Square",
-              "image": "assets/images/merdeka-square.webp",
+              "image": "assets/images/Merdeka Square.webp",
               "location": "KL City",
               "description": "The historical heart of the city where independence was declared."
             }
