@@ -112,24 +112,70 @@ import { APP_CONFIG } from '../../app.config';
            (click)="mobileOpen = false"></div>
 
       <!-- Mobile Menu Panel -->
-      <div class="md:hidden fixed top-0 right-0 h-full w-[85%] bg-slate-900 text-white shadow-[-20px_0_50px_rgba(0,0,0,0.1)] z-50 transition-transform duration-500 cubic-bezier(0.4, 0, 0.2, 1)"
+      <div class="md:hidden fixed top-0 right-0 h-full w-[80%] bg-slate-900/95 backdrop-blur-2xl text-white shadow-[-20px_0_80px_rgba(0,0,0,0.5)] z-[100] transition-transform duration-500 ease-[cubic-bezier(0.16,1,0.3,1)]"
            [ngClass]="mobileOpen ? 'translate-x-0' : 'translate-x-full'">
-        <div class="p-8 pt-24 space-y-1 flex flex-col items-center text-center">
-          <a routerLink="/" (click)="mobileOpen = false" class="w-full py-4 text-xl font-black border-b border-white/5 uppercase tracking-tighter">Home</a>
-          <a routerLink="/explore/domestic" (click)="mobileOpen = false" class="w-full py-4 text-xl font-black border-b border-white/5 uppercase tracking-tighter">Domestic Tours</a>
-          <a routerLink="/explore/international" (click)="mobileOpen = false" class="w-full py-4 text-xl font-black border-b border-white/5 uppercase tracking-tighter">International Tours</a>
-          <a routerLink="/explore" (click)="mobileOpen = false" class="w-full py-4 text-xl font-black border-b border-white/5 uppercase tracking-tighter">Explore</a>
-          <a routerLink="/services" (click)="mobileOpen = false" class="w-full py-4 text-xl font-black border-b border-white/5 uppercase tracking-tighter">Services</a>
-          <a routerLink="/blog" (click)="mobileOpen = false" class="w-full py-4 text-xl font-black border-b border-white/5 uppercase tracking-tighter text-brand-light">Blog</a>
-          <a routerLink="/about" (click)="mobileOpen = false" class="w-full py-4 text-xl font-black border-b border-white/5 uppercase tracking-tighter">About Us</a>
-          <a routerLink="/contact" (click)="mobileOpen = false"
-             class="w-full mt-8 bg-brand text-white py-5 rounded-2xl font-black uppercase tracking-widest hover:bg-brand-light transition-all shadow-xl shadow-brand/20 active:scale-95 text-center">
-            Contact Us
+        
+        <!-- Header area for mobile menu -->
+        <div class="p-6 border-b border-white/10 flex justify-between items-center">
+          <div class="flex flex-col">
+            <span class="font-black text-lg tracking-tighter">UNIQUE</span>
+            <span class="text-[8px] uppercase tracking-widest text-brand-light">Navigation Menu</span>
+          </div>
+          <button (click)="mobileOpen = false" class="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center">
+             <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path></svg>
+          </button>
+        </div>
+
+        <div class="p-6 space-y-2 flex flex-col h-[calc(100%-80px)] overflow-y-auto">
+          <a routerLink="/" (click)="mobileOpen = false" class="mobile-nav-item">Home</a>
+          
+          <div class="py-2 border-b border-white/5">
+             <span class="text-[10px] uppercase font-bold text-slate-500 tracking-widest mb-3 block">Tour Collections</span>
+             <div class="grid grid-cols-1 gap-1">
+                <a routerLink="/explore/domestic" (click)="mobileOpen = false" class="mobile-sub-item">Domestic Tours</a>
+                <a routerLink="/explore/international" (click)="mobileOpen = false" class="mobile-sub-item">International Tours</a>
+             </div>
+          </div>
+
+          <a routerLink="/explore" (click)="mobileOpen = false" class="mobile-nav-item">Explore All</a>
+          <a routerLink="/services" (click)="mobileOpen = false" class="mobile-nav-item">Our Services</a>
+          <a routerLink="/blog" (click)="mobileOpen = false" class="mobile-nav-item group flex justify-between items-center">
+            Blog
+            <span class="text-[8px] bg-brand text-white px-2 py-0.5 rounded-full">New</span>
           </a>
+          <a routerLink="/about" (click)="mobileOpen = false" class="mobile-nav-item">About Us</a>
+          
+          <div class="mt-auto pt-8">
+            <a routerLink="/contact" (click)="mobileOpen = false"
+               class="w-full bg-brand text-white py-5 rounded-2xl font-black uppercase tracking-widest hover:bg-brand-light transition-all shadow-xl shadow-brand/20 active:scale-95 text-center flex items-center justify-center gap-3">
+              <span>Contact Us</span>
+              <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
+            </a>
+            
+            <!-- Branding/Social Footer -->
+            <div class="mt-8 text-center text-slate-500">
+               <p class="text-[10px] uppercase tracking-widest">Connect With Us</p>
+               <div class="flex justify-center gap-4 mt-4">
+                  <div class="w-8 h-8 rounded-full bg-white/5 flex items-center justify-center hover:text-brand transition-colors"><svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"><path d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z"/></svg></div>
+                  <div class="w-8 h-8 rounded-full bg-white/5 flex items-center justify-center hover:text-brand transition-colors"><svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.791-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.209-1.791 4-4 4zm6.406-11.845c.796 0 1.441-.645 1.441-1.441s-.645-1.441-1.441-1.441-1.441.645-1.441 1.441.645 1.441 1.441 1.441z"/></svg></div>
+               </div>
+            </div>
+          </div>
         </div>
       </div>
     </nav>
-  `
+  `,
+  styles: [`
+    .mobile-nav-item {
+      @apply w-full py-4 text-lg font-black border-b border-white/5 uppercase tracking-tighter flex items-center justify-between transition-all;
+    }
+    .mobile-nav-item:hover {
+      @apply pl-2 text-brand-light border-brand/20;
+    }
+    .mobile-sub-item {
+      @apply py-2.5 px-4 text-sm font-bold text-slate-400 hover:text-white hover:bg-white/5 rounded-xl transition-all block;
+    }
+  `]
 })
 export class NavbarComponent {
   @Input() isSplashActive = false;
