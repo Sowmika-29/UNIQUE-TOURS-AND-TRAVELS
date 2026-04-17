@@ -242,37 +242,37 @@
           "subPlaces": [
             {
               "name": "Pine Forests",
-              "image": "https://images.unsplash.com/photo-1506012787146-5c5f470a1a09?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/Pine-forest.webp",
               "location": "Vagamon, Kerala",
               "description": "Tall pine trees and misty atmosphere perfect for photography."
             },
             {
               "name": "Vagamon Meadows",
-              "image": "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/Vagamon Meadows.webp",
               "location": "Vagamon",
               "description": "Rolling green hills and lush landscapes for relaxation."
             },
             {
               "name": "Kurisumala",
-              "image": "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/Kurisumala.webp",
               "location": "Vagamon",
               "description": "A famous Christian pilgrimage center and a trekking spot."
             },
             {
               "name": "Thangal Para",
-              "image": "https://images.unsplash.com/photo-1500835556837-99ac94a94552?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/Thangal Para.webp",
               "location": "Vagamon",
               "description": "A spherical rock with religious significance and great views."
             },
             {
               "name": "Vagamon Lake",
-              "image": "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/Vagamon Lake.webp",
               "location": "Vagamon",
               "description": "A small but beautiful lake offering boating facilities."
             },
             {
               "name": "Marmala Waterfalls",
-              "image": "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/Marmala Waterfalls.webp",
               "location": "Near Vagamon",
               "description": "A secluded and pristine waterfall amidst lush greenery."
             }
@@ -285,37 +285,37 @@
           "subPlaces": [
             {
               "name": "Padmanabhaswamy Temple",
-              "image": "assets/images/trivandrum-padmanabhaswamy-temple.jpg",
+              "image": "assets/images/Padmanabhaswamy Temple.webp",
               "location": "Trivandrum, Kerala",
               "description": "Worlds richest temple known for its grand architecture."
             },
             {
               "name": "Kovalam Beach",
-              "image": "https://images.unsplash.com/photo-1504150558240-0b4fd8946624?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/Kovalam Beach.webp",
               "location": "Trivandrum",
               "description": "A world-famous beach with a massive lighthouse."
             },
             {
               "name": "Napier Museum",
-              "image": "https://images.unsplash.com/photo-1523906834658-6e24ef2386f9?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/Napier Museum.webp",
               "location": "Trivandrum",
               "description": "An Indo-Saracenic structure housing rare archaeological artifacts."
             },
             {
               "name": "Poovar Island",
-              "image": "https://images.unsplash.com/photo-1488085061387-422e15b40b0c?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/Poovar Island.webp",
               "location": "Near Trivandrum",
               "description": "A stunning place where the lake, river, and sea meet."
             },
             {
               "name": "Shangumugham Beach",
-              "image": "https://images.unsplash.com/photo-1506012787146-5c5f470a1a09?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/Shangumugham Beach.webp",
               "location": "Trivandrum",
               "description": "Known for the giant sculpture of a mermaid and sunset views."
             },
             {
               "name": "Zoo & Gallery",
-              "image": "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/Zoo & Gallery.webp",
               "location": "Trivandrum",
               "description": "One of the oldest zoos in India with a dedicated art gallery."
             }
@@ -328,37 +328,37 @@
           "subPlaces": [
             {
               "name": "Apple Orchards",
-              "image": "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/Apple Orchards Kanthalloor.webp",
               "location": "Kanthalloor, Kerala",
               "description": "The only place in Kerala where apples are grown commercially."
             },
             {
               "name": "Strawberry Farms",
-              "image": "https://images.unsplash.com/photo-1500835556837-99ac94a94552?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/Strawberry Farms.webp",
               "location": "Kanthalloor",
               "description": "Lush farms where visitors can pick fresh strawberries."
             },
             {
               "name": "Anamudi Shola Park",
-              "image": "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/Anamudi Shola Park.webp",
               "location": "Idukki",
               "description": "A high-altitude national park with rich biodiversity."
             },
             {
               "name": "Bhramaram Point",
-              "image": "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/Bhramaram Point.webp",
               "location": "Kanthalloor",
               "description": "Famous viewpoint popularized by the movie Bhramaram."
             },
             {
               "name": "Pattisseri Dam",
-              "image": "https://images.unsplash.com/photo-1504150558240-0b4fd8946624?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/Pattisseri Dam.webp",
               "location": "Kanthalloor",
               "description": "A serene dam offering peaceful surroundings and mountain views."
             },
             {
               "name": "Watch Tower",
-              "image": "https://images.unsplash.com/photo-1523906834658-6e24ef2386f9?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/Watch Tower.webp",
               "location": "Kanthalloor",
               "description": "Provides a 360-degree view of the surrounding mountain ranges."
             }
@@ -376,41 +376,41 @@
         {
           "name": "Coorg",
           "image": "assets/images/coorg-coffee-plantation-hills.webp",
-          "description": "The Scotland of India — rolling coffee estates, misty peaks, and the stunning Abbey Falls.",
+          "description": "The Scotland of India \u2014 rolling coffee estates, misty peaks, and the stunning Abbey Falls.",
           "subPlaces": [
             {
               "name": "Abbey Falls",
-              "image": "https://images.unsplash.com/photo-1488085061387-422e15b40b0c?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/Abbey Falls.webp",
               "location": "Coorg, Karnataka",
               "description": "A breathtaking waterfall hidden within coffee and spice plantations."
             },
             {
               "name": "Raja's Seat",
-              "image": "https://images.unsplash.com/photo-1506012787146-5c5f470a1a09?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/Raja's Seat.webp",
               "location": "Madikeri",
               "description": "A scenic garden offering spectacular sunset views over the valley."
             },
             {
               "name": "Namdroling Monastery",
-              "image": "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/Namdroling Monastery.webp",
               "location": "Bylakuppe",
               "description": "Famous Golden Temple representing Tibetan Buddhist culture."
             },
             {
               "name": "Dubare Elephant Camp",
-              "image": "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/Dubare Elephant Camp.webp",
               "location": "Kushalnagar",
               "description": "Interact with and bathe elephants in a riverside setting."
             },
             {
               "name": "Talakaveri",
-              "image": "https://images.unsplash.com/photo-1500835556837-99ac94a94552?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/Talakaveri.webp",
               "location": "Coorg",
               "description": "The sacred source of the Kaveri river atop Brahmagiri hills."
             },
             {
               "name": "Mandalpatti Peak",
-              "image": "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/Mandalpatti Peak.webp",
               "location": "Coorg",
               "description": "A popular off-road trekking spot with panoramic mountain views."
             }
@@ -447,7 +447,7 @@
             },
             {
               "name": "Mysore Zoo",
-              "image": "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/Mysore Zoo.webp",
               "location": "Mysore",
               "description": "One of India's oldest and well-maintained zoos."
             },
@@ -478,7 +478,7 @@
             },
             {
               "name": "Lotus Mahal",
-              "image": "https://images.unsplash.com/photo-1504150558240-0b4fd8946624?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/Lotus Mahal.webp",
               "location": "Hampi",
               "description": "Unique palace with Indo-Islamic architecture."
             },
@@ -521,25 +521,25 @@
             },
             {
               "name": "Mahabaleshwar Temple",
-              "image": "https://images.unsplash.com/photo-1488085061387-422e15b40b0c?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/Mahabaleshwar Temple.webp",
               "location": "Gokarna",
               "description": "Ancient Shiva temple carrying great religious significance."
             },
             {
               "name": "Half Moon Beach",
-              "image": "https://images.unsplash.com/photo-1506012787146-5c5f470a1a09?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/Half Moon Beach.webp",
               "location": "Gokarna",
               "description": "A secluded beach reachable by boat or coastal trekking."
             },
             {
               "name": "Paradise Beach",
-              "image": "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/Paradise Beach.webp",
               "location": "Gokarna",
               "description": "A hidden paradise with marble-white rocks and clear waters."
             },
             {
               "name": "Yana Rocks",
-              "image": "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/Yana Rocks.webp",
               "location": "Near Gokarna",
               "description": "Gigantic limestone peaks standing amidst dense evergreen forests."
             }
@@ -552,37 +552,37 @@
           "subPlaces": [
             {
               "name": "Mullayanagiri",
-              "image": "https://images.unsplash.com/photo-1500835556837-99ac94a94552?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/Mullayanagir.webp",
               "location": "Chikmagalur, Karnataka",
               "description": "The highest peak in Karnataka offering majestic valley views."
             },
             {
               "name": "Baba Budangiri",
-              "image": "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/Baba Budangiri.webp",
               "location": "Chikmagalur",
               "description": "Famous pilgrimage spot known for its unique mountain shrines."
             },
             {
               "name": "Hebbe Falls",
-              "image": "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/Hebbe Falls.webp",
               "location": "Kemmanagundi",
               "description": "A two-tiered waterfall located deep within coffee estates."
             },
             {
               "name": "Kudremukh Park",
-              "image": "https://images.unsplash.com/photo-1504150558240-0b4fd8946624?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/Kudremukh Park.webp",
               "location": "Chikmagalur",
               "description": "A sprawling national park known for its horse-faced peaks."
             },
             {
               "name": "Bhadra Wildlife Sanctuary",
-              "image": "https://images.unsplash.com/photo-1523906834658-6e24ef2386f9?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/Bhadra Wildlife Sanctuary.webp",
               "location": "Chikmagalur",
               "description": "Rich wildlife reserve home to tigers, leopards, and elephants."
             },
             {
               "name": "Hirekolale Lake",
-              "image": "https://images.unsplash.com/photo-1488085061387-422e15b40b0c?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/Hirekolale Lake.webp",
               "location": "Chikmagalur",
               "description": "A serene man-made lake surrounded by mountains."
             }
@@ -595,37 +595,37 @@
           "subPlaces": [
             {
               "name": "Krishna Temple",
-              "image": "assets/images/udupi-krishna-temple-beach.jpg",
+              "image": "assets/images/Krishna Temple.webp",
               "location": "Udupi, Karnataka",
               "description": "A major pilgrim center dedicated to Lord Krishna."
             },
             {
               "name": "Malpe Beach",
-              "image": "https://images.unsplash.com/photo-1506012787146-5c5f470a1a09?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/Malpe Beach.webp",
               "location": "Udupi",
               "description": "Pristine sandy beach known for water sports and fishing."
             },
             {
               "name": "St. Mary's Island",
-              "image": "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/St. Mary's Island.webp",
               "location": "Near Malpe",
               "description": "Island known for unique basaltic rock formations."
             },
             {
               "name": "Kaup Lighthouse",
-              "image": "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/Kaup Lighthouse.webp",
               "location": "Kaup",
               "description": "Historic lighthouse standing tall on a rocky shore."
             },
             {
               "name": "Heritage Village",
-              "image": "https://images.unsplash.com/photo-1500835556837-99ac94a94552?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/Heritage Village.webp",
               "location": "Manipal",
               "description": "Showcasing traditional South Indian arts and architecture."
             },
             {
               "name": "Pajaka Kshetra",
-              "image": "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/Pajaka Kshetra.webp",
               "location": "Udupi",
               "description": "The birthplace of saint Madhvacharya amidst nature."
             }
@@ -647,41 +647,41 @@
             "beach",
             "popular"
           ],
-          "description": "The Queen of Beaches — buzzing nightlife, water sports, and golden sunsets.",
+          "description": "The Queen of Beaches \u2014 buzzing nightlife, water sports, and golden sunsets.",
           "subPlaces": [
             {
               "name": "North Goa",
-              "image": "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/North Goa.webp",
               "location": "North Goa",
               "description": "The epicenter of Goa's party scene with famous shacks like Tito's and Mambos."
             },
             {
               "name": "Calangute Market",
-              "image": "https://images.unsplash.com/photo-1504150558240-0b4fd8946624?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/Calangute Market.webp",
               "location": "Calangute",
               "description": "A bustling street market for beachwear, jewelry, and local crafts."
             },
             {
               "name": "St. Alex Church",
-              "image": "https://images.unsplash.com/photo-1523906834658-6e24ef2386f9?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/Alex Church.webp",
               "location": "Calangute",
               "description": "A stunning 16th-century church with unique architecture."
             },
             {
               "name": "Snow Park",
-              "image": "https://images.unsplash.com/photo-1488085061387-422e15b40b0c?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/Snow Park.webp",
               "location": "Calangute",
               "description": "Indoor snow attraction for families and kids near the beach."
             },
             {
               "name": "Candolim Beach",
-              "image": "https://images.unsplash.com/photo-1506012787146-5c5f470a1a09?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/Candolim Beach.webp",
               "location": "Near Calangute",
               "description": "A cleaner and quieter extension of Calangute beach."
             },
             {
               "name": "Sinfonia Sea",
-              "image": "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/Sinfonia Sea.webp",
               "location": "North Goa",
               "description": "Luxury cruises departing from nearby points for sunset views."
             }
@@ -1069,7 +1069,7 @@
             "relax",
             "budget"
           ],
-          "description": "A charming area known for its traditional houses, vibrant cafés, and laid-back backpacker atmosphere.",
+          "description": "A charming area known for its traditional houses, vibrant caf\u00e9s, and laid-back backpacker atmosphere.",
           "subPlaces": [
             {
               "name": "Cafe Street",
@@ -1183,7 +1183,7 @@
             },
             {
               "name": "Apple Orchards",
-              "image": "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/Apple Orchards Kanthalloor.webp",
               "location": "Vashisht",
               "description": "Walk through lush local farms laden with fresh Himachali apples."
             },
@@ -1475,7 +1475,7 @@
         {
           "name": "Mumbai",
           "image": "assets/images/mumbai-gateway-of-india.webp",
-          "description": "The City of Dreams — Gateway of India, Marine Drive, Bollywood, and street food paradise.",
+          "description": "The City of Dreams \u2014 Gateway of India, Marine Drive, Bollywood, and street food paradise.",
           "subPlaces": [
             {
               "name": "Gateway of India",
@@ -1487,7 +1487,7 @@
               "name": "Marine Drive",
               "image": "assets/images/Marine Drive.jpg",
               "location": "Mumbai",
-              "description": "Famous coastal road known as Queen’s Necklace."
+              "description": "Famous coastal road known as Queen\u2019s Necklace."
             },
             {
               "name": "Juhu Beach",
@@ -1914,7 +1914,7 @@
         {
           "name": "Lotus Temple",
           "image": "assets/images/Lotus Temple.webp",
-          "description": "A breathtaking lotus-shaped Bahá'í temple open to all faiths, surrounded by serene gardens.",
+          "description": "A breathtaking lotus-shaped Bah\u00e1'\u00ed temple open to all faiths, surrounded by serene gardens.",
           "subPlaces": [
             {
               "name": "Lotus Temple",
@@ -1926,7 +1926,7 @@
               "name": "Information Center",
               "image": "https://images.unsplash.com/photo-1523906834658-6e24ef2386f9?fm=webp&fit=crop&w=800&q=80",
               "location": "Lotus Temple",
-              "description": "Providing insights into Bahá'í faith and architecture through media."
+              "description": "Providing insights into Bah\u00e1'\u00ed faith and architecture through media."
             },
             {
               "name": "Prayer Hall",
@@ -1947,7 +1947,7 @@
               "description": "Research center with books on spiritual teachings."
             },
             {
-              "name": "Bahá'í Gardens",
+              "name": "Bah\u00e1'\u00ed Gardens",
               "image": "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?fm=webp&fit=crop&w=800&q=80",
               "location": "Delhi",
               "description": "Manicured lush lawns surrounding the temple complex."
@@ -2405,7 +2405,7 @@
         {
           "name": "Sonamarg",
           "image": "assets/images/sonamarg-glacier-valley.webp",
-          "description": "The Meadow of Gold — glaciers, alpine lakes, and the starting point for Thajiwas Glacier trek.",
+          "description": "The Meadow of Gold \u2014 glaciers, alpine lakes, and the starting point for Thajiwas Glacier trek.",
           "subPlaces": [
             {
               "name": "Sonamarg",
@@ -2555,7 +2555,7 @@
               "name": "Cellular Jail",
               "image": "assets/images/andaman.webp",
               "location": "Port Blair",
-              "description": "Historic colonial prison housing India’s freedom fighter history."
+              "description": "Historic colonial prison housing India\u2019s freedom fighter history."
             },
             {
               "name": "Chidiya Tapu",
@@ -2586,7 +2586,7 @@
         {
           "name": "Havelock",
           "image": "assets/images/havelock.webp",
-          "description": "Home to Asia's best beach — Radhanagar, with crystal-clear waters for snorkeling and diving.",
+          "description": "Home to Asia's best beach \u2014 Radhanagar, with crystal-clear waters for snorkeling and diving.",
           "subPlaces": [
             {
               "name": "Havelock Island",
@@ -2751,7 +2751,7 @@
               "name": "Jarawa Reserve",
               "image": "https://images.unsplash.com/photo-1488085061387-422e15b40b0c?fm=webp&fit=crop&w=800&q=80",
               "location": "Andaman Trunk Road",
-              "description": "The protected land of the world’s oldest indigenous tribe."
+              "description": "The protected land of the world\u2019s oldest indigenous tribe."
             }
           ]
         },
@@ -2764,7 +2764,7 @@
               "name": "Radhanagar",
               "image": "assets/images/radhanagar.jpg",
               "location": "Andaman",
-              "description": "One of Asia’s best beaches."
+              "description": "One of Asia\u2019s best beaches."
             },
             {
               "name": "Lagoon Point",
@@ -2791,7 +2791,7 @@
               "description": "The premier spot on the beach for evening horizon views."
             },
             {
-              "name": "Neil’s Cove",
+              "name": "Neil\u2019s Cove",
               "image": "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?fm=webp&fit=crop&w=800&q=80",
               "location": "Near Radhanagar",
               "description": "A beautiful and hidden corner of the beach for solitude."
@@ -2812,7 +2812,7 @@
         {
           "name": "Burj Khalifa",
           "image": "assets/images/Burj Khalifa.webp",
-          "description": "The world's tallest building at 828 meters, with observation decks offering 360° city views.",
+          "description": "The world's tallest building at 828 meters, with observation decks offering 360\u00b0 city views.",
           "subPlaces": [
             {
               "name": "At the Top",
@@ -3208,7 +3208,7 @@
         {
           "name": "Vaadhoo",
           "image": "assets/images/vaadhoo-glowing-beach-night.webp",
-          "description": "Famous for the Sea of Stars — bioluminescent plankton that light up the ocean at night.",
+          "description": "Famous for the Sea of Stars \u2014 bioluminescent plankton that light up the ocean at night.",
           "subPlaces": [
             {
               "name": "Vaadhoo",
@@ -3561,7 +3561,7 @@
         {
           "name": "Canggu",
           "image": "assets/images/canggu-surfer-beach-bali.webp",
-          "description": "A trendy surfer village with co-working spaces, health cafés, and the iconic Tanah Lot temple nearby.",
+          "description": "A trendy surfer village with co-working spaces, health caf\u00e9s, and the iconic Tanah Lot temple nearby.",
           "subPlaces": [
             {
               "name": "Canggu",
@@ -3862,7 +3862,7 @@
               "name": "Sri Mariamman",
               "image": "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?fm=webp&fit=crop&w=800&q=80",
               "location": "Chinatown",
-              "description": "Singapore’s oldest Hindu temple with a colorful tower."
+              "description": "Singapore\u2019s oldest Hindu temple with a colorful tower."
             },
             {
               "name": "Pagoda Street",
@@ -4326,7 +4326,7 @@
               "name": "River Cruise",
               "image": "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?fm=webp&fit=crop&w=800&q=80",
               "location": "Melaka",
-              "description": "Scenic boat ride showing the city’s murals and historical houses."
+              "description": "Scenic boat ride showing the city\u2019s murals and historical houses."
             },
             {
               "name": "Chen Hoon Teng",
@@ -4563,7 +4563,7 @@
         {
           "name": "Sigiriya",
           "image": "assets/images/sigiriya-rock-fortress-aerial.webp",
-          "description": "The Lion Rock — an ancient fortress atop a 200-meter rock pillar with stunning frescoes and gardens.",
+          "description": "The Lion Rock \u2014 an ancient fortress atop a 200-meter rock pillar with stunning frescoes and gardens.",
           "subPlaces": [
             {
               "name": "Sigiriya",
@@ -4606,7 +4606,7 @@
         {
           "name": "Nuwara Eliya",
           "image": "assets/images/nuwara-eliya-tea-hills.webp",
-          "description": "Little England — a cool hill country town with tea plantations, waterfalls, and misty landscapes.",
+          "description": "Little England \u2014 a cool hill country town with tea plantations, waterfalls, and misty landscapes.",
           "subPlaces": [
             {
               "name": "Nuwara Eliya",
@@ -4636,7 +4636,7 @@
               "name": "Horton Plains",
               "image": "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?fm=webp&fit=crop&w=800&q=80",
               "location": "Near Nuwara Eliya",
-              "description": "High plateau hosting the dramatic 'World’s End' precipice."
+              "description": "High plateau hosting the dramatic 'World\u2019s End' precipice."
             },
             {
               "name": "Seetha Amman Temple",

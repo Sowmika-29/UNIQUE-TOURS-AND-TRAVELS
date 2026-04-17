@@ -20,8 +20,8 @@ import { APP_CONFIG } from '../../app.config';
       <!-- Brand -->
       <div>
         <div class="flex items-center mb-6">
-          <div class="w-12 h-12 rounded-xl bg-white/10 backdrop-blur-sm shadow-inner flex items-center justify-center p-1.5 mr-3 overflow-hidden border border-white/10">
-            <img src="logo.jpeg" alt="Unique Tours & Travels - Premium Travel Agency" class="w-full h-full object-contain">
+          <div class="w-16 h-16 sm:w-20 sm:h-20 mr-4 flex items-center justify-center">
+            <img src="logo.png" alt="Unique Tours & Travels - Premium Travel Agency" class="w-full h-full object-contain brightness-110 contrast-125">
           </div>
           <h2 class="text-2xl font-bold tracking-tight !text-white">Unique Tours & Travels</h2>
         </div>

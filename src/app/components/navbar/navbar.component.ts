@@ -15,10 +15,10 @@ import { APP_CONFIG } from '../../app.config';
 
           <!-- Logo & Title -->
           <div class="flex items-center cursor-pointer group" routerLink="/">
-            <div class="relative w-14 h-14 mr-3 overflow-hidden rounded-xl bg-white/10 backdrop-blur-sm shadow-inner flex items-center justify-center p-1.5 group-hover:bg-white/20 transition-all duration-300">
-              <img src="logo.jpeg" alt="Unique Tours & Travels Logo" class="w-full h-full object-contain transform group-hover:scale-110 transition-transform duration-500">
+            <div class="relative w-16 h-16 sm:w-20 sm:h-20 mr-4 flex items-center justify-center">
+              <img src="logo.png" alt="Unique Tours & Travels Logo" class="w-full h-full object-contain transform group-hover:scale-110 transition-transform duration-500 brightness-110 contrast-125">
             </div>
-            <div class="flex flex-col">
+            <div class="flex flex-col justify-center">
               <span class="text-white font-extrabold text-xl tracking-tighter leading-none">
                  Unique Tours & Travels
               </span>
