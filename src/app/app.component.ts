@@ -3,13 +3,14 @@ import { RouterOutlet, Router, NavigationEnd } from '@angular/router';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { EnquiryFormComponent } from './components/shared/enquiry-form/enquiry-form.component';
+import { FloatingAssistantComponent } from './components/shared/floating-assistant/floating-assistant.component';
 import { CommonModule } from '@angular/common';
 import { filter } from 'rxjs/operators';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet, NavbarComponent, FooterComponent, EnquiryFormComponent, CommonModule], 
+  imports: [RouterOutlet, NavbarComponent, FooterComponent, EnquiryFormComponent, FloatingAssistantComponent, CommonModule], 
   template: `
     <!-- Video Splash Screen Overlay -->
     <div *ngIf="showSplash" 
@@ -34,6 +35,9 @@ import { filter } from 'rxjs/operators';
       <app-enquiry-form *ngIf="!isContactPage"></app-enquiry-form>
 
       <app-footer></app-footer>
+
+      <!-- Global AI Assistant & WhatsApp -->
+      <app-floating-assistant [isVisible]="fadeSplash"></app-floating-assistant>
     </div>
   `
 })

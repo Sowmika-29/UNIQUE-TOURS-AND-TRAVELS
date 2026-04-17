@@ -112,7 +112,7 @@ import { APP_CONFIG } from '../../app.config';
            (click)="mobileOpen = false"></div>
 
       <!-- Mobile Menu Panel -->
-      <div class="md:hidden fixed top-0 right-0 h-full w-[80%] bg-slate-900/95 backdrop-blur-2xl text-white shadow-[-20px_0_80px_rgba(0,0,0,0.5)] z-[100] transition-transform duration-500 ease-[cubic-bezier(0.16,1,0.3,1)]"
+      <div class="md:hidden fixed top-0 right-0 h-full w-[85%] bg-[#0f172a] text-white shadow-[-20px_0_100px_rgba(0,0,0,0.8)] z-[9999] transition-transform duration-500 ease-[cubic-bezier(0.16,1,0.3,1)]"
            [ngClass]="mobileOpen ? 'translate-x-0' : 'translate-x-full'">
         
         <!-- Header area for mobile menu -->
@@ -167,13 +167,35 @@ import { APP_CONFIG } from '../../app.config';
   `,
   styles: [`
     .mobile-nav-item {
-      @apply w-full py-4 text-lg font-black border-b border-white/5 uppercase tracking-tighter flex items-center justify-between transition-all;
+      width: 100%;
+      padding: 1.25rem 0;
+      font-size: 1.125rem;
+      font-weight: 900;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+      text-transform: uppercase;
+      letter-spacing: -0.025em;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      transition: all 0.3s ease;
     }
     .mobile-nav-item:hover {
-      @apply pl-2 text-brand-light border-brand/20;
+      padding-left: 0.5rem;
+      color: #a4dded;
+      border-bottom-color: rgba(0, 177, 234, 0.2);
     }
     .mobile-sub-item {
-      @apply py-2.5 px-4 text-sm font-bold text-slate-400 hover:text-white hover:bg-white/5 rounded-xl transition-all block;
+      padding: 0.75rem 1rem;
+      font-size: 0.875rem;
+      font-weight: 700;
+      color: #94a3b8;
+      border-radius: 0.75rem;
+      transition: all 0.3s ease;
+      display: block;
+    }
+    .mobile-sub-item:hover {
+      color: white;
+      background-color: rgba(255, 255, 255, 0.05);
     }
   `]
 })

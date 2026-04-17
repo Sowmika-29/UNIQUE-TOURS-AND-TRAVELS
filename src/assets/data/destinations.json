@@ -18,37 +18,37 @@
           "subPlaces": [
             {
               "name": "Tea Gardens",
-              "image": "assets/images/Tea Gardens.avif",
+              "image": "assets/images/Tea Gardens.webp",
               "location": "Munnar, Kerala",
               "description": "Vast stretches of emerald green tea plantations offering breathtaking panoramic views."
             },
             {
               "name": "Eravikulam Park",
-              "image": "assets/images/Eravikulam park.jpg",
+              "image": "assets/images/Eravikulam park.webp",
               "location": "Munnar, Kerala",
               "description": "Home to the endangered Nilgiri Tahr and the highest peak in South India."
             },
             {
               "name": "Mattupetty Dam",
-              "image": "assets/images/MattupettyDam.jpg",
+              "image": "assets/images/MattupettyDam.webp",
               "location": "Munnar, Kerala",
               "description": "A beautiful lake and dam site perfect for boating and elephant sightings."
             },
             {
               "name": "Echo Point",
-              "image": "assets/images/echo-point.jpg",
+              "image": "assets/images/echo-point.webp",
               "location": "Munnar, Kerala",
               "description": "A natural echo phenomenon spot surrounded by misty hills and the lake."
             },
             {
               "name": "Rose Garden",
-              "image": "assets/images/Rose garden.jpg",
+              "image": "assets/images/Rose garden.webp",
               "location": "Munnar, Kerala",
               "description": "A vibrant botanical garden showcasing a variety of exotic roses and spices."
             },
             {
               "name": "Lakkam Falls",
-              "image": "assets/images/Lakkam Falls.jpg",
+              "image": "assets/images/Lakkam Falls.webp",
               "location": "Munnar, Kerala",
               "description": "A serene waterfall near the tea gardens, ideal for refreshing nature walks."
             }
@@ -66,37 +66,37 @@
           "subPlaces": [
             {
               "name": "Houseboat Cruise",
-              "image": "assets/images/Houseboat Cruise.jpg",
+              "image": "assets/images/Houseboat Cruise.webp",
               "location": "Alleppey Backwaters",
               "description": "Traditional Kettuvallam stay through the scenic internal canals."
             },
             {
               "name": "Marari Beach",
-              "image": "assets/images/Marari beach.jpg",
+              "image": "assets/images/Marari beach.webp",
               "location": "Alleppey, Kerala",
               "description": "A pristine white sand beach perfect for peace and relaxation."
             },
             {
               "name": "Alleppey Lighthouse",
-              "image": "assets/images/Alleppey Lighthouse.jpg",
+              "image": "assets/images/Alleppey Lighthouse.webp",
               "location": "Alleppey Beach",
               "description": "Historical landmark offering panoramic views of the Arabian Sea."
             },
             {
               "name": "Punnamada Lake",
-              "image": "assets/images/Alleppey Punnamada Lake.jpg",
+              "image": "assets/images/Alleppey Punnamada Lake.webp",
               "location": "Alleppey",
               "description": "Famous as the venue for the legendary Nehru Trophy Boat Race."
             },
             {
               "name": "Vembanad Lake",
-              "image": "assets/images/Vembanad Lake.jpg",
+              "image": "assets/images/Vembanad Lake.webp",
               "location": "Alleppey",
               "description": "The largest lake in India, central to the Kerala backwater experience."
             },
             {
               "name": "Ambalappuzha Temple",
-              "image": "assets/images/Ambalappuzha Temple.jpg",
+              "image": "assets/images/Ambalappuzha Temple.webp",
               "location": "Ambalappuzha",
               "description": "A historic Hindu temple famous for its divine Palpayasam offering."
             }
@@ -113,37 +113,37 @@
           "subPlaces": [
             {
               "name": "Fort Kochi",
-              "image": "assets/images/Fort Kochi.jpg",
+              "image": "assets/images/Fort Kochi.webp",
               "location": "Kochi, Kerala",
               "description": "A historic coastal area known for colonial buildings, cafes, and art streets."
             },
             {
               "name": "Chinese Fishing Nets",
-              "image": "assets/images/Chinese Fishing Nets.jpg",
+              "image": "assets/images/Chinese Fishing Nets.webp",
               "location": "Fort Kochi",
               "description": "Iconic fishing nets offering a unique sunset view along the shoreline."
             },
             {
               "name": "Mattancherry Palace",
-              "image": "assets/images/Mattancherry Palace.jpg",
+              "image": "assets/images/Mattancherry Palace.webp",
               "location": "Kochi",
               "description": "A Portuguese palace showcasing Kerala murals and royal artifacts."
             },
             {
               "name": "Jew Town",
-              "image": "assets/images/Jew Town.jpg",
+              "image": "assets/images/Jew Town.webp",
               "location": "Mattancherry",
               "description": "A vibrant street filled with antique shops and spice markets."
             },
             {
               "name": "Marine Drive",
-              "image": "assets/images/Marine Drive.jpg",
+              "image": "assets/images/Marine Drive.webp",
               "location": "Ernakulam",
               "description": "A scenic waterfront promenade perfect for evening walks."
             },
             {
               "name": "Lulu Mall",
-              "image": "assets/images/Lulu Mall.jpg",
+              "image": "assets/images/Lulu Mall.webp",
               "location": "Kochi",
               "description": "One of India's largest malls with shopping, dining, and entertainment."
             }
@@ -156,37 +156,37 @@
           "subPlaces": [
             {
               "name": "Varkala Cliff",
-              "image": "assets/images/Varkala Cliff.jpg",
+              "image": "assets/images/Varkala Cliff.webp",
               "location": "Varkala, Kerala",
               "description": "A unique cliffside stretch with cafes overlooking the Arabian Sea."
             },
             {
               "name": "Varkala Beach",
-              "image": "assets/images/Varkala Beach.jpg",
+              "image": "assets/images/Varkala Beach.webp",
               "location": "Varkala",
               "description": "A clean beach ideal for sunset views and relaxation."
             },
             {
               "name": "Janardanaswamy Temple",
-              "image": "assets/images/Janardanaswamy Temple.jpg",
+              "image": "assets/images/Janardanaswamy Temple.webp",
               "location": "Varkala",
               "description": "An ancient temple dedicated to Lord Vishnu near the beach."
             },
             {
               "name": "Sivagiri Mutt",
-              "image": "assets/images/Sivagiri Mutt.jpg",
+              "image": "assets/images/Sivagiri Mutt.webp",
               "location": "Varkala",
               "description": "A spiritual center founded by Sree Narayana Guru."
             },
             {
               "name": "Kappil Beach",
-              "image": "assets/images/Kappil Beach.jpg",
+              "image": "assets/images/Kappil Beach.webp",
               "location": "Kappil",
               "description": "A peaceful beach where the sea meets the backwaters."
             },
             {
               "name": "Ponnumthuruthu Island",
-              "image": "assets/images/Ponnumthuruthu Island.jpg",
+              "image": "assets/images/Ponnumthuruthu Island.webp",
               "location": "Near Varkala",
               "description": "A small island known for its temple and calm surroundings."
             }
@@ -199,37 +199,37 @@
           "subPlaces": [
             {
               "name": "Periyar Lake",
-              "image": "assets/images/Periyar Lake.jpg",
+              "image": "assets/images/Periyar Lake.webp",
               "location": "Thekkady, Kerala",
               "description": "A scenic lake offering boat rides through wildlife areas."
             },
             {
               "name": "Wild Life Sanctuary",
-              "image": "assets/images/Periyar Wildlife Sanctuary.jpg",
+              "image": "assets/images/Periyar Wildlife Sanctuary.webp",
               "location": "Thekkady",
               "description": "A protected forest area home to elephants, deer, and exotic birds."
             },
             {
               "name": "Spice Plantations",
-              "image": "assets/images/Spice Plantations.jpg",
+              "image": "assets/images/Spice Plantations.webp",
               "location": "Thekkady",
               "description": "Guided tours through plantations of cardamom, pepper, and spices."
             },
             {
               "name": "Elephant Junction",
-              "image": "assets/images/Elephant Junction.jpg",
+              "image": "assets/images/Elephant Junction.webp",
               "location": "Thekkady",
               "description": "Experience elephant rides and interaction programs."
             },
             {
               "name": "Kathakali Center",
-              "image": "assets/images/Kathakali Center.jpg",
+              "image": "assets/images/Kathakali Center.webp",
               "location": "Thekkady",
               "description": "Watch traditional Kerala dance performances in the evening."
             },
             {
               "name": "Bamboo Rafting",
-              "image": "assets/images/Bamboo Rafting.jpg",
+              "image": "assets/images/Bamboo Rafting.webp",
               "location": "Periyar Reserve",
               "description": "A unique eco-tourism activity through forest waterways."
             }
@@ -423,25 +423,25 @@
           "subPlaces": [
             {
               "name": "Mysore Palace",
-              "image": "assets/images/Mysore Palace.jpg",
+              "image": "assets/images/Mysore Palace.webp",
               "location": "Mysore, Karnataka",
               "description": "A grand royal palace with stunning lighting at night."
             },
             {
               "name": "Chamundi Hills",
-              "image": "assets/images/Chamundi Hills.jpg",
+              "image": "assets/images/Chamundi Hills.webp",
               "location": "Mysore",
               "description": "Hilltop temple with panoramic city views."
             },
             {
               "name": "Brindavan Gardens",
-              "image": "assets/images/Brindavan Gardens.jpg",
+              "image": "assets/images/Brindavan Gardens.webp",
               "location": "Mysore",
               "description": "Famous for musical fountain and gardens."
             },
             {
               "name": "St. Philomena Church",
-              "image": "assets/images/St. Philomena Church.jpg",
+              "image": "assets/images/St. Philomena Church.webp",
               "location": "Mysore",
               "description": "A beautiful neo-gothic church."
             },
@@ -453,7 +453,7 @@
             },
             {
               "name": "Railway Museum",
-              "image": "assets/images/Railway Museum.jpg",
+              "image": "assets/images/Railway Museum.webp",
               "location": "Mysore",
               "description": "Exhibits vintage trains and history."
             }
@@ -466,13 +466,13 @@
           "subPlaces": [
             {
               "name": "Virupaksha Temple",
-              "image": "assets/images/Virupaksha Temple.jpg",
+              "image": "assets/images/Virupaksha Temple.webp",
               "location": "Hampi, Karnataka",
               "description": "Ancient temple dedicated to Lord Shiva."
             },
             {
               "name": "Stone Chariot",
-              "image": "assets/images/Stone Chariot.jpg",
+              "image": "assets/images/Stone Chariot.webp",
               "location": "Hampi",
               "description": "Iconic structure at Vittala Temple complex."
             },
@@ -484,19 +484,19 @@
             },
             {
               "name": "Hemakuta Hill",
-              "image": "assets/images/Hemakuta Hill.jpg",
+              "image": "assets/images/Hemakuta Hill.webp",
               "location": "Hampi",
               "description": "Best spot for sunrise and sunset views."
             },
             {
               "name": "Matanga Hill",
-              "image": "assets/images/Matanga Hill.jpg",
+              "image": "assets/images/Matanga Hill.webp",
               "location": "Hampi",
               "description": "Panoramic view of ruins and landscape."
             },
             {
               "name": "Tungabhadra River",
-              "image": "assets/images/Tungabhadra River.jpg",
+              "image": "assets/images/Tungabhadra River.webp",
               "location": "Hampi",
               "description": "Coracle rides and scenic river views."
             }
@@ -509,13 +509,13 @@
           "subPlaces": [
             {
               "name": "Om Beach",
-              "image": "assets/images/gokarna-om-beach-aerial.jpg",
+              "image": "assets/images/gokarna-om-beach-aerial.webp",
               "location": "Gokarna, Karnataka",
               "description": "Shape-shifting beach in the form of the spiritual Om symbol."
             },
             {
               "name": "Kudle Beach",
-              "image": "https://images.unsplash.com/photo-1523906834658-6e24ef2386f9?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/kudle-beach.webp",
               "location": "Gokarna",
               "description": "A popular spot for relaxing and watching beautiful sunsets."
             },
@@ -789,19 +789,19 @@
           "subPlaces": [
             {
               "name": "Fontainhas",
-              "image": "assets/images/Fontainhas.jpg",
+              "image": "assets/images/Fontainhas.webp",
               "location": "Panaji, Goa",
               "description": "Latin quarter with colorful Portuguese architecture."
             },
             {
               "name": "Miramar Beach",
-              "image": "assets/images/Miramar Beach.jpg",
+              "image": "assets/images/Miramar Beach.webp",
               "location": "Panaji",
               "description": "A clean, popular city beach ideal for family walks."
             },
             {
               "name": "Dona Paula",
-              "image": "assets/images/Dona Paula.jpg",
+              "image": "assets/images/Dona Paula.webp",
               "location": "Goa",
               "description": "Breathtaking viewpoint where two rivers meet the sea."
             },
@@ -813,13 +813,13 @@
             },
             {
               "name": "Mandovi Cruise",
-              "image": "assets/images/Mandovi Cruise.jpg",
+              "image": "assets/images/Mandovi Cruise.webp",
               "location": "Mandovi River",
               "description": "Folk music and traditional dances on a river cruise."
             },
             {
               "name": "Floating Casino",
-              "image": "assets/images/Casino.jpg",
+              "image": "assets/images/Casino.webp",
               "location": "Mandovi River",
               "description": "Experience luxury gambling and dining on static ships."
             }
@@ -847,7 +847,7 @@
             },
             {
               "name": "Wildlife Sanctuary",
-              "image": "assets/images/Periyar Wildlife Sanctuary.jpg",
+              "image": "assets/images/Periyar Wildlife Sanctuary.webp",
               "location": "Mollem",
               "description": "Home to exotic wildlife like barking deer and bison."
             },
@@ -939,7 +939,7 @@
           "subPlaces": [
             {
               "name": "Snow Point",
-              "image": "https://images.unsplash.com/photo-1488085061387-422e15b40b0c?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/manali-snow-point.webp",
               "location": "Rohtang Pass",
               "description": "The best spot for snow activities and panoramic Himalayan views."
             },
@@ -951,7 +951,7 @@
             },
             {
               "name": "Rahala Falls",
-              "image": "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/rahala-falls.webp",
               "location": "Manali-Rohtang Road",
               "description": "A beautiful waterfall formed by melting glaciers."
             },
@@ -1085,7 +1085,7 @@
             },
             {
               "name": "Beas River Side",
-              "image": "assets/images/Beas River.jpg",
+              "image": "assets/images/Beas River.webp",
               "location": "Old Manali",
               "description": "Quiet spots along the river for meditation and relaxation."
             },
@@ -1097,7 +1097,7 @@
             },
             {
               "name": "Village Walk",
-              "image": "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/manali-village-walk.webp",
               "location": "Old Manali",
               "description": "Explore the traditional Himachali architecture and lifestyle."
             },
@@ -1211,7 +1211,7 @@
           "subPlaces": [
             {
               "name": "Hawa Mahal",
-              "image": "assets/images/Hawa Mahal.jpg",
+              "image": "assets/images/Hawa Mahal.webp",
               "location": "Jaipur",
               "description": "Iconic palace with 953 windows."
             },
@@ -1254,7 +1254,7 @@
           "subPlaces": [
             {
               "name": "Amer Fort",
-              "image": "assets/images/Amer Fort.jpg",
+              "image": "assets/images/Amer Fort.webp",
               "location": "Jaipur",
               "description": "Majestic hilltop fort."
             },
@@ -1485,7 +1485,7 @@
             },
             {
               "name": "Marine Drive",
-              "image": "assets/images/Marine Drive.jpg",
+              "image": "assets/images/Marine Drive.webp",
               "location": "Mumbai",
               "description": "Famous coastal road known as Queen’s Necklace."
             },
@@ -1651,7 +1651,7 @@
           "subPlaces": [
             {
               "name": "Sula Vineyards",
-              "image": "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/sula-vineyards.webp",
               "location": "Nashik",
               "description": "Leading winery offering tours and tastings."
             },
@@ -1746,7 +1746,7 @@
           "subPlaces": [
             {
               "name": "Red Fort",
-              "image": "assets/images/delhi-red-fort-red.jpg",
+              "image": "assets/images/delhi-red-fort-red.webp",
               "location": "Delhi",
               "description": "Historic Mughal fort."
             },
@@ -1838,7 +1838,7 @@
             },
             {
               "name": "Iron Pillar",
-              "image": "https://images.unsplash.com/photo-1504150558240-0b4fd8946624?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/iron-pillar.webp",
               "location": "Qutub Complex",
               "description": "Ancient 7-meter column known for its rust-resistant properties."
             },
@@ -1918,7 +1918,7 @@
           "subPlaces": [
             {
               "name": "Lotus Temple",
-              "image": "assets/images/delhi-lotus-temple.jpg",
+              "image": "assets/images/delhi-lotus-temple.webp",
               "location": "Delhi",
               "description": "Unique lotus-shaped temple."
             },
@@ -1961,7 +1961,7 @@
           "subPlaces": [
             {
               "name": "Akshardham",
-              "image": "assets/images/akshardham-temple-complex.jpg",
+              "image": "assets/images/akshardham-temple-complex.webp",
               "location": "Delhi",
               "description": "Grand temple complex."
             },
@@ -2056,7 +2056,7 @@
           "subPlaces": [
             {
               "name": "Nubra Valley",
-              "image": "assets/images/nubra-valley-sand-dunes.jpg",
+              "image": "assets/images/nubra-valley-sand-dunes.webp",
               "location": "Ladakh",
               "description": "Cold desert with sand dunes."
             },
@@ -2099,7 +2099,7 @@
           "subPlaces": [
             {
               "name": "Leh Palace",
-              "image": "assets/images/leh-palace-hill.jpg",
+              "image": "assets/images/leh-palace-hill.webp",
               "location": "Leh",
               "description": "Historic royal palace."
             },
@@ -2228,7 +2228,7 @@
           "subPlaces": [
             {
               "name": "Magnetic Hill",
-              "image": "assets/images/ladakh-magnetic-hill-empty.jpg",
+              "image": "assets/images/ladakh-magnetic-hill-empty.webp",
               "location": "Ladakh",
               "description": "Gravity illusion road."
             },
@@ -2280,37 +2280,37 @@
           "subPlaces": [
             {
               "name": "Srinagar",
-              "image": "assets/images/dal-lake-houseboats-srinagar.jpeg",
+              "image": "assets/images/dal-lake-houseboats-srinagar.webp",
               "location": "Kashmir",
               "description": "Dal Lake and houseboats."
             },
             {
               "name": "Shalimar Bagh",
-              "image": "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/shalimar-bagh.webp",
               "location": "Srinagar",
               "description": "Largest Mughal garden featuring terraced lawns and fountains."
             },
             {
               "name": "Nishat Bagh",
-              "image": "https://images.unsplash.com/photo-1500835556837-99ac94a94552?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/nishat-bagh.webp",
               "location": "Srinagar",
               "description": "Garden of Bliss offering a direct view of Dal Lake."
             },
             {
               "name": "Tulip Garden",
-              "image": "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/tulip-garden.webp",
               "location": "Srinagar",
               "description": "Asia's largest tulip field blooming in early spring."
             },
             {
               "name": "Shikara Ride",
-              "image": "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/shikara-ride.webp",
               "location": "Dal Lake",
               "description": "Iconic boat tour through the floating markets and gardens."
             },
             {
               "name": "Shankaracharya",
-              "image": "https://images.unsplash.com/photo-1504150558240-0b4fd8946624?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/shankaracharya.webp",
               "location": "Srinagar",
               "description": "Ancient hilltop temple providing a 360-degree city view."
             }
@@ -2323,37 +2323,37 @@
           "subPlaces": [
             {
               "name": "Gulmarg",
-              "image": "assets/images/gulmarg-snow-gondola.jpg",
+              "image": "assets/images/gulmarg-snow-gondola.webp",
               "location": "Kashmir",
               "description": "Ski destination with gondola ride."
             },
             {
               "name": "Aparwath Peak",
-              "image": "https://images.unsplash.com/photo-1523906834658-6e24ef2386f9?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/aparwath-peak.webp",
               "location": "Gulmarg",
               "description": "The final point of the gondola ride with spectacular snow."
             },
             {
               "name": "Khilanmarg",
-              "image": "https://images.unsplash.com/photo-1488085061387-422e15b40b0c?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/khilanmarg.webp",
               "location": "Gulmarg",
               "description": "A small valley offering flower meadows and ski slopes."
             },
             {
               "name": "Golf Course",
-              "image": "https://images.unsplash.com/photo-1506012787146-5c5f470a1a09?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/golf-course.webp",
               "location": "Gulmarg",
               "description": "One of the highest 18-hole golf courses in the world."
             },
             {
               "name": "Strawberry Valley",
-              "image": "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/strawberry-valley.webp",
               "location": "Gulmarg",
               "description": "A lesser-known path filled with high-quality strawberry farms."
             },
             {
               "name": "St. Mary's Church",
-              "image": "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/st-marys-church.webp",
               "location": "Gulmarg",
               "description": "Victorian-style stone church standing in the middle of meadows."
             }
@@ -2366,37 +2366,37 @@
           "subPlaces": [
             {
               "name": "Pahalgam",
-              "image": "assets/images/pahalgam-valley-river.jpg",
+              "image": "assets/images/pahalgam-valley-river.webp",
               "location": "Kashmir",
               "description": "Valley with river views."
             },
             {
               "name": "Aru Valley",
-              "image": "https://images.unsplash.com/photo-1500835556837-99ac94a94552?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/aru-valley.webp",
               "location": "Near Pahalgam",
               "description": "Lush meadows and base point for numerous Himalayan treks."
             },
             {
               "name": "Betaab Valley",
-              "image": "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/betaab-valley.webp",
               "location": "Pahalgam",
               "description": "Named after a famous movie, known for its pine and crystal rivers."
             },
             {
               "name": "Chandanwari",
-              "image": "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/chandanwari.webp",
               "location": "Near Pahalgam",
               "description": "Entry point for Amarnath Yatra and famous for snow sledging."
             },
             {
               "name": "Lidder River",
-              "image": "https://images.unsplash.com/photo-1504150558240-0b4fd8946624?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/lidder-river.webp",
               "location": "Pahalgam",
               "description": "Gushing turquoise river ideal for rafting and angling."
             },
             {
               "name": "Baisaran",
-              "image": "https://images.unsplash.com/photo-1523906834658-6e24ef2386f9?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/baisaran.webp",
               "location": "Pahalgam",
               "description": "Mini-Switzerland of India with dense pine forest and meadows."
             }
@@ -2409,37 +2409,37 @@
           "subPlaces": [
             {
               "name": "Sonamarg",
-              "image": "assets/images/sonamarg-glacier-valley.jpg",
+              "image": "assets/images/sonamarg-glacier-valley.webp",
               "location": "Kashmir",
               "description": "Glacier valley."
             },
             {
               "name": "Thajiwas Glacier",
-              "image": "https://images.unsplash.com/photo-1488085061387-422e15b40b0c?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/thajiwas-glacier.webp",
               "location": "Sonamarg",
               "description": "A snow-covered glacier reachable by pony or trek."
             },
             {
               "name": "Zoji La Pass",
-              "image": "https://images.unsplash.com/photo-1506012787146-5c5f470a1a09?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/zoji-la-pass.webp",
               "location": "Near Sonamarg",
               "description": "High altitude pass connecting Kashmir to Ladakh."
             },
             {
               "name": "Baltal Valley",
-              "image": "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/baltal-valley.webp",
               "location": "Near Sonamarg",
               "description": "Picturesque base camp for various spiritual pilgrimages."
             },
             {
               "name": "Vishansar Lake",
-              "image": "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/vishansar-lake.webp",
               "location": "Somamarg",
               "description": "High-altitude alpine lake known as the Lake of Vishnu."
             },
             {
               "name": "Zero Point",
-              "image": "https://images.unsplash.com/photo-1500835556837-99ac94a94552?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/zero-point.webp",
               "location": "Zoji La Pass",
               "description": "Experience snow even in late summer months."
             }
@@ -2452,37 +2452,37 @@
           "subPlaces": [
             {
               "name": "Patnitop",
-              "image": "assets/images/patnitop-hilltop-forest.jpg",
+              "image": "assets/images/patnitop-hilltop-forest.webp",
               "location": "Jammu",
               "description": "Hilltop views and greenery."
             },
             {
               "name": "Nathatop",
-              "image": "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/nathatop.webp",
               "location": "Patnitop",
               "description": "Popular for paragliding and viewing the snow-clad peaks."
             },
             {
               "name": "Sanasar",
-              "image": "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/sanasar.webp",
               "location": "Near Patnitop",
               "description": "A cup-shaped meadow ideal for camping and quiet golf."
             },
             {
               "name": "Madhatop",
-              "image": "https://images.unsplash.com/photo-1504150558240-0b4fd8946624?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/madhatop.webp",
               "location": "Patnitop",
               "description": "Trekking spot known for its silver peaks and skiing."
             },
             {
               "name": "Naag Temple",
-              "image": "https://images.unsplash.com/photo-1523906834658-6e24ef2386f9?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/naag-temple.webp",
               "location": "Patnitop",
               "description": "Ancient temple situated amidst tall cedar forests."
             },
             {
               "name": "Skyview Gondola",
-              "image": "https://images.unsplash.com/photo-1488085061387-422e15b40b0c?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/skyview-gondola.webp",
               "location": "Sanget",
               "description": "India's highest ropeway connecting Sanget and Patnitop."
             }
@@ -2495,37 +2495,37 @@
           "subPlaces": [
             {
               "name": "Kupwara",
-              "image": "assets/images/kupwara-untouched-valley.jpg",
+              "image": "assets/images/kupwara-untouched-valley.webp",
               "location": "Kashmir",
               "description": "Untouched scenic beauty."
             },
             {
               "name": "Lolab Valley",
-              "image": "https://images.unsplash.com/photo-1506012787146-5c5f470a1a09?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/lolab-valley.webp",
               "location": "Kupwara",
               "description": "A stunning lush green valley with pristine springs and caves."
             },
             {
               "name": "Bungus Valley",
-              "image": "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/bungus-valley.webp",
               "location": "Kupwara",
               "description": "An eco-tourism meadows hub with rich flora and fauna."
             },
             {
               "name": "Sadhna Pass",
-              "image": "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/sadhna-pass.webp",
               "location": "Kupwara",
               "description": "A high pass offering dangerous yet spectacular mountain views."
             },
             {
               "name": "Muqam-e-Shahwali",
-              "image": "https://images.unsplash.com/photo-1500835556837-99ac94a94552?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/muqam-e-shahwali.webp",
               "location": "Kupwara",
               "description": "Famous spiritual shrine and historical landmark."
             },
             {
               "name": "Kalaroos Caves",
-              "image": "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/kalaroos-caves.webp",
               "location": "Kupwara",
               "description": "Ancient caves rumored to be a hidden path to Russia."
             }
@@ -2542,7 +2542,7 @@
       "places": [
         {
           "name": "Port Blair",
-          "image": "assets/images/port-blair.webp",
+          "image": "assets/images/Port Blair.webp",
           "description": "The capital city with the historic Cellular Jail, Corbyn's Cove Beach, and Ross Island views.",
           "subPlaces": [
             {
@@ -2553,31 +2553,31 @@
             },
             {
               "name": "Cellular Jail",
-              "image": "assets/images/andaman.webp",
+              "image": "assets/images/Cellular Jail.webp",
               "location": "Port Blair",
               "description": "Historic colonial prison housing India’s freedom fighter history."
             },
             {
               "name": "Chidiya Tapu",
-              "image": "assets/images/radhanagar.webp",
+              "image": "assets/images/Chidiya Tapu.webp",
               "location": "Near Port Blair",
               "description": "The best sunset viewpoint and a bird-watching haven."
             },
             {
               "name": "Wandoor Beach",
-              "image": "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/Wandoor Beach.webp",
               "location": "Port Blair",
               "description": "Entry point for the Mahatma Gandhi Marine National Park."
             },
             {
               "name": "Corbyn's Cove",
-              "image": "https://images.unsplash.com/photo-1504150558240-0b4fd8946624?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/Corbyn's Cove.webp",
               "location": "Port Blair",
               "description": "The closest and most lively beach in the capital city."
             },
             {
               "name": "Anthropology Museum",
-              "image": "https://images.unsplash.com/photo-1523906834658-6e24ef2386f9?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/Anthropology Museum.webp",
               "location": "Port Blair",
               "description": "Showcasing the lives of indigenous Andamanese tribes."
             }
@@ -2590,37 +2590,37 @@
           "subPlaces": [
             {
               "name": "Havelock Island",
-              "image": "assets/images/havelock.jpg",
+              "image": "assets/images/havelock.webp",
               "location": "Andaman",
               "description": "Radhanagar beach and scuba diving."
             },
             {
               "name": "Elephant Beach",
-              "image": "https://images.unsplash.com/photo-1488085061387-422e15b40b0c?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/Elephant Beach.webp",
               "location": "Havelock",
               "description": "Known for its coral reefs and exotic water activities."
             },
             {
               "name": "Kala Pathar",
-              "image": "https://images.unsplash.com/photo-1506012787146-5c5f470a1a09?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/Kala Pathar.webp",
               "location": "Havelock",
               "description": "A serene stretch of silver sand and dark rocks."
             },
             {
               "name": "Radhanagar Beach",
-              "image": "assets/images/radhanagar.jpg",
+              "image": "assets/images/Radhanagar Beach.webp",
               "location": "Havelock",
               "description": "Globally ranked as one of the most beautiful beaches in Asia."
             },
             {
               "name": "Govind Nagar",
-              "image": "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/Govind Nagar.webp",
               "location": "Havelock",
               "description": "The main harbor area with market stalls and restaurants."
             },
             {
               "name": "Lighthouse Point",
-              "image": "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/Lighthouse Point.webp",
               "location": "Havelock",
               "description": "Famous scuba diving site with rich marine biodiversity."
             }
@@ -2628,7 +2628,7 @@
         },
         {
           "name": "Neil Island",
-          "image": "assets/images/neil-island.webp",
+          "image": "assets/images/Neil Island.webp",
           "description": "A tiny, tranquil island with natural rock formations, coral reefs, and laid-back vibes.",
           "subPlaces": [
             {
@@ -2639,31 +2639,31 @@
             },
             {
               "name": "Bharatpur Beach",
-              "image": "https://images.unsplash.com/photo-1500835556837-99ac94a94552?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/Bharatpur Beach.webp",
               "location": "Neil Island",
               "description": "Ideal for glass-bottom boat rides and snorkeling."
             },
             {
               "name": "Laxmanpur Beach",
-              "image": "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/Laxmanpur Beach.webp",
               "location": "Neil Island",
               "description": "Quiet shoreline known for its natural shell-lined sands."
             },
             {
               "name": "Natural Bridge",
-              "image": "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/Natural Bridge.webp",
               "location": "Neil Island",
               "description": "A unique rock formation created by natural sea erosion."
             },
             {
               "name": "Sitapur Beach",
-              "image": "https://images.unsplash.com/photo-1504150558240-0b4fd8946624?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/Sitapur Beach.webp",
               "location": "Neil Island",
-              "description": "The best sunrise point on the entire island."
+              "description": "The best movie point on the entire island."
             },
             {
               "name": "Ramnagar Beach",
-              "image": "https://images.unsplash.com/photo-1523906834658-6e24ef2386f9?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/Ramnagar Beach.webp",
               "location": "Neil Island",
               "description": "Peaceful retreat with crystal clear waters and greenery."
             }
@@ -2671,7 +2671,7 @@
         },
         {
           "name": "Ross Island",
-          "image": "assets/images/ross-island.webp",
+          "image": "assets/images/Ross Island.webp",
           "description": "Former British administrative headquarters, now a hauntingly beautiful ruin amidst deer and peacocks.",
           "subPlaces": [
             {
@@ -2682,31 +2682,31 @@
             },
             {
               "name": "British Ruins",
-              "image": "https://images.unsplash.com/photo-1488085061387-422e15b40b0c?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/British Ruins.webp",
               "location": "Ross Island",
               "description": "Ancient church, bakery, and ballroom structures in decay."
             },
             {
               "name": "Japanese Bunkers",
-              "image": "https://images.unsplash.com/photo-1506012787146-5c5f470a1a09?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/Japanese Bunkers.webp",
               "location": "Ross Island",
               "description": "Remnants of the Japanese occupation during World War II."
             },
             {
               "name": "Old Lighthouse",
-              "image": "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/Old Lighthouse.webp",
               "location": "Ross Island",
               "description": "Historic beacon guiding ships to the Port Blair harbor."
             },
             {
               "name": "Deer Park",
-              "image": "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/Deer Park.webp",
               "location": "Ross Island",
               "description": "Friendly spotted deer roam freely among the ruins."
             },
             {
               "name": "Cemetery Point",
-              "image": "https://images.unsplash.com/photo-1500835556837-99ac94a94552?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/Cemetery Point.webp",
               "location": "Ross Island",
               "description": "Small historic burial ground for early island residents."
             }
@@ -2714,7 +2714,7 @@
         },
         {
           "name": "Baratang",
-          "image": "assets/images/baratang.webp",
+          "image": "assets/images/Baratang.webp",
           "description": "Famous for limestone caves, mud volcanoes, and mangrove creek boat rides through dense forests.",
           "subPlaces": [
             {
@@ -2725,31 +2725,31 @@
             },
             {
               "name": "Limestone Caves",
-              "image": "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/Limestone Caves.webp",
               "location": "Baratang",
               "description": "Naturally formed sedimentary rock formations inside a forest."
             },
             {
               "name": "Mangrove Creeks",
-              "image": "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/Mangrove Creeks.webp",
               "location": "Baratang",
               "description": "Dense tropical water forests explored via speed boat."
             },
             {
               "name": "Mud Volcano",
-              "image": "https://images.unsplash.com/photo-1504150558240-0b4fd8946624?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/Mud Volcano.webp",
               "location": "Baratang",
               "description": "One of the few active mud volcanoes in the world."
             },
             {
               "name": "Parrot Island",
-              "image": "https://images.unsplash.com/photo-1523906834658-6e24ef2386f9?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/Parrot Island.webp",
               "location": "Near Baratang",
               "description": "A secluded island where thousands of parrots return at sunset."
             },
             {
               "name": "Jarawa Reserve",
-              "image": "https://images.unsplash.com/photo-1488085061387-422e15b40b0c?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/Jarawa Reserve.webp",
               "location": "Andaman Trunk Road",
               "description": "The protected land of the world’s oldest indigenous tribe."
             }
@@ -2762,37 +2762,37 @@
           "subPlaces": [
             {
               "name": "Radhanagar",
-              "image": "assets/images/radhanagar.jpg",
+              "image": "assets/images/radhanagar.webp",
               "location": "Andaman",
               "description": "One of Asia’s best beaches."
             },
             {
               "name": "Lagoon Point",
-              "image": "https://images.unsplash.com/photo-1506012787146-5c5f470a1a09?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/Lagoon Point.webp",
               "location": "Radhanagar",
               "description": "A calm, shallow water area ideal for swimming."
             },
             {
               "name": "Silver Sand",
-              "image": "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/Silver Sand.webp",
               "location": "Radhanagar",
               "description": "Fine, powdery sand that never gets too hot."
             },
             {
               "name": "Eco Walk",
-              "image": "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/Eco Walk.webp",
               "location": "Radhanagar",
               "description": "Path leading through coastal woodlands to the beach."
             },
             {
               "name": "Sunset Deck",
-              "image": "https://images.unsplash.com/photo-1500835556837-99ac94a94552?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/Sunset Deck.webp",
               "location": "Radhanagar",
               "description": "The premier spot on the beach for evening horizon views."
             },
             {
               "name": "Neil’s Cove",
-              "image": "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/Neil’s Cove.webp",
               "location": "Near Radhanagar",
               "description": "A beautiful and hidden corner of the beach for solitude."
             }
@@ -2816,37 +2816,37 @@
           "subPlaces": [
             {
               "name": "At the Top",
-              "image": "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/Burj Khalifa-At the Top.webp",
               "location": "Dubai",
               "description": "The observation deck on levels 124 and 125 with panoramic views."
             },
             {
               "name": "The Lounge",
-              "image": "https://images.unsplash.com/photo-1504150558240-0b4fd8946624?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/dubai-luxury-lounge.webp",
               "location": "Dubai",
               "description": "World's highest lounge on layers 152-154 for luxury dining."
             },
             {
               "name": "Dubai Fountain",
-              "image": "https://images.unsplash.com/photo-1523906834658-6e24ef2386f9?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/Dubai Fountain.webp",
               "location": "Dubai",
               "description": "The world's largest performing fountain at the base of the tower."
             },
             {
               "name": "Burj Park",
-              "image": "https://images.unsplash.com/photo-1488085061387-422e15b40b0c?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/Burj Park.webp",
               "location": "Dubai",
               "description": "A leisure destination with lush green lawns and views of the skyline."
             },
             {
               "name": "Armani Hotel",
-              "image": "https://images.unsplash.com/photo-1506012787146-5c5f470a1a09?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/Armani Hotel.webp",
               "location": "Dubai",
               "description": "A luxury hotel within the tower designed by Giorgio Armani."
             },
             {
               "name": "Sky Views",
-              "image": "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/sky-views.webp",
               "location": "Dubai",
               "description": "Glass walk and slide experience on a platform adjacent to the tower."
             }
@@ -2859,37 +2859,37 @@
           "subPlaces": [
             {
               "name": "Dune Bashing",
-              "image": "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/Dune Bashing.webp",
               "location": "Dubai Desert",
               "description": "Thrilling 4x4 drive over high sand dunes with professional drivers."
             },
             {
               "name": "Bedouin Camp",
-              "image": "https://images.unsplash.com/photo-1500835556837-99ac94a94552?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/Bedouin Camp.webp",
               "location": "Dubai Desert",
               "description": "Traditional desert camp experience with BBQ, henna, and belly dance."
             },
             {
               "name": "Camel Trekking",
-              "image": "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/Camel Trekking.webp",
               "location": "Dubai Desert",
               "description": "Slow-paced ride through the dunes on back of a camel at sunset."
             },
             {
               "name": "Sand Boarding",
-              "image": "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/sand-boarding.webp",
               "location": "Dubai Desert",
               "description": "Experience surfing on the sand down the steep desert slopes."
             },
             {
               "name": "Quad Biking",
-              "image": "https://images.unsplash.com/photo-1504150558240-0b4fd8946624?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/quad-biking.webp",
               "location": "Dubai Desert",
               "description": "Self-drive adventure on all-terrain vehicles in the open sand."
             },
             {
               "name": "Falconry Show",
-              "image": "https://images.unsplash.com/photo-1523906834658-6e24ef2386f9?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/Falconry Show.webp",
               "location": "Dubai Desert",
               "description": "Traditional Arabic display of hunting with trained falcons."
             }
@@ -2902,37 +2902,37 @@
           "subPlaces": [
             {
               "name": "Atlantis The Palm",
-              "image": "https://images.unsplash.com/photo-1488085061387-422e15b40b0c?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/Atlantis The Palm.webp",
               "location": "Palm Jumeirah",
               "description": "Word-class resort with giant aquarium and waterpark."
             },
             {
               "name": "Aquaventure",
-              "image": "https://images.unsplash.com/photo-1506012787146-5c5f470a1a09?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/Aquaventure.webp",
               "location": "Atlantis",
               "description": "The world's largest waterpark with record-breaking slides."
             },
             {
               "name": "The Pointe",
-              "image": "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/the-pointe.webp",
               "location": "Palm Jumeirah",
               "description": "Waterfront dining destination with a spectacular fountain show."
             },
             {
               "name": "Lost Chambers",
-              "image": "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/Lost Chambers.webp",
               "location": "Atlantis",
               "description": "Myth-themed aquarium with over 65,000 marine animals."
             },
             {
               "name": "The View",
-              "image": "https://images.unsplash.com/photo-1500835556837-99ac94a94552?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/the-view.webp",
               "location": "Palm Tower",
               "description": "Observation deck on the 52nd floor with 360-degree palm views."
             },
             {
               "name": "Nakheel Mall",
-              "image": "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/nakheel-mall.webp",
               "location": "Palm Jumeirah",
               "description": "Luxury shopping and entertainment hub at the heart of the palm."
             }
@@ -2945,37 +2945,37 @@
           "subPlaces": [
             {
               "name": "Dubai Aquarium",
-              "image": "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/Dubai Aquarium.webp",
               "location": "Dubai Mall",
               "description": "Underwater zoo with a 270-degree walkthrough tunnel."
             },
             {
               "name": "Ice Rink",
-              "image": "https://images.unsplash.com/photo-1504150558240-0b4fd8946624?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/ice-rink.webp",
               "location": "Dubai Mall",
               "description": "Olympic-sized indoor ice skating rink for all ages."
             },
             {
               "name": "VR Park",
-              "image": "https://images.unsplash.com/photo-1523906834658-6e24ef2386f9?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/vr-park.webp",
               "location": "Dubai Mall",
               "description": "Virtual reality theme park with various immersive experiences."
             },
             {
               "name": "KidZania",
-              "image": "https://images.unsplash.com/photo-1488085061387-422e15b40b0c?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/kidzania.webp",
               "location": "Dubai Mall",
               "description": "Interactive city for kids where they can play adult roles."
             },
             {
               "name": "Reel Cinemas",
-              "image": "https://images.unsplash.com/photo-1506012787146-5c5f470a1a09?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/reel-cinemas.webp",
               "location": "Dubai Mall",
               "description": "A massive luxury multiplex for the ultimate movie experience."
             },
             {
               "name": "Hysteria",
-              "image": "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/hysteria.webp",
               "location": "Dubai Mall",
               "description": "A haunted house extreme fear attraction for thrill seekers."
             }
@@ -2988,37 +2988,37 @@
           "subPlaces": [
             {
               "name": "Marina Walk",
-              "image": "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/marina-walk.webp",
               "location": "Dubai Marina",
               "description": "7-kilometer tree-lined promenade for walking and dining."
             },
             {
               "name": "JBR Beach",
-              "image": "https://images.unsplash.com/photo-1500835556837-99ac94a94552?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/jbr-beach.webp",
               "location": "Marina",
               "description": "Public beach with water sports and retail stores."
             },
             {
               "name": "XLine Marina",
-              "image": "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/xline-marina.webp",
               "location": "Dubai Marina",
               "description": "The world's longest urban zipline through the skyscrapers."
             },
             {
               "name": "Yacht Tour",
-              "image": "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/yacht-tour.webp",
               "location": "Dubai Marina",
               "description": "Cruise around the marina and palm on a luxury private yacht."
             },
             {
               "name": "Skydive Dubai",
-              "image": "https://images.unsplash.com/photo-1504150558240-0b4fd8946624?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/skydive-dubai.webp",
               "location": "Marina",
               "description": "Jump over the Palm Jumeirah from the Marina dropzone."
             },
             {
               "name": "Ain Dubai",
-              "image": "https://images.unsplash.com/photo-1523906834658-6e24ef2386f9?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/Ain Dubai.webp",
               "location": "Bluewaters",
               "description": "The world's largest and tallest ferris observation wheel."
             }
@@ -3026,42 +3026,42 @@
         },
         {
           "name": "Museum of Future",
-          "image": "assets/images/museum-of-future-ring.webp",
+          "image": "assets/images/Museum of Future.webp",
           "description": "A futuristic torus-shaped building exploring tomorrow's technologies through immersive exhibits.",
           "subPlaces": [
             {
               "name": "Future Heroes",
-              "image": "https://images.unsplash.com/photo-1488085061387-422e15b40b0c?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/future-heroes.webp",
               "location": "Museum",
               "description": "Dedicated floor for children to learn and solve future challenges."
             },
             {
               "name": "OSS Hope",
-              "image": "https://images.unsplash.com/photo-1506012787146-5c5f470a1a09?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/oss-hope.webp",
               "location": "Museum",
               "description": "Exhibit taking visitors on a journey to a space station in 2071."
             },
             {
               "name": "HEAL Institute",
-              "image": "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/HEAL Institute.webp",
               "location": "Museum",
               "description": "Simulation of a digital tropical rainforest of the future."
             },
             {
               "name": "Al Waha",
-              "image": "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/Al Waha.webp",
               "location": "Museum",
               "description": "A wellness space designed to help visitors reconnect with themselves."
             },
             {
               "name": "Tomorrow Today",
-              "image": "https://images.unsplash.com/photo-1500835556837-99ac94a94552?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/tomorrow-today.webp",
               "location": "Museum",
               "description": "Showcase of near-future technology and innovative concepts."
             },
             {
               "name": "The Vault of Life",
-              "image": "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/vault-of-life.webp",
               "location": "Museum",
               "description": "A DNA library of 2,400 species showcased in glowing jars."
             }
@@ -3083,20 +3083,20 @@
           "subPlaces": [
             {
               "name": "Male",
-              "image": "assets/images/male-city-island-maldives.jpg",
+              "image": "assets/images/male-city-island-maldives.webp",
               "location": "Maldives",
               "description": "Capital island."
             },
             {
               "name": "Grand Mosque",
-              "image": "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/grand-mosque-male.webp",
               "location": "Male",
               "description": "Largest mosque in Maldives with a grand golden dome."
             },
             {
               "name": "Fish Market",
               "location": "Male",
-              "image": "https://images.unsplash.com/photo-1504150558240-0b4fd8946624?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/fish-market-male.webp",
               "description": "Vibrant local market showing the daily catch of tuna and more."
             },
             {
@@ -3108,13 +3108,13 @@
             {
               "name": "Artificial Beach",
               "location": "Male",
-              "image": "https://images.unsplash.com/photo-1488085061387-422e15b40b0c?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/artificial-beach-male.webp",
               "description": "A popular man-made beach for locals and travelers alike."
             },
             {
               "name": "Sultan Park",
               "location": "Male",
-              "image": "https://images.unsplash.com/photo-1506012787146-5c5f470a1a09?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/sultan-park-male.webp",
               "description": "Lush public garden surrounding the historic museum building."
             }
           ]
@@ -3132,31 +3132,31 @@
             },
             {
               "name": "Bikini Beach",
-              "image": "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/bikini-beach-maafushi.webp",
               "location": "Maafushi",
               "description": "Dedicated tourist beach for sunbathing and swimming."
             },
             {
               "name": "Sandbank Picnic",
-              "image": "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/sandbank-picnic-maafushi.webp",
               "location": "Near Maafushi",
               "description": "Day trip to a secluded sandbank in the middle of ocean."
             },
             {
               "name": "Turtle Snorkeling",
-              "image": "https://images.unsplash.com/photo-1500835556837-99ac94a94552?fm=webp&fit=crop&w=800&q=80",
-              "location": "Maafushi Reef",
+              "image": "assets/images/turtle-snorkeling-maafushi.webp",
+              "location": "Maafushi",
               "description": "Guided swim with sea turtles in their natural habitat."
             },
             {
               "name": "Night Fishing",
-              "image": "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/night-fishing-maafushi.webp",
               "location": "Maafushi",
               "description": "Traditional Maldivian style hand-line fishing trip at sunset."
             },
             {
               "name": "Kandooma Reef",
-              "image": "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/kandooma-reef-maafushi.webp",
               "location": "Near Maafushi",
               "description": "One of the best diving spots for observing sharks and rays."
             }
@@ -3175,31 +3175,31 @@
             },
             {
               "name": "House Reef",
-              "image": "https://images.unsplash.com/photo-1504150558240-0b4fd8946624?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/biyadhoo-house-reef.webp",
               "location": "Biyadhoo",
               "description": "Spectacular natural reef just steps away from the beach."
             },
             {
               "name": "Palm Grove",
-              "image": "https://images.unsplash.com/photo-1523906834658-6e24ef2386f9?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/biyadhoo-palm-grove.webp",
               "location": "Biyadhoo",
               "description": "Dense tropical garden with coconut and banana trees."
             },
             {
               "name": "Diving Center",
-              "image": "https://images.unsplash.com/photo-1488085061387-422e15b40b0c?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/biyadhoo-diving-center.webp",
               "location": "Biyadhoo",
               "description": "Professional diving school offering PADI certified courses."
             },
             {
               "name": "Manta Point",
-              "image": "https://images.unsplash.com/photo-1506012787146-5c5f470a1a09?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/biyadhoo-manta-point.webp",
               "location": "Near Biyadhoo",
               "description": "Seasonal spot to witness dozens of giant manta rays."
             },
             {
               "name": "Canoe Track",
-              "image": "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/biyadhoo-canoe-track.webp",
               "location": "Biyadhoo Lagoon",
               "description": "Explore the calm turquoise lagoon on a rental canoe."
             }
@@ -3218,31 +3218,31 @@
             },
             {
               "name": "Sea of Stars",
-              "image": "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/vaadhoo-sea-of-stars.webp",
               "location": "Vaadhoo Beach",
               "description": "The mesmerizing night glow caused by bioluminescence."
             },
             {
               "name": "Starlight Dinner",
-              "image": "https://images.unsplash.com/photo-1500835556837-99ac94a94552?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/vaadhoo-starlight-dinner.webp",
               "location": "Vaadhoo",
               "description": "Romantic beachside dining next to the glowing waters."
             },
             {
               "name": "Sunset Pier",
-              "image": "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/vaadhoo-sunset-pier.webp",
               "location": "Vaadhoo",
               "description": "A long wooden deck perfect for horizon photography."
             },
             {
               "name": "Maldivian Village",
-              "image": "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/vaadhoo-village.webp",
               "location": "Vaadhoo",
               "description": "Experience the local life and traditional island culture."
             },
             {
               "name": "Coral Garden",
-              "image": "https://images.unsplash.com/photo-1504150558240-0b4fd8946624?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/vaadhoo-coral-garden.webp",
               "location": "Vaadhoo Lagoon",
               "description": "Large area of shallow coral reefs for first-time snorkelers."
             }
@@ -3267,25 +3267,25 @@
             },
             {
               "name": "Baa Atoll Biosphere",
-              "image": "https://images.unsplash.com/photo-1523906834658-6e24ef2386f9?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/fulhadhoo-biosphere.webp",
               "location": "Baa Atoll",
               "description": "UNESCO-recognized marine reserve with rich biodiversity."
             },
             {
               "name": "Jungle Trail",
-              "image": "https://images.unsplash.com/photo-1488085061387-422e15b40b0c?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/fulhadhoo-jungle-trail.webp",
               "location": "Fulhadhoo",
               "description": "Scenic walk through the island's interior tropical forest."
             },
             {
               "name": "Lagoon Swim",
-              "image": "https://images.unsplash.com/photo-1506012787146-5c5f470a1a09?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/fulhadhoo-lagoon-swim.webp",
               "location": "Fulhadhoo",
               "description": "Safe and shallow waters ideal for afternoon swimming."
             },
             {
               "name": "Local Teashop",
-              "image": "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/fulhadhoo-teashop.webp",
               "location": "Fulhadhoo",
               "description": "Enjoy traditional Maldivian 'Hedhika' snacks with tea."
             }
@@ -3298,37 +3298,37 @@
           "subPlaces": [
             {
               "name": "Kuramathi",
-              "image": "assets/images/kuramathi-resort-island.jpg",
+              "image": "assets/images/kuramathi-resort-island.webp",
               "location": "Maldives",
               "description": "Luxury resort island."
             },
             {
               "name": "Sandbank Point",
-              "image": "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/kuramathi-sandbank.webp",
               "location": "Kuramathi",
               "description": "A long, winding sandbank stretching far into the ocean."
             },
             {
               "name": "Eco Center",
-              "image": "https://images.unsplash.com/photo-1500835556837-99ac94a94552?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/kuramathi-eco-center.webp",
               "location": "Kuramathi",
               "description": "Learn about marine conservation and see a sperm whale skeleton."
             },
             {
               "name": "Banyan Tree Trail",
-              "image": "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/kuramathi-banyan-tree.webp",
               "location": "Kuramathi",
               "description": "Garden walk featuring ancient and massive Banyan trees."
             },
             {
               "name": "Snorkel Safari",
-              "image": "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/kuramathi-snorkel-safari.webp",
               "location": "Kuramathi Reef",
               "description": "Guided boat trip to the best hidden spots on the resort reef."
             },
             {
               "name": "Overwater Spa",
-              "image": "https://images.unsplash.com/photo-1504150558240-0b4fd8946624?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/kuramathi-overwater-spa.webp",
               "location": "Kuramathi",
               "description": "Luxury wellness center with treatment rooms over the lagoon."
             }
@@ -3350,37 +3350,37 @@
           "subPlaces": [
             {
               "name": "Tegallalang Rice Terrace",
-              "image": "https://images.unsplash.com/photo-1523906834658-6e24ef2386f9?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/Tegallalang Rice Terrace.webp",
               "location": "Ubud",
               "description": "Famous green rice terraces."
             },
             {
               "name": "Monkey Forest",
-              "image": "https://images.unsplash.com/photo-1488085061387-422e15b40b0c?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/Monkey Forest.webp",
               "location": "Ubud",
               "description": "Sacred forest with monkeys."
             },
             {
               "name": "Ubud Palace",
-              "image": "https://images.unsplash.com/photo-1506012787146-5c5f470a1a09?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/Ubud Palace.webp",
               "location": "Ubud",
               "description": "Royal palace with Balinese architecture."
             },
             {
               "name": "Campuhan Ridge",
-              "image": "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/Campuhan Ridge.webp",
               "location": "Ubud",
               "description": "Scenic walking trail."
             },
             {
               "name": "Goa Gajah",
-              "image": "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/Goa Gajah.webp",
               "location": "Ubud",
               "description": "Ancient cave temple."
             },
             {
               "name": "Art Market",
-              "image": "https://images.unsplash.com/photo-1500835556837-99ac94a94552?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/Ubud Art Market.webp",
               "location": "Ubud",
               "description": "Local handicrafts and souvenirs."
             }
@@ -3393,37 +3393,37 @@
           "subPlaces": [
             {
               "name": "Kuta",
-              "image": "assets/images/Hemakuta Hill.jpg",
+              "image": "assets/images/Kuta Beach.webp",
               "location": "Bali",
               "description": "Surfing and nightlife."
             },
             {
               "name": "Kuta Beach",
-              "image": "assets/images/kuta-beach-sunset-bali.jpg",
+              "image": "assets/images/Kuta Beach.webp",
               "location": "Kuta",
               "description": "Famous for beginner-friendly surf breaks and sunset vibes."
             },
             {
               "name": "Waterbom Bali",
-              "image": "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/Waterbom Bali.webp",
               "location": "Kuta",
               "description": "Ranked as one of the best water theme parks in Asia."
             },
             {
               "name": "Beachwalk Mall",
-              "image": "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/beachwalk-mall.webp",
               "location": "Kuta",
               "description": "Open-air luxury shopping center facing the ocean."
             },
             {
               "name": "Discovery Plaza",
-              "image": "https://images.unsplash.com/photo-1504150558240-0b4fd8946624?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/discovery-plaza.webp",
               "location": "Kuta",
               "description": "Large beachside destination for dining and local events."
             },
             {
               "name": "Poppies Lane",
-              "image": "https://images.unsplash.com/photo-1523906834658-6e24ef2386f9?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/poppies-lane.webp",
               "location": "Kuta",
               "description": "Iconic narrow street filled with budget stays and cozy cafes."
             }
@@ -3436,37 +3436,37 @@
           "subPlaces": [
             {
               "name": "Seminyak",
-              "image": "assets/images/seminyak-luxury-beachfront.jpg",
+              "image": "assets/images/seminyak-luxury-beachfront.webp",
               "location": "Bali",
               "description": "Upscale boutiques and clubs."
             },
             {
               "name": "Petitenget Temple",
-              "image": "https://images.unsplash.com/photo-1488085061387-422e15b40b0c?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/petitenget-temple.webp",
               "location": "Seminyak",
               "description": "Ancient sea temple located on a quiet stretch of beach."
             },
             {
               "name": "Seminyak Square",
-              "image": "https://images.unsplash.com/photo-1506012787146-5c5f470a1a09?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/seminyak-square.webp",
               "location": "Seminyak",
               "description": "The central hub for high-end fashion and art galleries."
             },
             {
               "name": "Double Six Beach",
-              "image": "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/double-six-beach.webp",
               "location": "Seminyak",
               "description": "Famous for colorful beanbag beach bars and live music."
             },
             {
               "name": "Eat Street",
-              "image": "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/eat-street-seminyak.webp",
               "location": "Seminyak",
               "description": "Lively road packed with top-tier international cuisines."
             },
             {
               "name": "Potato Head",
-              "image": "https://images.unsplash.com/photo-1500835556837-99ac94a94552?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/potato-head-beach-club.webp",
               "location": "Seminyak",
               "description": "One of the world's most creative and sustainable beach clubs."
             }
@@ -3485,31 +3485,31 @@
             },
             {
               "name": "Kelingking Beach",
-              "image": "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/Kelingking Beach.webp",
               "location": "Nusa Penida",
               "description": "Iconic T-Rex shaped cliff overlooking a hidden white beach."
             },
             {
               "name": "Broken Beach",
-              "image": "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/Broken Beach.webp",
               "location": "Nusa Penida",
               "description": "A natural limestone archway over blue ocean waters."
             },
             {
               "name": "Angel's Billabong",
-              "image": "https://images.unsplash.com/photo-1504150558240-0b4fd8946624?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/Angel's Billabong.webp",
               "location": "Nusa Penida",
               "description": "A crystal clear natural infinity pool facing the sea."
             },
             {
               "name": "Crystal Bay",
-              "image": "https://images.unsplash.com/photo-1523906834658-6e24ef2386f9?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/Crystal Bay.webp",
               "location": "Nusa Penida",
               "description": "The best spot on the island for snorkeling and sunset watching."
             },
             {
               "name": "Diamond Beach",
-              "image": "https://images.unsplash.com/photo-1488085061387-422e15b40b0c?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/Diamond Beach.webp",
               "location": "Nusa Penida",
               "description": "Stunning white sand beach accessible via a carved stair path."
             }
@@ -3522,37 +3522,37 @@
           "subPlaces": [
             {
               "name": "Uluwatu",
-              "image": "assets/images/uluwatu-temple-cliff.jpg",
+              "image": "assets/images/uluwatu-temple-cliff.webp",
               "location": "Bali",
               "description": "Clifftop temple and surfing."
             },
             {
               "name": "Uluwatu Temple",
-              "image": "assets/images/uluwatu-temple-cliff.jpg",
+              "image": "assets/images/uluwatu-temple-cliff.webp",
               "location": "Uluwatu",
               "description": "Spiritual temple perched 70 meters above the Indian Ocean."
             },
             {
               "name": "Padang Padang",
-              "image": "https://images.unsplash.com/photo-1506012787146-5c5f470a1a09?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/padang-padang.webp",
               "location": "Uluwatu",
               "description": "Famous surf beach featured in 'Eat Pray Love' movie."
             },
             {
               "name": "Suluban Beach",
-              "image": "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/suluban-beach.webp",
               "location": "Uluwatu",
               "description": "A hidden cave beach known as the entrance to giant surf waves."
             },
             {
               "name": "Garuda Wisnu",
-              "image": "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/garuda-wisnu.webp",
               "location": "Uluwatu",
               "description": "Massive cultural park with one of the world's tallest statues."
             },
             {
               "name": "Bingin Beach",
-              "image": "https://images.unsplash.com/photo-1500835556837-99ac94a94552?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/bingin-beach.webp",
               "location": "Uluwatu",
               "description": "Secluded rocky shore popular with advanced surfers and sunset searchers."
             }
@@ -3565,37 +3565,37 @@
           "subPlaces": [
             {
               "name": "Canggu",
-              "image": "assets/images/canggu-surfer-beach-bali.jpg",
+              "image": "assets/images/canggu-surfer-beach-bali.webp",
               "location": "Bali",
               "description": "Trendy surfer village."
             },
             {
               "name": "Batu Bolong",
-              "image": "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/batu-bolong.webp",
               "location": "Canggu",
               "description": "The most active beach for social surfing and nightlife."
             },
             {
               "name": "Tanah Lot",
-              "image": "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/tanah-lot.webp",
               "location": "Near Canggu",
               "description": "Ancient Hindu temple set on an offshore rock formation."
             },
             {
               "name": "Echo Beach",
-              "image": "https://images.unsplash.com/photo-1504150558240-0b4fd8946624?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/echo-beach.webp",
               "location": "Canggu",
               "description": "Black sand beach famous for reef breaks and seafood BBQ."
             },
             {
               "name": "Berawa Beach",
-              "image": "https://images.unsplash.com/photo-1523906834658-6e24ef2386f9?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/berawa-beach.webp",
               "location": "Canggu",
               "description": "Upscale area with beach clubs and boutique cafes."
             },
             {
               "name": "Love Anchor",
-              "image": "https://images.unsplash.com/photo-1488085061387-422e15b40b0c?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/love-anchor.webp",
               "location": "Canggu",
               "description": "Iconic bazaar market for island-style clothing and accessories."
             }
@@ -3621,37 +3621,37 @@
           "subPlaces": [
             {
               "name": "Marina Bay",
-              "image": "assets/images/marina-bay-skyline-hotel.jpg",
+              "image": "assets/images/marina-bay-skyline-hotel.webp",
               "location": "Singapore",
               "description": "Skyline and hotel."
             },
             {
               "name": "Sands Skypark",
-              "image": "https://images.unsplash.com/photo-1506012787146-5c5f470a1a09?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/Sands Skypark.webp",
               "location": "Marina Bay",
               "description": "The giant rooftop deck with world's largest infinity pool."
             },
             {
               "name": "ArtScience Museum",
-              "image": "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/ArtScience Museum.webp",
               "location": "Marina Bay",
               "description": "Lotus-themed building hosting immersive intersection of art and science."
             },
             {
               "name": "The Helix Bridge",
-              "image": "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/Helix Bridge.webp",
               "location": "Marina Bay",
               "description": "The double-helix pedestrian walkway with multiple viewing decks."
             },
             {
               "name": "Merlion Park",
-              "image": "https://images.unsplash.com/photo-1500835556837-99ac94a94552?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/Merlion Park.webp",
               "location": "Marina Bay",
               "description": "Home to the original 8.6-meter tall water-spouting Merlion statue."
             },
             {
               "name": "Spector Light Show",
-              "image": "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/Spector Light Show.webp",
               "location": "Event Plaza",
               "description": "The world-famous dancing water and laser display at night."
             }
@@ -3670,31 +3670,31 @@
             },
             {
               "name": "S.E.A. Aquarium",
-              "image": "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/sentosa-sea-aquarium.webp",
               "location": "Sentosa",
               "description": "One of the world's largest collections of manta rays and sharks."
             },
             {
               "name": "Palawan Beach",
-              "image": "https://images.unsplash.com/photo-1504150558240-0b4fd8946624?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/palawan-beach.webp",
               "location": "Sentosa",
               "description": "Family-friendly beach with a suspension bridge to a small islet."
             },
             {
               "name": "Sentosa Luge",
-              "image": "https://images.unsplash.com/photo-1523906834658-6e24ef2386f9?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/sentosa-luge.webp",
               "location": "Sentosa",
               "description": "A gravity-fueled thrill ride through forest tracks."
             },
             {
               "name": "Fort Siloso",
-              "image": "https://images.unsplash.com/photo-1488085061387-422e15b40b0c?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/fort-siloso.webp",
               "location": "Sentosa",
               "description": "Singapore's only restored coastal gun battery and museum."
             },
             {
               "name": "Wings of Time",
-              "image": "https://images.unsplash.com/photo-1506012787146-5c5f470a1a09?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/wings-of-time.webp",
               "location": "Siloso Beach",
               "description": "An award-winning outdoor night show against the open sea."
             }
@@ -3707,37 +3707,37 @@
           "subPlaces": [
             {
               "name": "Gardens by the Bay",
-              "image": "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/gardens-by-bay-supertrees.webp",
               "location": "Singapore",
               "description": "Futuristic supertrees."
             },
             {
               "name": "Cloud Forest",
-              "image": "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/Cloud Forest.webp",
               "location": "Gardens",
               "description": "Housing one of the world's tallest indoor waterfalls in a mist."
             },
             {
               "name": "Flower Dome",
-              "image": "https://images.unsplash.com/photo-1500835556837-99ac94a94552?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/Flower Dome.webp",
               "location": "Gardens",
               "description": "World's largest glass greenhouse with plants from 5 continents."
             },
             {
               "name": "OCBC Skyway",
-              "image": "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/OCBC Skyway.webp",
               "location": "Supertree Grove",
               "description": "128-meter long walkway suspended between two giant Supertrees."
             },
             {
               "name": "Floral Fantasy",
-              "image": "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/Floral Fantasy.webp",
               "location": "Gardens",
               "description": "Four diverse garden landscapes with suspended floral displays."
             },
             {
               "name": "Bay South Garden",
-              "image": "https://images.unsplash.com/photo-1504150558240-0b4fd8946624?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/Bay South Garden.webp",
               "location": "Gardens",
               "description": "The largest of the three gardens showcasing tropical horticulture."
             }
@@ -3750,37 +3750,37 @@
           "subPlaces": [
             {
               "name": "Universal Studios",
-              "image": "assets/images/universal-studios-singapore-globe.jpg",
+              "image": "assets/images/universal-studios-singapore-globe.webp",
               "location": "Singapore",
               "description": "Movie theme park."
             },
             {
               "name": "Sci-Fi City",
-              "image": "https://images.unsplash.com/photo-1523906834658-6e24ef2386f9?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/Sci-Fi City.webp",
               "location": "Universal",
               "description": "Home to the world's highest dueling roller coasters."
             },
             {
               "name": "Ancient Egypt",
-              "image": "https://images.unsplash.com/photo-1488085061387-422e15b40b0c?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/Ancient Egypt.webp",
               "location": "Universal",
               "description": "Features the Revenge of the Mummy indoor psychological thriller."
             },
             {
               "name": "Jurassic Park",
-              "image": "https://images.unsplash.com/photo-1506012787146-5c5f470a1a09?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/Jurassic Park.webp",
               "location": "Universal",
               "description": "A river rapids adventure through dinosaur-infested jungles."
             },
             {
               "name": "Far Far Away",
-              "image": "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/Far Far Away.webp",
               "location": "Universal",
               "description": "The world's first castle from the Shrek film franchise."
             },
             {
               "name": "New York Zone",
-              "image": "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/New York Zone.webp",
               "location": "Universal",
               "description": "Recreation of NYC streets and movie special effects show."
             }
@@ -3799,31 +3799,31 @@
             },
             {
               "name": "ION Orchard",
-              "image": "https://images.unsplash.com/photo-1500835556837-99ac94a94552?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/ION Orchard.webp",
               "location": "Orchard Road",
               "description": "Futuristic glass mall hosting luxury flagship boutiques."
             },
             {
               "name": "Ngee Ann City",
-              "image": "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/Ngee Ann City.webp",
               "location": "Orchard Road",
               "description": "Large retail complex featuring high-end department stores."
             },
             {
               "name": "313@somerset",
-              "image": "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/313@somerset.webp",
               "location": "Orchard Road",
               "description": "A vibrant youth-oriented mall with international brands."
             },
             {
               "name": "Emerald Hill",
-              "image": "https://images.unsplash.com/photo-1504150558240-0b4fd8946624?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/Emerald Hill.webp",
               "location": "Near Orchard",
               "description": "Conservation area with stunning Peranakan style shophouses."
             },
             {
               "name": "Istana Park",
-              "image": "https://images.unsplash.com/photo-1523906834658-6e24ef2386f9?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/Istana Park.webp",
               "location": "Orchard Road",
               "description": "Lush parkland at the entrance of the Presidential Palace."
             }
@@ -3836,37 +3836,37 @@
           "subPlaces": [
             {
               "name": "Chinatown",
-              "image": "assets/images/singapore-chinatown-lantern-street.jpg",
+              "image": "assets/images/singapore-chinatown-lantern-street.webp",
               "location": "Singapore",
               "description": "Cultural district."
             },
             {
               "name": "Buddha Tooth Relic",
-              "image": "https://images.unsplash.com/photo-1488085061387-422e15b40b0c?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/Buddha Tooth Relic.webp",
               "location": "Chinatown",
               "description": "Tang-styled temple and museum with golden relics."
             },
             {
               "name": "Maxwell Food Centre",
-              "image": "https://images.unsplash.com/photo-1506012787146-5c5f470a1a09?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/Maxwell Food Centre.webp",
               "location": "Chinatown",
               "description": "Famous for the original Tian Tian Hainanese Chicken Rice."
             },
             {
               "name": "Heritage Centre",
-              "image": "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/Heritage Centre.webp",
               "location": "Pagoda Street",
               "description": "Showcase of the original living quarters of early migrants."
             },
             {
               "name": "Sri Mariamman",
-              "image": "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/Sri Mariamman.webp",
               "location": "Chinatown",
               "description": "Singapore’s oldest Hindu temple with a colorful tower."
             },
             {
               "name": "Pagoda Street",
-              "image": "https://images.unsplash.com/photo-1500835556837-99ac94a94552?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/Pagoda Street.webp",
               "location": "Chinatown",
               "description": "Shopping street for traditional antiques and souvenirs."
             }
@@ -3898,31 +3898,31 @@
             },
             {
               "name": "Grand Palace",
-              "image": "assets/images/bangkok-grand-palace.webp",
+              "image": "assets/images/Grand Palace.webp",
               "location": "Bangkok",
               "description": "Majestic complex of buildings that was the official residence of the Kings of Siam."
             },
             {
               "name": "Wat Arun",
-              "image": "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/Wat Arun.webp",
               "location": "Bangkok",
               "description": "Iconic riverside temple known as the Temple of Dawn."
             },
             {
               "name": "Chatuchak Market",
-              "image": "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/Chatuchak Market.webp",
               "location": "Bangkok",
               "description": "One of the world's largest weekend markets with over 15,000 stalls."
             },
             {
               "name": "Khao San Road",
-              "image": "https://images.unsplash.com/photo-1504150558240-0b4fd8946624?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/Khao San Road.webp",
               "location": "Bangkok",
               "description": "The world's most famous backpacker hub with vibrant nightlife."
             },
             {
               "name": "Lumphini Park",
-              "image": "https://images.unsplash.com/photo-1523906834658-6e24ef2386f9?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/Lumphini Park.webp",
               "location": "Bangkok",
               "description": "A rare green space in the city heart offering fresh air and recreation."
             }
@@ -3939,37 +3939,37 @@
           "subPlaces": [
             {
               "name": "Patong Beach",
-              "image": "https://images.unsplash.com/photo-1488085061387-422e15b40b0c?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/Patong Beach.webp",
               "location": "Phuket",
               "description": "Famous beach with nightlife."
             },
             {
               "name": "Phi Phi Islands",
-              "image": "https://images.unsplash.com/photo-1506012787146-5c5f470a1a09?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/Phi Phi Islands.webp",
               "location": "Phuket",
               "description": "Island hopping destination."
             },
             {
               "name": "Big Buddha",
-              "image": "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/Big Buddha.webp",
               "location": "Phuket",
               "description": "Huge statue with hill views."
             },
             {
               "name": "Bangla Road",
-              "image": "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/Bangla Road.webp",
               "location": "Phuket",
               "description": "Nightlife street."
             },
             {
               "name": "Kata Beach",
-              "image": "https://images.unsplash.com/photo-1500835556837-99ac94a94552?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/Kata Beach.webp",
               "location": "Phuket",
               "description": "Calm beach for relaxation."
             },
             {
               "name": "Phuket Old Town",
-              "image": "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/Phuket Old Town.webp",
               "location": "Phuket",
               "description": "Colorful streets and cafes."
             }
@@ -3986,19 +3986,19 @@
           "subPlaces": [
             {
               "name": "Pattaya",
-              "image": "assets/images/pattaya-beach-city.jpg",
+              "image": "assets/images/pattaya-beach-city.webp",
               "location": "Thailand",
               "description": "Beach city and entertainment."
             },
             {
               "name": "Sanctuary of Truth",
-              "image": "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/sanctuary-of-truth.webp",
               "location": "Pattaya",
               "description": "Gigantic all-wood structure filled with intricate carvings."
             },
             {
               "name": "Walking Street",
-              "image": "https://images.unsplash.com/photo-1504150558240-0b4fd8946624?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/walking-street.webp",
               "location": "Pattaya",
               "description": "The biggest and busiest party hotspot in the country."
             },
@@ -4010,13 +4010,13 @@
             },
             {
               "name": "Nong Nooch Garden",
-              "image": "https://images.unsplash.com/photo-1523906834658-6e24ef2386f9?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/nong-nooch-garden.webp",
               "location": "Pattaya",
               "description": "Award-winning botanical garden with cultural shows."
             },
             {
               "name": "Art in Paradise",
-              "image": "https://images.unsplash.com/photo-1488085061387-422e15b40b0c?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/art-in-paradise.webp",
               "location": "Pattaya",
               "description": "Interactive 3D art museum perfect for family photography."
             }
@@ -4035,13 +4035,13 @@
             },
             {
               "name": "Doi Suthep",
-              "image": "https://images.unsplash.com/photo-1506012787146-5c5f470a1a09?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/doi-suthep.webp",
               "location": "Chiang Mai",
               "description": "Golden temple situated on a mountain peak overlooking the city."
             },
             {
               "name": "Elephant Sanctuary",
-              "image": "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/elephant-sanctuary.webp",
               "location": "Chiang Mai",
               "description": "Ethical centers for rescued elephants to live freely."
             },
@@ -4053,13 +4053,13 @@
             },
             {
               "name": "Old City Walls",
-              "image": "https://images.unsplash.com/photo-1500835556837-99ac94a94552?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/old-city-walls.webp",
               "location": "Chiang Mai",
               "description": "Historic gated area holding hundreds of ancient temples."
             },
             {
               "name": "Doi Inthanon",
-              "image": "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/doi-inthanon.webp",
               "location": "Near Chiang Mai",
               "description": "Thailand's highest peak with waterfalls and twin pagodas."
             }
@@ -4078,31 +4078,31 @@
             },
             {
               "name": "Railay Beach",
-              "image": "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/railay-beach.webp",
               "location": "Krabi",
               "description": "Accessible only by boat, a world-class rock climbing destination."
             },
             {
               "name": "Tiger Cave Temple",
-              "image": "https://images.unsplash.com/photo-1504150558240-0b4fd8946624?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/tiger-cave-temple.webp",
               "location": "Krabi",
               "description": "A sacred Buddhist site reachable by climbing 1,237 steps."
             },
             {
               "name": "Emerald Pool",
-              "image": "https://images.unsplash.com/photo-1523906834658-6e24ef2386f9?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/emerald-pool.webp",
               "location": "Krabi",
               "description": "Crystal clear natural swimming pond in a forest reserve."
             },
             {
               "name": "Ao Nang Beach",
-              "image": "https://images.unsplash.com/photo-1488085061387-422e15b40b0c?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/ao-nang-beach.webp",
               "location": "Krabi",
               "description": "Main tourist hub for island hopping and accommodation."
             },
             {
               "name": "Four Islands Tour",
-              "image": "https://images.unsplash.com/photo-1506012787146-5c5f470a1a09?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/four-islands-tour.webp",
               "location": "Krabi",
               "description": "Popular speedboat trip visiting Koh Poda, Koh Gai and others."
             }
@@ -4121,31 +4121,31 @@
             },
             {
               "name": "Wat Mahathat",
-              "image": "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/wat-mahathat.webp",
               "location": "Ayutthaya",
               "description": "Home to the famous Buddha head entwined in Banyan tree roots."
             },
             {
               "name": "Wat Phra Si Sanphet",
-              "image": "https://images.unsplash.com/photo-1500835556837-99ac94a94552?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/wat-phra-si-sanphet.webp",
               "location": "Ayutthaya",
               "description": "The most important temple of the former royal palace."
             },
             {
               "name": "Historical Park",
-              "image": "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/historical-park.webp",
               "location": "Ayutthaya",
               "description": "UNESCO World Heritage site covering central ruin areas."
             },
             {
               "name": "Wat Chaiwatthanaram",
-              "image": "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/wat-chaiwatthanaram.webp",
               "location": "Ayutthaya",
               "description": "Khmer-style temple known for its majestic sunset reflections."
             },
             {
               "name": "Chao Sam Phraya",
-              "image": "https://images.unsplash.com/photo-1504150558240-0b4fd8946624?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/chao-sam-phraya.webp",
               "location": "Ayutthaya",
               "description": "Museum housing gold artifacts and treasures from temple crypts."
             }
@@ -4177,31 +4177,31 @@
             },
             {
               "name": "Petronas Towers",
-              "image": "assets/images/malaysia-petronas-towers.jpg",
+              "image": "assets/images/malaysia-petronas-towers.webp",
               "location": "KL City",
               "description": "The world's tallest twin towers and iconic city landmark."
             },
             {
               "name": "Batu Caves",
-              "image": "https://images.unsplash.com/photo-1523906834658-6e24ef2386f9?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/batu-caves.webp",
               "location": "Near KL",
               "description": "Massive limestone caves containing Hindu temples and statues."
             },
             {
               "name": "KL Tower",
-              "image": "https://images.unsplash.com/photo-1488085061387-422e15b40b0c?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/kl-tower.webp",
               "location": "KL City",
               "description": "Observation tower offering high-altitude city views and dining."
             },
             {
               "name": "Bukit Bintang",
-              "image": "https://images.unsplash.com/photo-1506012787146-5c5f470a1a09?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/bukit-bintang.webp",
               "location": "KL City",
               "description": "The city's trendiest shopping, entertainment and food hub."
             },
             {
               "name": "Merdeka Square",
-              "image": "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/merdeka-square.webp",
               "location": "KL City",
               "description": "The historical heart of the city where independence was declared."
             }
@@ -4214,37 +4214,37 @@
           "subPlaces": [
             {
               "name": "Penang",
-              "image": "assets/images/penang-street-art.jpg",
+              "image": "assets/images/penang-street-art.webp",
               "location": "Malaysia",
               "description": "Street art and food."
             },
             {
               "name": "George Town",
-              "image": "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/george-town.webp",
               "location": "Penang",
               "description": "Historic center known for its colorful street art and shophouses."
             },
             {
               "name": "Kek Lok Si",
-              "image": "https://images.unsplash.com/photo-1500835556837-99ac94a94552?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/kek-lok-si.webp",
               "location": "Penang",
               "description": "The largest Buddhist temple in Malaysia on a scenic hill."
             },
             {
               "name": "Batu Ferringhi",
-              "image": "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/batu-ferringhi.webp",
               "location": "Penang",
               "description": "Popular beach strip for water sports and night markets."
             },
             {
               "name": "Penang Hill",
-              "image": "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/penang-hill.webp",
               "location": "Penang",
               "description": "Take a funicular train to the top for cool air and views."
             },
             {
               "name": "Clan Jetties",
-              "image": "https://images.unsplash.com/photo-1504150558240-0b4fd8946624?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/clan-jetties.webp",
               "location": "Penang",
               "description": "Traditional wooden floating villages on the waterfront."
             }
@@ -4257,37 +4257,37 @@
           "subPlaces": [
             {
               "name": "Langkawi",
-              "image": "assets/images/langkawi-sky-bridge.jpg",
+              "image": "assets/images/langkawi-sky-bridge.webp",
               "location": "Malaysia",
               "description": "Island paradise and sky bridge."
             },
             {
               "name": "SkyBridge",
-              "image": "assets/images/langkawi-sky-bridge.jpg",
+              "image": "assets/images/langkawi-sky-bridge.webp",
               "location": "Langkawi",
               "description": "A 125-meter curved pedestrian cable bridge on a mountain."
             },
             {
               "name": "Eagle Square",
-              "image": "https://images.unsplash.com/photo-1523906834658-6e24ef2386f9?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/eagle-square.webp",
               "location": "Langkawi",
               "description": "The island's landmark featuring a massive 12-meter eagle statue."
             },
             {
               "name": "Pantai Cenang",
-              "image": "https://images.unsplash.com/photo-1488085061387-422e15b40b0c?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/pantai-cenang.webp",
               "location": "Langkawi",
               "description": "The most popular beach with lots of restaurants and duty-free shops."
             },
             {
               "name": "Underwater World",
-              "image": "https://images.unsplash.com/photo-1506012787146-5c5f470a1a09?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/underwater-world.webp",
               "location": "Langkawi",
               "description": "One of the largest marine and freshwater aquaria in SE Asia."
             },
             {
               "name": "Kilim Geoforest",
-              "image": "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/kilim-geoforest.webp",
               "location": "Langkawi",
               "description": "Fascinating mangrove boat tour with eagle feeding and caves."
             }
@@ -4300,37 +4300,37 @@
           "subPlaces": [
             {
               "name": "Melaka",
-              "image": "assets/images/melaka-river-street.jpg",
+              "image": "assets/images/melaka-river-street.webp",
               "location": "Malaysia",
               "description": "Historical Dutch ruins."
             },
             {
               "name": "Jonker Street",
-              "image": "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/jonker-street.webp",
               "location": "Melaka",
               "description": "Famous night market full of antiques, handicrafts and street bites."
             },
             {
               "name": "Stadthuys",
-              "image": "https://images.unsplash.com/photo-1500835556837-99ac94a94552?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/stadthuys.webp",
               "location": "Melaka",
               "description": "The landmark brick-red building that was the office of Dutch Governors."
             },
             {
               "name": "A Famosa",
-              "image": "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/a-famosa.webp",
               "location": "Melaka",
               "description": "The remnants of a Portuguese fortress built in the 16th century."
             },
             {
               "name": "River Cruise",
-              "image": "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/river-cruise.webp",
               "location": "Melaka",
               "description": "Scenic boat ride showing the city’s murals and historical houses."
             },
             {
               "name": "Chen Hoon Teng",
-              "image": "https://images.unsplash.com/photo-1504150558240-0b4fd8946624?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/chen-hoon-teng.webp",
               "location": "Melaka",
               "description": "The oldest functional traditional Chinese temple in Malaysia."
             }
@@ -4349,31 +4349,31 @@
             },
             {
               "name": "BOH Tea Centre",
-              "image": "https://images.unsplash.com/photo-1523906834658-6e24ef2386f9?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/boh-tea-centre.webp",
               "location": "Cameron",
               "description": "Spectacular tea garden with a modern balcony overlooking the hills."
             },
             {
               "name": "Mossy Forest",
-              "image": "https://images.unsplash.com/photo-1488085061387-422e15b40b0c?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/mossy-forest.webp",
               "location": "Cameron",
               "description": "A high-altitude forest area with mist-shrouded, ancient trees."
             },
             {
               "name": "Lavender Garden",
-              "image": "https://images.unsplash.com/photo-1506012787146-5c5f470a1a09?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/lavender-garden.webp",
               "location": "Cameron",
               "description": "Featuring colorful purple flowers and fresh honey products."
             },
             {
               "name": "Strawberry Farm",
-              "image": "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/strawberry-farm.webp",
               "location": "Cameron",
               "description": "Popular stop for harvesting fresh berries and eating fruit desserts."
             },
             {
               "name": "Butterfly Farm",
-              "image": "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/butterfly-farm.webp",
               "location": "Cameron",
               "description": "Large indoor garden filled with exotic butterflies and reptiles."
             }
@@ -4392,31 +4392,31 @@
             },
             {
               "name": "Mount Kinabalu",
-              "image": "https://images.unsplash.com/photo-1500835556837-99ac94a94552?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/mount-kinabalu.webp",
               "location": "Sabah",
               "description": "Southeast Asia's highest peak and owner of unique botanical biodiversity."
             },
             {
               "name": "Sepilok Centre",
-              "image": "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/sepilok-centre.webp",
               "location": "Sabah",
               "description": "World-famous rehabilitation center for orphaned orangutans."
             },
             {
               "name": "Kinabatangan",
-              "image": "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/kinabatangan.webp",
               "location": "Sabah",
               "description": "Experience river cruises to see pygmy elephants and crocodiles."
             },
             {
               "name": "Sipadan Island",
-              "image": "https://images.unsplash.com/photo-1504150558240-0b4fd8946624?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/sipadan-island.webp",
               "location": "Sabah",
               "description": "Globally top-ranked dive spot with turtles and massive fish schools."
             },
             {
               "name": "Kuching",
-              "image": "https://images.unsplash.com/photo-1523906834658-6e24ef2386f9?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/kuching.webp",
               "location": "Sarawak",
               "description": "The charming capital of Sarawak known for its cat statues and history."
             }
@@ -4444,13 +4444,13 @@
             },
             {
               "name": "Galle Face Green",
-              "image": "https://images.unsplash.com/photo-1488085061387-422e15b40b0c?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/galle-face-green.webp",
               "location": "Colombo",
               "description": "Ocean-side urban park for sunset walks and street food."
             },
             {
               "name": "Gangaramaya Temple",
-              "image": "https://images.unsplash.com/photo-1506012787146-5c5f470a1a09?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/gangaramaya-temple.webp",
               "location": "Colombo",
               "description": "Highly eclectic Buddhist temple known for its mix of architectural styles."
             },
@@ -4462,13 +4462,13 @@
             },
             {
               "name": "Dutch Hospital",
-              "image": "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/dutch-hospital.webp",
               "location": "Colombo",
               "description": "Heritage shopping and dining precinct in a former colonial hospital."
             },
             {
               "name": "Viharamahadevi Park",
-              "image": "https://images.unsplash.com/photo-1500835556837-99ac94a94552?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/viharamahadevi-park.webp",
               "location": "Colombo",
               "description": "The largest and oldest park in the city center."
             }
@@ -4481,37 +4481,37 @@
           "subPlaces": [
             {
               "name": "Temple of Tooth",
-              "image": "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/temple-of-tooth.webp",
               "location": "Kandy",
               "description": "Sacred Buddhist temple."
             },
             {
               "name": "Kandy Lake",
-              "image": "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/kandy-lake.webp",
               "location": "Kandy",
               "description": "Peaceful lake in city center."
             },
             {
               "name": "Botanical Garden",
-              "image": "https://images.unsplash.com/photo-1504150558240-0b4fd8946624?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/botanical-garden.webp",
               "location": "Kandy",
               "description": "Huge garden with exotic plants."
             },
             {
               "name": "View Point",
-              "image": "assets/images/mahabaleshwar-valley-viewpoint.webp",
+              "image": "assets/images/Kandy View Point.webp",
               "location": "Kandy",
               "description": "Best city view spot."
             },
             {
               "name": "Cultural Show",
-              "image": "https://images.unsplash.com/photo-1523906834658-6e24ef2386f9?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/cultural-show.webp",
               "location": "Kandy",
               "description": "Traditional dance performance."
             },
             {
               "name": "Udawatta Forest",
-              "image": "https://images.unsplash.com/photo-1488085061387-422e15b40b0c?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/udawatta-forest.webp",
               "location": "Kandy",
               "description": "Nature walk forest reserve."
             }
@@ -4530,31 +4530,31 @@
             },
             {
               "name": "Dutch Fort",
-              "image": "https://images.unsplash.com/photo-1506012787146-5c5f470a1a09?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/dutch-fort.webp",
               "location": "Galle",
               "description": "A well-preserved colonial-era fortress on the southwest coast."
             },
             {
               "name": "Galle Lighthouse",
-              "image": "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/galle-lighthouse.webp",
               "location": "Galle",
               "description": "The oldest light station in Sri Lanka, offering iconic views."
             },
             {
               "name": "Unawatuna Beach",
-              "image": "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/unawatuna-beach.webp",
               "location": "Near Galle",
               "description": "Famous banana-shaped beach known for calm swimming surf."
             },
             {
               "name": "National Marine Museum",
-              "image": "https://images.unsplash.com/photo-1500835556837-99ac94a94552?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/national-marine-museum.webp",
               "location": "Galle",
               "description": "Located in a former Dutch warehouse, showing underwater discoveries."
             },
             {
               "name": "Dutch Reformed Church",
-              "image": "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/dutch-reformed-church.webp",
               "location": "Galle",
               "description": "Historic church built in 1755 with ancient tombstones."
             }
@@ -4573,31 +4573,31 @@
             },
             {
               "name": "Lion Rock",
-              "image": "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/lion-rock.webp",
               "location": "Sigiriya",
               "description": "The massive rock pillar that housed a palace complex on its flat top."
             },
             {
               "name": "Mirror Wall",
-              "image": "https://images.unsplash.com/photo-1504150558240-0b4fd8946624?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/mirror-wall.webp",
               "location": "Sigiriya",
               "description": "Highly polished wall containing graffiti from as early as 8th century."
             },
             {
               "name": "Water Gardens",
-              "image": "https://images.unsplash.com/photo-1523906834658-6e24ef2386f9?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/water-gardens.webp",
               "location": "Sigiriya",
               "description": "Some of the world's oldest landscaped gardens with functional hydraulics."
             },
             {
               "name": "Sigiriya Frescoes",
-              "image": "https://images.unsplash.com/photo-1488085061387-422e15b40b0c?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/sigiriya-frescoes.webp",
               "location": "Sigiriya",
               "description": "Exquisite ancient paintings of ladies on the rock face."
             },
             {
               "name": "Pidurangala Rock",
-              "image": "https://images.unsplash.com/photo-1506012787146-5c5f470a1a09?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/pidurangala-rock.webp",
               "location": "Near Sigiriya",
               "description": "Lesser known peak offering the best direct view of Sigiriya Rock."
             }
@@ -4610,37 +4610,37 @@
           "subPlaces": [
             {
               "name": "Nuwara Eliya",
-              "image": "assets/images/nuwara-eliya-tea-hills.jpg",
+              "image": "assets/images/nuwara-eliya-tea-hills.webp",
               "location": "Sri Lanka",
               "description": "Tea hills and cool climate."
             },
             {
               "name": "Gregory Lake",
-              "image": "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/gregory-lake.webp",
               "location": "Nuwara Eliya",
               "description": "Large park area and lake for boat rides and pony trekking."
             },
             {
               "name": "Victoria Park",
-              "image": "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/victoria-park.webp",
               "location": "Nuwara Eliya",
               "description": "Public park famous for its rare birds and colorful flora."
             },
             {
               "name": "Pedro Tea Estate",
-              "image": "https://images.unsplash.com/photo-1500835556837-99ac94a94552?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/pedro-tea-estate.webp",
               "location": "Nuwara Eliya",
               "description": "Learn about the production of world-renowned Ceylon tea."
             },
             {
               "name": "Horton Plains",
-              "image": "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/horton-plains.webp",
               "location": "Near Nuwara Eliya",
               "description": "High plateau hosting the dramatic 'World’s End' precipice."
             },
             {
               "name": "Seetha Amman Temple",
-              "image": "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/seetha-amman-temple.webp",
               "location": "Nuwara Eliya",
               "description": "Temple linked to the legendary Ramayana epic in a scenic setting."
             }
@@ -4659,31 +4659,31 @@
             },
             {
               "name": "Nine Arches Bridge",
-              "image": "https://images.unsplash.com/photo-1504150558240-0b4fd8946624?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/nine-arches-bridge.webp",
               "location": "Ella",
               "description": "One of the best examples of colonial-era railway construction."
             },
             {
               "name": "Little Adam's Peak",
-              "image": "https://images.unsplash.com/photo-1523906834658-6e24ef2386f9?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/little-adams-peak.webp",
               "location": "Ella",
               "description": "Relatively easy hike offering stunning 360-degree views."
             },
             {
               "name": "Ravana Falls",
-              "image": "https://images.unsplash.com/photo-1488085061387-422e15b40b0c?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/ravana-falls.webp",
               "location": "Ella",
               "description": "Wide, majestic waterfall named after the legendary king Ravana."
             },
             {
               "name": "Ella Rock",
-              "image": "https://images.unsplash.com/photo-1506012787146-5c5f470a1a09?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/ella-rock.webp",
               "location": "Ella",
               "description": "Challenging trek through tea plantations to a panoramic cliff."
             },
             {
               "name": "Demodara Loop",
-              "image": "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/demodara-loop.webp",
               "location": "Ella",
               "description": "Unique railway spiral where the track passes under itself."
             }
@@ -4711,7 +4711,7 @@
             },
             {
               "name": "Agatti Island Beach",
-              "image": "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/agatti-island-beach.webp",
               "location": "Agatti",
               "description": "Pristine white sand beach with turquoise lagoon waters."
             },
@@ -4723,19 +4723,19 @@
             },
             {
               "name": "Scuba Point",
-              "image": "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/scuba-point.webp",
               "location": "Agatti Lagoon",
               "description": "Vibrant underwater life with colorful corals and turtles."
             },
             {
               "name": "Agatti Airstrip",
-              "image": "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/agatti-airstrip.webp",
               "location": "Agatti",
               "description": "One of the most scenic airport approaches in the world."
             },
             {
               "name": "Eastern Jetty",
-              "image": "https://images.unsplash.com/photo-1504150558240-0b4fd8946624?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/eastern-jetty.webp",
               "location": "Agatti",
               "description": "Traditional harbor area for local inter-island ferry services."
             }
@@ -4754,31 +4754,31 @@
             },
             {
               "name": "Sand Bar",
-              "image": "https://images.unsplash.com/photo-1523906834658-6e24ef2386f9?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/sand-bar.webp",
               "location": "Near Bangaram",
               "description": "Secluded stretch of sand revealed during the low tides."
             },
             {
               "name": "Turtle Spotting",
-              "image": "https://images.unsplash.com/photo-1488085061387-422e15b40b0c?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/turtle-spotting.webp",
               "location": "Bangaram Lagoon",
               "description": "Quiet sanctuary where green sea turtles are seen frequently."
             },
             {
               "name": "Thinnakara Island",
-              "image": "https://images.unsplash.com/photo-1506012787146-5c5f470a1a09?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/thinnakara-island.webp",
               "location": "Across Bangaram",
               "description": "Sibling island offering a truly remote camping experience."
             },
             {
               "name": "Night Snorkeling",
-              "image": "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/night-snorkeling.webp",
               "location": "Bangaram",
               "description": "Unique experience seeing bioluminescent plankton under water."
             },
             {
               "name": "Palm Woodlands",
-              "image": "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/palm-woodlands.webp",
               "location": "Bangaram",
               "description": "Dense palm trees providing a tropical canopy across the atoll."
             }
@@ -4791,37 +4791,37 @@
           "subPlaces": [
             {
               "name": "Kavaratti",
-              "image": "assets/images/kavaratti-mosque-sea.jpg",
+              "image": "assets/images/kavaratti-mosque-sea.webp",
               "location": "Lakshadweep",
               "description": "Capital island and aquarium."
             },
             {
               "name": "Marine Aquarium",
-              "image": "https://images.unsplash.com/photo-1500835556837-99ac94a94552?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/marine-aquarium.webp",
               "location": "Kavaratti",
               "description": "Showcasing a diverse collection of colorful lagoon fish and corals."
             },
             {
               "name": "Ujra Mosque",
-              "image": "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/ujra-mosque.webp",
               "location": "Kavaratti",
               "description": "Famous 17th-century mosque known for its exquisite wood carvings."
             },
             {
               "name": "Dolphin Dive Center",
-              "image": "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/dolphin-dive-center.webp",
               "location": "Kavaratti",
               "description": "Premier facility for deep sea exploration and PADI certificates."
             },
             {
               "name": "Glass Bottom Boat",
-              "image": "https://images.unsplash.com/photo-1504150558240-0b4fd8946624?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/glass-bottom-boat.webp",
               "location": "Kavaratti Lagoon",
               "description": "See the vibrant seafloor without getting into the water."
             },
             {
               "name": "Lighthouse Kavaratti",
-              "image": "https://images.unsplash.com/photo-1523906834658-6e24ef2386f9?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/lighthouse-kavaratti.webp",
               "location": "Kavaratti",
               "description": "Traditional beacon guiding ships through the coral passages."
             }
@@ -4840,31 +4840,31 @@
             },
             {
               "name": "Kadmat Lagoon",
-              "image": "https://images.unsplash.com/photo-1488085061387-422e15b40b0c?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/kadmat-lagoon.webp",
               "location": "Kadmat",
               "description": "Vast expanse of shallow water perfect for water sports."
             },
             {
               "name": "Windsurfing School",
-              "image": "https://images.unsplash.com/photo-1506012787146-5c5f470a1a09?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/windsurfing-school.webp",
               "location": "Kadmat",
               "description": "Professional training on the calmest lagoon in the archipelago."
             },
             {
               "name": "North Tip",
-              "image": "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/north-tip.webp",
               "location": "Kadmat",
               "description": "A quiet, secluded end of the island with 270-degree ocean views."
             },
             {
               "name": "Coir Production",
-              "image": "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/coir-production.webp",
               "location": "Kadmat Village",
               "description": "Traditional local industry making ropes from coconut husks."
             },
             {
               "name": "Kayaking Point",
-              "image": "https://images.unsplash.com/photo-1500835556837-99ac94a94552?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/kayaking-point.webp",
               "location": "Kadmat Lagoon",
               "description": "Slowly explore the reef edges on rental kayaks."
             }
@@ -4883,31 +4883,31 @@
             },
             {
               "name": "Old Lighthouse",
-              "image": "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/old-lighthouse.webp",
               "location": "Minicoy",
               "description": "British-built 1885 structure offering 360-degree island views."
             },
             {
               "name": "Tuna Canning Plant",
-              "image": "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/tuna-canning-plant.webp",
               "location": "Minicoy",
               "description": "Largest fish processing unit in the islands."
             },
             {
               "name": "Juma Mosque",
-              "image": "https://images.unsplash.com/photo-1504150558240-0b4fd8946624?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/juma-mosque.webp",
               "location": "Minicoy",
               "description": "Historic mosque at the center of the local Mahl village."
             },
             {
               "name": "Viringili Island",
-              "image": "https://images.unsplash.com/photo-1523906834658-6e24ef2386f9?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/viringili-island.webp",
               "location": "Near Minicoy",
               "description": "Tiny satellite island used as a leprosy colony in ancient times."
             },
             {
               "name": "Boat Building Yard",
-              "image": "https://images.unsplash.com/photo-1488085061387-422e15b40b0c?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/boat-building-yard.webp",
               "location": "Minicoy",
               "description": "Traditional craftsmen carving large wooden 'Jahadhoni' vessels."
             }
@@ -4926,31 +4926,31 @@
             },
             {
               "name": "Tip Beach",
-              "image": "https://images.unsplash.com/photo-1506012787146-5c5f470a1a09?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/tip-beach.webp",
               "location": "Kalpeni",
               "description": "A scenic narrow strip of sand at the very edge of the lagoon."
             },
             {
               "name": "Pitt Island",
-              "image": "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/pitt-island.webp",
               "location": "Near Kalpeni",
               "description": "Secluded islets accessible via wading through low tide waters."
             },
             {
               "name": "Storm Bank",
-              "image": "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/storm-bank.webp",
               "location": "Kalpeni",
               "description": "Massive ridge of dried coral boulders created by an 1847 storm."
             },
             {
               "name": "Hosiery Unit",
-              "image": "https://images.unsplash.com/photo-1500835556837-99ac94a94552?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/hosiery-unit.webp",
               "location": "Kalpeni",
               "description": "Small-scale local industry producing island-style fabrics."
             },
             {
               "name": "Coral Reef Walk",
-              "image": "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/coral-reef-walk.webp",
               "location": "Kalpeni Lagoon",
               "description": "Wading through shallow waters to observe reef life up close."
             }
@@ -4972,37 +4972,37 @@
           "subPlaces": [
             {
               "name": "Borobudur",
-              "image": "assets/images/borobudur-temple-structure-java.jpg",
+              "image": "assets/images/borobudur-temple-structure-java.webp",
               "location": "Java",
               "description": "Largest Buddhist temple."
             },
             {
               "name": "Mendut Temple",
-              "image": "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/mendut-temple.webp",
               "location": "Near Borobudur",
               "description": "9th-century Buddhist temple containing a massive 3-meter stone Buddha."
             },
             {
               "name": "Pawon Temple",
-              "image": "https://images.unsplash.com/photo-1504150558240-0b4fd8946624?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/pawon-temple.webp",
               "location": "Borobudur",
               "description": "Small, elegant temple located exactly halfway between Borobudur and Mendut."
             },
             {
               "name": "Setumbu Hill",
-              "image": "https://images.unsplash.com/photo-1523906834658-6e24ef2386f9?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/setumbu-hill.webp",
               "location": "Near Borobudur",
               "description": "Premier sunrise viewpoint over the temple shrouded in morning mist."
             },
             {
               "name": "Village Tour",
-              "image": "https://images.unsplash.com/photo-1488085061387-422e15b40b0c?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/village-tour-java.webp",
               "location": "Borobudur",
               "description": "Explore the surrounding traditional Javanese life via horse-drawn cart."
             },
             {
               "name": "Elo River",
-              "image": "https://images.unsplash.com/photo-1506012787146-5c5f470a1a09?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/elo-river-rafting.webp",
               "location": "Near Borobudur",
               "description": "Experience white water rafting adventures through scenic tropical landscapes."
             }
@@ -5021,31 +5021,31 @@
             },
             {
               "name": "Loh Liang",
-              "image": "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/loh-liang-komodo.webp",
               "location": "Komodo",
               "description": "The main entry point and ranger station for tracking giant dragons."
             },
             {
               "name": "Pink Beach",
-              "image": "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/pink-beach-komodo.webp",
               "location": "Komodo",
               "description": "One of only seven beaches in the world with natural pink sand."
             },
             {
               "name": "Padar Island",
-              "image": "https://images.unsplash.com/photo-1500835556837-99ac94a94552?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/padar-island.webp",
               "location": "Near Komodo",
               "description": "Hike to the summit for iconic views of three different colored bays."
             },
             {
               "name": "Manta Point",
-              "image": "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/manta-point-diving.webp",
               "location": "Komodo National Park",
               "description": "A popular drift-diving spot to behold giant manta rays in clear water."
             },
             {
               "name": "Rinca Island",
-              "image": "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/rinca-island-dragons.webp",
               "location": "Komodo National Park",
               "description": "Another major island home to free-roaming komodo dragons and wildlife."
             }
@@ -5064,31 +5064,31 @@
             },
             {
               "name": "Wayag Islands",
-              "image": "https://images.unsplash.com/photo-1504150558240-0b4fd8946624?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/wayag-islands.webp",
               "location": "Raja Ampat",
               "description": "The quintessential icon of the region with mushroom-shaped karst islets."
             },
             {
               "name": "Piaynemo",
-              "image": "https://images.unsplash.com/photo-1523906834658-6e24ef2386f9?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/piaynemo-viewpoint.webp",
               "location": "Raja Ampat",
               "description": "A smaller version of Wayag offering a wooden staircase to a spectacular view."
             },
             {
               "name": "Cape Kri",
-              "image": "https://images.unsplash.com/photo-1488085061387-422e15b40b0c?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/cape-kri-diving.webp",
               "location": "Raja Ampat",
               "description": "Holds the world record for the most fish species recorded in a single dive."
             },
             {
               "name": "Arborek Village",
-              "image": "https://images.unsplash.com/photo-1506012787146-5c5f470a1a09?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/arborek-village.webp",
               "location": "Raja Ampat",
               "description": "Pioneer tourism village known for its friendly locals and clean reef."
             },
             {
               "name": "Pasir Timbul",
-              "image": "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/pasir-timbul-sandbank.webp",
               "location": "Near Mansuar",
               "description": "A magical rising sandbank that appears only during the low tide."
             }
@@ -5101,37 +5101,37 @@
           "subPlaces": [
             {
               "name": "Mount Bromo",
-              "image": "assets/images/mount-bromo-volcano-sunrise.jpg",
+              "image": "assets/images/mount-bromo-volcano-sunrise.webp",
               "location": "East Java",
               "description": "Volcano sunrise."
             },
             {
               "name": "Penanjakan View",
-              "image": "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/penanjakan-view-bromo.webp",
               "location": "Bromo",
               "description": "The highest viewpoint for witnessing the 'Sea of Sand' at dawn."
             },
             {
               "name": "Sea of Sand",
-              "image": "https://images.unsplash.com/photo-1500835556837-99ac94a94552?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/sea-of-sand-bromo.webp",
               "location": "Bromo Caldera",
               "description": "A vast, gray volcanic desert surrounding the active crater."
             },
             {
               "name": "Bromo Crater",
-              "image": "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/bromo-crater.webp",
               "location": "Mount Bromo",
               "description": "Ascend 250 concrete steps to peer directly into the steaming volcano."
             },
             {
               "name": "Teletubbies Hills",
-              "image": "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/teletubbies-hills-bromo.webp",
               "location": "Bromo",
               "description": "Rolling green savannah hills contrasting with the volcanic sand."
             },
             {
               "name": "Madakaripura",
-              "image": "https://images.unsplash.com/photo-1504150558240-0b4fd8946624?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/madakaripura-waterfall.webp",
               "location": "Near Bromo",
               "description": "The most spectacular waterfall in East Java, located in a deep canyon."
             }
@@ -5144,37 +5144,37 @@
           "subPlaces": [
             {
               "name": "Gili Islands",
-              "image": "assets/images/gili-islands-beach-boats.jpg",
+              "image": "assets/images/gili-islands-beach-boats.webp",
               "location": "Lombok",
               "description": "White sand and turtle diving."
             },
             {
               "name": "Gili Trawangan",
-              "image": "https://images.unsplash.com/photo-1523906834658-6e24ef2386f9?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/gili-trawangan.webp",
               "location": "Gili Islands",
               "description": "The 'Party Island' with vibrant nightlife and world-class diving."
             },
             {
               "name": "Gili Meno",
-              "image": "https://images.unsplash.com/photo-1488085061387-422e15b40b0c?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/gili-meno.webp",
               "location": "Gili Islands",
               "description": "The most peaceful island, perfect for honeymoons and quiet escapes."
             },
             {
               "name": "Gili Air",
-              "image": "https://images.unsplash.com/photo-1506012787146-5c5f470a1a09?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/gili-air.webp",
               "location": "Gili Islands",
               "description": "A perfect blend of chill vibes and social scenes with local character."
             },
             {
               "name": "Turtle Point",
-              "image": "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/turtle-point-gili.webp",
               "location": "Gili Meno",
               "description": "Best shore-access snorkeling to swim with hawksbill sea turtles."
             },
             {
               "name": "Bask Underwater",
-              "image": "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/bask-underwater-statues.webp",
               "location": "Gili Meno",
               "description": "Stunning sculpture of 48 life-sized figures underwater."
             }
@@ -5187,37 +5187,37 @@
           "subPlaces": [
             {
               "name": "Jakarta",
-              "image": "assets/images/jakarta-skyline-indonesia.jpg",
+              "image": "assets/images/jakarta-skyline-indonesia.webp",
               "location": "Java",
               "description": "Capital city and culture."
             },
             {
               "name": "Monas",
-              "image": "https://images.unsplash.com/photo-1500835556837-99ac94a94552?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/monas-jakarta.webp",
               "location": "Jakarta",
               "description": "National Monument symbolizing the fight for Indonesian independence."
             },
             {
               "name": "Kota Tua",
-              "image": "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/kota-tua-jakarta.webp",
               "location": "Jakarta",
               "description": "The 'Old Town' with preserved Dutch colonial architecture and museums."
             },
             {
               "name": "Istiqlal Mosque",
-              "image": "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/istiqlal-mosque.webp",
               "location": "Jakarta",
               "description": "The largest mosque in Southeast Asia, known for its modern design."
             },
             {
               "name": "Ancol Dreamland",
-              "image": "https://images.unsplash.com/photo-1504150558240-0b4fd8946624?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/ancol-dreamland.webp",
               "location": "Jakarta Waterfront",
               "description": "Massive amusement park complex with beaches and oceanariums."
             },
             {
               "name": "Grand Indonesia",
-              "image": "https://images.unsplash.com/photo-1523906834658-6e24ef2386f9?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/grand-indonesia-mall.webp",
               "location": "Jakarta center",
               "description": "One of Southeast Asia's largest luxury shopping malls."
             }
