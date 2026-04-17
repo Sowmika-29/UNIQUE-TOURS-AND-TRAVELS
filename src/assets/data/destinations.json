@@ -18,7 +18,7 @@
           "subPlaces": [
             {
               "name": "Tea Gardens",
-              "image": "assets/images/Tea Gardens.webp",
+              "image": "assets/images/munnar-tea-plantation-hills.webp",
               "location": "Munnar, Kerala",
               "description": "Vast stretches of emerald green tea plantations offering breathtaking panoramic views."
             },
@@ -515,7 +515,7 @@
             },
             {
               "name": "Kudle Beach",
-              "image": "assets/images/kudle-beach.webp",
+              "image": "assets/images/kudle beach.webp",
               "location": "Gokarna",
               "description": "A popular spot for relaxing and watching beautiful sunsets."
             },
@@ -939,7 +939,7 @@
           "subPlaces": [
             {
               "name": "Snow Point",
-              "image": "assets/images/manali-snow-point.webp",
+              "image": "assets/images/snow point.webp",
               "location": "Rohtang Pass",
               "description": "The best spot for snow activities and panoramic Himalayan views."
             },
@@ -951,7 +951,7 @@
             },
             {
               "name": "Rahala Falls",
-              "image": "assets/images/rahala-falls.webp",
+              "image": "assets/images/rahala.webp",
               "location": "Manali-Rohtang Road",
               "description": "A beautiful waterfall formed by melting glaciers."
             },
@@ -1838,7 +1838,7 @@
             },
             {
               "name": "Iron Pillar",
-              "image": "assets/images/iron-pillar.webp",
+              "image": "assets/images/Iron Pillar.webp",
               "location": "Qutub Complex",
               "description": "Ancient 7-meter column known for its rust-resistant properties."
             },
@@ -2286,31 +2286,31 @@
             },
             {
               "name": "Shalimar Bagh",
-              "image": "assets/images/shalimar-bagh.webp",
+              "image": "assets/images/Shalimar Bagh.webp",
               "location": "Srinagar",
               "description": "Largest Mughal garden featuring terraced lawns and fountains."
             },
             {
               "name": "Nishat Bagh",
-              "image": "assets/images/nishat-bagh.webp",
+              "image": "assets/images/Nishat Bagh.webp",
               "location": "Srinagar",
               "description": "Garden of Bliss offering a direct view of Dal Lake."
             },
             {
               "name": "Tulip Garden",
-              "image": "assets/images/tulip-garden.webp",
+              "image": "assets/images/tulip Garden.webp",
               "location": "Srinagar",
               "description": "Asia's largest tulip field blooming in early spring."
             },
             {
               "name": "Shikara Ride",
-              "image": "assets/images/shikara-ride.webp",
+              "image": "assets/images/Shikara Ride.webp",
               "location": "Dal Lake",
               "description": "Iconic boat tour through the floating markets and gardens."
             },
             {
               "name": "Shankaracharya",
-              "image": "assets/images/shankaracharya.webp",
+              "image": "assets/images/Shankaracharya.webp",
               "location": "Srinagar",
               "description": "Ancient hilltop temple providing a 360-degree city view."
             }
@@ -2329,13 +2329,13 @@
             },
             {
               "name": "Aparwath Peak",
-              "image": "assets/images/aparwath-peak.webp",
+              "image": "assets/images/Aparwath Peak.webp",
               "location": "Gulmarg",
               "description": "The final point of the gondola ride with spectacular snow."
             },
             {
               "name": "Khilanmarg",
-              "image": "assets/images/khilanmarg.webp",
+              "image": "assets/images/Khilannmarg.webp",
               "location": "Gulmarg",
               "description": "A small valley offering flower meadows and ski slopes."
             },
@@ -2347,13 +2347,13 @@
             },
             {
               "name": "Strawberry Valley",
-              "image": "assets/images/strawberry-valley.webp",
+              "image": "assets/images/STRAWBERRY VALLEY.webp",
               "location": "Gulmarg",
               "description": "A lesser-known path filled with high-quality strawberry farms."
             },
             {
               "name": "St. Mary's Church",
-              "image": "assets/images/st-marys-church.webp",
+              "image": "assets/images/St.Mary's Church.webp",
               "location": "Gulmarg",
               "description": "Victorian-style stone church standing in the middle of meadows."
             }
@@ -2372,31 +2372,31 @@
             },
             {
               "name": "Aru Valley",
-              "image": "assets/images/aru-valley.webp",
+              "image": "assets/images/Aru Valley.webp",
               "location": "Near Pahalgam",
               "description": "Lush meadows and base point for numerous Himalayan treks."
             },
             {
               "name": "Betaab Valley",
-              "image": "assets/images/betaab-valley.webp",
+              "image": "assets/images/Betaab Valley.webp",
               "location": "Pahalgam",
               "description": "Named after a famous movie, known for its pine and crystal rivers."
             },
             {
               "name": "Chandanwari",
-              "image": "assets/images/chandanwari.webp",
+              "image": "assets/images/Chandanwari.webp",
               "location": "Near Pahalgam",
               "description": "Entry point for Amarnath Yatra and famous for snow sledging."
             },
             {
               "name": "Lidder River",
-              "image": "assets/images/lidder-river.webp",
+              "image": "assets/images/Lidder River.webp",
               "location": "Pahalgam",
               "description": "Gushing turquoise river ideal for rafting and angling."
             },
             {
               "name": "Baisaran",
-              "image": "assets/images/baisaran.webp",
+              "image": "assets/images/Baisaran.webp",
               "location": "Pahalgam",
               "description": "Mini-Switzerland of India with dense pine forest and meadows."
             }
@@ -2415,31 +2415,31 @@
             },
             {
               "name": "Thajiwas Glacier",
-              "image": "assets/images/thajiwas-glacier.webp",
+              "image": "assets/images/Thajiwas Glacier.webp",
               "location": "Sonamarg",
               "description": "A snow-covered glacier reachable by pony or trek."
             },
             {
               "name": "Zoji La Pass",
-              "image": "assets/images/zoji-la-pass.webp",
+              "image": "assets/images/Zoji La Pass.webp",
               "location": "Near Sonamarg",
               "description": "High altitude pass connecting Kashmir to Ladakh."
             },
             {
               "name": "Baltal Valley",
-              "image": "assets/images/baltal-valley.webp",
+              "image": "assets/images/Baltal valley.webp",
               "location": "Near Sonamarg",
               "description": "Picturesque base camp for various spiritual pilgrimages."
             },
             {
               "name": "Vishansar Lake",
-              "image": "assets/images/vishansar-lake.webp",
+              "image": "assets/images/Vishansar Lake.webp",
               "location": "Somamarg",
               "description": "High-altitude alpine lake known as the Lake of Vishnu."
             },
             {
               "name": "Zero Point",
-              "image": "assets/images/zero-point.webp",
+              "image": "assets/images/Zero Point.webp",
               "location": "Zoji La Pass",
               "description": "Experience snow even in late summer months."
             }
@@ -2458,31 +2458,31 @@
             },
             {
               "name": "Nathatop",
-              "image": "assets/images/nathatop.webp",
+              "image": "assets/images/Nathatop.webp",
               "location": "Patnitop",
               "description": "Popular for paragliding and viewing the snow-clad peaks."
             },
             {
               "name": "Sanasar",
-              "image": "assets/images/sanasar.webp",
+              "image": "assets/images/Sanasar.webp",
               "location": "Near Patnitop",
               "description": "A cup-shaped meadow ideal for camping and quiet golf."
             },
             {
               "name": "Madhatop",
-              "image": "assets/images/madhatop.webp",
+              "image": "assets/images/Madhatop.webp",
               "location": "Patnitop",
               "description": "Trekking spot known for its silver peaks and skiing."
             },
             {
               "name": "Naag Temple",
-              "image": "assets/images/naag-temple.webp",
+              "image": "assets/images/Naag Temple.webp",
               "location": "Patnitop",
               "description": "Ancient temple situated amidst tall cedar forests."
             },
             {
               "name": "Skyview Gondola",
-              "image": "assets/images/skyview-gondola.webp",
+              "image": "assets/images/Skyview Gondola.webp",
               "location": "Sanget",
               "description": "India's highest ropeway connecting Sanget and Patnitop."
             }
@@ -2501,31 +2501,31 @@
             },
             {
               "name": "Lolab Valley",
-              "image": "assets/images/lolab-valley.webp",
+              "image": "assets/images/Lolab Valley.webp",
               "location": "Kupwara",
               "description": "A stunning lush green valley with pristine springs and caves."
             },
             {
               "name": "Bungus Valley",
-              "image": "assets/images/bungus-valley.webp",
+              "image": "assets/images/Bungus Valley.webp",
               "location": "Kupwara",
               "description": "An eco-tourism meadows hub with rich flora and fauna."
             },
             {
               "name": "Sadhna Pass",
-              "image": "assets/images/sadhna-pass.webp",
+              "image": "assets/images/Sadhna Pass.webp",
               "location": "Kupwara",
               "description": "A high pass offering dangerous yet spectacular mountain views."
             },
             {
               "name": "Muqam-e-Shahwali",
-              "image": "assets/images/muqam-e-shahwali.webp",
+              "image": "assets/images/Muqam-e-Shahwali.webp",
               "location": "Kupwara",
               "description": "Famous spiritual shrine and historical landmark."
             },
             {
               "name": "Kalaroos Caves",
-              "image": "assets/images/kalaroos-caves.webp",
+              "image": "assets/images/Kalaroos Caves.webp",
               "location": "Kupwara",
               "description": "Ancient caves rumored to be a hidden path to Russia."
             }
@@ -2608,7 +2608,7 @@
             },
             {
               "name": "Radhanagar Beach",
-              "image": "assets/images/radhanagar.webp",
+              "image": "assets/images/radha nagar.webp",
               "location": "Havelock",
               "description": "Globally ranked as one of the most beautiful beaches in Asia."
             },
@@ -2757,12 +2757,12 @@
         },
         {
           "name": "Radhanagar",
-          "image": "assets/images/radhanagar.webp",
+          "image": "assets/images/radha nagar.webp",
           "description": "Ranked among Asia's best beaches, with powdery white sand, turquoise water, and magical sunsets.",
           "subPlaces": [
             {
               "name": "Radhanagar",
-              "image": "assets/images/Radhanagar.webp",
+              "image": "assets/images/radha nagar.webp",
               "location": "Andaman",
               "description": "One of Asia’s best beaches."
             },
@@ -2975,7 +2975,7 @@
             },
             {
               "name": "Hysteria",
-              "image": "assets/images/Hysteria.webp",
+              "image": "assets/images/hysteria.webp",
               "location": "Dubai Mall",
               "description": "A haunted house extreme fear attraction for thrill seekers."
             }
@@ -3031,7 +3031,7 @@
           "subPlaces": [
             {
               "name": "Future Heroes",
-              "image": "assets/images/Future Heroes.webp",
+              "image": "assets/images/future heros.webp",
               "location": "Museum",
               "description": "Dedicated floor for children to learn and solve future challenges."
             },
@@ -4754,31 +4754,31 @@
             },
             {
               "name": "Sand Bar",
-              "image": "assets/images/sand-bar.webp",
+              "image": "assets/images/Sand Bar.webp",
               "location": "Near Bangaram",
               "description": "Secluded stretch of sand revealed during the low tides."
             },
             {
               "name": "Turtle Spotting",
-              "image": "assets/images/turtle-spotting.webp",
+              "image": "assets/images/Turtle Spotting.webp",
               "location": "Bangaram Lagoon",
               "description": "Quiet sanctuary where green sea turtles are seen frequently."
             },
             {
               "name": "Thinnakara Island",
-              "image": "assets/images/thinnakara-island.webp",
+              "image": "assets/images/Thinnakara Island.webp",
               "location": "Across Bangaram",
               "description": "Sibling island offering a truly remote camping experience."
             },
             {
               "name": "Night Snorkeling",
-              "image": "assets/images/night-snorkeling.webp",
+              "image": "assets/images/Night Snorkeling.webp",
               "location": "Bangaram",
               "description": "Unique experience seeing bioluminescent plankton under water."
             },
             {
               "name": "Palm Woodlands",
-              "image": "assets/images/palm-woodlands.webp",
+              "image": "assets/images/Palm Woodlands.webp",
               "location": "Bangaram",
               "description": "Dense palm trees providing a tropical canopy across the atoll."
             }
@@ -4797,31 +4797,31 @@
             },
             {
               "name": "Marine Aquarium",
-              "image": "assets/images/marine-aquarium.webp",
+              "image": "assets/images/Marine Aquarium.webp",
               "location": "Kavaratti",
               "description": "Showcasing a diverse collection of colorful lagoon fish and corals."
             },
             {
               "name": "Ujra Mosque",
-              "image": "assets/images/ujra-mosque.webp",
+              "image": "assets/images/Ujra Mosque.webp",
               "location": "Kavaratti",
               "description": "Famous 17th-century mosque known for its exquisite wood carvings."
             },
             {
               "name": "Dolphin Dive Center",
-              "image": "assets/images/dolphin-dive-center.webp",
+              "image": "assets/images/Dolphin Dive Center.webp",
               "location": "Kavaratti",
               "description": "Premier facility for deep sea exploration and PADI certificates."
             },
             {
               "name": "Glass Bottom Boat",
-              "image": "assets/images/glass-bottom-boat.webp",
+              "image": "assets/images/Glass Bottom Boat.webp",
               "location": "Kavaratti Lagoon",
               "description": "See the vibrant seafloor without getting into the water."
             },
             {
               "name": "Lighthouse Kavaratti",
-              "image": "assets/images/lighthouse-kavaratti.webp",
+              "image": "assets/images/Lighthouse Kavaratti.webp",
               "location": "Kavaratti",
               "description": "Traditional beacon guiding ships through the coral passages."
             }
@@ -4840,31 +4840,31 @@
             },
             {
               "name": "Kadmat Lagoon",
-              "image": "assets/images/kadmat-lagoon.webp",
+              "image": "assets/images/Kadmat Lagoon.webp",
               "location": "Kadmat",
               "description": "Vast expanse of shallow water perfect for water sports."
             },
             {
               "name": "Windsurfing School",
-              "image": "assets/images/windsurfing-school.webp",
+              "image": "assets/images/Windsurfing School.webp",
               "location": "Kadmat",
               "description": "Professional training on the calmest lagoon in the archipelago."
             },
             {
               "name": "North Tip",
-              "image": "assets/images/north-tip.webp",
+              "image": "assets/images/North Tip.webp",
               "location": "Kadmat",
               "description": "A quiet, secluded end of the island with 270-degree ocean views."
             },
             {
               "name": "Coir Production",
-              "image": "assets/images/coir-production.webp",
+              "image": "assets/images/Coir Production.webp",
               "location": "Kadmat Village",
               "description": "Traditional local industry making ropes from coconut husks."
             },
             {
               "name": "Kayaking Point",
-              "image": "assets/images/kayaking-point.webp",
+              "image": "assets/images/Kayaking Point.webp",
               "location": "Kadmat Lagoon",
               "description": "Slowly explore the reef edges on rental kayaks."
             }
@@ -4883,31 +4883,31 @@
             },
             {
               "name": "Old Lighthouse",
-              "image": "assets/images/old-lighthouse.webp",
+              "image": "assets/images/Old Lighthouse.webp",
               "location": "Minicoy",
               "description": "British-built 1885 structure offering 360-degree island views."
             },
             {
               "name": "Tuna Canning Plant",
-              "image": "assets/images/tuna-canning-plant.webp",
+              "image": "assets/images/Tuna Canning Plant.webp",
               "location": "Minicoy",
               "description": "Largest fish processing unit in the islands."
             },
             {
               "name": "Juma Mosque",
-              "image": "assets/images/juma-mosque.webp",
+              "image": "assets/images/Juma Mosque.webp",
               "location": "Minicoy",
               "description": "Historic mosque at the center of the local Mahl village."
             },
             {
               "name": "Viringili Island",
-              "image": "assets/images/viringili-island.webp",
+              "image": "assets/images/Viringili Island.webp",
               "location": "Near Minicoy",
               "description": "Tiny satellite island used as a leprosy colony in ancient times."
             },
             {
               "name": "Boat Building Yard",
-              "image": "assets/images/boat-building-yard.webp",
+              "image": "assets/images/Boat Building Yard.webp",
               "location": "Minicoy",
               "description": "Traditional craftsmen carving large wooden 'Jahadhoni' vessels."
             }
@@ -4996,7 +4996,7 @@
             },
             {
               "name": "Village Tour",
-              "image": "assets/images/Village Tour.webp",
+              "image": "assets/images/village walk.webp",
               "location": "Borobudur",
               "description": "Explore the surrounding traditional Javanese life via horse-drawn cart."
             },
