@@ -12,6 +12,7 @@ import { FormsModule, ReactiveFormsModule, FormBuilder, FormGroup, Validators } 
 export class EnquiryFormComponent {
   @Input() isFullPage: boolean = false;
   enquiryForm: FormGroup;
+  isDropdownOpen: boolean = false;
 
   vacationTypes = [
     'Honeymoon Trip',
@@ -35,6 +36,11 @@ export class EnquiryFormComponent {
       people: ['', [Validators.required, Validators.min(1)]],
       vacationType: ['', Validators.required]
     });
+  }
+
+  selectVacationType(type: string) {
+    this.enquiryForm.patchValue({ vacationType: type });
+    this.isDropdownOpen = false;
   }
 
   onSubmit() {

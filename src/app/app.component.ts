@@ -13,7 +13,7 @@ import { filter } from 'rxjs/operators';
   template: `
     <!-- Video Splash Screen Overlay -->
     <div *ngIf="showSplash" 
-         class="fixed inset-0 z-[9999] bg-[#F5F5F5] transition-opacity duration-1000 flex items-center justify-center p-4" 
+         class="fixed inset-0 z-[9999] bg-white transition-opacity duration-1000 flex items-center justify-center p-4" 
          [ngClass]="{'opacity-0 pointer-events-none': fadeSplash}">
       <video #splashVideo class="w-64 md:w-80 max-w-full drop-shadow-sm h-auto object-contain" autoplay muted playsinline (ended)="onSplashComplete()">
         <source src="assets/Splash%20screen/Splash-screen.mp4" type="video/mp4">

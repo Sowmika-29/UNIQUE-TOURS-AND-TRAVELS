@@ -152,18 +152,46 @@
                     <div class="space-y-1 group relative">
                         <label class="input-label-modern">Travel Style</label>
                         <div class="relative">
-                            <span class="absolute left-5 top-1/2 -translate-y-1/2 text-slate-300 group-focus-within:text-sky-500 transition-colors">
+                            <span class="absolute left-5 top-1/2 -translate-y-1/2 text-slate-300 group-focus-within:text-sky-500 transition-colors z-30 pointer-events-none">
                                 <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"></path></svg>
                             </span>
-                            <select formControlName="vacationType" 
+                            
+                            <!-- Invisible overlay to close dropdown -->
+                            <div *ngIf="isDropdownOpen" class="fixed inset-0 z-40" (click)="isDropdownOpen = false"></div>
+
+                            <button type="button" 
+                                    (click)="isDropdownOpen = !isDropdownOpen"
                                     [class.error-border]="enquiryForm.get('vacationType')?.touched && enquiryForm.get('vacationType')?.invalid"
-                                    class="premium-vertical-input w-full pl-14 appearance-none cursor-pointer">
-                                <option value="" disabled selected>Select My Style</option>
-                                <option *ngFor="let type of vacationTypes" [value]="type">{{type}}</option>
-                            </select>
-                            <span class="absolute right-5 top-1/2 -translate-y-1/2 text-slate-400 pointer-events-none group-focus-within:rotate-180 transition-transform">
-                                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
-                            </span>
+                                    [class.ring-2]="isDropdownOpen"
+                                    [class.ring-sky-100]="isDropdownOpen"
+                                    [class.border-sky-400]="isDropdownOpen"
+                                    class="premium-vertical-input w-full pl-14 pr-12 text-left bg-white shadow-sm relative z-40 cursor-pointer overflow-hidden transition-all duration-300 min-h-[56px] flex items-center">
+                                <span class="truncate block w-full pr-4"
+                                      [class.text-slate-400]="!enquiryForm.get('vacationType')?.value"
+                                      [class.text-slate-800]="enquiryForm.get('vacationType')?.value"
+                                      [class.font-bold]="enquiryForm.get('vacationType')?.value">
+                                    {{ enquiryForm.get('vacationType')?.value || 'Select My Style' }}
+                                </span>
+                                
+                                <span class="absolute right-5 top-1/2 -translate-y-1/2 text-slate-400 transition-transform duration-300 pointer-events-none"
+                                      [class.rotate-180]="isDropdownOpen"
+                                      [class.text-sky-500]="isDropdownOpen">
+                                    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
+                                </span>
+                            </button>
+                            
+                            <!-- Custom Dropdown Options -->
+                            <div *ngIf="isDropdownOpen" class="absolute left-0 right-0 top-[calc(100%+8px)] bg-white/95 backdrop-blur-xl rounded-2xl shadow-[0_20px_50px_rgba(0,0,0,0.1)] border-2 border-sky-100 overflow-hidden z-50 transform origin-top animate-scale-in">
+                                <div class="max-h-56 overflow-y-auto">
+                                    <div *ngFor="let type of vacationTypes" 
+                                         (click)="selectVacationType(type)"
+                                         class="px-5 py-3.5 hover:bg-sky-50 cursor-pointer text-sm font-bold text-slate-600 hover:text-sky-700 transition-colors border-b border-slate-100 last:border-none flex items-center gap-3">
+                                         <div class="w-2.5 h-2.5 rounded-full border border-sky-300 transition-colors" 
+                                              [class.bg-sky-400]="enquiryForm.get('vacationType')?.value === type"></div>
+                                         {{type}}
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                         <p *ngIf="enquiryForm.get('vacationType')?.touched && enquiryForm.get('vacationType')?.invalid" class="error-text-modern">Required • Pick a style</p>
                     </div>

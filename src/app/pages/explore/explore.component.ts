@@ -45,7 +45,7 @@ import { Subscription } from 'rxjs';
           <div class="absolute top-1/2 right-1/4 w-64 h-32 bg-[#7fd1e8] rounded-full animate-mesh-orb-2"></div>
         </div>
 
-        <div class="relative bg-white/80 backdrop-blur-2xl p-5 md:p-7 rounded-[2.5rem] shadow-[0_20px_50px_rgba(0,0,0,0.05)] border-[3px] border-[#87cefa] flex flex-col md:flex-row gap-6 items-center justify-between filter-bar-glass transition-all duration-500 hover:shadow-[#87cefa]/20">
+        <div class="relative bg-white/80 backdrop-blur-2xl p-5 md:p-7 rounded-[2.5rem] shadow-[0_20px_50px_rgba(0,0,0,0.05)] flex flex-col md:flex-row gap-6 items-center justify-between filter-bar-glass transition-all duration-500 hover:shadow-[#87cefa]/20">
           
           <!-- Category Toggles with Glass Effect -->
           <div class="flex p-1.5 bg-slate-50/50 backdrop-blur-md rounded-2xl w-full md:w-auto border-2 border-[#87cefa]">
