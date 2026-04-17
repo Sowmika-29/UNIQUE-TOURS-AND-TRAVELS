@@ -45,7 +45,7 @@ gsap.registerPlugin(ScrollTrigger);
         <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 destination-grid">
 
           <a *ngFor="let dest of topDestinations; let i = index"
-             [routerLink]="['/destination', dest.id]"
+             [routerLink]="['/destination', dest.type, dest.id]"
              class="group destination-card relative h-[380px] max-w-[300px] mx-auto w-full rounded-2xl overflow-hidden shadow-lg hover:shadow-sky-500/20 hover:-translate-y-1.5 transition-all duration-700 cursor-pointer opacity-0 translate-y-20">
 
             <img [src]="dest.image" [alt]="dest.name + ' travel destination - Unique Tours & Travels'" 
@@ -164,12 +164,12 @@ export class TopDestinationsComponent implements AfterViewInit {
   }
 
   topDestinations = [
-    { id: 'kerala', name: 'Kerala', image: 'https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?fm=webp&fit=crop&w=1200&q=50' },
-    { id: 'goa', name: 'Goa', image: 'https://images.unsplash.com/photo-1614082242765-7c98ca0f3df3?fm=webp&fit=crop&w=1200&q=50' },
-    { id: 'manali', name: 'Manali', image: 'https://images.unsplash.com/photo-1626621341517-bbf3d9990a23?fm=webp&fit=crop&w=1200&q=50' },
-    { id: 'jammu-kashmir', name: 'Kashmir', image: 'https://images.unsplash.com/photo-1587474260584-136574528ed5?fm=webp&fit=crop&w=1200&q=50' },
-    { id: 'dubai', name: 'Dubai', image: 'https://images.unsplash.com/photo-1512453979798-5ea266f8880c?fm=webp&fit=crop&w=1200&q=50' },
-    { id: 'bali', name: 'Bali', image: 'https://images.unsplash.com/photo-1537996194471-e657df975ab4?fm=webp&fit=crop&w=1200&q=50' }
+    { id: 'kerala', name: 'Kerala', image: 'https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?fm=webp&fit=crop&w=1200&q=50', type: 'domestic' },
+    { id: 'goa', name: 'Goa', image: 'https://images.unsplash.com/photo-1614082242765-7c98ca0f3df3?fm=webp&fit=crop&w=1200&q=50', type: 'domestic' },
+    { id: 'manali', name: 'Manali', image: 'https://images.unsplash.com/photo-1626621341517-bbf3d9990a23?fm=webp&fit=crop&w=1200&q=50', type: 'domestic' },
+    { id: 'jammu-kashmir', name: 'Kashmir', image: 'https://images.unsplash.com/photo-1587474260584-136574528ed5?fm=webp&fit=crop&w=1200&q=50', type: 'domestic' },
+    { id: 'dubai', name: 'Dubai', image: 'https://images.unsplash.com/photo-1512453979798-5ea266f8880c?fm=webp&fit=crop&w=1200&q=50', type: 'international' },
+    { id: 'bali', name: 'Bali', image: 'https://images.unsplash.com/photo-1537996194471-e657df975ab4?fm=webp&fit=crop&w=1200&q=50', type: 'international' }
   ];
 
   ngAfterViewInit() {

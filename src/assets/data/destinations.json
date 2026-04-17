@@ -699,37 +699,37 @@
           "subPlaces": [
             {
               "name": "Baga Beach",
-              "image": "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/Baga Beach.webp",
               "location": "North Goa",
               "description": "Known for its energetic atmosphere and watersports activities."
             },
             {
               "name": "Britto's Shack",
-              "image": "https://images.unsplash.com/photo-1500835556837-99ac94a94552?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/Britto's Shack.webp",
               "location": "Baga",
               "description": "Legendary beach shack serving delicious Goan seafood."
             },
             {
               "name": "Tito's Lane",
-              "image": "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/Tito's Lane.webp",
               "location": "Baga",
               "description": "The hub of nightlife with several clubs and bars."
             },
             {
               "name": "Baga River",
-              "image": "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/Baga River.webp",
               "location": "Baga",
               "description": "Scenic river meets the sea, ideal for fishing and boating."
             },
             {
               "name": "Blue Whale Park",
-              "image": "https://images.unsplash.com/photo-1504150558240-0b4fd8946624?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/Blue Whale Park.webp",
               "location": "Baga",
               "description": "A small water park perfect for budget-friendly family fun."
             },
             {
               "name": "Arpora Market",
-              "image": "https://images.unsplash.com/photo-1523906834658-6e24ef2386f9?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/Arpora Market.webp",
               "location": "Near Baga",
               "description": "Vibrant night market with international food and live music."
             }
@@ -746,37 +746,37 @@
           "subPlaces": [
             {
               "name": "Anjuna Flea Market",
-              "image": "https://images.unsplash.com/photo-1488085061387-422e15b40b0c?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/Anjuna Flea Market.webp",
               "location": "Anjuna",
               "description": "A legendary beachside market for jewelry, clothes, and arts."
             },
             {
               "name": "Curlicue Beach",
-              "image": "https://images.unsplash.com/photo-1506012787146-5c5f470a1a09?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/Curlicue Beach.webp",
               "location": "Anjuna",
               "description": "Popular shack known for trance music and hippy vibes."
             },
             {
               "name": "Vagator Beach",
-              "image": "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/Vagator Beach.webp",
               "location": "Near Anjuna",
               "description": "Beautiful beach with cliffs and the famous Chapora Fort."
             },
             {
               "name": "Chapora Fort",
-              "image": "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/Chapora Fort.webp",
               "location": "Vagator",
               "description": "Historic fort made famous by Bollywood's Dil Chahta Hai."
             },
             {
               "name": "Ozran Beach",
-              "image": "https://images.unsplash.com/photo-1500835556837-99ac94a94552?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/Ozran Beach.webp",
               "location": "Little Vagator",
               "description": "A secluded and serene cove with a giant Shiva face sculpture."
             },
             {
               "name": "Night Bazaar",
-              "image": "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/Night Bazaar.webp",
               "location": "Anjuna",
               "description": "Late-night shopping experience with local and global products."
             }
@@ -807,7 +807,7 @@
             },
             {
               "name": "Immaculate Church",
-              "image": "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/Immaculate Church.webp",
               "location": "Panaji",
               "description": "Historic 16th-century white church in the heart of the city."
             },
@@ -835,13 +835,13 @@
           "subPlaces": [
             {
               "name": "Waterfall Base",
-              "image": "https://images.unsplash.com/photo-1504150558240-0b4fd8946624?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/Waterfall Base.webp",
               "location": "Mollem",
               "description": "The lower pool where visitors can take a refreshing dip."
             },
             {
               "name": "Jeep Safari",
-              "image": "https://images.unsplash.com/photo-1523906834658-6e24ef2386f9?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/Jeep Safari.webp",
               "location": "Mollem",
               "description": "A thrilling jungle ride through streams and rocky paths."
             },
@@ -853,19 +853,19 @@
             },
             {
               "name": "Railway Track",
-              "image": "https://images.unsplash.com/photo-1488085061387-422e15b40b0c?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/Railway Track.webp",
               "location": "Castle Rock",
               "description": "Famous scenic train stretch passing directly in front of the falls."
             },
             {
               "name": "Spice Garden",
-              "image": "https://images.unsplash.com/photo-1506012787146-5c5f470a1a09?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/Spice Garden.webp",
               "location": "Near Mollem",
               "description": "Learn about various tropical spices and organic farming."
             },
             {
               "name": "Hiking Trails",
-              "image": "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/Hiking Trails.webp",
               "location": "Bhagwan Mahavir Park",
               "description": "Guided nature treks through dense evergreen forests."
             }
@@ -883,37 +883,37 @@
           "subPlaces": [
             {
               "name": "Main Beach",
-              "image": "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/Main Beach.webp",
               "location": "South Goa",
               "description": "A beautiful crescent shoreline lined with coconut palms."
             },
             {
               "name": "Butterfly Beach",
-              "image": "https://images.unsplash.com/photo-1500835556837-99ac94a94552?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/Butterfly Beach.webp",
               "location": "Near Palolem",
               "description": "Secluded beach reachable only by boat, famous for dolphins."
             },
             {
               "name": "Agonda Beach",
-              "image": "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/Agonda Beach.webp",
               "location": "Agonda",
               "description": "Silent and peaceful beach perfect for turtle nesting and yoga."
             },
             {
               "name": "Colomb Beach",
-              "image": "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/Colomb Beach.webp",
               "location": "Near Palolem",
               "description": "A small rocky cove offering peaceful and budget stays."
             },
             {
               "name": "Cabo de Rama",
-              "image": "https://images.unsplash.com/photo-1504150558240-0b4fd8946624?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/Cabo de Rama.webp",
               "location": "Canacona",
               "description": "Isolated cliff fort with magnificent south Goan coastline views."
             },
             {
               "name": "Silent Disco",
-              "image": "https://images.unsplash.com/photo-1523906834658-6e24ef2386f9?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/Silent Disco.webp",
               "location": "Palolem",
               "description": "Unique nightlife experience with headphones to avoid noise pollution."
             }
@@ -945,7 +945,7 @@
             },
             {
               "name": "Beas Kund",
-              "image": "https://images.unsplash.com/photo-1506012787146-5c5f470a1a09?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/Beas Kund.webp",
               "location": "Near Rohtang",
               "description": "The sacred source of the Beas river, popular for trekking."
             },
@@ -957,19 +957,19 @@
             },
             {
               "name": "Marhi",
-              "image": "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/Marhi.webp",
               "location": "Near Rohtang",
               "description": "A popular roadside pitstop known for its scenic bellezza and food stalls."
             },
             {
               "name": "Gulaba",
-              "image": "https://images.unsplash.com/photo-1500835556837-99ac94a94552?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/Gulaba.webp",
               "location": "Leh-Manali Highway",
               "description": "A quaint village known for its meadows and snow during winter."
             },
             {
               "name": "Kothi Village",
-              "image": "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/Kothi Village.webp",
               "location": "Near Manali",
               "description": "A serene village offering views of the deep gorge and river Beas."
             }
@@ -982,37 +982,37 @@
           "subPlaces": [
             {
               "name": "Paragliding Point",
-              "image": "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/Paragliding Point.webp",
               "location": "Solang Valley",
               "description": "Top spot for paragliding and aerial views of the mountains."
             },
             {
               "name": "Zorbing Ground",
-              "image": "https://images.unsplash.com/photo-1504150558240-0b4fd8946624?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/Zorbing Ground.webp",
               "location": "Solang Valley",
               "description": "Fun rolling down the hills in giant transparent balls."
             },
             {
               "name": "Skiing Slopes",
-              "image": "https://images.unsplash.com/photo-1523906834658-6e24ef2386f9?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/Skiing Slopes.webp",
               "location": "Solang Valley",
               "description": "A paradise for skiers with professional instructors and gear."
             },
             {
               "name": "ATV Ride Track",
-              "image": "https://images.unsplash.com/photo-1488085061387-422e15b40b0c?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/ATV Ride Track.webp",
               "location": "Solang Valley",
               "description": "Off-road adventure through the valley's rugged terrain."
             },
             {
               "name": "Anjani Mahadev",
-              "image": "https://images.unsplash.com/photo-1506012787146-5c5f470a1a09?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/Anjani Mahadev.webp",
               "location": "Near Solang",
               "description": "A vertical trek to a high-altitude Shiva temple with an ice lingam."
             },
             {
               "name": "Solang Ropeway",
-              "image": "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/Solang Ropeway.webp",
               "location": "Solang Valley",
               "description": "Gondola ride offering birds-eye views of the snow-clad peaks."
             }
@@ -1025,37 +1025,37 @@
           "subPlaces": [
             {
               "name": "Temple Complex",
-              "image": "assets/images/akshardham-temple-complex.jpg",
+              "image": "assets/images/Temple Complex.webp",
               "location": "Manali",
               "description": "The main wooden pagoda-style temple surrounded by cedars."
             },
             {
               "name": "Dhungri Park",
-              "image": "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/Dhungri Park.webp",
               "location": "Manali",
               "description": "A dense deodar forest area surrounding the temple, ideal for nature walks."
             },
             {
               "name": "Ghatotkacha Temple",
-              "image": "https://images.unsplash.com/photo-1500835556837-99ac94a94552?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/Ghatotkacha Temple.webp",
               "location": "Manali",
               "description": "A smaller shrine dedicated to the son of Bhima and Hadimba."
             },
             {
               "name": "Manali Club House",
-              "image": "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/Manali Club House.webp",
               "location": "Near Old Manali",
               "description": "An entertainment center offering indoor games and activities."
             },
             {
               "name": "Museum of Culture",
-              "image": "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/Museum of Culture.webp",
               "location": "Manali",
               "description": "Showcasing the rich heritage and traditional arts of Himachal."
             },
             {
               "name": "Siyali Mahadev",
-              "image": "https://images.unsplash.com/photo-1504150558240-0b4fd8946624?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/Siyali Mahadev.webp",
               "location": "Manali",
               "description": "One of the oldest temples in Manali dedicated to Lord Shiva."
             }
@@ -1073,13 +1073,13 @@
           "subPlaces": [
             {
               "name": "Cafe Street",
-              "image": "https://images.unsplash.com/photo-1523906834658-6e24ef2386f9?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/Cafe Street.webp",
               "location": "Old Manali",
               "description": "A bustling lane filled with international cuisines and live music."
             },
             {
               "name": "Manu Temple",
-              "image": "https://images.unsplash.com/photo-1488085061387-422e15b40b0c?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/Manu Temple.webp",
               "location": "Old Manali",
               "description": "Dedicated to the sage Manu, the only temple of its kind in India."
             },
@@ -1091,7 +1091,7 @@
             },
             {
               "name": "Backpacker Market",
-              "image": "https://images.unsplash.com/photo-1506012787146-5c5f470a1a09?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/Backpacker Market.webp",
               "location": "Old Manali",
               "description": "A great place for boho clothes, accessories, and souvenirs."
             },
@@ -1103,7 +1103,7 @@
             },
             {
               "name": "River Crossing",
-              "image": "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/River Crossing.webp",
               "location": "Old Manali",
               "description": "An adventurous outdoor activity across the gushing Beas river."
             }
@@ -1116,37 +1116,37 @@
           "subPlaces": [
             {
               "name": "Rafting Point",
-              "image": "https://images.unsplash.com/photo-1500835556837-99ac94a94552?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/Rafting Point.webp",
               "location": "Kullu-Manali",
               "description": "The main hub for high-energy white water rafting."
             },
             {
               "name": "Riverside Camping",
-              "image": "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/Riverside Camping.webp",
               "location": "Manali",
               "description": "Spend a night in tents alongside the soothing sound of the river."
             },
             {
               "name": "River Crossing",
-              "image": "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/River Crossing.webp",
               "location": "Manali",
               "description": "A rope-based adventure activity over the turbulent waters."
             },
             {
               "name": "Picnic Spots",
-              "image": "https://images.unsplash.com/photo-1504150558240-0b4fd8946624?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/Picnic Spots.webp",
               "location": "Beas Bank",
               "description": "Several natural spots ideal for a quiet afternoon with family."
             },
             {
               "name": "Trout Fishing",
-              "image": "https://images.unsplash.com/photo-1523906834658-6e24ef2386f9?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/Trout Fishing.webp",
               "location": "Near Manali",
               "description": "Try your luck at fishing in the clear, cold mountain waters."
             },
             {
               "name": "Sunset Point",
-              "image": "https://images.unsplash.com/photo-1488085061387-422e15b40b0c?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/Sunset Point.webp",
               "location": "River Bank",
               "description": "Stunning golden views as the sun goes down behind the peaks."
             }
@@ -1159,25 +1159,25 @@
           "subPlaces": [
             {
               "name": "Trekkers Trail",
-              "image": "https://images.unsplash.com/photo-1506012787146-5c5f470a1a09?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/Trekkers Trail.webp",
               "location": "Vashisht",
               "description": "The scenic pathway through village orchards leading to the falls."
             },
             {
               "name": "Waterfall Base",
-              "image": "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/Waterfall Base.webp",
               "location": "Jogini",
               "description": "A refreshing natural plunge pool at the bottom of the falls."
             },
             {
               "name": "Vashisht Temple",
-              "image": "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/Vashisht Temple.webp",
               "location": "Manali",
               "description": "Ancient temple near the trek start point known for hot springs."
             },
             {
               "name": "Hot Water Springs",
-              "image": "https://images.unsplash.com/photo-1500835556837-99ac94a94552?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/Hot Water Springs.webp",
               "location": "Vashisht",
               "description": "Natural sulfur springs with medicinal properties near the village."
             },
@@ -1189,7 +1189,7 @@
             },
             {
               "name": "Upper Jogini",
-              "image": "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/Upper Jogini.webp",
               "location": "Jogini",
               "description": "A higher viewpoint offering a superior look at the valley below."
             }
@@ -1229,19 +1229,19 @@
             },
             {
               "name": "Albert Hall Museum",
-              "image": "https://images.unsplash.com/photo-1504150558240-0b4fd8946624?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/Albert Hall Museum.webp",
               "location": "Jaipur",
               "description": "A grand state museum with Indo-Saracenic architecture."
             },
             {
               "name": "Johari Bazaar",
-              "image": "https://images.unsplash.com/photo-1523906834658-6e24ef2386f9?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/Johari Bazaar.webp",
               "location": "Jaipur",
               "description": "A famous traditional jewelry and gemstone market."
             },
             {
               "name": "Govind Dev Ji Temple",
-              "image": "https://images.unsplash.com/photo-1488085061387-422e15b40b0c?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/Govind Dev Ji Temple.webp",
               "location": "Jaipur",
               "description": "A major Hindu temple dedicated to Lord Krishna."
             }
@@ -1266,25 +1266,25 @@
             },
             {
               "name": "Jaigarh Fort",
-              "image": "https://images.unsplash.com/photo-1506012787146-5c5f470a1a09?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/Jaigarh Fort.webp",
               "location": "Jaipur",
               "description": "Home to the world's largest cannon and rugged defense architecture."
             },
             {
               "name": "Jal Mahal",
-              "image": "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/Jal Mahal.webp",
               "location": "Man Sagar Lake",
               "description": "A beautiful five-story palace situated in the middle of a lake."
             },
             {
               "name": "Panna Meena Stepwell",
-              "image": "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/Panna Meena Stepwell.webp",
               "location": "Amer",
               "description": "A historic and symmetrical stepwell with geometric staircases."
             },
             {
               "name": "Royal Gaitor",
-              "image": "https://images.unsplash.com/photo-1500835556837-99ac94a94552?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/Royal Gaitor.webp",
               "location": "Nahargarh Road",
               "description": "A serene monument park with royal cenotaphs and fine carvings."
             }
@@ -1297,37 +1297,37 @@
           "subPlaces": [
             {
               "name": "Mubarak Mahal",
-              "image": "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/Mubarak Mahal.webp",
               "location": "City Palace",
               "description": "The grand welcome palace showcasing Islamic and Rajput styles."
             },
             {
               "name": "Chandra Mahal",
-              "image": "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/Chandra Mahal.webp",
               "location": "City Palace",
               "description": "A seven-story royal tower offering elite panoramic views."
             },
             {
               "name": "Pritam Niwas Chowk",
-              "image": "https://images.unsplash.com/photo-1504150558240-0b4fd8946624?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/Pritam Niwas Chowk.webp",
               "location": "City Palace",
               "description": "Courtyard with four gates representing the different seasons."
             },
             {
               "name": "Armoury Museum",
-              "image": "https://images.unsplash.com/photo-1523906834658-6e24ef2386f9?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/Armoury Museum.webp",
               "location": "City Palace",
               "description": "A vast collection of historic Mughal and Rajput weapons."
             },
             {
               "name": "Baggi Khana",
-              "image": "https://images.unsplash.com/photo-1488085061387-422e15b40b0c?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/Baggi Khana.webp",
               "location": "City Palace",
               "description": "A museum displaying the royal horse carriages and chariots."
             },
             {
               "name": "Diwan-i-Khas",
-              "image": "https://images.unsplash.com/photo-1506012787146-5c5f470a1a09?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/Diwan-i-Khas.webp",
               "location": "City Palace",
               "description": "The Hall of Private Audience featuring giant silver water jars."
             }
@@ -1340,37 +1340,37 @@
           "subPlaces": [
             {
               "name": "Sunset Point",
-              "image": "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/Sunset PointJaipur.webp",
               "location": "Nahargarh",
               "description": "The most famous deck in Jaipur for sunset photography."
             },
             {
               "name": "Madhavendra Bhawan",
-              "image": "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/Madhavendra Bhawan.webp",
               "location": "Nahargarh",
               "description": "A summer retreat for queens with symmetrical apartment suites."
             },
             {
               "name": "Wax Museum",
-              "image": "https://images.unsplash.com/photo-1500835556837-99ac94a94552?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/Wax Museum.webp",
               "location": "Nahargarh",
               "description": "Featuring lifelike wax figures of Indian legends and kings."
             },
             {
               "name": "Fort Biological Park",
-              "image": "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/Fort Biological Park.webp",
               "location": "Jaipur",
               "description": "A sanctuary for Asiatic lions, tigers, and Himalayan bears."
             },
             {
               "name": "Padao Restaurant",
-              "image": "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/Padao Restaurant.webp",
               "location": "Nahargarh",
               "description": "A hilltop open-air dining spot with city skyline views."
             },
             {
               "name": "Stepped Well",
-              "image": "https://images.unsplash.com/photo-1504150558240-0b4fd8946624?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/Stepped Well.webp",
               "location": "Nahargarh",
               "description": "A historic reservoir and popular spot for cinematic filming."
             }
@@ -1383,37 +1383,37 @@
           "subPlaces": [
             {
               "name": "Samrat Yantra",
-              "image": "https://images.unsplash.com/photo-1523906834658-6e24ef2386f9?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/Samrat Yantra.webp",
               "location": "Jaipur",
               "description": "The world's largest sundial providing local time accurately."
             },
             {
               "name": "Jai Prakash Yantra",
-              "image": "https://images.unsplash.com/photo-1488085061387-422e15b40b0c?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/Jai Prakash Yantra.webp",
               "location": "Jaipur",
               "description": "Hemispherical bowls used for charting the position of celestial stars."
             },
             {
               "name": "Nadivalaya Yantra",
-              "image": "https://images.unsplash.com/photo-1506012787146-5c5f470a1a09?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/Nadivalaya Yantra.webp",
               "location": "Jaipur",
               "description": "Determines the time of the solar equinox throughout the year."
             },
             {
               "name": "Ram Yantra",
-              "image": "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/Ram Yantra.webp",
               "location": "Jaipur",
               "description": "Cylindrical structures used for measuring altitude of stars."
             },
             {
               "name": "Chakra Yantra",
-              "image": "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/Chakra Yantra.webp",
               "location": "Jaipur",
               "description": "Device used for finding the coordinates of the planets."
             },
             {
               "name": "Laghu Samrat Yantra",
-              "image": "https://images.unsplash.com/photo-1500835556837-99ac94a94552?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/Laghu Samrat Yantra.webp",
               "location": "Jaipur",
               "description": "A smaller version of the main sundial for day-to-day use."
             }
@@ -1426,38 +1426,38 @@
           "subPlaces": [
             {
               "name": "Folk Dance Deck",
-              "image": "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/Folk Dance Deck.webp",
               "location": "Chokhi Dhani",
               "description": "Watch live Ghoomar and Kalbelia dance performances."
             },
             {
               "name": "Bazaar Street",
-              "image": "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/Bazaar Street.webp",
               "location": "Chokhi Dhani",
               "description": "Traditional puppet shows and handicraft shopping lane."
             },
             {
               "name": "Royal Dining Hall",
-              "image": "https://images.unsplash.com/photo-1504150558240-0b4fd8946624?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/Royal Dining Hall.webp",
               "location": "Chokhi Dhani",
               "description": "Enjoy an authentic Rajasthani thali served with royal hospitality."
             },
             {
               "name": "Camel Ride Track",
-              "image": "https://images.unsplash.com/photo-1523906834658-6e24ef2386f9?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/Camel Ride Track.webp",
               "location": "Chokhi Dhani",
               "description": "Experience local transport with guided camel rides."
             },
             {
               "name": "National Museum",
               "label": "Chokhi Dhani Museum",
-              "image": "https://images.unsplash.com/photo-1488085061387-422e15b40b0c?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/National Museum.webp",
               "location": "Chokhi Dhani",
               "description": "Models showcasing different village cultures across India."
             },
             {
               "name": "Pottery Workshop",
-              "image": "https://images.unsplash.com/photo-1506012787146-5c5f470a1a09?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/Pottery Workshop.webp",
               "location": "Chokhi Dhani",
               "description": "Try your hands at traditional Rajasthani clay pottery making."
             }
@@ -1479,7 +1479,7 @@
           "subPlaces": [
             {
               "name": "Gateway of India",
-              "image": "assets/images/mumbai-gateway-of-india.jpg",
+              "image": "assets/images/Gateway of India.webp",
               "location": "Mumbai, Maharashtra",
               "description": "Iconic sea-facing monument and tourist hub."
             },
@@ -1491,25 +1491,25 @@
             },
             {
               "name": "Juhu Beach",
-              "image": "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/Juhu Beach.webp",
               "location": "Mumbai",
               "description": "Popular beach with street food and sunset views."
             },
             {
               "name": "Elephanta Caves",
-              "image": "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/Elephanta Caves.webp",
               "location": "Mumbai",
               "description": "Rock-cut caves with ancient sculptures."
             },
             {
               "name": "Colaba Causeway",
-              "image": "https://images.unsplash.com/photo-1500835556837-99ac94a94552?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/Colaba Causeway.webp",
               "location": "Mumbai",
               "description": "Shopping street with local markets."
             },
             {
               "name": "Bandra Bandstand",
-              "image": "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/Bandra Bandstand.webp",
               "location": "Mumbai",
               "description": "Sea-facing promenade and celebrity homes area."
             }
@@ -1522,37 +1522,37 @@
           "subPlaces": [
             {
               "name": "Shaniwar Wada",
-              "image": "assets/images/pune-shaniwar-wada.jpg",
+              "image": "assets/images/Shaniwar Wada.webp",
               "location": "Pune",
               "description": "Historic fort of Maratha empire."
             },
             {
               "name": "Aga Khan Palace",
-              "image": "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/Aga Khan Palace.webp",
               "location": "Pune",
               "description": "Important landmark in Indian freedom history."
             },
             {
               "name": "Sinhagad Fort",
-              "image": "https://images.unsplash.com/photo-1504150558240-0b4fd8946624?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/Sinhagad Fort.webp",
               "location": "Pune",
               "description": "Hill fort with trekking and views."
             },
             {
               "name": "Osho Ashram",
-              "image": "https://images.unsplash.com/photo-1523906834658-6e24ef2386f9?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/Osho Ashram.webp",
               "location": "Pune",
               "description": "Meditation and wellness center."
             },
             {
               "name": "Lonavala Nearby",
-              "image": "https://images.unsplash.com/photo-1488085061387-422e15b40b0c?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/Lonavala Nearby.webp",
               "location": "Near Pune",
               "description": "Popular weekend hill station."
             },
             {
               "name": "FC Road",
-              "image": "https://images.unsplash.com/photo-1506012787146-5c5f470a1a09?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/FC Road.webp",
               "location": "Pune",
               "description": "Street shopping and food hub."
             }
@@ -1565,37 +1565,37 @@
           "subPlaces": [
             {
               "name": "Arthur's Seat",
-              "image": "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/Arthur's Seat.webp",
               "location": "Mahabaleshwar",
               "description": "Panoramic viewpoints of Savitri river and valley."
             },
             {
               "name": "Venna Lake",
-              "image": "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/Venna Lake.webp",
               "location": "Mahabaleshwar",
               "description": "Scenic lake for boating and horse riding."
             },
             {
               "name": "Mapro Garden",
-              "image": "https://images.unsplash.com/photo-1500835556837-99ac94a94552?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/Mapro Garden.webp",
               "location": "Panchgani Road",
               "description": "Famous for fruit products and fresh strawberries."
             },
             {
               "name": "Elephant's Head",
-              "image": "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/Elephant's Head.webp",
               "location": "Mahabaleshwar",
               "description": "Unique rock formation resembling an elephant head."
             },
             {
               "name": "Panchgani",
-              "image": "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/Panchgani.webp",
               "location": "Near Mahabaleshwar",
               "description": "Nearby hill station known for Table Land plateau."
             },
             {
               "name": "Old Mahabaleshwar",
-              "image": "https://images.unsplash.com/photo-1504150558240-0b4fd8946624?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/Old Mahabaleshwar.webp",
               "location": "Mahabaleshwar",
               "description": "Temple area with ancient Shiva temple and river sources."
             }
@@ -1608,37 +1608,37 @@
           "subPlaces": [
             {
               "name": "Tiger's Leap",
-              "image": "https://images.unsplash.com/photo-1523906834658-6e24ef2386f9?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/Tiger's Leap.webp",
               "location": "Lonavala",
               "description": "A cliff-top viewpoint offering expansive valley views."
             },
             {
               "name": "Bhushi Dam",
-              "image": "https://images.unsplash.com/photo-1488085061387-422e15b40b0c?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/Bhushi Dam.webp",
               "location": "Lonavala",
               "description": "Popular water spot especially during monsoon season."
             },
             {
               "name": "Karla Caves",
-              "image": "https://images.unsplash.com/photo-1506012787146-5c5f470a1a09?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/Karla Caves.webp",
               "location": "Lonavala",
               "description": "Ancient Buddhist rock-cut caves and shrines."
             },
             {
               "name": "Lonavala Lake",
-              "image": "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/Lonavala Lake.webp",
               "location": "Lonavala",
               "description": "Peaceful water body perfect for sunset strolls."
             },
             {
               "name": "Kune Falls",
-              "image": "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/Kune Falls.webp",
               "location": "Lonavala",
               "description": "A three-tiered waterfall amidst verdant landscapes."
             },
             {
               "name": "Celebrity Wax Museum",
-              "image": "https://images.unsplash.com/photo-1500835556837-99ac94a94552?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/Celebrity Wax Museum.webp",
               "location": "Lonavala",
               "description": "Displaying lifelike figures of famous Indian personalities."
             }
@@ -1657,31 +1657,31 @@
             },
             {
               "name": "Trimbakeshwar",
-              "image": "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/Trimbakeshwar.webp",
               "location": "Nashik",
               "description": "One of the twelve sacred Jyotirlinga temples."
             },
             {
               "name": "Panchavati",
-              "image": "https://images.unsplash.com/photo-1504150558240-0b4fd8946624?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/Panchavati.webp",
               "location": "Nashik",
               "description": "Holy site on the banks of river Godavari."
             },
             {
               "name": "Pandavleni Caves",
-              "image": "https://images.unsplash.com/photo-1523906834658-6e24ef2386f9?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/Pandavleni Caves.webp",
               "location": "Nashik",
               "description": "Ancient Buddhist caves located on a hilltop."
             },
             {
               "name": "Saptashrungi",
-              "image": "https://images.unsplash.com/photo-1488085061387-422e15b40b0c?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/Saptashrungi.webp",
               "location": "Near Nashik",
               "description": "Temple situated on seven hill peaks."
             },
             {
               "name": "Someshwar Falls",
-              "image": "https://images.unsplash.com/photo-1506012787146-5c5f470a1a09?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/Someshwar Falls.webp",
               "location": "Nashik",
               "description": "Dudhsagar waterfalls of Nashik near the river."
             }
@@ -1694,37 +1694,37 @@
           "subPlaces": [
             {
               "name": "Ajanta Caves",
-              "image": "assets/images/aurangabad-ajanta-caves.jpg",
+              "image": "assets/images/Ajanta Caves.webp",
               "location": "Aurangabad",
               "description": "Buddhist rock-cut cave monuments from 2nd century BCE."
             },
             {
               "name": "Ellora Caves",
-              "image": "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/Ellora Caves.webp",
               "location": "Aurangabad",
               "description": "Multi-religious cave complex carved out of the Charanandri hills."
             },
             {
               "name": "Bibi Ka Maqbara",
-              "image": "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/Bibi Ka Maqbara.webp",
               "location": "Aurangabad",
               "description": "Known as the Mini Taj Mahal of the Deccan."
             },
             {
               "name": "Daulatabad Fort",
-              "image": "https://images.unsplash.com/photo-1500835556837-99ac94a94552?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/Daulatabad Fort.webp",
               "location": "Aurangabad",
               "description": "Impregnable hilltop fortress with historic defense walls."
             },
             {
               "name": "Panchakki",
-              "image": "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/Panchakki.webp",
               "location": "Aurangabad",
               "description": "Ancient water mill showcasing medieval ingenuity."
             },
             {
               "name": "Siddharth Garden",
-              "image": "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/Siddharth Garden.webp",
               "location": "Aurangabad",
               "description": "Sprawling garden and zoo perfect for family outings."
             }
@@ -1752,31 +1752,31 @@
             },
             {
               "name": "Chandni Chowk",
-              "image": "https://images.unsplash.com/photo-1504150558240-0b4fd8946624?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/Chandni Chowk.webp",
               "location": "Old Delhi",
               "description": "Bustling market with narrow lanes and street food."
             },
             {
               "name": "Jama Masjid",
-              "image": "https://images.unsplash.com/photo-1523906834658-6e24ef2386f9?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/Jama Masjid.webp",
               "location": "Old Delhi",
               "description": "One of the largest mosques in India built by Shah Jahan."
             },
             {
               "name": "Lahori Gate",
-              "image": "https://images.unsplash.com/photo-1488085061387-422e15b40b0c?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/Lahori Gate.webp",
               "location": "Red Fort",
               "description": "The main entrance of the fort facing the city."
             },
             {
               "name": "Diwan-i-Aam",
-              "image": "https://images.unsplash.com/photo-1506012787146-5c5f470a1a09?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/Diwan-i-Aam.webp",
               "location": "Red Fort",
               "description": "The hall of public audience used by the Mughal emperors."
             },
             {
               "name": "Khas Mahal",
-              "image": "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/Khas Mahal.webp",
               "location": "Red Fort",
               "description": "The private residence of the emperor within the fort complex."
             }
@@ -1789,37 +1789,37 @@
           "subPlaces": [
             {
               "name": "India Gate",
-              "image": "assets/images/delhi-india-gate-evening.jpg",
+              "image": "assets/images/India Gate Delhi.webp",
               "location": "Delhi",
               "description": "War memorial landmark."
             },
             {
               "name": "Kartavya Path",
-              "image": "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/Kartavya Path.webp",
               "location": "Delhi",
               "description": "The ceremonial boulevard leading through India Gate."
             },
             {
               "name": "National Museum",
-              "image": "https://images.unsplash.com/photo-1500835556837-99ac94a94552?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/National Museum.webp",
               "location": "Delhi",
               "description": "Premier museum showcasing 5,000 years of Indian art and history."
             },
             {
               "name": "War Memorial",
-              "image": "assets/images/india-gate-war-memorial.webp",
+              "image": "assets/images/War Memorial.webp",
               "location": "Delhi",
               "description": "Modern memorial honoring fallen soldiers of post-independence."
             },
             {
               "name": "Children's Park",
-              "image": "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/Children's Park.webp",
               "location": "Delhi",
               "description": "Large recreational area for kids next to India Gate."
             },
             {
               "name": "Amar Jawan Jyoti",
-              "image": "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/Amar Jawan Jyoti.webp",
               "location": "Delhi",
               "description": "The eternal flame commemorating unknown soldiers."
             }
@@ -1832,7 +1832,7 @@
           "subPlaces": [
             {
               "name": "Qutub Minar",
-              "image": "assets/images/delhi-qutub-minar.jpg",
+              "image": "assets/images/Qutub Minar delhi.webp",
               "location": "Delhi",
               "description": "Tallest brick minaret."
             },
@@ -1844,25 +1844,25 @@
             },
             {
               "name": "Alai Darwaza",
-              "image": "https://images.unsplash.com/photo-1523906834658-6e24ef2386f9?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/Alai Darwaza.webp",
               "location": "Qutub Complex",
               "description": "The majestic southern gateway to the Quwwat-ul-Islam mosque."
             },
             {
               "name": "Quwwat-ul-Islam",
-              "image": "https://images.unsplash.com/photo-1488085061387-422e15b40b0c?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/Quwwat-ul-Islam.webp",
               "location": "Qutub Complex",
               "description": "The first mosque built in Delhi after the Islamic conquest."
             },
             {
               "name": "Tomb of Iltutmish",
-              "image": "https://images.unsplash.com/photo-1506012787146-5c5f470a1a09?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/Tomb of Iltutmish.webp",
               "location": "Qutub Complex",
               "description": "Early Indo-Islamic tomb featuring intricate carvings."
             },
             {
               "name": "Alai Minar",
-              "image": "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/Alai Minar.webp",
               "location": "Qutub Complex",
               "description": "Unfinished tower planned to be twice the height of Qutub Minar."
             }
@@ -1875,37 +1875,37 @@
           "subPlaces": [
             {
               "name": "Humayun Tomb",
-              "image": "assets/images/Humayun Tomb.jpg",
+              "image": "assets/images/Humayun Tomb delhi.webp",
               "location": "Delhi",
               "description": "Mughal garden tomb."
             },
             {
               "name": "Isa Khan Tomb",
-              "image": "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/Isa Khan Tomb.webp",
               "location": "Mehrauli",
               "description": "Pre-Mughal octagonal tomb with a surrounding garden."
             },
             {
               "name": "Afsarwala Tomb",
-              "image": "https://images.unsplash.com/photo-1500835556837-99ac94a94552?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/Afsarwala Tomb.webp",
               "location": "Humayun Complex",
               "description": "Located alongside its mosque within the tomb enclosure."
             },
             {
               "name": "Nila Gumbad",
-              "image": "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/Nila Gumbad.webp",
               "location": "Humayun Complex",
               "description": "Blue-domed tomb belonging to a Mughal period officer."
             },
             {
               "name": "Arab Sarai",
-              "image": "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/Arab Sarai.webp",
               "location": "Humayun Complex",
               "description": "Historic rest house built for craftsmen from Arab countries."
             },
             {
               "name": "Barber's Tomb",
-              "image": "https://images.unsplash.com/photo-1504150558240-0b4fd8946624?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/Barber's Tomb.webp",
               "location": "Humayun Complex",
               "description": "A unique monument in the garden for the royal barber."
             }
@@ -1924,31 +1924,31 @@
             },
             {
               "name": "Information Center",
-              "image": "https://images.unsplash.com/photo-1523906834658-6e24ef2386f9?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/Information Center.webp",
               "location": "Lotus Temple",
               "description": "Providing insights into Bah\u00e1'\u00ed faith and architecture through media."
             },
             {
               "name": "Prayer Hall",
-              "image": "https://images.unsplash.com/photo-1488085061387-422e15b40b0c?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/Prayer Hall.webp",
               "location": "Lotus Temple",
               "description": "A silent, grand interior for meditation and prayer by anyone."
             },
             {
               "name": "The Nine Ponds",
-              "image": "https://images.unsplash.com/photo-1506012787146-5c5f470a1a09?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/The Nine Ponds.webp",
               "location": "Lotus Temple",
               "description": "Reflecting pools that help in naturally cooling the structure."
             },
             {
               "name": "Library & Media",
-              "image": "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/Library & Media.webp",
               "location": "Lotus Temple",
               "description": "Research center with books on spiritual teachings."
             },
             {
               "name": "Bah\u00e1'\u00ed Gardens",
-              "image": "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/Bah\u00e1'\u00ed Gardens.webp",
               "location": "Delhi",
               "description": "Manicured lush lawns surrounding the temple complex."
             }
@@ -1967,31 +1967,31 @@
             },
             {
               "name": "Sahaj Anand",
-              "image": "https://images.unsplash.com/photo-1500835556837-99ac94a94552?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/Sahaj Anand.webp",
               "location": "Akshardham",
               "description": "Musical fountain show narrating ancient spiritual stories."
             },
             {
               "name": "Sanskruti Vihar",
-              "image": "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/Sanskruti Vihar.webp",
               "location": "Akshardham",
               "description": "Boat ride depicting 10,000 years of glorious Indian history."
             },
             {
               "name": "Hall of Values",
-              "image": "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/Hall of Values.webp",
               "location": "Akshardham",
               "description": "Immersive exhibits illustrating non-violence, prayers and unity."
             },
             {
               "name": "Garden of India",
-              "image": "https://images.unsplash.com/photo-1504150558240-0b4fd8946624?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/Garden of India.webp",
               "location": "Akshardham",
               "description": "Beautiful landscape with bronze statues of Indian heroes."
             },
             {
               "name": "Abhishek Mandap",
-              "image": "https://images.unsplash.com/photo-1523906834658-6e24ef2386f9?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/Abhishek Mandap.webp",
               "location": "Akshardham",
               "description": "Ritual space where devotees can perform puja for peace."
             }
@@ -2008,42 +2008,42 @@
       "places": [
         {
           "name": "Pangong Lake",
-          "image": "assets/images/pangong-lake-blue-lake.webp",
+          "image": "assets/images/Pangong Lake.webp",
           "description": "A stunning endorheic lake situated at a height of about 4,350m, famous for changing colors.",
           "subPlaces": [
             {
               "name": "Pangong Lake",
-              "image": "assets/images/pangong-lake-blue-lake.webp",
+              "image": "assets/images/Pangong Lake.webp",
               "location": "Ladakh",
               "description": "Famous blue lake changing colors."
             },
             {
               "name": "Spangmik Village",
-              "image": "https://images.unsplash.com/photo-1488085061387-422e15b40b0c?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/Spangmik Village.webp",
               "location": "Pangong",
               "description": "A scenic lakeside village where most travelers stay in tents."
             },
             {
               "name": "Lukung",
-              "image": "https://images.unsplash.com/photo-1506012787146-5c5f470a1a09?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/Lukung.webp",
               "location": "Pangong",
               "description": "The entry point of the lake offering dramatic photography spots."
             },
             {
               "name": "Tangste",
-              "image": "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/Tangste.webp",
               "location": "Near Pangong",
               "description": "A quiet transit village with historic monasteries and local culture."
             },
             {
               "name": "Chushul Valley",
-              "image": "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/Chushul Valley.webp",
               "location": "Ladakh",
               "description": "Remote and rugged valley known for its wild horses and brave history."
             },
             {
               "name": "Rezac La",
-              "image": "https://images.unsplash.com/photo-1500835556837-99ac94a94552?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/Rezac La.webp",
               "location": "Near Pangong",
               "description": "War memorial honoring local heroes in a spectacular mountain set."
             }
@@ -2062,31 +2062,31 @@
             },
             {
               "name": "Hunder Dunes",
-              "image": "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/Hunder Dunes.webp",
               "location": "Nubra",
               "description": "Famous for high-altitude sand dunes and Bactrian camel rides."
             },
             {
               "name": "Diskit Monastery",
-              "image": "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/Diskit Monastery.webp",
               "location": "Diskit",
               "description": "The oldest and largest monastery in Nubra featuring a giant Buddha."
             },
             {
               "name": "Turtuk Village",
-              "image": "https://images.unsplash.com/photo-1504150558240-0b4fd8946624?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/Turtuk Village.webp",
               "location": "Near Border",
               "description": "A culturally rich Balti village known for its apricot orchards."
             },
             {
               "name": "Sumur",
-              "image": "https://images.unsplash.com/photo-1523906834658-6e24ef2386f9?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/Sumur.webp",
               "location": "Nubra",
               "description": "A peaceful riverside village known for the Samstanling Monastery."
             },
             {
               "name": "Panamik Springs",
-              "image": "https://images.unsplash.com/photo-1488085061387-422e15b40b0c?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/Panamik Springs.webp",
               "location": "Nubra",
               "description": "The northernmost part and famous for its natural hot sulfur springs."
             }
@@ -2105,31 +2105,31 @@
             },
             {
               "name": "Tsemo Monastery",
-              "image": "https://images.unsplash.com/photo-1506012787146-5c5f470a1a09?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/Tsemo Monastery.webp",
               "location": "Leh",
               "description": "Situated above the palace, offering the best birds-eye view of Leh."
             },
             {
               "name": "Leh Main Market",
-              "image": "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/Leh Main Market.webp",
               "location": "Leh",
               "description": "Bustling street with local handicrafts, woolens, and cafes."
             },
             {
               "name": "Sankar Gompa",
-              "image": "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/Sankar Gompa.webp",
               "location": "Leh",
               "description": "A subset of the Spituk monastery with beautiful Buddhist artwork."
             },
             {
               "name": "Hall of Fame",
-              "image": "https://images.unsplash.com/photo-1500835556837-99ac94a94552?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/Hall of Fame.webp",
               "location": "Leh",
               "description": "Museum built by the Indian Army commemorating local war history."
             },
             {
               "name": "Zanskar Confluence",
-              "image": "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/Zanskar Confluence.webp",
               "location": "Near Leh",
               "description": "The scenic meeting point of Indus and Zanskar rivers."
             }
@@ -2148,31 +2148,31 @@
             },
             {
               "name": "Meditation Hall",
-              "image": "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/Meditation Hall.webp",
               "location": "Shanti Stupa",
               "description": "Silent indoor space for reflection and group prayers."
             },
             {
               "name": "Sunset Point",
-              "image": "https://images.unsplash.com/photo-1504150558240-0b4fd8946624?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/Sunset Point ladkh.webp",
               "location": "Leh",
               "description": "The most popular deck for capturing the golden Leh valley."
             },
             {
               "name": "Stupa Garden",
-              "image": "https://images.unsplash.com/photo-1523906834658-6e24ef2386f9?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/Stupa Garden.webp",
               "location": "Shanti Stupa",
               "description": "Quiet pathway around the stupa lined with prayer wheels."
             },
             {
               "name": "Relic Gallery",
-              "image": "https://images.unsplash.com/photo-1488085061387-422e15b40b0c?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/Relic Gallery.webp",
               "location": "Shanti Stupa",
               "description": "Small exhibit area containing photographs of original construction."
             },
             {
               "name": "Spituk Monastery",
-              "image": "https://images.unsplash.com/photo-1506012787146-5c5f470a1a09?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/Spituk Monastery.webp",
               "location": "Near Leh",
               "description": "Ancient monastery known for its mask dance festivals."
             }
@@ -2191,31 +2191,31 @@
             },
             {
               "name": "Pass Top",
-              "image": "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/Pass Top.webp",
               "location": "Khardung La",
               "description": "Iconic yellow milestone sign identifying the world's top pass."
             },
             {
               "name": "South Pullu",
-              "image": "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/South Pullu.webp",
               "location": "Khardung La",
               "description": "Army checkpoint with basic amenities and great valley views."
             },
             {
               "name": "North Pullu",
-              "image": "https://images.unsplash.com/photo-1500835556837-99ac94a94552?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/North Pullu.webp",
               "location": "Khardung La",
               "description": "Entry point for Nubra Valley after crossing the great pass."
             },
             {
               "name": "Khardung Village",
-              "image": "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/Khardung Village.webp",
               "location": "Near Pass",
               "description": "A rugged high mountain settlement with local stone houses."
             },
             {
               "name": "Glacier View",
-              "image": "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/Glacier View.webp",
               "location": "Khardung La",
               "description": "Vantage point of the massive glaciers on the way to the top."
             }
@@ -2234,31 +2234,31 @@
             },
             {
               "name": "Hill Spot",
-              "image": "https://images.unsplash.com/photo-1504150558240-0b4fd8946624?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/Hill Spot.webp",
               "location": "Leh-Kargil Highway",
               "description": "The specific marked box on road for experiencing the illusion."
             },
             {
               "name": "Indus Valley",
-              "image": "https://images.unsplash.com/photo-1523906834658-6e24ef2386f9?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/Indus Valley.webp",
               "location": "Near Magnetic Hill",
               "description": "Expansive arid landscape views along the national highway."
             },
             {
               "name": "Gurudwara Pathar",
-              "image": "https://images.unsplash.com/photo-1488085061387-422e15b40b0c?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/Gurudwara Pathar.webp",
               "location": "Near Leh",
               "description": "Sacred site built around a boulder that didn't move for a demon."
             },
             {
               "name": "Nimu",
-              "image": "https://images.unsplash.com/photo-1506012787146-5c5f470a1a09?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/Nimu.webp",
               "location": "Ladakh",
               "description": "A transit point near the river junction with great apricots."
             },
             {
               "name": "Basgo Monastery",
-              "image": "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/Basgo Monastery.webp",
               "location": "Near Leh",
               "description": "Historical ruins of Leh kings' palace and a monastery."
             }
@@ -3102,7 +3102,7 @@
             {
               "name": "National Museum",
               "location": "Male",
-              "image": "https://images.unsplash.com/photo-1523906834658-6e24ef2386f9?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/National Museum.webp",
               "description": "Historic artifacts and royal treasures of Maldivian heritage."
             },
             {
@@ -4047,7 +4047,7 @@
             },
             {
               "name": "Night Bazaar",
-              "image": "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/Night Bazaar.webp",
               "location": "Chiang Mai",
               "description": "Main hub for northern Thai handicrafts, food and arts."
             },
@@ -4110,12 +4110,12 @@
         },
         {
           "name": "Ayutthaya",
-          "image": "https://images.unsplash.com/photo-1596706037637-2fb07ac5b5a4?fm=webp&fit=crop&w=1200&q=80",
+          "image": "assets/images/Ayutthaya.webp",
           "description": "Ancient Siamese capital with UNESCO-listed ruins, Buddha head entwined in tree roots at Wat Mahathat.",
           "subPlaces": [
             {
               "name": "Ayutthaya",
-              "image": "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/Ayutthaya.webp",
               "location": "Thailand",
               "description": "Ancient Siamese capital ruins."
             },
@@ -4456,7 +4456,7 @@
             },
             {
               "name": "National Museum",
-              "image": "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/National Museum.webp",
               "location": "Colombo",
               "description": "Largest museum in the country housing ancient royal regalia."
             },
@@ -4717,7 +4717,7 @@
             },
             {
               "name": "Sunset Point",
-              "image": "https://images.unsplash.com/photo-1500835556837-99ac94a94552?fm=webp&fit=crop&w=800&q=80",
+              "image": "assets/images/Sunset Point ladkh.webp",
               "location": "Agatti",
               "description": "Best location on the island for viewing the horizon at dusk."
             },

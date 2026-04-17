@@ -1,4 +1,4 @@
-import { Component, HostListener, PLATFORM_ID, inject } from '@angular/core';
+import { Component, HostListener, PLATFORM_ID, inject, Input } from '@angular/core';
 import { CommonModule, isPlatformBrowser } from '@angular/common';
 import { RouterLink } from '@angular/router';
 import { APP_CONFIG } from '../../app.config';
@@ -8,8 +8,11 @@ import { APP_CONFIG } from '../../app.config';
   standalone: true,
   imports: [CommonModule, RouterLink],
   template: `
-    <nav [ngClass]="scrolled ? 'bg-slate-900 shadow-xl py-3' : 'bg-slate-900/50 backdrop-blur-md py-5'"
-         class="fixed w-full top-0 left-0 z-50 transition-all duration-500 ease-in-out">
+    <nav [ngClass]="[
+           scrolled ? 'bg-slate-900 shadow-xl py-3' : 'bg-slate-900/50 backdrop-blur-md py-5',
+           isSplashActive ? '-translate-y-full opacity-0' : 'translate-y-0 opacity-100'
+         ]"
+         class="fixed w-full top-0 left-0 z-50 transition-all duration-[1200ms] ease-[cubic-bezier(0.16,1,0.3,1)]">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="flex justify-between items-center">
 
@@ -129,6 +132,8 @@ import { APP_CONFIG } from '../../app.config';
   `
 })
 export class NavbarComponent {
+  @Input() isSplashActive = false;
+  
   scrolled = false;
   mobileOpen = false;
   APP_CONFIG = APP_CONFIG;

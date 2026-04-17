@@ -131,9 +131,9 @@ export class DestinationService {
     
     const all = [...(data.domestic || []), ...(data.international || [])];
 
+    // PASS 1: Match main place (e.g., Munnar, Palolem)
     for (const region of all) {
       for (const place of region.places) {
-        // 1. Match main place (e.g., Munnar, Palolem)
         if (place.name.toLowerCase() === name.toLowerCase()) {
           return {
             type: region.type.toLowerCase(),
@@ -142,8 +142,12 @@ export class DestinationService {
             data: place
           };
         }
+      }
+    }
 
-        // 2. Match sub-place (e.g., Echo Point, Baga Beach)
+    // PASS 2: Match sub-place (e.g., Echo Point, Baga Beach)
+    for (const region of all) {
+      for (const place of region.places) {
         if (place.subPlaces) {
           const sub = place.subPlaces.find(s => s.name.toLowerCase() === name.toLowerCase());
           if (sub) {

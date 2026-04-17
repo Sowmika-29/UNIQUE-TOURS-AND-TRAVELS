@@ -93,8 +93,9 @@ import { APP_CONFIG } from '../../app.config';
           </div>
 
           <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            <div *ngFor="let sub of placeData.subPlaces; let i = index" 
-                 class="group premium-card animate-stagger"
+            <a *ngFor="let sub of placeData.subPlaces; let i = index" 
+                 [routerLink]="['/destination', type, parentId, (placeName || '').toLowerCase(), sub.name.toLowerCase()]"
+                 class="group premium-card animate-stagger flex flex-col no-underline"
                  [style.animation-delay]="(i * 0.1) + 's'">
               
               <div class="relative h-64 overflow-hidden rounded-t-2xl">
@@ -106,21 +107,21 @@ import { APP_CONFIG } from '../../app.config';
                 </div>
               </div>
 
-              <div class="p-6 bg-white rounded-b-2xl border-x border-b border-slate-100 shadow-sm transition-all duration-300 group-hover:shadow-xl group-hover:border-sky-100 group-hover:-translate-y-2">
+              <div class="p-6 bg-white rounded-b-2xl border-x border-b border-slate-100 shadow-sm transition-all duration-300 group-hover:shadow-xl group-hover:border-sky-100 group-hover:-translate-y-2 flex-grow flex flex-col">
                 <div class="flex items-center gap-2 text-sky-500 mb-2">
                   <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path></svg>
                   <span class="text-xs font-bold tracking-wide">{{sub.location}}</span>
                 </div>
                 <h3 class="text-2xl font-black text-slate-800 mb-3 group-hover:text-sky-600 transition-colors">{{sub.name}}</h3>
-                <p class="text-slate-500 text-sm leading-relaxed mb-6">
+                <p class="text-slate-500 text-sm leading-relaxed mb-6 flex-grow">
                   {{sub.description}}
                 </p>
                 
-                <button (click)="openBooking(sub.name)" class="w-full py-3 bg-sky-50 text-sky-600 font-black rounded-xl text-xs tracking-widest hover:bg-sky-500 hover:text-white transition-all">
-                  ENQUIRE ABOUT THIS SPOT
-                </button>
+                <div class="w-full py-3 bg-sky-50 text-sky-600 font-black rounded-xl text-xs tracking-widest hover:bg-sky-500 hover:text-white transition-all text-center">
+                  VIEW SPOT DETAILS
+                </div>
               </div>
-            </div>
+            </a>
           </div>
 
         </section>

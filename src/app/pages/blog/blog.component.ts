@@ -33,9 +33,9 @@ interface BlogPost {
 
         <!-- Blog Grid -->
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
-          <div *ngFor="let blog of blogs; let i = index" 
+          <a *ngFor="let blog of blogs; let i = index" 
                [routerLink]="['/blog', blog.title]"
-               class="group cursor-pointer bg-white rounded-[2.5rem] overflow-hidden shadow-xl hover:shadow-2xl transition-all duration-500 animate-slide-up border border-slate-100/50"
+               class="group cursor-pointer bg-white rounded-[2.5rem] overflow-hidden shadow-xl hover:shadow-2xl transition-all duration-500 animate-slide-up border border-slate-100/50 block no-underline"
                [style.animation-delay]="i * 100 + 'ms'">
             
             <!-- Image with zoom effect -->
@@ -66,7 +66,7 @@ interface BlogPost {
                   <span class="text-lg">→</span>
                </div>
             </div>
-          </div>
+          </a>
         </div>
       </div>
     </div>

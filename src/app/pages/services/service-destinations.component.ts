@@ -39,7 +39,8 @@ import { DestinationService } from '../../services/destination.service';
 
         <div *ngIf="!isLoading" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
           <div *ngFor="let dest of activeService?.destinations" 
-               class="group relative bg-slate-900 rounded-3xl overflow-hidden shadow-lg transition-all duration-500 hover:shadow-sky-200/50 flex flex-col h-[300px] md:h-[350px]">
+               (click)="exploreDestination(dest)"
+               class="group relative bg-slate-900 rounded-3xl overflow-hidden shadow-lg transition-all duration-500 hover:shadow-sky-200/50 flex flex-col h-[300px] md:h-[350px] cursor-pointer">
             
             <!-- Reused Image from Existing Data -->
             <div class="absolute inset-0">
@@ -54,11 +55,10 @@ import { DestinationService } from '../../services/destination.service';
               </h3>
               
               <div class="flex flex-wrap gap-2">
-                <button (click)="exploreDestination(dest)" 
-                        class="bg-white/10 backdrop-blur-md border border-white/20 text-white px-4 py-2 rounded-xl text-[10px] font-black uppercase tracking-widest hover:bg-sky-500 hover:border-sky-500 transition-all flex-1 whitespace-nowrap">
+                <button class="bg-white/10 backdrop-blur-md border border-white/20 text-white px-4 py-2 rounded-xl text-[10px] font-black uppercase tracking-widest hover:bg-sky-500 hover:border-sky-500 transition-all flex-1 whitespace-nowrap">
                   Explore →
                 </button>
-                <button (click)="enquireOnWhatsapp(dest.name)" 
+                <button (click)="$event.stopPropagation(); enquireOnWhatsapp(dest.name)" 
                         class="bg-green-500/20 backdrop-blur-md border border-green-500/30 text-green-400 px-4 py-2 rounded-xl text-[10px] font-black uppercase tracking-widest hover:bg-green-500 hover:text-white transition-all flex-1 whitespace-nowrap">
                   Enquire Now
                 </button>

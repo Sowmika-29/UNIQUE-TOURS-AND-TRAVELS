@@ -23,9 +23,8 @@ import { filter } from 'rxjs/operators';
       </button>
     </div>
 
-    <!-- Main Content Application -->
     <div class="min-h-screen flex flex-col">
-      <app-navbar></app-navbar>
+      <app-navbar [isSplashActive]="!fadeSplash"></app-navbar>
       
       <main class="flex-grow">
         <router-outlet></router-outlet>
