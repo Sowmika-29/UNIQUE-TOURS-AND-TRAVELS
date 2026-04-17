@@ -206,10 +206,38 @@ select {
     background-image: none !important;
 }
 
-/* Layout Padding Fixes */
+/* Layout Adjustments for Mobile */
 @media (max-width: 640px) {
     .enquiry-frame-premium {
-        padding: 1.5rem !important;
-        border-radius: 1.5rem;
+        padding: 1.25rem 1rem !important; /* Tighter padding */
+        border-radius: 1.25rem; /* Less 'bubbly' corners */
+    }
+
+    .premium-vertical-input {
+        padding-top: 0.75rem;
+        padding-bottom: 0.75rem;
+        border-radius: 8px; /* Sharper corners for inputs */
+        font-size: 14px;
+    }
+
+    .input-label-modern {
+        font-size: 13px;
+        margin-bottom: 0.25rem;
+    }
+
+    .juicy-btn {
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        border-radius: 12px;
+    }
+
+    .trust-pill {
+        padding: 0.4rem 0.8rem;
+        font-size: 8px;
+    }
+
+    .icon-box {
+        width: 1.5rem;
+        height: 1.5rem;
     }
 }
