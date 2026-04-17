@@ -11,7 +11,7 @@ gsap.registerPlugin(ScrollTrigger);
   standalone: true,
   imports: [CommonModule, RouterLink],
   template: `
-    <section class="py-12 md:py-16 relative overflow-hidden bg-gradient-to-b from-sky-100 via-sky-50 to-white hero-trigger">
+    <section class="py-12 md:py-16 relative overflow-hidden bg-gradient-to-b from-brand-light/30 via-slate-50 to-white hero-trigger">
 
       <!-- Premium Animated Background -->
       <div class="absolute inset-0 pointer-events-none overflow-hidden">
@@ -54,14 +54,14 @@ gsap.registerPlugin(ScrollTrigger);
             <div class="absolute inset-0 bg-gradient-to-t from-slate-950/80 via-transparent to-transparent opacity-100 transition-opacity"></div>
             
             <!-- Tilt & Glow Card Effect -->
-            <div class="absolute inset-0 bg-gradient-to-tr from-sky-500/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+            <div class="absolute inset-0 bg-gradient-to-tr from-brand/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
 
             <div class="absolute bottom-0 left-0 p-6 w-full transform transition-transform duration-500 group-hover:-translate-y-2">
-              <span class="inline-block px-3 py-1 bg-sky-500/20 backdrop-blur-md border border-white/20 text-sky-300 text-[9px] font-black uppercase tracking-widest rounded-full mb-2 opacity-0 group-hover:opacity-100 translate-y-3 group-hover:translate-y-0 transition-all duration-500">
+              <span class="inline-block px-3 py-1 bg-brand/20 backdrop-blur-md border border-white/20 text-brand-light text-[9px] font-black uppercase tracking-widest rounded-full mb-2 opacity-0 group-hover:opacity-100 translate-y-3 group-hover:translate-y-0 transition-all duration-500">
                 Explore Destination
               </span>
-              <h3 class="text-2xl md:text-3xl font-bold !text-white tracking-wide transition-all duration-300 group-hover:text-sky-400 group-hover:scale-105 origin-center drop-shadow-2xl">{{dest.name}}</h3>
-              <div class="w-0 group-hover:w-16 h-1 bg-sky-500 mt-2 transition-all duration-700 delay-100"></div>
+              <h3 class="text-2xl md:text-3xl font-bold !text-white tracking-wide transition-all duration-300 group-hover:text-brand-light group-hover:scale-105 origin-center drop-shadow-2xl">{{dest.name}}</h3>
+              <div class="w-0 group-hover:w-16 h-1 bg-brand mt-2 transition-all duration-700 delay-100"></div>
             </div>
 
             <!-- Interactive Overlay -->
@@ -90,10 +90,10 @@ gsap.registerPlugin(ScrollTrigger);
   `,
   styles: [`
     .orb { position: absolute; border-radius: 50%; filter: blur(100px); }
-    .orb-1 { width: 700px; height: 700px; background: radial-gradient(circle, #bae6fd 0%, #38bdf8 100%); top: -100px; left: -150px; }
-    .orb-2 { width: 800px; height: 800px; background: radial-gradient(circle, #e0f2fe 0%, #0ea5e9 100%); bottom: -200px; right: -200px; }
-    .orb-3 { width: 500px; height: 500px; background: radial-gradient(circle, #7dd3fc 0%, #38bdf8 100%); top: 30%; left: 35%; }
-    .orb-4 { width: 400px; height: 400px; background: radial-gradient(circle, #bae6fd 0%, #0ea5e9 100%); bottom: 10%; left: 10%; }
+    .orb-1 { width: 700px; height: 700px; background: radial-gradient(circle, var(--brand-light) 0%, var(--brand-secondary) 100%); top: -100px; left: -150px; }
+    .orb-2 { width: 800px; height: 800px; background: radial-gradient(circle, #e0f2fe 0%, var(--brand-primary) 100%); bottom: -200px; right: -200px; }
+    .orb-3 { width: 500px; height: 500px; background: radial-gradient(circle, var(--brand-light) 0%, var(--brand-secondary) 100%); top: 30%; left: 35%; }
+    .orb-4 { width: 400px; height: 400px; background: radial-gradient(circle, var(--brand-light) 0%, var(--brand-primary) 100%); bottom: 10%; left: 10%; }
 
     /* Floating Particles */
     .particle {
@@ -140,7 +140,7 @@ gsap.registerPlugin(ScrollTrigger);
     .premium-btn:hover {
       transform: translateY(-8px) scale(1.05);
       box-shadow: 0 30px 60px rgba(14, 165, 233, 0.3);
-      background: #0ea5e9;
+      background: var(--brand-primary);
     }
     .btn-ripple {
       position: absolute;

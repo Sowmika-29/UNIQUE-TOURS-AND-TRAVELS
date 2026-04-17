@@ -21,7 +21,7 @@ import { DestinationService } from '../../services/destination.service';
         <!-- Hero Content -->
         <div class="relative z-10 text-center px-4 animate-fade-in">
           <h1 class="text-4xl md:text-6xl font-black mb-4 tracking-tighter">
-            <span class="text-sky-400">{{ activeService?.title }}</span>
+            <span class="bg-gradient-to-r from-brand to-brand-light bg-clip-text text-transparent italic pr-2">{{ activeService?.title }}</span>
             <span class="text-slate-900 ml-3">{{ activeService?.accent }}</span>
           </h1>
           <p class="text-slate-700 text-sm md:text-xl font-medium max-w-2xl mx-auto uppercase tracking-[0.2em]">

@@ -4,6 +4,13 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+  --brand-primary: #00b1ea;
+  --brand-secondary: #38bdf8;
+  --brand-light: #a4dded;
+  --bg-light: #f8fafc;
+}
+
 @layer base {
   html, body {
     margin: 0;
@@ -12,7 +19,7 @@
     height: 100%;
     font-family: 'Inter', system-ui, -apple-system, sans-serif;
     scroll-behavior: smooth;
-    background-color: #f8fafc;
+    background-color: var(--bg-light);
     color: #475569; /* gray-600 equivalent */
   }
 
@@ -23,7 +30,7 @@
 }
 
 @layer utilities {
-  .text-skyblue { color: #0ea5e9; }
+  .text-skyblue { color: var(--brand-primary); }
   .text-dark { color: #0f172a; }
   .text-light-gray { color: #64748b; }
   
@@ -31,7 +38,7 @@
   .font-body { font-family: 'Inter', sans-serif; }
 
   .hero-gradient {
-    background: linear-gradient(135deg, #0ea5e9 0%, #38bdf8 100%);
+    background: linear-gradient(135deg, var(--brand-primary) 0%, var(--brand-secondary) 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }

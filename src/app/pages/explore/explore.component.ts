@@ -32,7 +32,7 @@ import { Subscription } from 'rxjs';
         <div class="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center mt-6">
           <h1 class="sr-only">{{pageHeaderTitle}}</h1>
           <h2 class="text-3xl md:text-5xl lg:text-6xl font-black text-white mb-2 uppercase tracking-tighter drop-shadow-lg">{{pageHeaderTitle}}</h2>
-          <p class="text-[#a4dded] text-[10px] md:text-xs font-black uppercase tracking-[0.4em]">Premium Travel Collection</p>
+          <p class="text-brand-light text-[10px] md:text-xs font-black uppercase tracking-[0.4em]">Premium Travel Collection</p>
         </div>
       </div>
 
@@ -45,13 +45,13 @@ import { Subscription } from 'rxjs';
           <div class="absolute top-1/2 right-1/4 w-64 h-32 bg-[#7fd1e8] rounded-full animate-mesh-orb-2"></div>
         </div>
 
-        <div class="relative bg-white/80 backdrop-blur-2xl p-5 md:p-7 rounded-[2.5rem] shadow-[0_20px_50px_rgba(0,0,0,0.05)] flex flex-col md:flex-row gap-6 items-center justify-between filter-bar-glass transition-all duration-500 hover:shadow-[#87cefa]/20">
+        <div class="relative bg-white/80 backdrop-blur-2xl p-5 md:p-7 rounded-[2.5rem] shadow-[0_20px_50px_rgba(0,0,0,0.05)] flex flex-col md:flex-row gap-6 items-center justify-between filter-bar-glass transition-all duration-500 hover:shadow-brand/20">
           
           <!-- Category Toggles with Glass Effect -->
           <div class="flex p-1.5 bg-slate-50/50 backdrop-blur-md rounded-2xl w-full md:w-auto border-2 border-[#87cefa]">
             <button *ngFor="let option of filterOptions"
                     (click)="setFilter(option.id)"
-                    [ngClass]="activeFilter === option.id ? 'bg-[#a4dded] text-slate-900 shadow-xl shadow-[#a4dded]/20 scale-105' : 'text-slate-500 hover:text-slate-800 hover:bg-white/50'"
+                    [ngClass]="activeFilter === option.id ? 'bg-brand text-slate-900 shadow-xl shadow-brand/20 scale-105' : 'text-slate-500 hover:text-slate-800 hover:bg-white/50'"
                     class="flex-1 md:flex-none px-7 py-3 rounded-xl font-black text-[10px] uppercase tracking-[0.2em] transition-all duration-500">
               {{option.label}}
             </button>
@@ -111,7 +111,7 @@ import { Subscription } from 'rxjs';
 
             <!-- Card Content Overlay -->
             <div class="relative z-10 mt-auto p-6 text-white w-full transform transition-all duration-500 group-hover:-translate-y-2">
-              <h3 class="text-2xl md:text-3xl font-bold mb-1 !text-white tracking-wide transition-all duration-300 group-hover:text-[#a4dded] group-hover:scale-105 origin-center drop-shadow-2xl leading-none text-left">{{dest.name}}</h3>
+              <h3 class="text-2xl md:text-3xl font-bold mb-1 !text-white tracking-wide transition-all duration-300 group-hover:text-brand-light group-hover:scale-105 origin-center drop-shadow-2xl leading-none text-left">{{dest.name}}</h3>
               <p class="text-[10px] text-slate-300 uppercase tracking-widest font-bold mb-3">{{dest.region}}</p>
               
               <div class="flex items-center text-[11px] font-bold bg-white/10 backdrop-blur-md px-3 py-1.5 rounded-xl border border-white/10 w-fit">
@@ -149,7 +149,7 @@ import { Subscription } from 'rxjs';
     }
     .eo-1 {
       width: 400px; height: 400px;
-      background: rgba(164, 221, 237, 0.25);
+      background: rgba(0, 177, 234, 0.25);
       top: -100px; right: -100px;
     }
     .eo-2 {

@@ -323,7 +323,7 @@
         },
         {
           "name": "Kanthalloor",
-          "image": "assets/images/vagamon-green-meadows-pine.webp",
+          "image": "assets/images/kandhaloor.webp",
           "description": "A peaceful hill village near Munnar known for apple orchards, strawberry farms, cool climate, and scenic mountain views.",
           "subPlaces": [
             {
@@ -376,7 +376,7 @@
         {
           "name": "Coorg",
           "image": "assets/images/coorg-coffee-plantation-hills.webp",
-          "description": "The Scotland of India \u2014 rolling coffee estates, misty peaks, and the stunning Abbey Falls.",
+          "description": "The Scotland of India — rolling coffee estates, misty peaks, and the stunning Abbey Falls.",
           "subPlaces": [
             {
               "name": "Abbey Falls",
@@ -647,7 +647,7 @@
             "beach",
             "popular"
           ],
-          "description": "The Queen of Beaches \u2014 buzzing nightlife, water sports, and golden sunsets.",
+          "description": "The Queen of Beaches — buzzing nightlife, water sports, and golden sunsets.",
           "subPlaces": [
             {
               "name": "North Goa",
@@ -1069,7 +1069,7 @@
             "relax",
             "budget"
           ],
-          "description": "A charming area known for its traditional houses, vibrant caf\u00e9s, and laid-back backpacker atmosphere.",
+          "description": "A charming area known for its traditional houses, vibrant cafés, and laid-back backpacker atmosphere.",
           "subPlaces": [
             {
               "name": "Cafe Street",
@@ -1475,7 +1475,7 @@
         {
           "name": "Mumbai",
           "image": "assets/images/mumbai-gateway-of-india.webp",
-          "description": "The City of Dreams \u2014 Gateway of India, Marine Drive, Bollywood, and street food paradise.",
+          "description": "The City of Dreams — Gateway of India, Marine Drive, Bollywood, and street food paradise.",
           "subPlaces": [
             {
               "name": "Gateway of India",
@@ -1487,7 +1487,7 @@
               "name": "Marine Drive",
               "image": "assets/images/Marine Drive.jpg",
               "location": "Mumbai",
-              "description": "Famous coastal road known as Queen\u2019s Necklace."
+              "description": "Famous coastal road known as Queen’s Necklace."
             },
             {
               "name": "Juhu Beach",
@@ -1914,7 +1914,7 @@
         {
           "name": "Lotus Temple",
           "image": "assets/images/Lotus Temple.webp",
-          "description": "A breathtaking lotus-shaped Bah\u00e1'\u00ed temple open to all faiths, surrounded by serene gardens.",
+          "description": "A breathtaking lotus-shaped Bahá'í temple open to all faiths, surrounded by serene gardens.",
           "subPlaces": [
             {
               "name": "Lotus Temple",
@@ -1926,7 +1926,7 @@
               "name": "Information Center",
               "image": "assets/images/Information Center.webp",
               "location": "Lotus Temple",
-              "description": "Providing insights into Bah\u00e1'\u00ed faith and architecture through media."
+              "description": "Providing insights into Bahá'í faith and architecture through media."
             },
             {
               "name": "Prayer Hall",
@@ -1947,8 +1947,8 @@
               "description": "Research center with books on spiritual teachings."
             },
             {
-              "name": "Bah\u00e1'\u00ed Gardens",
-              "image": "assets/images/Bah\u00e1'\u00ed Gardens.webp",
+              "name": "Bahá'í Gardens",
+              "image": "assets/images/Bahá'í Gardens.webp",
               "location": "Delhi",
               "description": "Manicured lush lawns surrounding the temple complex."
             }
@@ -2405,7 +2405,7 @@
         {
           "name": "Sonamarg",
           "image": "assets/images/sonamarg-glacier-valley.webp",
-          "description": "The Meadow of Gold \u2014 glaciers, alpine lakes, and the starting point for Thajiwas Glacier trek.",
+          "description": "The Meadow of Gold — glaciers, alpine lakes, and the starting point for Thajiwas Glacier trek.",
           "subPlaces": [
             {
               "name": "Sonamarg",
@@ -2555,7 +2555,7 @@
               "name": "Cellular Jail",
               "image": "assets/images/andaman.webp",
               "location": "Port Blair",
-              "description": "Historic colonial prison housing India\u2019s freedom fighter history."
+              "description": "Historic colonial prison housing India’s freedom fighter history."
             },
             {
               "name": "Chidiya Tapu",
@@ -2586,7 +2586,7 @@
         {
           "name": "Havelock",
           "image": "assets/images/havelock.webp",
-          "description": "Home to Asia's best beach \u2014 Radhanagar, with crystal-clear waters for snorkeling and diving.",
+          "description": "Home to Asia's best beach — Radhanagar, with crystal-clear waters for snorkeling and diving.",
           "subPlaces": [
             {
               "name": "Havelock Island",
@@ -2751,7 +2751,7 @@
               "name": "Jarawa Reserve",
               "image": "https://images.unsplash.com/photo-1488085061387-422e15b40b0c?fm=webp&fit=crop&w=800&q=80",
               "location": "Andaman Trunk Road",
-              "description": "The protected land of the world\u2019s oldest indigenous tribe."
+              "description": "The protected land of the world’s oldest indigenous tribe."
             }
           ]
         },
@@ -2764,7 +2764,7 @@
               "name": "Radhanagar",
               "image": "assets/images/radhanagar.jpg",
               "location": "Andaman",
-              "description": "One of Asia\u2019s best beaches."
+              "description": "One of Asia’s best beaches."
             },
             {
               "name": "Lagoon Point",
@@ -2791,7 +2791,7 @@
               "description": "The premier spot on the beach for evening horizon views."
             },
             {
-              "name": "Neil\u2019s Cove",
+              "name": "Neil’s Cove",
               "image": "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?fm=webp&fit=crop&w=800&q=80",
               "location": "Near Radhanagar",
               "description": "A beautiful and hidden corner of the beach for solitude."
@@ -2812,7 +2812,7 @@
         {
           "name": "Burj Khalifa",
           "image": "assets/images/Burj Khalifa.webp",
-          "description": "The world's tallest building at 828 meters, with observation decks offering 360\u00b0 city views.",
+          "description": "The world's tallest building at 828 meters, with observation decks offering 360° city views.",
           "subPlaces": [
             {
               "name": "At the Top",
@@ -3208,7 +3208,7 @@
         {
           "name": "Vaadhoo",
           "image": "assets/images/vaadhoo-glowing-beach-night.webp",
-          "description": "Famous for the Sea of Stars \u2014 bioluminescent plankton that light up the ocean at night.",
+          "description": "Famous for the Sea of Stars — bioluminescent plankton that light up the ocean at night.",
           "subPlaces": [
             {
               "name": "Vaadhoo",
@@ -3561,7 +3561,7 @@
         {
           "name": "Canggu",
           "image": "assets/images/canggu-surfer-beach-bali.webp",
-          "description": "A trendy surfer village with co-working spaces, health caf\u00e9s, and the iconic Tanah Lot temple nearby.",
+          "description": "A trendy surfer village with co-working spaces, health cafés, and the iconic Tanah Lot temple nearby.",
           "subPlaces": [
             {
               "name": "Canggu",
@@ -3862,7 +3862,7 @@
               "name": "Sri Mariamman",
               "image": "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?fm=webp&fit=crop&w=800&q=80",
               "location": "Chinatown",
-              "description": "Singapore\u2019s oldest Hindu temple with a colorful tower."
+              "description": "Singapore’s oldest Hindu temple with a colorful tower."
             },
             {
               "name": "Pagoda Street",
@@ -4326,7 +4326,7 @@
               "name": "River Cruise",
               "image": "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?fm=webp&fit=crop&w=800&q=80",
               "location": "Melaka",
-              "description": "Scenic boat ride showing the city\u2019s murals and historical houses."
+              "description": "Scenic boat ride showing the city’s murals and historical houses."
             },
             {
               "name": "Chen Hoon Teng",
@@ -4563,7 +4563,7 @@
         {
           "name": "Sigiriya",
           "image": "assets/images/sigiriya-rock-fortress-aerial.webp",
-          "description": "The Lion Rock \u2014 an ancient fortress atop a 200-meter rock pillar with stunning frescoes and gardens.",
+          "description": "The Lion Rock — an ancient fortress atop a 200-meter rock pillar with stunning frescoes and gardens.",
           "subPlaces": [
             {
               "name": "Sigiriya",
@@ -4606,7 +4606,7 @@
         {
           "name": "Nuwara Eliya",
           "image": "assets/images/nuwara-eliya-tea-hills.webp",
-          "description": "Little England \u2014 a cool hill country town with tea plantations, waterfalls, and misty landscapes.",
+          "description": "Little England — a cool hill country town with tea plantations, waterfalls, and misty landscapes.",
           "subPlaces": [
             {
               "name": "Nuwara Eliya",
@@ -4636,7 +4636,7 @@
               "name": "Horton Plains",
               "image": "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?fm=webp&fit=crop&w=800&q=80",
               "location": "Near Nuwara Eliya",
-              "description": "High plateau hosting the dramatic 'World\u2019s End' precipice."
+              "description": "High plateau hosting the dramatic 'World’s End' precipice."
             },
             {
               "name": "Seetha Amman Temple",
