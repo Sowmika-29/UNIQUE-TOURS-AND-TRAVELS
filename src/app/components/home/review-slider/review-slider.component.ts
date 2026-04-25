@@ -306,12 +306,6 @@ export class ReviewSliderComponent implements OnInit, OnDestroy {
       date: "March 15, 2026"
     },
     { 
-      name: "SomeThinK Different", 
-      comment: "Had a great journey with UTT last month. The moments were unforgettable. Thanks for the great support and experienced driver. My family was really happy and satisfied with the service. Definitely booking again for our next vacation!",
-      rating: 5,
-      date: "February 28, 2026"
-    },
-    { 
       name: "Nanda Kumar", 
       comment: "Best experience. Very safe and comfortable journey. I got excellent service and the team was very friendly to us. Everything was handled professionally and on time. Truly a quality travel agency.",
       rating: 5,
