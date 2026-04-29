@@ -48,11 +48,11 @@ import { Subscription } from 'rxjs';
         <div class="relative bg-white/80 backdrop-blur-2xl p-5 md:p-7 rounded-[2.5rem] shadow-[0_20px_50px_rgba(0,0,0,0.05)] flex flex-col md:flex-row gap-6 items-center justify-between filter-bar-glass transition-all duration-500 hover:shadow-brand/20">
           
           <!-- Category Toggles with Glass Effect -->
-          <div class="flex p-1.5 bg-slate-50/50 backdrop-blur-md rounded-2xl w-full md:w-auto border-2 border-[#87cefa]">
+          <div class="flex p-1.5 bg-slate-50/50 backdrop-blur-md rounded-2xl w-full md:w-auto border-2 border-[#87cefa] overflow-x-auto scrollbar-hide">
             <button *ngFor="let option of filterOptions"
                     (click)="setFilter(option.id)"
                     [ngClass]="activeFilter === option.id ? 'bg-brand text-slate-900 shadow-xl shadow-brand/20 scale-105' : 'text-slate-500 hover:text-slate-800 hover:bg-white/50'"
-                    class="flex-1 md:flex-none px-7 py-3 rounded-xl font-black text-[10px] uppercase tracking-[0.2em] transition-all duration-500">
+                    class="flex-none md:flex-none px-4 sm:px-5 md:px-7 py-2.5 md:py-3 rounded-xl font-black text-[9px] sm:text-[10px] uppercase tracking-widest md:tracking-[0.2em] whitespace-nowrap transition-all duration-500 mx-1 first:ml-0 last:mr-0">
               {{option.label}}
             </button>
           </div>
