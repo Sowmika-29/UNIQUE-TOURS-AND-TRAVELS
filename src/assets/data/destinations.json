@@ -3393,13 +3393,13 @@
           "subPlaces": [
             {
               "name": "Kuta",
-              "image": "assets/images/Kuta Beach.webp",
+              "image": "assets/images/kuta-beach-sunset-bali.webp",
               "location": "Bali",
               "description": "Surfing and nightlife."
             },
             {
               "name": "Kuta Beach",
-              "image": "assets/images/Kuta Beach.webp",
+              "image": "assets/images/kuta-beach.webp",
               "location": "Kuta",
               "description": "Famous for beginner-friendly surf breaks and sunset vibes."
             },

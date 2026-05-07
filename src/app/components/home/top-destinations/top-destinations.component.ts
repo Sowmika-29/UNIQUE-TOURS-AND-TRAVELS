@@ -164,12 +164,12 @@ export class TopDestinationsComponent implements AfterViewInit {
   }
 
   topDestinations = [
-    { id: 'kerala', name: 'Kerala', image: 'https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?fm=webp&fit=crop&w=1200&q=50', type: 'domestic' },
-    { id: 'goa', name: 'Goa', image: 'https://images.unsplash.com/photo-1614082242765-7c98ca0f3df3?fm=webp&fit=crop&w=1200&q=50', type: 'domestic' },
-    { id: 'manali', name: 'Manali', image: 'https://images.unsplash.com/photo-1626621341517-bbf3d9990a23?fm=webp&fit=crop&w=1200&q=50', type: 'domestic' },
-    { id: 'jammu-kashmir', name: 'Kashmir', image: 'https://images.unsplash.com/photo-1587474260584-136574528ed5?fm=webp&fit=crop&w=1200&q=50', type: 'domestic' },
-    { id: 'dubai', name: 'Dubai', image: 'https://images.unsplash.com/photo-1512453979798-5ea266f8880c?fm=webp&fit=crop&w=1200&q=50', type: 'international' },
-    { id: 'bali', name: 'Bali', image: 'https://images.unsplash.com/photo-1537996194471-e657df975ab4?fm=webp&fit=crop&w=1200&q=50', type: 'international' }
+    { id: 'kerala', name: 'Kerala', image: 'assets/images/kerala-backwaters-coconut-trees.webp', type: 'domestic' },
+    { id: 'goa', name: 'Goa', image: 'assets/images/goa-beach-sunset-palm.webp', type: 'domestic' },
+    { id: 'manali', name: 'Manali', image: 'assets/images/manali-snow-mountains-valley.webp', type: 'domestic' },
+    { id: 'jammu-kashmir', name: 'Kashmir', image: 'assets/images/dal-lake-houseboats-srinagar.webp', type: 'domestic' },
+    { id: 'dubai', name: 'Dubai', image: 'assets/images/dubai-burj-khalifa-skyline.webp', type: 'international' },
+    { id: 'bali', name: 'Bali', image: 'assets/images/bali-rice-terraces-temple.webp', type: 'international' }
   ];
 
   ngAfterViewInit() {
