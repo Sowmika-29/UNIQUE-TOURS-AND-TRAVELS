@@ -4,13 +4,14 @@ import { NavbarComponent } from './components/navbar/navbar.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { EnquiryFormComponent } from './components/shared/enquiry-form/enquiry-form.component';
 import { FloatingAssistantComponent } from './components/shared/floating-assistant/floating-assistant.component';
+import { BackButton } from './components/shared/back-button/back-button';
 import { CommonModule } from '@angular/common';
 import { filter } from 'rxjs/operators';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet, NavbarComponent, FooterComponent, EnquiryFormComponent, FloatingAssistantComponent, CommonModule], 
+  imports: [RouterOutlet, NavbarComponent, FooterComponent, EnquiryFormComponent, FloatingAssistantComponent, BackButton, CommonModule], 
   template: `
     <!-- Video Splash Screen Overlay -->
     <div *ngIf="showSplash" 
@@ -26,6 +27,9 @@ import { filter } from 'rxjs/operators';
 
     <div class="min-h-screen flex flex-col">
       <app-navbar [isSplashActive]="!fadeSplash"></app-navbar>
+      
+      <!-- Global Back Button -->
+      <app-back-button></app-back-button>
       
       <main class="flex-grow">
         <router-outlet></router-outlet>

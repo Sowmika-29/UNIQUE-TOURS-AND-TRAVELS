@@ -1,0 +1,17 @@
+<button
+  *ngIf="!isHome"
+  (click)="goBack()"
+  class="fixed top-[75px] md:top-[95px] left-2 md:left-5 z-[90] p-3 text-white/90 drop-shadow-[0_2px_4px_rgba(0,0,0,0.6)] hover:text-white hover:-translate-x-1 active:text-black active:drop-shadow-none active:scale-95 transition-all duration-200"
+  aria-label="Go Back"
+>
+  <svg 
+    xmlns="http://www.w3.org/2000/svg" 
+    class="w-5 h-5 md:w-6 md:h-6" 
+    fill="none" 
+    viewBox="0 0 24 24" 
+    stroke="currentColor" 
+    stroke-width="2.5"
+  >
+    <path stroke-linecap="round" stroke-linejoin="round" d="M15 19l-7-7 7-7" />
+  </svg>
+</button>
