@@ -7,6 +7,7 @@ import { ReviewSliderComponent } from '../../components/home/review-slider/revie
 import { StatsCounterComponent } from '../../components/home/stats-counter/stats-counter.component';
 import { HomeFaqComponent } from '../../components/home/home-faq/home-faq.component';
 
+
 @Component({
   selector: 'app-home',
   standalone: true,
@@ -17,7 +18,7 @@ import { HomeFaqComponent } from '../../components/home/home-faq/home-faq.compon
     StatsCounterComponent,
     ReviewSliderComponent,
     HomeFaqComponent
-
+    
   ],
   template: `
     <app-hero-slider></app-hero-slider>
@@ -26,7 +27,7 @@ import { HomeFaqComponent } from '../../components/home/home-faq/home-faq.compon
     <app-stats-counter></app-stats-counter>
     <app-review-slider></app-review-slider>
     <app-home-faq></app-home-faq>
-
+    
   `
 })
 export class HomeComponent implements OnInit {

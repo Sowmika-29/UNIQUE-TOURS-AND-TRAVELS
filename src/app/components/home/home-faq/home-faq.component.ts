@@ -100,19 +100,19 @@ export class HomeFaqComponent implements OnInit {
   faqs = [
     {
       question: 'What destinations does Unique Tours & Travels cover?',
-      answer: 'We offer tour packages to <strong>50+ destinations</strong> across India and internationally. Our popular domestic packages include <strong>Kerala, Goa, Manali, Kashmir, Rajasthan, Andaman, and Ladakh</strong>. For international travel, explore our curated packages for <strong>Dubai, Bali, Maldives, Thailand, Singapore, Malaysia, and Sri Lanka</strong>.'
+      answer: 'We offer tour packages to <strong>50+ destinations</strong> across India and internationally. Our popular domestic packages include <a routerLink="/explore/domestic/kerala" class="text-sky-600 hover:underline font-bold">Kerala</a>, <a routerLink="/explore/domestic/goa" class="text-sky-600 hover:underline font-bold">Goa</a>, <a routerLink="/explore/domestic/manali" class="text-sky-600 hover:underline font-bold">Manali</a>, <a routerLink="/explore/domestic/kashmir" class="text-sky-600 hover:underline font-bold">Kashmir</a>, Rajasthan, Andaman, and Ladakh. For international travel, explore our curated packages for <a routerLink="/explore/international/dubai" class="text-sky-600 hover:underline font-bold">Dubai</a>, <a routerLink="/explore/international/bali" class="text-sky-600 hover:underline font-bold">Bali</a>, Maldives, Thailand, Singapore, Malaysia, and Sri Lanka.'
     },
     {
       question: 'What types of tour packages do you offer?',
-      answer: 'We specialize in packages for every occasion — <strong>honeymoon trips, family vacations, student tours, college trips, corporate retreats, adventure tours, weekend getaways, devotional tours</strong>, and fully customized group tours. Each package is tailored to your travel style and budget.'
+      answer: 'We specialize in packages for every occasion — <a routerLink="/explore/domestic" class="text-sky-600 hover:underline font-bold">honeymoon trips</a>, <a routerLink="/explore/domestic" class="text-sky-600 hover:underline font-bold">family vacations</a>, student tours, college trips, corporate retreats, adventure tours, weekend getaways, devotional tours, and fully customized group tours. Each package is tailored to your travel style and budget.'
+    },
+    {
+      question: 'What is included in your tour packages?',
+      answer: 'Every package includes <strong>comfortable transport, quality accommodation, sightseeing entry tickets, meals & refreshments, campfire experiences</strong>, and all applicable taxes. We also handle driver allowance, fuel, toll, and parking so you travel worry-free.'
     },
     {
       question: 'How can I book a tour package?',
-      answer: 'Booking is easy! Contact us via <strong>WhatsApp at +91 9597371949</strong> or call us directly. You can also fill out the enquiry form on our website. Our travel experts will create a personalized itinerary and share a detailed quote within hours.'
-    },
-    {
-      question: 'Where is Unique Tours & Travels located?',
-      answer: 'Our main office is at <strong>4B, Ramakrishnapuram Main Road, Karur 639002, Tamil Nadu</strong>. We also have branches in <strong>Trichy, Namakkal, and Coimbatore</strong>. We serve travelers across South India with personalized travel planning and 24/7 customer support.'
+      answer: 'Booking is easy! Contact us via <strong>WhatsApp at +91 9597371949</strong> or call us directly. You can also fill out the <a routerLink="/contact" class="text-sky-600 hover:underline font-bold">enquiry form</a> on our website. Our travel experts will create a personalized itinerary and share a detailed quote within hours.'
     }
   ];
 
