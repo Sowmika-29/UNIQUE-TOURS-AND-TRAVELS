@@ -80,8 +80,7 @@ import { SeoService } from '../../../services/seo.service';
                     <p class="text-slate-600 leading-relaxed text-base md:text-lg" [innerHTML]="faq.answer"></p>
                     
                     <div class="mt-8 flex flex-wrap gap-3">
-                      <span class="px-4 py-1.5 bg-slate-50 text-slate-500 rounded-full text-xs font-bold uppercase tracking-widest border border-slate-100">Travel Advice</span>
-                      <span class="px-4 py-1.5 bg-sky-50 text-sky-600 rounded-full text-xs font-bold uppercase tracking-widest border border-sky-100">Booking Help</span>
+                      <a routerLink="/contact" class="px-4 py-1.5 bg-sky-50 text-sky-600 rounded-full text-xs font-bold uppercase tracking-widest border border-sky-100 hover:bg-sky-500 hover:text-white transition-all">Booking Help</a>
                     </div>
                   </div>
                 </div>
