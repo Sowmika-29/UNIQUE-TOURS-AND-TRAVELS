@@ -111,32 +111,32 @@ export class BlogComponent {
     {
       title: 'Top 10 Travel Tips for First-Time Travelers',
       description: 'Essential tips to make your first journey smooth and enjoyable, from packing light to navigating new cultures. We cover everything from organizing your documents to staying safe in unfamiliar environments. Learn the secrets of effortless travel and how to embrace spontaneous moments without the stress.',
-      image: 'https://images.unsplash.com/photo-1488646953014-85cb44e25828?fm=webp&fit=crop&w=1200&q=50'
+      image: '/assets/images/First-Time-Travelers.webp'
     },
     {
       title: 'Best Beach Destinations to Relax',
       description: 'Discover peaceful beach locations for a perfect vacation. Crystal clear waters and golden sands await in these hidden tropical paradises. Whether you are looking for luxury resorts or secluded shores, our curated list identifies the most serene coastal escapes for your next restorative getaway.',
-      image: 'https://images.unsplash.com/photo-1507525428034-b723cf961d3e?fm=webp&fit=crop&w=1200&q=50'
+      image: '/assets/images/Agatti Airstrip.webp'
     },
     {
       title: 'Hill Stations You Must Visit in India',
       description: 'Explore the most scenic hill stations across India, where misty peaks and tea gardens touch the sky. From the colonial charm of Shimla to the serene valleys of Coorg, discover locations that offer breathtaking panoramas and a cool respite from the tropical heat. Experience local culture and mountain hospitality.',
-      image: 'https://images.unsplash.com/photo-1587474260584-136574528ed5?fm=webp&fit=crop&w=1200&q=50'
+      image: '/assets/images/kerala-backwaters-coconut-trees.webp'
     },
     {
       title: 'How to Plan a Budget-Friendly Trip',
       description: 'Smart ways to travel without overspending. Learn to find the best deals and hidden gems on a budget. We share professional insights on booking flights during off-peaks, choosing affordable but high-quality local stays, and maximizing your experiences without draining your savings.',
-      image: 'https://images.unsplash.com/photo-1544644181-1484b3fdfc62?fm=webp&fit=crop&w=1200&q=50'
+      image: '/assets/images/Kuching.webp'
     },
     {
       title: 'Exploring the Hidden Gems of Southeast Asia',
       description: 'Beyond the crowded tourist trails lie mystical temples, emerald rice terraces, and untouched islands. Discover the local secrets of Vietnam, Laos, and Cambodia that offer authentic cultural immersion and stunning landscapes away from the typical backpacker route.',
-      image: 'https://images.unsplash.com/photo-1552465011-b4e21bf6e79a?fm=webp&fit=crop&w=1200&q=50'
+      image: '/assets/images/kandy-temple-lake.webp'
     },
     {
       title: 'The Ultimate Wildlife Safari Guide',
       description: 'Prepare for a thrilling adventure in the wild. From the vast plains of the Serengeti to the dense jungles of India, we provide essential tips on documentation, best viewing seasons, and ethical wildlife encounters that support conservation efforts while providing lifelong memories.',
-      image: 'https://images.unsplash.com/photo-1549366021-9f761d450615?fm=webp&fit=crop&w=1200&q=50'
+      image: '/assets/images/Khilannmarg.webp'
     }
   ];
 }

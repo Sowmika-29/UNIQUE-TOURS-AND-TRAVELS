@@ -47,7 +47,7 @@ export class DestinationService {
     if (this.fetchPromise) return this.fetchPromise;
 
     this.fetchPromise = firstValueFrom(
-      this.http.get<DestinationsData>(this.dataUrl + '?t=' + new Date().getTime())
+      this.http.get<DestinationsData>(this.dataUrl)
     ).then(data => {
       this.cachedData = data;
       return data;

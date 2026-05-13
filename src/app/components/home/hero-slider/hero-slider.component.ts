@@ -115,31 +115,31 @@ gsap.registerPlugin(ScrollTrigger);
 export class HeroSliderComponent implements OnInit, OnDestroy, AfterViewInit {
   slides = [
     {
-      image: "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?fm=webp&fit=crop&w=1920&q=50",
+      image: "/assets/images/hero-section1.webp",
       title: "Explore the World with Us",
       subtitle: "PREMIUM JOURNEYS",
       description: "Discover destinations that inspire you."
     },
     {
-      image: "https://images.unsplash.com/photo-1506929562872-bb421503ef21?fm=webp&fit=crop&w=1920&q=50",
+      image: "/assets/images/hero-section2.webp",
       title: "Paradise Awaits",
       subtitle: "TROPICAL ESCAPES",
       description: "Unwind on the world's most pristine beaches."
     },
     {
-      image: "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?fm=webp&fit=crop&w=1920&q=50",
+      image: "/assets/images/hero-section3.webp",
       title: "Epic Adventures",
       subtitle: "THRILL SEEKERS",
       description: "Conquer mountains and chart unknown territories."
     },
     {
-      image: "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?fm=webp&fit=crop&w=1920&q=50",
+      image: "/assets/images/hero-section4.webp",
       title: "Cultural Wonders",
       subtitle: "HERITAGE TOURS",
       description: "Step back in time through majestic histories."
     },
     {
-      image: "https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?fm=webp&fit=crop&w=1920&q=50",
+      image: "/assets/images/hero-section5.webp",
       title: "City Escapes",
       subtitle: "URBAN EXPLORATION",
       description: "Feel the vibrant pulse of iconic metropoles."

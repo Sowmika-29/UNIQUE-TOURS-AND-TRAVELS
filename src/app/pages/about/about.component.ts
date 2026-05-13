@@ -1,15 +1,17 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
+import { RouterLink } from '@angular/router';
 import { APP_CONFIG } from '../../app.config';
+import { SeoService } from '../../services/seo.service';
 import { WhyChooseUsComponent } from "../../components/home/why-choose-us/why-choose-us.component";
 
 @Component({
   selector: 'app-about',
   standalone: true,
-  imports: [WhyChooseUsComponent],
+  imports: [WhyChooseUsComponent, RouterLink],
   template: `
     <!-- Hero Banner -->
     <div class="relative h-[50vh] min-h-[400px] w-full bg-slate-900 overflow-hidden">
-      <img src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?fm=webp&fit=crop&w=1920&q=80"
+      <img src="/assets/images/Bask Underwater.webp"
            alt="About Us" class="absolute inset-0 w-full h-full object-cover opacity-40">
       <div class="absolute inset-0 bg-gradient-to-t from-slate-900 via-slate-900/50 to-transparent"></div>
 
@@ -63,7 +65,7 @@ import { WhyChooseUsComponent } from "../../components/home/why-choose-us/why-ch
             </p>
           </div>
           <div class="relative animate-heading" style="animation-delay: 0.2s">
-            <img src="https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?fm=webp&fit=crop&w=1200&q=50"
+            <img src="/assets/images/hero-section1.webp"
                  alt="Travel" class="rounded-2xl shadow-2xl w-full h-80 object-cover">
             <div class="absolute -bottom-6 -left-6 w-32 h-32 bg-sky-500 rounded-2xl -z-10"></div>
           </div>
@@ -95,6 +97,139 @@ import { WhyChooseUsComponent } from "../../components/home/why-choose-us/why-ch
         <div class="mb-24">
           <app-why-choose-us></app-why-choose-us>
         </div>
+
+        <!-- ═══════════ OUR TOUR PACKAGES ═══════════ -->
+        <div class="mb-28">
+          <div class="text-center mb-14 animate-heading">
+            <span class="text-sky-500 font-black tracking-[0.25em] uppercase text-[10px] mb-3 block">Our Tour Packages</span>
+            <h2 class="text-4xl md:text-5xl font-black text-slate-800 tracking-tight mb-3">Destinations We Cover</h2>
+            <div class="w-20 h-1.5 bg-sky-500 mx-auto rounded-full shadow-lg shadow-sky-200"></div>
+          </div>
+
+          <div class="grid md:grid-cols-2 gap-8">
+
+            <!-- Domestic Card -->
+            <div class="group bg-white rounded-3xl border border-slate-100 shadow-md hover:shadow-2xl transition-all duration-500 overflow-hidden">
+              <div class="relative h-3 bg-gradient-to-r from-sky-400 via-blue-500 to-sky-600">
+                <div class="absolute inset-0 bg-gradient-to-r from-sky-400 via-blue-500 to-sky-600 opacity-0 group-hover:opacity-100 transition-opacity animate-pulse"></div>
+              </div>
+              <div class="p-8 md:p-10">
+                <div class="flex items-center gap-4 mb-6">
+                  <div>
+                    <h3 class="text-2xl font-black text-slate-800 tracking-tight">Domestic Tours</h3>
+                    <p class="text-xs font-bold text-sky-500 uppercase tracking-widest">Explore India</p>
+                  </div>
+                </div>
+                <p class="text-slate-600 leading-relaxed mb-4">
+                  Explore India's most beautiful destinations with our curated domestic packages. Our 
+                  <a routerLink="/destination/domestic/kerala" class="text-sky-600 font-semibold hover:underline">Kerala tour packages</a>
+                  cover Munnar's tea gardens, Alleppey's backwaters, and Thekkady's wildlife sanctuaries. 
+                  For beach lovers, our 
+                  <a routerLink="/destination/domestic/goa" class="text-sky-600 font-semibold hover:underline">Goa holiday packages</a>
+                  include visits to Calangute, Baga, and Palolem beaches with premium accommodation.
+                </p>
+                <p class="text-slate-600 leading-relaxed mb-6">
+                  Adventure seekers can choose our 
+                  <a routerLink="/destination/domestic/manali" class="text-sky-600 font-semibold hover:underline">Manali tour packages</a>
+                  featuring Solang Valley and Rohtang Pass, or explore the pristine beauty of 
+                  <a routerLink="/destination/domestic/jammu-kashmir" class="text-sky-600 font-semibold hover:underline">Kashmir</a>
+                  with Dal Lake houseboats and Gulmarg skiing. We also offer packages to 
+                  <a routerLink="/destination/domestic/andaman" class="text-sky-600 font-semibold hover:underline">Andaman & Nicobar Islands</a>,
+                  <a routerLink="/destination/domestic/ladakh" class="text-sky-600 font-semibold hover:underline">Ladakh</a>, and 
+                  <a routerLink="/destination/domestic/jaipur" class="text-sky-600 font-semibold hover:underline">Rajasthan</a>
+                  for those seeking heritage and culture.
+                </p>
+                <a routerLink="/explore/domestic" class="inline-flex items-center gap-2 text-sky-500 font-bold text-sm uppercase tracking-widest hover:text-sky-700 transition-colors group/link">
+                  View Domestic Packages
+                  <svg class="w-4 h-4 group-hover/link:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M17 8l4 4m0 0l-4 4m4-4H3"></path></svg>
+                </a>
+              </div>
+            </div>
+
+            <!-- International Card -->
+            <div class="group bg-white rounded-3xl border border-slate-100 shadow-md hover:shadow-2xl transition-all duration-500 overflow-hidden">
+              <div class="relative h-3 bg-gradient-to-r from-indigo-400 via-purple-500 to-pink-500">
+                <div class="absolute inset-0 bg-gradient-to-r from-indigo-400 via-purple-500 to-pink-500 opacity-0 group-hover:opacity-100 transition-opacity animate-pulse"></div>
+              </div>
+              <div class="p-8 md:p-10">
+                <div class="flex items-center gap-4 mb-6">
+                  <div>
+                    <h3 class="text-2xl font-black text-slate-800 tracking-tight">International Tours</h3>
+                    <p class="text-xs font-bold text-indigo-500 uppercase tracking-widest">Explore the World</p>
+                  </div>
+                </div>
+                <p class="text-slate-600 leading-relaxed mb-6">
+                  Dream of international destinations? Our 
+                  <a routerLink="/destination/international/dubai" class="text-sky-600 font-semibold hover:underline">Dubai tour packages</a>
+                  include Burj Khalifa visits, desert safaris, and city tours. For tropical getaways, choose from our 
+                  <a routerLink="/destination/international/bali" class="text-sky-600 font-semibold hover:underline">Bali</a>,
+                  <a routerLink="/destination/international/maldives" class="text-sky-600 font-semibold hover:underline">Maldives</a>, or 
+                  <a routerLink="/destination/international/thailand" class="text-sky-600 font-semibold hover:underline">Thailand packages</a>.
+                  We also offer curated tours to 
+                  <a routerLink="/destination/international/singapore" class="text-sky-600 font-semibold hover:underline">Singapore</a>,
+                  <a routerLink="/destination/international/malaysia" class="text-sky-600 font-semibold hover:underline">Malaysia</a>, and 
+                  <a routerLink="/destination/international/sri-lanka" class="text-sky-600 font-semibold hover:underline">Sri Lanka</a>
+                  with all-inclusive pricing and hassle-free visa assistance.
+                </p>
+                <a routerLink="/explore/international" class="inline-flex items-center gap-2 text-indigo-500 font-bold text-sm uppercase tracking-widest hover:text-indigo-700 transition-colors group/link">
+                  View International Packages
+                  <svg class="w-4 h-4 group-hover/link:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M17 8l4 4m0 0l-4 4m4-4H3"></path></svg>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- ═══════════ EVERY OCCASION ═══════════ -->
+        <div class="mb-28">
+          <div class="text-center mb-14 animate-heading">
+            <span class="text-sky-500 font-black tracking-[0.25em] uppercase text-[10px] mb-3 block">Tailored For You</span>
+            <h2 class="text-4xl md:text-5xl font-black text-slate-800 tracking-tight mb-3">Tour Packages for Every Occasion</h2>
+            <div class="w-20 h-1.5 bg-sky-500 mx-auto rounded-full shadow-lg shadow-sky-200"></div>
+          </div>
+
+          <div class="bg-white rounded-3xl border border-slate-100 shadow-md p-8 md:p-12 mb-10">
+            <div class="grid md:grid-cols-2 gap-10 items-center">
+              <div>
+                <p class="text-slate-600 leading-relaxed mb-5 text-base">
+                  Whether you're planning a romantic 
+                  <a routerLink="/services" class="text-sky-600 font-semibold hover:underline">honeymoon trip</a>, 
+                  a fun-filled family vacation, an adventurous college tour, or a professional corporate retreat, 
+                  we have the perfect package for you.
+                </p>
+                <p class="text-slate-600 leading-relaxed text-base">
+                  Our specialized services include student trips, farewell trips, weekend getaways, 
+                  summer and winter packages, devotional tours, and fully customized group tours.
+                </p>
+              </div>
+              <div class="bg-slate-50 rounded-2xl p-6 md:p-8 border border-slate-100">
+                <h4 class="font-black text-slate-800 uppercase tracking-widest text-xs mb-5">Every Package Includes</h4>
+                <ul class="space-y-3">
+                  <li class="flex items-center gap-3 text-slate-600 text-sm">
+                    <span class="w-2 h-2 rounded-full bg-sky-400 flex-shrink-0"></span>
+                    Comfortable transport arrangements
+                  </li>
+                  <li class="flex items-center gap-3 text-slate-600 text-sm">
+                    <span class="w-2 h-2 rounded-full bg-sky-400 flex-shrink-0"></span>
+                    Quality accommodation
+                  </li>
+                  <li class="flex items-center gap-3 text-slate-600 text-sm">
+                    <span class="w-2 h-2 rounded-full bg-sky-400 flex-shrink-0"></span>
+                    Sightseeing entry tickets
+                  </li>
+                  <li class="flex items-center gap-3 text-slate-600 text-sm">
+                    <span class="w-2 h-2 rounded-full bg-sky-400 flex-shrink-0"></span>
+                    Food & refreshments
+                  </li>
+                  <li class="flex items-center gap-3 text-slate-600 text-sm">
+                    <span class="w-2 h-2 rounded-full bg-sky-400 flex-shrink-0"></span>
+                    All taxes included
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
 
         <!-- CTA -->
         <div class="text-center bg-gradient-to-r from-sky-500 to-blue-600 rounded-3xl p-12 shadow-2xl text-white animate-heading relative overflow-hidden">
@@ -240,6 +375,18 @@ import { WhyChooseUsComponent } from "../../components/home/why-choose-us/why-ch
     }
   `]
 })
-export class AboutComponent {
+export class AboutComponent implements OnInit {
   APP_CONFIG = APP_CONFIG;
+
+  constructor(private seoService: SeoService) {}
+
+  ngOnInit() {
+    this.seoService.updateMetadata({
+      title: 'About Us - Trusted Travel Agency',
+      description: 'Unique Tours & Travels — trusted travel agency in Karur, Tamil Nadu since 2017. Affordable domestic & international tour packages for families, couples, students & corporates.',
+      keywords: 'travel agency Karur, tour operator Tamil Nadu, domestic tours, international packages, Kerala tours, Goa packages, Dubai trips, honeymoon packages',
+      url: '/about',
+      type: 'website'
+    });
+  }
 }

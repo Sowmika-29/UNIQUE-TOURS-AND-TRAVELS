@@ -67,7 +67,7 @@ export class AppComponent implements OnInit, AfterViewInit {
       if (this.showSplash) {
         this.onSplashComplete();
       }
-    }, 15000); 
+    }, 6000); // Reduced from 15s for better SEO (LCP)
   }
 
   ngAfterViewInit() {
