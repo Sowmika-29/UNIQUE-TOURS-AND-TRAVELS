@@ -8,16 +8,22 @@ import { BackButton } from './components/shared/back-button/back-button';
 import { CommonModule } from '@angular/common';
 import { filter } from 'rxjs/operators';
 
+declare let gtag: Function;
+
 @Component({
   selector: 'app-root',
   standalone: true,
   imports: [RouterOutlet, NavbarComponent, FooterComponent, EnquiryFormComponent, FloatingAssistantComponent, BackButton, CommonModule], 
   template: `
     <!-- Video Splash Screen Overlay -->
-    <div *ngIf="showSplash" 
+    <div [hidden]="!showSplash"
          class="fixed inset-0 z-[9999] bg-white transition-opacity duration-1000 flex items-center justify-center p-4" 
          [ngClass]="{'opacity-0 pointer-events-none': fadeSplash}">
-      <video #splashVideo class="w-64 md:w-80 max-w-full drop-shadow-sm h-auto object-contain" autoplay muted playsinline (ended)="onSplashComplete()">
+      <video #splashVideo 
+             class="w-64 md:w-80 max-w-full drop-shadow-sm h-auto object-contain" 
+             autoplay muted playsinline 
+             poster="/assets/Splash screen/Splash-poster.webp"
+             (ended)="onSplashComplete()">
         <source src="/assets/Splash screen/Splash-screen.mp4" type="video/mp4">
       </video>
       <button (click)="onSplashComplete()" class="absolute z-[10000] bottom-10 right-10 bg-slate-200 hover:bg-slate-300 text-slate-600 hover:text-slate-900 px-6 py-2 rounded-full text-xs font-black tracking-widest uppercase transition-all shadow-sm border border-slate-300">
@@ -58,6 +64,13 @@ export class AppComponent implements OnInit, AfterViewInit {
       filter(event => event instanceof NavigationEnd)
     ).subscribe((event: any) => {
       this.isContactPage = event.urlAfterRedirects.includes('/contact');
+      
+      // Track page view in Google Analytics
+      if (typeof gtag === 'function') {
+        gtag('config', 'G-XXXXXXXXXX', {
+          'page_path': event.urlAfterRedirects
+        });
+      }
     });
   }
 

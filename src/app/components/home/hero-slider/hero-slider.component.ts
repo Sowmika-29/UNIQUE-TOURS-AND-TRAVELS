@@ -25,7 +25,10 @@ gsap.registerPlugin(ScrollTrigger);
         
         <img [src]="slide.image" [alt]="slide.title" 
              class="absolute inset-0 w-full h-full object-cover origin-center hero-image"
-             [ngClass]="i === currentIndex ? 'scale-110 active-slide' : 'scale-100'">
+             [ngClass]="i === currentIndex ? 'scale-110 active-slide' : 'scale-100'"
+             [attr.fetchpriority]="i === 0 ? 'high' : null"
+             [attr.loading]="i === 0 ? 'eager' : 'lazy'"
+             style="aspect-ratio: 16/9;">
         
         <div class="absolute inset-0 bg-black/30"></div>
         <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-black/20 to-transparent"></div>

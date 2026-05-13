@@ -12,7 +12,7 @@ import { WhyChooseUsComponent } from "../../components/home/why-choose-us/why-ch
     <!-- Hero Banner -->
     <div class="relative h-[50vh] min-h-[400px] w-full bg-slate-900 overflow-hidden">
       <img src="/assets/images/Bask Underwater.webp"
-           alt="About Us" class="absolute inset-0 w-full h-full object-cover opacity-40">
+           alt="About Us" loading="lazy" class="absolute inset-0 w-full h-full object-cover opacity-40">
       <div class="absolute inset-0 bg-gradient-to-t from-slate-900 via-slate-900/50 to-transparent"></div>
 
       <!-- Hero particles -->
@@ -66,7 +66,7 @@ import { WhyChooseUsComponent } from "../../components/home/why-choose-us/why-ch
           </div>
           <div class="relative animate-heading" style="animation-delay: 0.2s">
             <img src="/assets/images/hero-section1.webp"
-                 alt="Travel" class="rounded-2xl shadow-2xl w-full h-80 object-cover">
+                 alt="Travel" loading="lazy" class="rounded-2xl shadow-2xl w-full h-80 object-cover">
             <div class="absolute -bottom-6 -left-6 w-32 h-32 bg-sky-500 rounded-2xl -z-10"></div>
           </div>
         </div>

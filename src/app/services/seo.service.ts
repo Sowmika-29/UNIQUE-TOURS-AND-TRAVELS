@@ -26,7 +26,7 @@ export class SeoService {
     // Title: Keep under 60 chars for optimal SERP display
     const fullTitle = config.title
       ? `${config.title} | ${this.siteName}`
-      : `Best Tour Packages India | ${this.siteName}`;
+      : `Explore Tour Packages India | ${this.siteName}`;
 
     // Description: Keep under 155 chars for optimal SERP display
     const description = config.description ||

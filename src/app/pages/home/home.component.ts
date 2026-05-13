@@ -5,7 +5,7 @@ import { CategoryCardsComponent } from '../../components/home/category-cards/cat
 import { TopDestinationsComponent } from '../../components/home/top-destinations/top-destinations.component';
 import { ReviewSliderComponent } from '../../components/home/review-slider/review-slider.component';
 import { StatsCounterComponent } from '../../components/home/stats-counter/stats-counter.component';
-
+import { HomeFaqComponent } from '../../components/home/home-faq/home-faq.component';
 
 @Component({
   selector: 'app-home',
@@ -16,6 +16,7 @@ import { StatsCounterComponent } from '../../components/home/stats-counter/stats
     TopDestinationsComponent, 
     StatsCounterComponent,
     ReviewSliderComponent,
+    HomeFaqComponent
 
   ],
   template: `
@@ -24,6 +25,7 @@ import { StatsCounterComponent } from '../../components/home/stats-counter/stats
     <app-top-destinations></app-top-destinations>
     <app-stats-counter></app-stats-counter>
     <app-review-slider></app-review-slider>
+    <app-home-faq></app-home-faq>
 
   `
 })
@@ -32,8 +34,8 @@ export class HomeComponent implements OnInit {
 
   ngOnInit() {
     this.seoService.updateMetadata({
-      title: 'Best Domestic & International Tour Packages',
-      description: 'Book affordable tour packages for Kerala, Goa, Manali, Kashmir, Dubai, Bali & more. Trusted travel agency in Karur, Tamil Nadu since 2017.',
+      title: 'Explore Tour Packages India',
+      description: 'Explore 50+ destinations with affordable tour packages for Kerala, Goa, Kashmir, Dubai, Bali & more. Trusted by 5000+ travelers. Book now!',
       keywords: 'tour packages India, travel agency Karur, Kerala tours, Goa packages, Dubai trips, Bali holidays, honeymoon packages, family tours',
       url: '/',
       type: 'website'
